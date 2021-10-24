@@ -13,3 +13,4 @@ search_enabled: true
 search.button: true
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
