@@ -7,7 +7,7 @@ url: "https://zerogdesign.github.io/"
 github_username:  ZeroGDesign
 
 markdown: kramdown
-remote_theme: pmarsceill/just-the-docs
+remote_theme: benbalter/retlab
 color_scheme: dark
 search_enabled: true
 search.button: true
