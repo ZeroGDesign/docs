@@ -1,16 +1,21 @@
-layout: default
-title: ZeroG
-email: zerogprinters@gmail.com
+title: "ZeroG"
+tagline: Documentation for ZeroG printers
 description: ZeroG Official Documentation
-baseurl: "/docs"
-url: "https://zerogdesign.github.io/"
-github_username:  ZeroGDesign
-
-markdown: kramdown
-remote_theme: benbalter/retlab
-color_scheme: dark
+logo: "/assets/img/logo-zerog.svg"
+# theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "zerog"
 search_enabled: true
-search.button: true
-plugins:
-  - jekyll-feed
-  - jekyll-include-cache
+aux_links:
+  "GitHub":
+    - "//github.com/ZeroGDesign/Mercury"
+  "Buy me a Cofee":
+    - "https://www.buymeacoffee.com/dutchdude"
+aux_links_new_tab: true
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      image: assets/img/rtfm.png

@@ -1,11 +1,18 @@
 ---
 layout: default
-title: ZeroG Documentation
+title: Welcome
 nav_order: 1
 ---
 
-# ZeroG Mercury One.1 documentation
+# Welcome to the ZeroG docs!
 
-Welcome to our first attempt at documentation! 
+Our first attempt at documentation! Found any errors in this document? Please report it on our [Discord server](https://discord.com/invite/gzJP2s8).
 
-Here we'll try to explain to you, how to assemble your Mercury One.1.
+This contains all the information you need to build your personal ZeroG printer.
+
+If you're not an expert with cad we'd suggest you to read our Documentation carefully. Do you have any questions? Hit up our [Discord](https://discord.com/invite/gzJP2s8){:target="_blank"}!
+
+## Screenshot
+The image bellow contains the Mercury One.1 ([Eva](https://main.eva-3d.page/){:target="_blank"} compatible).
+
+![Birdseye overview](assets/img/printer/birdview.png)
