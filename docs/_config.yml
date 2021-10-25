@@ -9,8 +9,6 @@ search_enabled: true
 aux_links:
   "GitHub":
     - "//github.com/ZeroGDesign/Mercury"
-  "Buy me a Cofee":
-    - "https://www.buymeacoffee.com/dutchdude"
 aux_links_new_tab: true
 
 defaults:
