@@ -21,10 +21,10 @@ Would you like to know the difference between the Mercury One/ Mercury One.1? Cl
 ## Printing parts
 
 ### What material should I use?
-ZeroG printers are designed to be printed using ABS(+). This means we've included tollerances for material shrinkage in our models.
-It's recommended to print your ABS(+) parts inside of an enclosure, this will greatly increase layer strenght.
+ZeroG printers are designed to be printed using ABS(+), ASA or [TitanX](https://www.formfutura.com/shop/product/titanx-2846){:target="_blank"}. This means we've included tollerances for material shrinkage in our models.
+It's recommended to print your ABS(+), ASA or [TitanX](https://www.formfutura.com/shop/product/titanx-2846){:target="_blank"} parts inside of an enclosure, this will greatly increase layer strenght.
 
-#### The difference between ABS and ABS+
+#### The difference between ABS, ABS+, ASA and TitanX
 A quote from [https://all3dp.com/](https://all3dp.com/2/abs-plus-filament-what-is-it/){:target="_blank"} 
 > "ABS+, or ABS Plus, aims to reduce the sensitivity to shrinkage and warping of ABS, while preserving most of its performance advantages."
 
