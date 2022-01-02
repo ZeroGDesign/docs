@@ -282,7 +282,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  github-pages (~> 219)
+  github-pages
   jekyll-feed (~> 0.6)
   jekyll-include-cache
   jekyll-remote-theme
