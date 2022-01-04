@@ -3,6 +3,7 @@ layout: default
 title: Printers
 nav_order: 2
 has_toc: false
+permalink: /misc/printers
 ---
 
 # Printers
