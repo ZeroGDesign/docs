@@ -10,8 +10,7 @@ permalink: /misc/printers
 So far we have one awesome printer! The Mercury One, however the next ituration of the Mercury One is ready! It's called Mercury One.1.
 
 ## Difference
-Whats the difference [Mercury One]({% link pages/bom/MercuryOne_BOM.md %}) / [Mercury One.1]({% link pages/bom/MercuryOne_BOM.md %}) ?
-
+Whats the difference [Mercury One](/bom/mercury/one) / [Mercury One.1](/bom/mercury/one) ?
 
 ### Mercury One
 This uses a Voron [Afterburner](https://github.com/VoronDesign/Voron-Afterburner){:target="_blank"}, with our older stepper motor mounts (chunky boys).
