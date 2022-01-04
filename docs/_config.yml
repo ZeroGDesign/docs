@@ -4,6 +4,7 @@ description: ZeroG Official Documentation
 logo: "/assets/img/logo-zerog.svg"
 # theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
 color_scheme: "zerog"
 search_enabled: true
 aux_links:
