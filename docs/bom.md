@@ -7,7 +7,7 @@ has_toc: false
 has_children: true
 ---
 
-# Sourcing Guide
+# Sourcing Guide 2
 
 [Here]({% link pages/bom/MercuryOne_BOM.md %}) you'll find a listing of all the parts & compontents you need to build your own ZeroG printer.
 
