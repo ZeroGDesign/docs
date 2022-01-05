@@ -1,7 +1,8 @@
-title: "ZeroG"
+title: "ZeroG Documentation"
 tagline: Documentation for ZeroG printers
 description: ZeroG Official Documentation
 logo: "/assets/img/logo-zerog.svg"
+baseurl: "/docs"
 # theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 color_scheme: "zerog"

@@ -9,7 +9,7 @@ has_children: true
 
 # Sourcing Guide
 
-[Here]({{site.baseurl}}/bom/mercury/one) you'll find a listing of all the parts & compontents you need to build your own ZeroG printer.
+[Here](/docs/bom/mercury/one) you'll find a listing of all the parts & compontents you need to build your own ZeroG printer.
 
 
 ## Tested by humans
