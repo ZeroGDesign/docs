@@ -5,7 +5,7 @@ nav_order: 1
 has_children: false
 has_toc: false
 parent: Sourcing Guide
-permalink: /bom/mercury/one
+permalink: bom/mercury/one
 ---
 
 # Mercury One
