@@ -286,6 +286,7 @@ DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.6)
   jekyll-include-cache
+  jekyll-relative-links
   jekyll-remote-theme
   just-the-docs
   tzinfo (~> 1.2)
