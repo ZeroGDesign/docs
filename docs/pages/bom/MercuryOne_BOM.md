@@ -22,5 +22,5 @@ Our Bill of Materials is listed on Google Sheets, on the bottom of our sheet you
 The Bill of Materials for Mercury One.1 is very simulair to Mercury One, minus a few parts. The EVA 2.3 system might require you to get some more parts.
 
 | Ender 5 | Ender 5 Plus |
-| --- | --- |
-| Soon™ | Soon™ |
+| ------- | ------------ |
+| Soon™   | Soon™        |
