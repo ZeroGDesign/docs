@@ -1,23 +1,12 @@
 ---
 layout: default
-title: Sourcing Guide
-nav_order: 4
-permalink: /menu/BillOfMaterial
+title: ABS Printing Tips
+nav_order: 1
+has_children: false
 has_toc: false
-has_children: true
+parent: How To
+permalink: /howto/print/abs
 ---
-
-# Sourcing Guide
-
-[Here](/docs/bom/mercury/one) you'll find a listing of all the parts & compontents you need to build your own ZeroG printer.
-
-
-## Tested by humans
-About 90% of the parts listed on the Bill of Materials have been tested by the developers. If you find something isn't working, please do tell us. We'd like to add that we're not responsible if parts do not fit.
-
-
-## Different revisions
-Would you like to know the difference between the Mercury One/ Mercury One.1? Click [here](/misc/printers).
 
 ## Printing parts
 
@@ -34,16 +23,4 @@ An awesome user from the [Voron](https://vorondesign.com){:target="_blank"} comm
 
 Click [here](https://www.youtube.com/watch?v=XZgt3Ijno78&list=PL7zrGeKp_8CTrnUhxSyeRiCQqPpAbienf&index=4){:target="_blank"} for the playlist
 
-
-### Recommended print settings
-* Layer height: 0.2mm
-* Extrusion width: 0.4mm, forced
-* Infill pecentage: 40%
-* Infill type: Adaptive Cubic, grid, gyroid, honeycomb, triangle, or cubic
-* Wall count: 4
-* Solid top/bottom layers: 5
-* Supports: NONE
-
-Credits to [Voron](https://vorondesign.com)
-
-google
+[Recommended print settings click here](/docs/standard/print/settings){: .btn .btn-red }

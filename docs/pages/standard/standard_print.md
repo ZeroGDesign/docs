@@ -23,4 +23,4 @@ If you're not happy with the print quality, join our [Discord](https://discord.c
 * Solid top/bottom layers: 5
 * Supports: NONE
 
-Credits to 'Recommended print settings' [Voron](https://vorondesign.com){:target="_blank"}
+Credits for most of the recommended print settings [Voron](https://vorondesign.com){:target="_blank"}

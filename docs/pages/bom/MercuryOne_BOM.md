@@ -12,6 +12,7 @@ permalink: bom/mercury/one
 Our Bill of Materials is listed on Google Sheets, on the bottom of our sheet you'll find two pages, one for the Ender 5 and one for the Ender 5 Plus. The links below will open in a new page.
 ![BoM Tabs](../../assets/img/misc/bom_tabs.png){:style="border-radius:5px;"}
 
+
 | Ender 5 | Ender 5 Plus |
 | --- | --- |
 |Found on [Google sheets](https://docs.google.com/spreadsheets/d/1-owhvEEEitNS3nqPdwWX19QAZFfZ2GJsmCBY8H9HYg8/edit#gid=192573782){:target="_blank"} | Found on [Google Sheet](https://docs.google.com/spreadsheets/d/1-owhvEEEitNS3nqPdwWX19QAZFfZ2GJsmCBY8H9HYg8/edit#gid=1086223461){:target="_blank"}|

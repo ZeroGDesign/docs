@@ -3,14 +3,14 @@ layout: default
 title: Printers
 nav_order: 2
 has_toc: false
-permalink: /misc/printers
+permalink: /printers
 ---
 
 # Printers
 So far we have one awesome printer! The Mercury One, however the next ituration of the Mercury One is ready! It's called Mercury One.1.
 
 ## Difference
-Whats the difference [Mercury One](/bom/mercury/one) / [Mercury One.1](/bom/mercury/one) ?
+Whats the difference [Mercury One](/docs/bom/mercury/one) / [Mercury One.1](/docs/bom/mercury/one) ?
 
 ### Mercury One
 This uses a Voron [Afterburner](https://github.com/VoronDesign/Voron-Afterburner){:target="_blank"}, with our older stepper motor mounts (chunky boys).
@@ -26,4 +26,4 @@ EVA is a carriage platform for MGN rail based printers. The main goal is to supp
 3. Smaller stepper motor mounts (credit card sized).
 
 #### Screenshot
-![Overview EVA 2.3 Gantry](assets/img/printer/gantry.png)
+![Overview EVA 2.3 Gantry](../../assets/images/printer/gantry.png)
