@@ -8,6 +8,4 @@ parent: How To
 permalink: /howto/build/printer/mercury_absb
 ---
 
-
-
-hello?
+# Mercury One After/Stealth Burner

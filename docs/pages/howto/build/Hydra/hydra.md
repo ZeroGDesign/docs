@@ -8,6 +8,10 @@ parent: How To
 permalink: /howto/build/printer/hydra
 ---
 
+# ZeroG Hydra
 
+No ETA! Hydra is in early development and available on our [Discord server](https://discord.com/invite/gzJP2s8).
 
-hello?
+WARNING
+{: .label .label-red }
+> Files might change and hardware might change.

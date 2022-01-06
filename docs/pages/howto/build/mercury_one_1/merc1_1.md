@@ -8,6 +8,4 @@ parent: How To
 permalink: /howto/build/printer/mercury_eva
 ---
 
-
-
-hello?
+# Mercury One.1 Eva 2.4.2
