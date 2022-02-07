@@ -17,7 +17,7 @@ Skill required - medium
 
 ## Section One: Frame
 
-![Empty Ender 5 Frame](../../../../assets/images/instructions/empty_frame.png)
+![Empty Ender 5 Frame](../../../assets/images/instructions/empty_frame.png)
 
 ### Empty Frame
 
@@ -31,27 +31,27 @@ If you're having trouble or you would like some help please don't hesitate and a
 # Section Two: Stepper mounts
 
 ## Left stepper mount
-![Left Stepper mount](../../../../assets/images/instructions/stepper_mounts_left.png){: class="zoom"}
+![Left Stepper mount](../../../assets/images/instructions/stepper_mounts_left.png){: class="zoom"}
 
 The hardware displayed below is for __ONE__ stepper mount. INPUT TEXT HERE FOR RIGHT STEPPER MOUNT.
 
 ### LS hardware
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Type:<br>Amount: | 5x30 Precision Dowel pin<br>2          |     ![5MM 30mm dowel](../../../../assets/images/instructions/5x30_dowel_pin.png) |
-| Type:<br>Amount: | M3X20mm<br>3                           |     ![M3X20mm](../../../../assets/images/instructions/m3x20.png) |
-| Type:<br>Amount: | M5X50mm<br>2                           |     ![M5X50mm](../../../../assets/images/instructions/m5x50.png) |
-| Type:<br>Amount: | [Flange stack](#flange-stack)<br>3     | ![Flange stack](../../../../assets/images/instructions/flange_stack.png) |
-| Type:<br>Amount: | 20Tooth Pulley<br>1          |     ![20T Pulley](../../../../assets/images/instructions/20t_pulley.png) |
-| Type:<br>Amount:<br>Note: | M5 T-Nut<br>2<br>Read more    | ![Flange stack](../../../../assets/images/instructions/m5_rollin_tnut.png) |
-| Type:<br>Amount: | Nema 17 Stepper Motor<br>1                            | ![Nema 17](../../../../assets/images/instructions/nema17.png) |
+| Type:<br>Amount: | 5x30 Precision Dowel pin<br>2          |     ![5MM 30mm dowel](../../../assets/images/instructions/5x30_dowel_pin.png) |
+| Type:<br>Amount: | M3X20mm<br>3                           |     ![M3X20mm](../../../assets/images/instructions/m3x20.png) |
+| Type:<br>Amount: | M5X50mm<br>2                           |     ![M5X50mm](../../../assets/images/instructions/m5x50.png) |
+| Type:<br>Amount: | [Flange stack](#flange-stack)<br>3     | ![Flange stack](../../../assets/images/instructions/flange_stack.png) |
+| Type:<br>Amount: | 20Tooth Pulley<br>1          |     ![20T Pulley](../../../assets/images/instructions/20t_pulley.png) |
+| Type:<br>Amount:<br>Note: | M5 T-Nut<br>2<br>Read more    | ![Flange stack](../../../assets/images/instructions/m5_rollin_tnut.png) |
+| Type:<br>Amount: | Nema 17 Stepper Motor<br>1                            | ![Nema 17](../../../assets/images/instructions/nema17.png) |
 {: class="hardwaretable"}
 
 ### LS printed parts
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Type:<br>Amount: | Left stepper top<br>1        |     ![Left stepper top printed](../../../../assets/images/instructions/printer_stepper_left_top.png) |
-| Type:<br>Amount: | Left stepper bottom<br>1     |     ![Left stepper bottom printed](../../../../assets/images/instructions/printed_stepper_left_bottom.png) |
+| Type:<br>Amount: | Left stepper top<br>1        |     ![Left stepper top printed](../../../assets/images/instructions/printer_stepper_left_top.png) |
+| Type:<br>Amount: | Left stepper bottom<br>1     |     ![Left stepper bottom printed](../../../assets/images/instructions/printed_stepper_left_bottom.png) |
 {: class="hardwaretable"}
 
 We have very specific settings you should print the parts with, they've been designed around these settings. Read more about them.
@@ -79,7 +79,7 @@ Forcing the dowel pins into the F695-2RS Bearings might cause one of the followi
         <dd>120 to 220</dd>
     </dl>
 
-    ![how to sand](../../../../assets/images/instructions/assembly/left_stepper/sanding.jpg)) |
+    ![how to sand](../../../assets/images/instructions/assembly/left_stepper/sanding.jpg)) |
 </details>
 
 ## Left stepper mount assembly
@@ -92,21 +92,21 @@ You can slightly rotate the M5 T-nuts while pressing them into the frame. They w
 
 The placement of the T-nuts is not important, as long as the threaded holes are facing the right directions as shown on the image below.
 
-![Left stepper t-nut highlighted](../../../../assets/images/instructions/assembly/left_stepper/left_stepper_tnut_highlight.png)
+![Left stepper t-nut highlighted](../../../assets/images/instructions/assembly/left_stepper/left_stepper_tnut_highlight.png)
 
 The image below shows the correct placement of the T-nuts.
 
-![Left stepper t-nut after insert](../../../../assets/images/instructions/assembly/left_stepper/left_stepper_tnut_after.png)
+![Left stepper t-nut after insert](../../../assets/images/instructions/assembly/left_stepper/left_stepper_tnut_after.png)
 
 ### Inserting dowel pins - LS
 
 Take the bottom left stepper mount *printed part* and insert two 5x30 dowel pins as shown in the image below.
 
-![Left stepper bottom pins](../../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_pins.png){: class="zoom2"}
+![Left stepper bottom pins](../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_pins.png){: class="zoom2"}
 
 The image below shows the correct placement of the dowel pins.
 
-![Left stepper bottom pins after](../../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_pins_after.png){: class="zoom2"}
+![Left stepper bottom pins after](../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_pins_after.png){: class="zoom2"}
 
 >>> ``On the bottom of the printed part you will find small M3 holes below the dowel pins. If your dowel pins are stuck you can use those to press them out using a small hex key.``
 
@@ -114,30 +114,30 @@ The image below shows the correct placement of the dowel pins.
 
 It's time to add the [flange stack](#flange-stack)! Don't know what those are? [Click here](#flange-stack).
 
-![Left stepper bottom Flange stacks](../../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_flange.png){: class="zoom2"}
+![Left stepper bottom Flange stacks](../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_flange.png){: class="zoom2"}
 
 The image below shows the correct placement of the [flange stack](#flange-stack).
 
-![Left stepper bottom Flange stacks](../../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_flange_after.png){: class="zoom2"}
+![Left stepper bottom Flange stacks](../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_flange_after.png){: class="zoom2"}
 
 When placing the double flange stacks, make sure you do not remove any shim rings, there will be two on top of each other as shown in the image below.
 
-![Left stepper bottom Flange stacks](../../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_double_flange.png){: class="zoom2"}
+![Left stepper bottom Flange stacks](../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_double_flange.png){: class="zoom2"}
 
 ### Lowering the top stepper mount
 
 Take the top left motor mount *printed piece* and lower it into the bottom left motor mount.
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Type: | Left stepper top        |     ![Left stepper top printed](../../../../assets/images/instructions/printer_stepper_left_top.png) |
+| Type: | Left stepper top        |     ![Left stepper top printed](../../../assets/images/instructions/printer_stepper_left_top.png) |
 {: class="hardwaretable"}
 
-![Left stepper top printed](../../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_top_print.png){: class="zoom2"}
+![Left stepper top printed](../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_top_print.png){: class="zoom2"}
 
 The image below shows the top lowered on the bottom mount, top top will have an edge/guide where the bottom part will fit in.
 There should be some play, this because it makes it easier to align.
 
-![Left stepper top printed](../../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_top_print_after.png){: class="zoom2"}
+![Left stepper top printed](../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_top_print_after.png){: class="zoom2"}
 
 # Definitions
 
@@ -148,10 +148,10 @@ It contains the following:
 
 
 | :-------------------------: | :------------------------------------------------------------------------------- | |
-| Type:<br>Amount: | 5x10x1 Shim ring<br>2       |     ![5MM 30mm dowel](../../../../assets/images/instructions/m5_10_1_shim.png) |
-| Type:<br>Amount: | F695-2RS 5\*13\*4 Mm<br>2       |     ![5MM 30mm dowel](../../../../assets/images/instructions/f695_flange_bearing.png) |
+| Type:<br>Amount: | 5x10x1 Shim ring<br>2       |     ![5MM 30mm dowel](../../../assets/images/instructions/m5_10_1_shim.png) |
+| Type:<br>Amount: | F695-2RS 5\*13\*4 Mm<br>2       |     ![5MM 30mm dowel](../../../assets/images/instructions/f695_flange_bearing.png) |
 {: class="hardwaretable"}
 
 1. Assemble the Flange Stack as per following image.
 
-![Flange stack](../../../../assets/images/instructions/flange_stack_exploded.png)
+![Flange stack](../../../assets/images/instructions/flange_stack_exploded.png)
