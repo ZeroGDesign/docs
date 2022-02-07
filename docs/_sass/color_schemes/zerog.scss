@@ -20,3 +20,49 @@ $code-background-color: $light-grey-color;
 $search-background-color: $light-grey-color;
 $table-background-color: $light-grey-color;
 $feedback-color: darken($sidebar-color, 3%);
+
+.zoom {
+    transition: transform .3s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    position:relative;
+    -ms-transform: scale(1.75); /* IE 9 */
+    -webkit-transform: scale(1.75); /* Safari 3-8 */
+    transform: scale(1.75);
+    z-index:1000;
+    cursor: zoom-in;
+}
+
+.zoom2 {
+    transition: transform .3s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom2:hover {
+    position:relative;
+    -ms-transform: scale(1.25); /* IE 9 */
+    -webkit-transform: scale(1.25); /* Safari 3-8 */
+    transform: scale(1.25);
+    z-index:1000;
+    cursor: zoom-in;
+}
+
+.table-wrapper {
+    box-shadow: none !important;
+}
+
+.hardwaretable td {
+    border: none !important;
+    white-space: nowrap;
+    line-height: 2em;
+}
+
+.hardwaretable td:nth-child(1) {
+    text-align: right;
+    min-width: inherit;
+    max-width: inherit;
+    white-space: nowrap;
+    font-weight: bold;
+}
