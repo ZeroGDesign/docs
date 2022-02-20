@@ -27,14 +27,14 @@ Connect to your favorite SSH client, in my case PUTTY.
 
 SSH into your Raspberry, your local ip is most likely different to mine.
 
-## Example SSH Client
+### Example SSH Client
 
 This will look something like this
 
 ![putty_normal_view](../../assets/images/howto/theme/step2.png)
 
 
-## SSH Commands
+### SSH Commands
 
 Copy the following command into your SSH client as shown below
 
@@ -60,7 +60,7 @@ Open the webclient of your printer and look for the menu on the left, click on "
 
 ![machine_web](../../assets/images/howto/theme/step5.png)
 
-## Config Files
+### Config Files
 
 Look for the file **moonraker.conf**. Once located, click the the text.
 
