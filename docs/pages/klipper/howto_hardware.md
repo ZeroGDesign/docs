@@ -8,15 +8,16 @@ parent: Klipper
 permalink: /klipper/mainsail/theme
 ---
 
-# ZeroG MainSail theme
+# ZeroG MainSail Theme Install
 
 On this page you will learn how to activate the ZeroG Mainsail theme, this theme will allow for auto updating.
-
-{: .no_toc }
 
 ### Is it difficult to install? 
 
 Not really, you need basic knowledge of SSH (Putty), below you'll find screenshots.
+
+1. Table of content
+{:toc}
 
 ## Connect to SSH
 
