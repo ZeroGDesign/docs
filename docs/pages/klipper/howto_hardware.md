@@ -23,7 +23,7 @@ Not really, you need basic knowledge of SSH (Putty), below you'll find screensho
 
 Connect to your favorite SSH client, in my case PUTTY.
 
-![putty](../../assets/images/howto/theme/step1.png)
+![putty](../../assets/images/howto/theme/step1.png){: class="roundcorners"}
 
 SSH into your Raspberry, your local ip is most likely different to mine.
 
@@ -31,7 +31,7 @@ SSH into your Raspberry, your local ip is most likely different to mine.
 
 This will look something like this
 
-![putty_normal_view](../../assets/images/howto/theme/step2.png)
+![putty_normal_view](../../assets/images/howto/theme/step2.png){: class="roundcorners"}
 
 
 ### SSH Commands
@@ -46,11 +46,11 @@ bash ~/zerog-mainsail-theme/install.sh
 
 After copying and pasting it into your SSH client, you'll notice the following:
 
-![putty_first_paste](../../assets/images/howto/theme/step3.png)
+![putty_first_paste](../../assets/images/howto/theme/step3.png){: class="roundcorners"}
 
 In our text input field we still have a line of code to run, press "ENTER" on your keyboard to run it.
 
-![putty_second_paste](../../assets/images/howto/theme/step4.png)
+![putty_second_paste](../../assets/images/howto/theme/step4.png){: class="roundcorners"}
 
 If you read the text: "Theme has been installed, have fun!" then this part is complete.
 
@@ -58,19 +58,19 @@ If you read the text: "Theme has been installed, have fun!" then this part is co
 
 Open the webclient of your printer and look for the menu on the left, click on "Machine"
 
-![machine_web](../../assets/images/howto/theme/step5.png)
+![machine_web](../../assets/images/howto/theme/step5.png){: class="roundcorners"}
 
 ### Config Files
 
 Look for the file **moonraker.conf**. Once located, click the the text.
 
-![config_files](../../assets/images/howto/theme/step6.png)
+![config_files](../../assets/images/howto/theme/step6.png){: class="roundcorners"}
 
 ## Adding Update Script
 
 Scroll down and locate the text **[update_manager]**.
 
-![update_manager](../../assets/images/howto/theme/step7.png)
+![update_manager](../../assets/images/howto/theme/step7.png){: class="roundcorners"}
 
 Once located add the following code below:
 
@@ -85,27 +85,27 @@ is_system_service: False
 
 Now it should look something like this
 
-![pasted_update_manager](../../assets/images/howto/theme/step8.png)
+![pasted_update_manager](../../assets/images/howto/theme/step8.png){: class="roundcorners"}
 
 
 ### Save & Restart
 
 Click on **Save & Restart**
 
-![save_restart](../../assets/images/howto/theme/step9.png)
+![save_restart](../../assets/images/howto/theme/step9.png){: class="roundcorners"}
 
 
 ### Restart Moonraker
 
 A notification will appear that asks you to **try again**. Click this notification.
 
-![try_again](../../assets/images/howto/theme/step10.png)
+![try_again](../../assets/images/howto/theme/step10.png){: class="roundcorners"}
 
 ### Refresh your browser
 
 Try to refresh your browser, it should show the ZeroG theme.
 
-![refresh](../../assets/images/howto/theme/step11.png)
+![refresh](../../assets/images/howto/theme/step11.png){: class="roundcorners"}
 
 ### Update manager
 
@@ -113,11 +113,11 @@ On the right you'll find the **Update Manager**, you'll notice that **ZeroGTheme
 
 This will allow you to grab the latest updates once we release them for the ZeroG Mainsail Theme.
 
-![update_manager](../../assets/images/howto/theme/step12.png)
+![update_manager](../../assets/images/howto/theme/step12.png){: class="roundcorners"}
 
 
-### Finished!
+### Screenshot
 
 Enjoy your fresh ZeroG Theme.
 
-![full_theme](../../assets/images/howto/theme/step13.png)
+![full_theme](../../assets/images/howto/theme/step13.png){: class="roundcorners"}

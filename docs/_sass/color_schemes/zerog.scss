@@ -21,6 +21,11 @@ $search-background-color: $light-grey-color;
 $table-background-color: $light-grey-color;
 $feedback-color: darken($sidebar-color, 3%);
 
+
+.roundcorners {
+    border-radius: 5px;
+}
+
 .zoom {
     transition: transform .3s; /* Animation */
     margin: 0 auto;
