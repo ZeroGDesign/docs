@@ -3,7 +3,7 @@ layout: default
 title: Mainsail Theme
 nav_order: 1
 has_children: false
-has_toc: false
+has_toc: true
 parent: Klipper
 permalink: /klipper/mainsail/theme
 ---
@@ -11,6 +11,8 @@ permalink: /klipper/mainsail/theme
 # ZeroG MainSail theme
 
 On this page you will learn how to activate the ZeroG Mainsail theme, this theme will allow for auto updating.
+
+{: .no_toc }
 
 ### Is it difficult to install? 
 
