@@ -1,10 +1,10 @@
 ---
 layout: default
-title: How To
+title: Manual
 nav_order: 5
 has_toc: true
 has_children: true
-permalink: /howto/build
+permalink: /manual/build
 ---
 
 # How to Build

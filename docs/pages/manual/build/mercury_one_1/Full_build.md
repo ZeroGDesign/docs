@@ -3,8 +3,8 @@ layout: default
 title: Mercury One.1
 nav_order: 4
 has_toc: true
-parent: How To
-permalink: /howto/build/printer/mercury_eva
+parent: Manual
+permalink: /manual/build/printer/mercury_eva
 ---
 
 # Mercury One.1 Full Assembly

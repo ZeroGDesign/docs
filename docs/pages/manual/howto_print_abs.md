@@ -4,8 +4,8 @@ title: ABS Printing Tips
 nav_order: 1
 has_children: false
 has_toc: false
-parent: How To
-permalink: /howto/print/abs
+parent: Manual
+permalink: /manual/print/abs
 ---
 
 ## Printing parts

@@ -4,8 +4,8 @@ title: Tools You Need
 nav_order: 2
 has_children: false
 has_toc: false
-parent: How To
-permalink: /howto/build/tools
+parent: Manual
+permalink: /manual/build/tools
 ---
 
 # Installation Hardware
