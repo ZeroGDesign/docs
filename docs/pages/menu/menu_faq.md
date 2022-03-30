@@ -105,7 +105,7 @@ Those wires will go next to each other according to the included chart. BLK, GRN
 
 ## What current do I set for my motors?
 
-{: .note }
+> {: .note }
 This is applicable to Klipper. 
 
 Quick explanation of current setting on TMC drivers. the value you put in should be the RMS value. Not the peak value that is written on the stepper.
@@ -170,8 +170,6 @@ You found it! [The ZeroG Docs](/).
 
 Good question. There are a few highlights such as EP2 grease, or something like a gun oil. There are a few great videos out there that should help you make your decision.
 
-# Is there anywhere I can actively engage and ask questions?
+## Is there anywhere I can actively engage and ask questions?
 
 The [Discord](https://discord.gg/zerog){:target="_blank"}! We don’t bite. Stop by whenever.
-
-Click [here!](https://discord.gg/zerog){:target="_blank"}
