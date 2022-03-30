@@ -19,7 +19,7 @@ The FAQ are sorted and listed in the Table of content.
 
 ---
 
-# Projects
+# ZeroG Projects
 
 ## What is Mercury One/ Mercury One.1?
 
@@ -27,17 +27,21 @@ Mercury one is an open source community project. It is a Corexy based motion sys
 
 It is developed and maintained by enthusiasts in their free time. No one is getting paid for any of their work. 
 
-### What kind of speeds can I expect?
+#### What kind of speeds can I expect?
 
 The answer to this question boils down to how much time you intend on tuning your printer. We’ve seen stock speeds of 60mm/s with 300mm/s^2 acceleration, all the way up to 450mm/s with 40k accel with quality prints.
 
-### How much does this cost?
+#### How much does this cost?
 
 At the minimum, estimated cost is $280 depending on how you source parts. It can be more depending on what kind of things you decide to order for your specific build.
 
-### Is there a kit available or should I self source?
+#### Is there a kit available or should I self source?
 
 There are multiple kits available, check out the [BOM](https://bom.zerog.one){:target="_blank"}. All items can be sourced from Aliexpress or Amazon. Choose which works best for you.
+
+## What is Hydra?
+
+Hydra is an open source 3 point leveling system for your print bed. It's still in Alpha future information will be provided in the future.
 
 ---
 
