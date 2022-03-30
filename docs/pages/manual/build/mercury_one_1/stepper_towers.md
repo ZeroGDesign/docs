@@ -72,6 +72,8 @@ Forcing the dowel pins into the F695-2RS Bearings might cause one of the followi
 
     <img class="roundcorners" src="../../../assets/images/instructions/assembly/left_stepper/sanding.jpg">
 
+    <br>
+    
     Test fit your Flange bearing to see if it fits.
 
     <img class="roundcorners" src="../../../assets/images/instructions/assembly/left_stepper/fit_drill.jpg">
