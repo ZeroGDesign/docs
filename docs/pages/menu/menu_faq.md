@@ -41,7 +41,7 @@ There are multiple kits available, check out the [BOM](https://bom.zerog.one){:t
 
 ## What is Hydra?
 
-Hydra is an open source 3 point leveling system for your print bed. It's still in Alpha future information will be provided in the future.
+Hydra is an open source 3 point leveling system for your print bed. It's still in Alpha, future information will be provided in the future.
 
 ---
 
@@ -75,9 +75,23 @@ Should you try any method that heats the area that the printer is in, it is advi
 
 Adaptive Cubic, grid, gyroid, honeycomb, triangular or cubic
 
+Read more about print settings [here](/standard/print/settings).
+
 ## Is there a specific slicer I should be using?
 
 The one you’re most comfortable with! If you’re not partial to any one slicer, a lot of us are using Super Slicer. 
+
+---
+
+# Klipper
+
+## What is Klipper?
+
+Klipper is a 3d-Printer firmware. It combines the power of a general purpose computer with one or more micro-controllers. See the [features](https://www.klipper3d.org/Features.html){:target="_blank"} document for more information on why you should use Klipper.
+
+## Do I need Klipper?
+
+No, but it is highly recommended. It flexibility and ease of use with Mainsail/Fluidd interface options make using your printer much more enjoyable.
 
 ---
 
@@ -150,10 +164,6 @@ The One.1 also uses smaller stepper towers and front towers to safe plastic.
 * The Mercury One supports the Voron Afterburner.
 * The Mercury One.1 supports the EVA carriage platform & the Voron Stealthburner.
 
-## Do I need klipper?
-
-No, but it is highly recommended. It flexibility and ease of use with Mainsail/Fluidd interface options make using your printer much more enjoyable.
-
 ## What the heck is a BOM?
 
 A Bill of Materials. It lists everything you need in order to complete your build.
@@ -166,6 +176,22 @@ Mercury One currently supports Afterburner and Stealthburner toolheads. M1.1 cur
 
 Corexy is a motion system. Mercury One is not the only printer to utilize Corexy. There are a few variations of Corexy, where the belts are arranged a bit different. Mercury One utilizes a stacked belt system.
 
+## To Stealthchop or Spreadcycle?
+
+*With CoreXY systems, it is best to use Spreadcycle.*
+
+Spreadcycle makes use of more torque and accuracy. If you use Stealthchop you will likely get grinding noises and wonder if things are broken.
+
+#### How is this done in Klipper?
+
+It can be done with one of two:
+1. By not defining a Stealthchop
+2. Or setting `Stealthchop:0` in your config file.
+
+#### How is this done in Marlin?
+
+Soon&trade;
+
 ## Where is the best place to find up to date info?
 
 You found it! [The ZeroG Docs](/).
@@ -177,3 +203,23 @@ Good question. There are a few highlights such as EP2 grease, or something like 
 ## Is there anywhere I can actively engage and ask questions?
 
 The [Discord](https://discord.gg/zerog){:target="_blank"}! We don’t bite. Stop by whenever.
+
+## What wire size should I use?
+
+*You should refer to a chart that gives you information regarding wire size (AWG) and the capacity of that wire.*
+
+Make sure you know what wire you’re using, try to avoid using unknown wire as this is hazardous to you and others around you, should something go wrong.
+
+* You want high strand count, flexibility, and heat resistance. 
+* A general recommendation is to use **24AWG** For everything except a few things.
+
+### Hotend heater
+
+Depending on which you decide on, may draw upwards of **5Amps**. In which case, **22AWG** wire is recommended based on a chart.
+
+### Heated bed
+
+Your heated bed should be at **minimum 16AWG**, and if upgraded, you should again reference a chart for larger wire and amperage needed.
+
+> {: .note }
+*When referencing the chart, you should refer to chassis, or open air wiring sections. This reflects the amount of cooling these wires may receive*

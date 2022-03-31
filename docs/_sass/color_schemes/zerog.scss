@@ -48,6 +48,10 @@ $callouts: (
     }
 }
 
+.img {
+    text-decoration: none !important;
+}
+
 .p {
     font-weight: 300 !important;
 }
@@ -109,4 +113,86 @@ code {
     max-width: inherit;
     white-space: nowrap;
     font-weight: bold;
+}
+
+/*
+* Experimental Lightbox. Made by: Oo na na whats her name?#0596
+* This is a purely CSS lightbox no javascript is involved. 
+* To add a lightbox simply copy-paste the markdown code to the bottom of .md page.
+* Change the img source to the corresponding image.
+* Give each picture their own ID tag corresponding to the lightbox item.
+*/
+
+.lightbox__item {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0,0);
+    transform-origin: center;
+    transition: transform ease-in-out 350ms;
+    cursor: zoom-out;
+    z-index: 9999;
+}
+
+.lightbox__item:target {
+    transform: scale(1,1);
+    transform-origin: center;
+}
+
+.lightbox__content {
+    max-height: 100%;
+    max-width: 90%;
+    background: rgba($color: #303134, $alpha: .96);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3); 
+    text-align: center;
+    margin:auto;
+    position: relative;
+}
+
+.lightbox__titlebar {
+    height: 1.8em;
+    width: 5em;
+    background: rgba($color: #3c4043, $alpha: .96);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: 200;
+    position: relative;
+}
+
+.lightbox__titlebar::after {
+    content: "Pop-up";
+    color: #bdc1c6;
+    font-weight: 200;
+}
+
+.lightbox__content img {
+    max-height: 90vh;
+    max-width: 90vw;
+}
+
+.close {
+    position: absolute;
+    width: 4em;
+    height: 2em;
+    background: #E34234;
+    top: 1em;
+    right: 1em;
+    border-width: 1em;
+    border-radius: 10%;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close::after {
+    content: "CLOSE";
+    color: white;
+    font-weight: 700;
 }

@@ -21,7 +21,16 @@ The first step of assembling your Mercury One.1 is all about disassembling.
 
 # Section One: Frame
 
-![Empty Ender 5 Frame](../../../assets/images/instructions/empty_frame.png)
+[![Empty Ender 5 Frame](../../../assets/images/instructions/empty_frame.png)](#lightbox__item_1){: style="background-image: none;"}
+
+
+<div onclick="location.href='#section-one-frame';" id="lightbox__item_1"  class="lightbox__item" style="background-image: none;">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="#section-one-frame" class="close"></a>
+        <img src="../../../assets/images/instructions/empty_frame.png" alt="Birdseye overview">
+    </div>
+</div>
 
 ## Empty Frame
 

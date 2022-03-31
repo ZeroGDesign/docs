@@ -21,7 +21,15 @@ Welcome to your first steps at assembling your Mercury One.1!
 # Stepper mounts
 
 ## Left stepper mount
-![Left Stepper mount](../../../assets/images/instructions/stepper_mounts_left.png){: class="zoom"}
+[![Left Stepper mount](../../../assets/images/instructions/stepper_mounts_left.png)](#lightbox__item_1){: style="background-image: none;"}
+
+<div onclick="location.href='#left-stepper-mount';"  id="lightbox__item_1"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="#left-stepper-mount" class="close"></a>
+        <img src="../../../assets/images/instructions/stepper_mounts_left.png" alt="Birdseye overview">
+    </div>
+</div>
 
 The hardware displayed below is for __ONE__ stepper mount. INPUT TEXT HERE FOR RIGHT STEPPER MOUNT.
 
@@ -40,9 +48,25 @@ The hardware displayed below is for __ONE__ stepper mount. INPUT TEXT HERE FOR R
 ### LS printed parts
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Type:<br>Amount: | Left stepper top<br>1        |     ![Left stepper top printed](../../../assets/images/instructions/printer_stepper_left_top.png) |
-| Type:<br>Amount: | Left stepper bottom<br>1     |     ![Left stepper bottom printed](../../../assets/images/instructions/printed_stepper_left_bottom.png) |
+| Type:<br>Amount: | Left stepper top<br>1        |     [![Left stepper top printed](../../../assets/images/instructions/printer_stepper_left_top.png)](#lightbox__item_2){: style="background-image: none;"} |
+| Type:<br>Amount: | Left stepper bottom<br>1     |     [![Left stepper bottom printed](../../../assets/images/instructions/printed_stepper_left_bottom.png)](#lightbox__item_3){: style="background-image: none;"} |
 {: class="hardwaretable"}
+
+<div onclick="location.href='#ls-printed-parts';"  id="lightbox__item_2"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="#ls-printed-parts" class="close"></a>
+        <img src="../../../assets/images/instructions/printer_stepper_left_top.png" alt="Left stepper top printed">
+    </div>
+</div>
+
+<div onclick="location.href='#ls-printed-parts';"  id="lightbox__item_3"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="#ls-printed-parts" class="close"></a>
+        <img src="../../../assets/images/instructions/printed_stepper_left_bottom.png" alt="Left stepper bottom printed">
+    </div>
+</div>
 
 We have very specific settings you should print the parts with, they've been designed around these settings. Read more about them.
 
@@ -101,11 +125,28 @@ The image below shows the correct placement of the T-nuts.
 
 Take the bottom left stepper mount *printed part* and insert two 5x30 dowel pins as shown in the image below.
 
-![Left stepper bottom pins](../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_pins.png){: class="zoom2"}
+[![Left stepper bottom pins](../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_pins.png)](#lightbox__item_4){: style="background-image: none;"}
+
+
+<div onclick="location.href='#inserting-dowel-pins---ls';"  id="lightbox__item_4"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="#inserting-dowel-pins---ls" class="close"></a>
+        <img src="../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_pins.png" alt="Left stepper bottom pins">
+    </div>
+</div>
 
 The image below shows the correct placement of the dowel pins.
 
-![Left stepper bottom pins after](../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_pins_after.png){: class="zoom2"}
+[![Left stepper bottom pins after](../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_pins_after.png)](#lightbox__item_5){: style="background-image: none;"}
+
+<div onclick="location.href='#inserting-dowel-pins---ls';"  id="lightbox__item_5"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="#inserting-dowel-pins---ls" class="close"></a>
+        <img src="../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_pins_after.png" alt="Left stepper bottom pins after">
+    </div>
+</div>
 
 >>> ``On the bottom of the printed part you will find small M3 holes below the dowel pins. If your dowel pins are stuck you can use those to press them out using a small hex key.``
 
@@ -113,15 +154,41 @@ The image below shows the correct placement of the dowel pins.
 
 It's time to add the [flange stack](#flange-stack)! Don't know what those are? [Click here](#flange-stack).
 
-![Left stepper bottom Flange stacks](../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_flange.png){: class="zoom2"}
+[![Left stepper bottom Flange stacks](../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_flange.png)](#lightbox__item_6){: style="background-image: none;"}
+
+<div onclick="location.href='#adding-the-flange-stacks';"  id="lightbox__item_6"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="#adding-the-flange-stacks" class="close"></a>
+        <img src="../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_flange.png" alt="Left stepper bottom Flange stacks">
+    </div>
+</div>
+
 
 The image below shows the correct placement of the [flange stack](#flange-stack).
 
-![Left stepper bottom Flange stacks](../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_flange_after.png){: class="zoom2"}
+[![Left stepper bottom Flange stacks](../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_flange_after.png)](#lightbox__item_7){: style="background-image: none;"}
+
+<div onclick="location.href='#adding-the-flange-stacks';"  id="lightbox__item_7"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="#adding-the-flange-stacks" class="close"></a>
+        <img src="../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_flange_after.png" alt="Left stepper bottom Flange stacks">
+    </div>
+</div>
 
 When placing the double flange stacks, make sure you do not remove any shim rings, there will be two on top of each other as shown in the image below.
 
-![Left stepper bottom Flange stacks](../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_double_flange.png){: class="zoom2"}
+[![Left stepper bottom Flange stacks](../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_double_flange.png)](#lightbox__item_8){: style="background-image: none;"}
+
+<div onclick="location.href='#adding-the-flange-stacks';"  id="lightbox__item_8"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="#adding-the-flange-stacks" class="close"></a>
+        <img src="../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_double_flange.png" alt="Left stepper bottom Flange stacks">
+    </div>
+</div>
+
 
 ### Lowering the top stepper mount
 
@@ -131,12 +198,28 @@ Take the top left motor mount *printed piece* and lower it into the bottom left 
 | Type: | Left stepper top        |     ![Left stepper top printed](../../../assets/images/instructions/printer_stepper_left_top.png) |
 {: class="hardwaretable"}
 
-![Left stepper top printed](../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_top_print.png){: class="zoom2"}
+[![Left stepper top printed](../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_top_print.png)](#lightbox__item_9){: style="background-image: none;"}
+
+<div onclick="location.href='#lowering-the-top-stepper-mount';"  id="lightbox__item_9"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="#lowering-the-top-stepper-mount" class="close"></a>
+        <img src="../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_top_print.png" alt="Left stepper top printed">
+    </div>
+</div>
 
 The image below shows the top lowered on the bottom mount, top top will have an edge/guide where the bottom part will fit in.
 There should be some play, this because it makes it easier to align.
 
-![Left stepper top printed](../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_top_print_after.png){: class="zoom2"}
+[![Left stepper top printed](../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_top_print_after.png)](#lightbox__item_10){: style="background-image: none;"}
+
+<div onclick="location.href='#lowering-the-top-stepper-mount';"  id="lightbox__item_10"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="#lowering-the-top-stepper-mount" class="close"></a>
+        <img src="../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_top_print_after.png" alt="Left stepper top printed">
+    </div>
+</div>
 
 # Definitions
 
