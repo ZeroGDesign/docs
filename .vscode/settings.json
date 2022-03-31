@@ -2,7 +2,10 @@
     "spellchecker.ignoreWordsList": [
         "M5x50mms",
         "F695",
-        "screenshots",
-        "favirout"
+        "Klipper",
+        "Spreadcycle",
+        "Stealthchop",
+        "CoreXY",
+        "ZeroG"
     ]
 }
