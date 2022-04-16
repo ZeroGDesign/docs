@@ -1,14 +1,12 @@
 ---
 layout: default
 title: Stepper towers
-nav_order: 2
+nav_order: 4
 has_toc: true
 parent: Mercury One.1 EVA
 grand_parent: Manual
 permalink: /manual/build/mercury_eva/stepper_towers
 ---
-Skill required - medium
-{: .label .label-red }
 
 # Mercury One.1 Full Assembly
 {: .no_toc }
@@ -69,41 +67,6 @@ The hardware displayed below is for __ONE__ stepper mount. INPUT TEXT HERE FOR R
 </div>
 
 We have very specific settings you should print the parts with, they've been designed around these settings. Read more about them.
-
-## Sanding the dowel pins
-
-Test fit your dowel pin in the F695-2RS 5\*13\*4 Mm bearing, if they're tight **DO NOT** continue. You want to sand them down a little. 
-
-#### Why do I have to sand my dowel pins?
-
-If they do fit nicely you do not need to sand them down. 
-
-Forcing the dowel pins into the F695-2RS Bearings might cause one of the following issues:
-
-1. The F695-2RS Bearing might crack and split.
-2. The dowel pin will never come out again.
-
-{: .note }
-<details>
-  <summary>Click to expand for instructions!</summary>
-   <br>
-    Insert your pins into an electric drill and grab your sandpaper
-
-    <dl>
-        <dt>Sandpaper grit</dt>
-        <dd>120 to 220</dd>
-    </dl>
-
-    <img class="roundcorners" src="../../../assets/images/instructions/assembly/left_stepper/sanding.jpg">
-
-    <br>
-    
-    Test fit your Flange bearing to see if it fits.
-
-    <img class="roundcorners" src="../../../assets/images/instructions/assembly/left_stepper/fit_drill.jpg">
-</details>
-
-
 
 ## Left stepper mount assembly
 
@@ -237,3 +200,8 @@ It contains the following:
 1. Assemble the Flange Stack as per following image.
 
 ![Flange stack](../../../assets/images/instructions/flange_stack_exploded.png)
+
+{: style="text-align: center" }
+<span class="fs-8">
+[Next step &rarr;](/){: .btn .btn-red }
+</span>
