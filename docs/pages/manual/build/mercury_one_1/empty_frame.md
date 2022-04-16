@@ -8,9 +8,6 @@ grand_parent: Manual
 permalink: /manual/build/mercury_eva/empty_frame
 ---
 
-Skill level required - Low
-{: .label .label-green }
-
 # Mercury One.1 EVA - Empty Frame
 {: .no_toc }
 
@@ -42,5 +39,7 @@ So your first step is removing the X and Y motion system.
 We're not going into depth on how to remove the X and Y motion system.
 If you're having trouble or you would like some help please don't hesitate and ask for help in our [Discord server](https://discord.com/invite/gzJP2s8){:target="_blank"}.
 
-# [Next &rarr; Stepper mounts](/manual/build/mercury_eva/stepper_towers)
-{: .no_toc }
+{: style="text-align: center" }
+<span class="fs-8">
+[Next step &rarr;](/manual/build/mercury_eva/stepper_towers){: .btn .btn-red }
+</span>

@@ -28,5 +28,7 @@ Click [here](/manual/print/abs){:target="_blank"} to see the how to print abs.
 
 Soon&trade;
 
-# [Next &rarr; Empty Frame](/manual/build/mercury_eva/empty_frame)
-{: .no_toc }
+{: style="text-align: center" }
+<span class="fs-8">
+[Next step &rarr;](/manual/build/mercury_eva/empty_frame){: .btn .btn-red }
+</span>
