@@ -176,6 +176,11 @@ code {
     max-width: 90vw;
 }
 
+.lightbox_wrapper {
+    background-image: none;
+    cursor: zoom-in;
+}
+
 .close {
     position: absolute;
     width: 4em;
@@ -195,4 +200,27 @@ code {
     content: "CLOSE";
     color: white;
     font-weight: 700;
+}
+
+.main-content a.floatingtop {
+    position: fixed;
+    animation: pop 2.5s infinite;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3); 
+    text-align: center;
+    width: 2.4em;
+    height: 2.4em;
+    right: 4%;
+    bottom: 4%;
+}
+
+.main-content a.floatingtop::before {
+    content: "🡱";
+    font-size: 1.4em;
+}
+
+@keyframes pop {
+    0% { transform: translate(-30%, -30%);}
+    50% { transform: translate(-30%, -40%);}
+    100% { transform: translate(-30%, -30%);}
 }
