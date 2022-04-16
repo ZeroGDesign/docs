@@ -15,7 +15,7 @@ If you're not an expert with cad we'd suggest you to read our Documentation care
 ## Screenshot
 The image bellow contains the Mercury One.1 ([Eva](https://main.eva-3d.page/){:target="_blank"} compatible).
 
-[![Birdseye overview](assets/images/printer/birdview.png)](#lightbox__item_1){: style="background-image: none;"}
+[![Birdseye overview](assets/images/printer/birdview.png)](#lightbox__item_1){: .lightbox_wrapper}
 
 <div onclick="location.href='#';"  id="lightbox__item_1"  class="lightbox__item">
     <div class="lightbox__content">
