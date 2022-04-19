@@ -70,7 +70,7 @@ Click on the image to enlarge.
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
         <a href="#Right-top-stepper-mount" class="close"></a>
-        <img src="../../../assets/images/instructions/printer_stepper_Right_top.png" alt="Right stepper top printed">
+        <img src="../../../assets/images/instructions/printer_stepper_right_top.png" alt="Right stepper top printed">
     </div>
 </div>
 
@@ -78,7 +78,7 @@ Click on the image to enlarge.
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
         <a href="#Right-bottom-stepper-mount" class="close"></a>
-        <img src="../../../assets/images/instructions/printed_stepper_Right_bottom.png" alt="Right stepper bottom printed">
+        <img src="../../../assets/images/instructions/printed_stepper_right_bottom.png" alt="Right stepper bottom printed">
     </div>
 </div>
 
