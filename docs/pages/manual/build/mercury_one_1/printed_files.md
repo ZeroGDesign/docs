@@ -66,7 +66,7 @@ Click on the image to enlarge.
 {: class="hardwaretable"}
 
 
-<div onclick="location.href='#Right-top-stepper-mount';"  id="lightbox__item_3"  class="lightbox__item">
+<div onclick="location.href='#right-stepper-mount';"  id="lightbox__item_3"  class="lightbox__item">
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
         <a href="#Right-top-stepper-mount" class="close"></a>
@@ -74,13 +74,40 @@ Click on the image to enlarge.
     </div>
 </div>
 
-<div onclick="location.href='#Right-bottom-stepper-mount';"  id="lightbox__item_4"  class="lightbox__item">
+<div onclick="location.href='#right-stepper-mount';"  id="lightbox__item_4"  class="lightbox__item">
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
         <a href="#Right-bottom-stepper-mount" class="close"></a>
         <img src="../../../assets/images/instructions/printed_stepper_right_bottom.png" alt="Right stepper bottom printed">
     </div>
 </div>
+
+### Tension towers
+
+*Note: There is a small difference in these, you'll see the opening for the flange stack is offset differently.*
+   
+| :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
+| Part name<br>Description<br>Download| Left tension tower<br>Used to tension belt - left side<br>[Here](../../../assets/stl/m1_1/front_tower_left.stl)|     [![left front tower](../../../assets/images/instructions/front_left_tension_tower.png)](#lightbox__item_5){: .lightbox_wrapper} |
+| Part name<br>Description<br>Download| Right tension tower<br>Used to tension belt - right side<br>[Here](../../../assets/stl/m1_1/front_tower_right.stl)|     [![right front tower](../../../assets/images/instructions/front_right_tension_tower.png)](#lightbox__item_6){: .lightbox_wrapper} |
+{: class="hardwaretable"}
+
+
+<div onclick="location.href='#tension-towers';"  id="lightbox__item_5"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="#tension-towers" class="close"></a>
+        <img src="../../../assets/images/instructions/front_left_tension_tower.png" alt="Left tension tower">
+    </div>
+</div>
+
+<div onclick="location.href='#tension-towers';"  id="lightbox__item_6"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="#tension-towers" class="close"></a>
+        <img src="../../../assets/images/instructions/front_right_tension_tower.png" alt="Right tension tower">
+    </div>
+</div>
+
 
 
 {: style="text-align: center" }
