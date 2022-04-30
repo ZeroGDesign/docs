@@ -218,15 +218,16 @@ code {
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3); 
     text-align: center;
-    width: 2.4em;
-    height: 2.4em;
+    width: 2.3em;
+    height: 2.3em;
     right: 4%;
     bottom: 4%;
 }
 
 .main-content a.floatingtop::before {
-    content: "🡱";
+    content: url(..//images/icon/arrow-up.svg);
     font-size: 1.4em;
+    color:#FFBC00;
 }
 
 @keyframes pop {
