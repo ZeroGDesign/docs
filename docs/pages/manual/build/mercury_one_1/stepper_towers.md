@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Stepper towers
+title: 5. Stepper towers
 nav_order: 4
 has_toc: true
 parent: Mercury One.1 EVA

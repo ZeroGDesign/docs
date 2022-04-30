@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Empty Frame
+title: 3. Empty Frame
 nav_order: 2
 has_toc: true
 parent: Mercury One.1 EVA
@@ -41,5 +41,5 @@ If you're having trouble or you would like some help please don't hesitate and a
 
 {: style="text-align: center" }
 <span class="fs-8">
-[Next step &rarr;](/manual/build/mercury_eva/stepper_towers){: .btn .btn-red }
+[Next step &rarr;](/manual/build/mercury_eva/sanding_dowel_pins){: .btn .btn-red }
 </span>
