@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
 $dark-grey-color: #202124;
 $light-grey-color: #303134;
 $white-color: #ffffff83;
@@ -179,6 +181,14 @@ code {
 .lightbox_wrapper {
     background-image: none;
     cursor: zoom-in;
+}
+
+.lightbox_logo {
+    background-image: url(/assets/images/icons/zoom_in.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 2em;
+    height: 2em;
 }
 
 .close {
