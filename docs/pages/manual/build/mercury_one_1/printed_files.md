@@ -37,8 +37,8 @@ Click on the image to enlarge.
 ### Left stepper mount
    
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Part name<br>Description<br>Download| Left stepper top<br>Top piece for left stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_top_left.stl)|     [![Left stepper top printed](../../../assets/images/instructions/printer_stepper_left_top.png)](#lightbox__item_1){: .lightbox_wrapper} |
-| Part name<br>Description<br>Download| Left stepper bottom<br>Bottom piece for left stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_bottom_left.stl)|     [![Left stepper bottom printed](../../../assets/images/instructions/printed_stepper_left_bottom.png)](#lightbox__item_2){: .lightbox_wrapper} |
+| File name<br>Description<br>Download| stepper_mount_bottom_right.stl<br>Top piece for left stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_top_left.stl)|     [![Left stepper top printed](../../../assets/images/instructions/printer_stepper_left_top.png)](#lightbox__item_1){: .lightbox_wrapper} |
+| File name<br>Description<br>Download| stepper_mount_bottom_left.stl<br>Bottom piece for left stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_bottom_left.stl)|     [![Left stepper bottom printed](../../../assets/images/instructions/printed_stepper_left_bottom.png)](#lightbox__item_2){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 
@@ -61,8 +61,8 @@ Click on the image to enlarge.
 ### Right stepper mount
    
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Part name<br>Description<br>Download| Right stepper top<br>Top piece for Right stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_top_right.stl)|     [![Left stepper top printed](../../../assets/images/instructions/printer_stepper_right_top.png)](#lightbox__item_3){: .lightbox_wrapper} |
-| Part name<br>Description<br>Download| Right stepper bottom<br>Bottom piece for Right stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_bottom_right.stl)|     [![Left stepper bottom printed](../../../assets/images/instructions/printed_stepper_right_bottom.png)](#lightbox__item_4){: .lightbox_wrapper} |
+| File name<br>Description<br>Download| stepper_mount_top_right.stl<br>Top piece for Right stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_top_right.stl)|     [![Left stepper top printed](../../../assets/images/instructions/printer_stepper_right_top.png)](#lightbox__item_3){: .lightbox_wrapper} |
+| File name<br>Description<br>Download| stepper_mount_bottom_right.stl<br>Bottom piece for Right stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_bottom_right.stl)|     [![Left stepper bottom printed](../../../assets/images/instructions/printed_stepper_right_bottom.png)](#lightbox__item_4){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 
@@ -87,8 +87,8 @@ Click on the image to enlarge.
 *Note: There is a small difference in these, you'll see the opening for the flange stack is offset differently.*
    
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Part name<br>Description<br>Download| Left tension tower<br>Used to tension belt - left side<br>[Here](../../../assets/stl/m1_1/front_tower_left.stl)|     [![left front tower](../../../assets/images/instructions/front_left_tension_tower.png)](#lightbox__item_5){: .lightbox_wrapper} |
-| Part name<br>Description<br>Download| Right tension tower<br>Used to tension belt - right side<br>[Here](../../../assets/stl/m1_1/front_tower_right.stl)|     [![right front tower](../../../assets/images/instructions/front_right_tension_tower.png)](#lightbox__item_6){: .lightbox_wrapper} |
+| File name<br>Description<br>Download| front_tower_left.stl<br>Used to tension belt - left side<br>[Here](../../../assets/stl/m1_1/front_tower_left.stl)|     [![left front tower](../../../assets/images/instructions/front_left_tension_tower.png)](#lightbox__item_5){: .lightbox_wrapper} |
+| File name<br>Description<br>Download| front_tower_right.stl<br>Used to tension belt - right side<br>[Here](../../../assets/stl/m1_1/front_tower_right.stl)|     [![right front tower](../../../assets/images/instructions/front_right_tension_tower.png)](#lightbox__item_6){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 
