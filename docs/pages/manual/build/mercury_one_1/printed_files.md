@@ -117,7 +117,7 @@ For the file "**front_tension_plate_tapped_x2.stl**" you must tap threads into a
    
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
 | File name<br>Description<br>Amount<br>Download| front_tension_plate_tapped_x2.stl<br>Pulls on tension tower to tension belt<br>x2<br>[Here](../../../assets/stl/m1_1/front_tension_plate_tapped_x2.stl)|     [![left front tension plate tapped](../../../assets/images/instructions/tension_plate_tapped.png)](#lightbox__item_7){: .lightbox_wrapper} |
-| File name<br>Description<br>Download| front_tension_plate_t-nut_x2<br>Used to tension belt - right side<br>[Here](../../../assets/stl/m1_1/front_tension_plate_t-nut_x2.stl)|     [![left front tension plate tapped](../../../assets/images/instructions/tension_plate_t-nut.png)](#lightbox__item_8){: .lightbox_wrapper} |
+| File name<br>Description<br>Amount<br>Download| front_tension_plate_t-nut_x2<br>Used to tension belt - right side<br>x2<br>[Here](../../../assets/stl/m1_1/front_tension_plate_t-nut_x2.stl)|     [![left front tension plate tapped](../../../assets/images/instructions/tension_plate_t-nut.png)](#lightbox__item_8){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 
