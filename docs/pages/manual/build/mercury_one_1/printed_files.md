@@ -42,18 +42,18 @@ Click on the image to enlarge.
 {: class="hardwaretable"}
 
 
-<div onclick="location.href='#left-stepper-mount';"  id="lightbox__item_1"  class="lightbox__item">
+<div onclick="location.href='##';"  id="lightbox__item_1"  class="lightbox__item">
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
-        <a href="#left-stepper-mount" class="close"></a>
+        <a href="##" class="close"></a>
         <img src="../../../assets/images/instructions/printer_stepper_left_top.png" alt="Left stepper top printed">
     </div>
 </div>
 
-<div onclick="location.href='#left-stepper-mount';"  id="lightbox__item_2"  class="lightbox__item">
+<div onclick="location.href='##';"  id="lightbox__item_2"  class="lightbox__item">
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
-        <a href="#left-stepper-mount" class="close"></a>
+        <a href="##" class="close"></a>
         <img src="../../../assets/images/instructions/printed_stepper_left_bottom.png" alt="Left stepper bottom printed">
     </div>
 </div>
@@ -66,18 +66,18 @@ Click on the image to enlarge.
 {: class="hardwaretable"}
 
 
-<div onclick="location.href='#right-stepper-mount';"  id="lightbox__item_3"  class="lightbox__item">
+<div onclick="location.href='##';"  id="lightbox__item_3"  class="lightbox__item">
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
-        <a href="#Right-top-stepper-mount" class="close"></a>
+        <a href="##" class="close"></a>
         <img src="../../../assets/images/instructions/printer_stepper_right_top.png" alt="Right stepper top printed">
     </div>
 </div>
 
-<div onclick="location.href='#right-stepper-mount';"  id="lightbox__item_4"  class="lightbox__item">
+<div onclick="location.href='##';"  id="lightbox__item_4"  class="lightbox__item">
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
-        <a href="#Right-bottom-stepper-mount" class="close"></a>
+        <a href="##" class="close"></a>
         <img src="../../../assets/images/instructions/printed_stepper_right_bottom.png" alt="Right stepper bottom printed">
     </div>
 </div>
@@ -92,18 +92,18 @@ Click on the image to enlarge.
 {: class="hardwaretable"}
 
 
-<div onclick="location.href='#tension-towers';"  id="lightbox__item_5"  class="lightbox__item">
+<div onclick="location.href='##';"  id="lightbox__item_5"  class="lightbox__item">
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
-        <a href="#tension-towers" class="close"></a>
+        <a href="##" class="close"></a>
         <img src="../../../assets/images/instructions/front_left_tension_tower.png" alt="Left tension tower">
     </div>
 </div>
 
-<div onclick="location.href='#tension-towers';"  id="lightbox__item_6"  class="lightbox__item">
+<div onclick="location.href='##';"  id="lightbox__item_6"  class="lightbox__item">
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
-        <a href="#tension-towers" class="close"></a>
+        <a href="##" class="close"></a>
         <img src="../../../assets/images/instructions/front_right_tension_tower.png" alt="Right tension tower">
     </div>
 </div>
@@ -124,7 +124,7 @@ For the file "**front_tension_plate_tapped_x2.stl**" you must tap threads into a
 <div onclick="location.href='##';"  id="lightbox__item_7"  class="lightbox__item">
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
-        <a href="#t#" class="close"></a>
+        <a href="##" class="close"></a>
         <img src="../../../assets/images/instructions/tension_plate_tapped.png" alt="Left tension tower">
     </div>
 </div>
