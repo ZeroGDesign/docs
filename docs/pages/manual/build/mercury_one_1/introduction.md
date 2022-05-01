@@ -37,42 +37,42 @@ Hovering an image with your mouse will show a zoom icon <i class="bi bi-zoom-in"
 | Tool<br>Description| Sandpaper<br>Used for grind down dowel pins |     [![Sand paper](../../../../assets/images/tools/sandpaper.png)](#lightbox__item_5){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
-<div onclick="location.href='#tools-required';"  id="lightbox__item_1"  class="lightbox__item">
+<div onclick="location.href='##';"  id="lightbox__item_1"  class="lightbox__item">
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
-        <a href="#tools-required" class="close"></a>
+        <a href="##" class="close"></a>
         <img src="../../../../assets/images/tools/soldering_iron.png" alt="Soldering iron">
     </div>
 </div>
 
-<div onclick="location.href='#tools-require';"  id="lightbox__item_2"  class="lightbox__item">
+<div onclick="location.href='##';"  id="lightbox__item_2"  class="lightbox__item">
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
-        <a href="#tools-require" class="close"></a>
+        <a href="##" class="close"></a>
         <img src="../../../../assets/images/tools/wera_hexkeys.png" alt="Hex keys">
     </div>
 </div>
 
-<div onclick="location.href='#tools-require';"  id="lightbox__item_3"  class="lightbox__item">
+<div onclick="location.href='##';"  id="lightbox__item_3"  class="lightbox__item">
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
-        <a href="#tools-require" class="close"></a>
+        <a href="##" class="close"></a>
         <img src="../../../../assets/images/tools/flush_cutters.png" alt="Flush cutter">
     </div>
 </div>
 
-<div onclick="location.href='#tools-require';"  id="lightbox__item_4"  class="lightbox__item">
+<div onclick="location.href='##';"  id="lightbox__item_4"  class="lightbox__item">
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
-        <a href="#tools-require" class="close"></a>
+        <a href="##" class="close"></a>
         <img src="../../../../assets/images/tools/drill.png" alt="Corless drill">
     </div>
 </div>
 
-<div onclick="location.href='#tools-require';"  id="lightbox__item_5"  class="lightbox__item">
+<div onclick="location.href='##';"  id="lightbox__item_5"  class="lightbox__item">
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
-        <a href="#tools-require" class="close"></a>
+        <a href="##" class="close"></a>
         <img src="../../../../assets/images/tools/sandpaper.png" alt="Sand paper">
     </div>
 </div>

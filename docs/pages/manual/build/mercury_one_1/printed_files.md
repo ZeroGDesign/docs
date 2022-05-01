@@ -108,6 +108,39 @@ Click on the image to enlarge.
     </div>
 </div>
 
+### Front tension plate
+
+*Note: There are two different type of tension plates, one of them uses the hole on your extrusion.*
+
+{: .note }
+For the file "**front_tension_plate_tapped_x2.stl**" you must tap threads into an extrusion (found in the docs) before you can use this.<br>The other file "**front_tension_plate_t-nut_x2.stl**" uses two m5 bolts that connect to T-nuts, if you're not comfortable tapping holes use "**front_tension_plate_t-nut_x2.stl**" instead.
+   
+| :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
+| File name<br>Description<br>Amount<br>Download| front_tension_plate_tapped_x2.stl<br>Pulls on tension tower to tension belt<br>x2<br>[Here](../../../assets/stl/m1_1/front_tension_plate_tapped_x2.stl)|     [![left front tension plate tapped](../../../assets/images/instructions/tension_plate_tapped.png)](#lightbox__item_7){: .lightbox_wrapper} |
+| File name<br>Description<br>Download| front_tension_plate_t-nut_x2<br>Used to tension belt - right side<br>[Here](../../../assets/stl/m1_1/front_tension_plate_t-nut_x2.stl)|     [![left front tension plate tapped](../../../assets/images/instructions/tension_plate_t-nut.png)](#lightbox__item_8){: .lightbox_wrapper} |
+{: class="hardwaretable"}
+
+
+<div onclick="location.href='##';"  id="lightbox__item_7"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="#t#" class="close"></a>
+        <img src="../../../assets/images/instructions/tension_plate_tapped.png" alt="Left tension tower">
+    </div>
+</div>
+
+<div onclick="location.href='##';"  id="lightbox__item_8"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="../../../assets/images/instructions/tension_plate_t-nut.png" alt="Right tension tower">
+    </div>
+</div>
+
+
+
+
+
 
 
 {: style="text-align: center" }
