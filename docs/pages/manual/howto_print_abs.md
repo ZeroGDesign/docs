@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ABS Printing Tips
-nav_order: 1
+nav_order: 3
 has_children: false
 has_toc: false
 parent: Manual
