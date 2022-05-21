@@ -1,6 +1,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("../images/flags/flag-icons.css");
 
-$dark-grey-color: #202124;
+$dark-grey-color: #1c1c1c;
 $light-grey-color: #303134;
 $white-color: #ffffff83;
 $zero-g-red-color: #E34234;
@@ -136,7 +137,7 @@ code {
     justify-content: center;
     transform: scale(0,0);
     transform-origin: center;
-    transition: transform ease-in-out 175ms;
+    transition: transform ease-in-out 200ms;
     cursor: zoom-out;
     z-index: 9999;
 }
@@ -149,9 +150,11 @@ code {
 .lightbox__content {
     max-height: 100%;
     max-width: 90%;
-    background: rgba($color: #303134, $alpha: .96);
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3); 
+    background: #191919;
+    border-radius: 9px;
+    filter: drop-shadow(1mm 1mm 3mm #0000005d);
+    border: solid #4b4c4e 6px;
+    border-width: 1px;
     text-align: center;
     margin:auto;
     position: relative;
@@ -159,17 +162,14 @@ code {
 
 .lightbox__titlebar {
     height: 1.8em;
-    width: 5em;
-    background: rgba($color: #3c4043, $alpha: .96);
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    width: 4em;
     font-weight: 200;
     position: relative;
 }
 
 .lightbox__titlebar::after {
     content: "Pop-up";
-    color: #bdc1c6;
+    color: white;
     font-weight: 200;
 }
 
@@ -193,29 +193,28 @@ code {
 
 .close {
     position: absolute;
-    width: 4em;
-    height: 2em;
-    background: #E34234;
-    top: 1em;
-    right: 1em;
-    border-width: 1em;
-    border-radius: 10%;
+    background: #c42b1c;
+    top: 0em;
+    right: 0em ;
     border-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 1.75em;
+    width: 2.8em;
+    border-top-right-radius: 7px;
 }
 
 .close::after {
-    content: "CLOSE";
-    color: white;
-    font-weight: 700;
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17' height='17' fill='white' class='bi bi-x-lg' viewBox='0 0 16 16'%3E%3Cpath d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z'/%3E%3C/svg%3E");
+    margin-top: 5px;
+    margin-right: 1px;
 }
 
 .main-content a.floatingtop {
     position: fixed;
     animation: pop 2.5s infinite;
-    border-radius: 10px;
+    border-radius: 6px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3); 
     text-align: center;
     width: 2.3em;
@@ -233,4 +232,110 @@ code {
     0% { transform: translate(-30%, -30%);}
     50% { transform: translate(-30%, -40%);}
     100% { transform: translate(-30%, -30%);}
+}
+
+
+.store_table th, td{
+    border-style : hidden!important;
+    font-weight: 200;
+    background: none;
+}
+
+.store_table td {
+    border-top: 1px solid #2b2b2b !important;
+    background: none;
+}
+
+.store_table td:nth-child(2) {
+    text-align: left;
+}
+
+.store_table td:nth-child(2), a {
+    background-image: none !important;
+    font-weight: 500;
+}
+
+.storebox__item {
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0,0);
+    transform-origin: center;
+    transition: transform ease-in-out 200ms;
+    z-index: 9999;
+}
+
+.storebox__item:target {
+    transform: scale(1,1);
+    transform-origin: center;
+}
+
+.storebox__content {
+    max-height: 100%;
+    max-width: 90%;
+    background: #191919;
+    border-radius: 9px;
+    filter: drop-shadow(1mm 1mm 3mm #0000005d);
+    border: solid #4b4c4e 6px;
+    border-width: 1px;
+    text-align: center;
+    margin:auto;
+    position: relative;
+}
+
+.storebox__titlebar {
+    height: 1.8em;
+    width: 100%;
+    font-weight: 300;
+    text-align: left;
+    padding-top: 1px;
+    padding-left: 10px;
+    margin-right: 5em;
+    position: relative;
+}
+
+.storebox__titlebar::after {
+    color: #bdc1c6;
+    font-weight: 200;
+    z-index: -1;
+}
+
+.storebox__content{
+    max-height: 90vh;
+    max-width: 90vw;
+    z-index: 99999;
+}
+
+.storebox_clickclose {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.storebox_close {
+    position: absolute;
+    background: #c42b1c;
+    top: 0em;
+    right: 0em ;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.75em;
+    width: 2.8em;
+    border-top-right-radius: 7px;
+}
+
+.storebox_close::after {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='white' class='bi bi-x-lg' viewBox='0 0 14 14'%3E%3Cpath d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z'/%3E%3C/svg%3E");
+    margin-top: 0px;
+    margin-right: 2px;
 }
