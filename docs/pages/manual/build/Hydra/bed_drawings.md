@@ -109,5 +109,5 @@ Download: [410x410.dxf](../../../assets/dxf/hydra/410x410.dxf)
 
 {: style="text-align: center" }
 <span class="fs-8">
-[Next step <i class="bi bi-arrow-return-right"></i>](/manual/build/mercury_eva/printed_files){: .btn .btn-red }
+[Next step soon<i class="bi bi-arrow-return-right"></i>](##){: .btn .btn-red }
 </span>
