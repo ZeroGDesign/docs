@@ -309,7 +309,7 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
 
 | Printer       | Size  | Type                                 | Amount |                  Stores                  |
 |:--------------|:------|:-------------------------------------|:------:|:----------------------------------------:|
-| Soon™         | 100mm | <nobr>MGN9C</nobr>                   |   3    | [Click here](#storebox__item_MGN9C100MM) |
+| X         | 100mm | <nobr>MGN9C</nobr>                   |   3    | [Click here](#storebox__item_MGN9C100MM) |
 | Ender 5 (Pro) | 400mm | <nobr>MGN12C <b>OR</b> MGN12H</nobr> |   3    | [Click here](#storebox__item_MGN12400MM) |
 | Ender 5 Plus  | 500mm | <nobr>MGN12C <b>OR</b> MGN12H</nobr> |   3    | [Click here](#storebox__item_MGN12500MM) |
 
