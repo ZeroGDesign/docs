@@ -312,7 +312,7 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
 
 | Printer       | Size  | Type                                 | Amount |                  Stores                  |
 |:--------------|:------|:-------------------------------------|:------:|:----------------------------------------:|
-| X         | 100mm | <nobr>MGN9C</nobr>                   |   3    | [Click here](#storebox__item_MGN9C100MM) |
+| X             | 100mm | <nobr>MGN9C</nobr>                   |   3    | [Click here](#storebox__item_MGN9C100MM) |
 | Ender 5 (Pro) | 400mm | <nobr>MGN12C <b>OR</b> MGN12H</nobr> |   3    | [Click here](#storebox__item_MGN12400MM) |
 | Ender 5 Plus  | 500mm | <nobr>MGN12C <b>OR</b> MGN12H</nobr> |   3    | [Click here](#storebox__item_MGN12500MM) |
 {: class="transparant_table"}
@@ -414,9 +414,9 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
 
 ### Magnet
 
-| Size             | Type                                                                    | Amount |                                   Stores |
-|:-----------------|:------------------------------------------------------------------------|:------:|-----------------------------------------:|
-| 12x5mm or 12x4mm | <nobr>4mm hole Neodymium</nobr><br><nobr>Countersunk Ring Magnet</nobr> |   3    | [Stores](#storebox__item_12x5_cs_magnet) |
+| Size             | Type                                                                    | Amount |                    Stores                    |
+|:-----------------|:------------------------------------------------------------------------|:------:|:--------------------------------------------:|
+| 12x5mm or 12x4mm | <nobr>4mm hole Neodymium</nobr><br><nobr>Countersunk Ring Magnet</nobr> |   3    | [Click here](#storebox__item_12x5_cs_magnet) |
 {: class="transparant_table"}
 
 <div id="storebox__item_12x5_cs_magnet"  class="storebox__item">
@@ -446,16 +446,16 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
 
 ### Misc
 
-| Size                          | Type                                                             | Amount |                                        Stores |
-|:------------------------------|:-----------------------------------------------------------------|:------:|----------------------------------------------:|
-| 2020                          | <nobr>2020 Corner bracket</nobr>                                 |   2    | [Stores](#storebox__item_2020_corner_bracket) |
-| <nobr>M3 X D5.0 X L4.0</nobr> | Heatset insert                                                   |   36   |      [Stores](#storebox__item_heatset_insert) |
-| M3 Washer                     | <nobr>Normal grade A M3 </nobr><br><nobr>Stainless Steel </nobr> |   12   |     [Stores](#storebox__item_plain_m3_washer) |
-| M4 X 8 X L8                   | Spacer                                                           |   3    |         [Stores](#storebox__item_8mm_spacers) |
-| 10mm M4                       | Kossel ball                                                      |   3    |     [Stores](#storebox__item_m4_kossel_balls) |
-| 10x11mm - 1 Meter             | Drag chain                                                       |   1    |    [Stores](#storebox__item_10x11_drag_chain) |
-| Nema17                        | Stepper motor                                                    |   3    |        [Stores](#storebox__item_nema17_zaxis) |
-| 5mm-8mm                       | Shaft Coupling                                                   |   3    |     [Stores](#storebox__item_stepper_coupler) |
+| Size                          | Type                                                             | Amount |                      Stores                       |
+|:------------------------------|:-----------------------------------------------------------------|:------:|:-------------------------------------------------:|
+| 2020                          | <nobr>2020 Corner bracket</nobr>                                 |   2    | [Click here](#storebox__item_2020_corner_bracket) |
+| <nobr>M3 X D5.0 X L4.0</nobr> | Heatset insert                                                   |   36   |   [Click here](#storebox__item_heatset_insert)    |
+| M3 Washer                     | <nobr>Normal grade A M3 </nobr><br><nobr>Stainless Steel </nobr> |   12   |   [Click here](#storebox__item_plain_m3_washer)   |
+| M4 X 8 X L8                   | Spacer                                                           |   3    |     [Click here](#storebox__item_8mm_spacers)     |
+| 10mm M4                       | Kossel ball                                                      |   3    |   [Click here](#storebox__item_m4_kossel_balls)   |
+| 10x11mm - 1 Meter             | Drag chain                                                       |   1    |  [Click here](#storebox__item_10x11_drag_chain)   |
+| Nema17                        | Stepper motor                                                    |   3    |    [Click here](#storebox__item_nema17_zaxis)     |
+| 5mm-8mm                       | Shaft Coupling                                                   |   3    |   [Click here](#storebox__item_stepper_coupler)   |
 {: class="transparant_table"}
 
 <div id="storebox__item_2020_corner_bracket"  class="storebox__item">
