@@ -112,11 +112,20 @@ code {
     box-shadow: none !important;
 }
 
+.transparant_table td, .transparant_table th {
+    border: none !important;
+    white-space: nowrap;
+    line-height: 2em;
+    background-color: #00000010;
+}
+
 .hardwaretable td {
     border: none !important;
     white-space: nowrap;
     line-height: 2em;
+    background-color: #00000010;
 }
+
 
 .hardwaretable td:nth-child(1) {
     text-align: right;

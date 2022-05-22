@@ -30,6 +30,7 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
 | M5X10 | <nobr>ISO 4762 / DIN 912</nobr>   |   10   | [Click here](#storebox__item_m5x10_912) |
 | M3X10 | <nobr>ISO 4762 / DIN 912</nobr>   |   3    | [Click here](#storebox__item_m3x10_912) |
 | M4X16 | <nobr>ISO 4762 / DIN 912</nobr>   |   3    | [Click here](#storebox__item_m4x16_912) |
+{: class="transparant_table"}
 
 <div id="storebox__item_m3x6_7991"  class="storebox__item">
 <div onclick="location.href='##';" class="storebox_clickclose"></div>
@@ -193,6 +194,7 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
 |:-----|:-----------------------------------|:------:|:-------------------------------------:|
 | M3   | <nobr>Roll in spring loaded</nobr> |   24   | [Click here](#storebox__item_m3_rollin_tnut) |
 | M5   | <nobr>Roll in spring loaded</nobr> |   14   | [Click here](#storebox__item_m5_rollin_tnut) |
+{: class="transparant_table"}
 
 <div id="storebox__item_m3_rollin_tnut"  class="storebox__item">
 <div onclick="location.href='##';" class="storebox_clickclose"></div>
@@ -281,6 +283,7 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
 |:--------------|:------|:----------------------------|:------:|:-------------------------------------------:|
 | Ender 5 (Pro) | 400mm | <nobr>2020 Extrusion</nobr> |   1    | [Click here](#storebox__item_extrusion_2020) |
 | Ender 5 Plus  | 510mm | <nobr>2020 Extrusion</nobr> |   1    | [Click here](#storebox__item_extrusion_2020) |
+{: class="transparant_table"}
 
 <div id="storebox__item_extrusion_2020"  class="storebox__item">
 <div onclick="location.href='##';" class="storebox_clickclose"></div>
@@ -312,6 +315,7 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
 | X         | 100mm | <nobr>MGN9C</nobr>                   |   3    | [Click here](#storebox__item_MGN9C100MM) |
 | Ender 5 (Pro) | 400mm | <nobr>MGN12C <b>OR</b> MGN12H</nobr> |   3    | [Click here](#storebox__item_MGN12400MM) |
 | Ender 5 Plus  | 500mm | <nobr>MGN12C <b>OR</b> MGN12H</nobr> |   3    | [Click here](#storebox__item_MGN12500MM) |
+{: class="transparant_table"}
 
 <div id="storebox__item_MGN9C100MM"  class="storebox__item">
 <div onclick="location.href='##';" class="storebox_clickclose"></div>
@@ -388,6 +392,7 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
 |:--------------|:------|:---------------------------|:------:|:--------------------------------------------:|
 | Ender 5 (Pro) | 350mm | <nobr>TR8 Leadscrew</nobr> |   3    | [Click here](#storebox__item_TR8_Leadscrew) |
 | Ender 5 Plus  | 450mm | <nobr>TR8 Leadscrew</nobr> |   3    | [Click here](#storebox__item_TR8_Leadscrew) |
+{: class="transparant_table"}
 
 <div id="storebox__item_TR8_Leadscrew"  class="storebox__item">
 <div onclick="location.href='##';" class="storebox_clickclose"></div>
@@ -412,6 +417,7 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
 | Size             | Type                                                                    | Amount |                                   Stores |
 |:-----------------|:------------------------------------------------------------------------|:------:|-----------------------------------------:|
 | 12x5mm or 12x4mm | <nobr>4mm hole Neodymium</nobr><br><nobr>Countersunk Ring Magnet</nobr> |   3    | [Stores](#storebox__item_12x5_cs_magnet) |
+{: class="transparant_table"}
 
 <div id="storebox__item_12x5_cs_magnet"  class="storebox__item">
 <div onclick="location.href='##';" class="storebox_clickclose"></div>
@@ -450,6 +456,7 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
 | 10x11mm - 1 Meter             | Drag chain                                                       |   1    |    [Stores](#storebox__item_10x11_drag_chain) |
 | Nema17                        | Stepper motor                                                    |   3    |        [Stores](#storebox__item_nema17_zaxis) |
 | 5mm-8mm                       | Shaft Coupling                                                   |   3    |     [Stores](#storebox__item_stepper_coupler) |
+{: class="transparant_table"}
 
 <div id="storebox__item_2020_corner_bracket"  class="storebox__item">
 <div onclick="location.href='##';" class="storebox_clickclose"></div>
