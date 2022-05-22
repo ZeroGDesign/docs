@@ -59,6 +59,14 @@ $callouts: (
     font-weight: 300 !important;
 }
 
+.html, body, .main-header, .main, .search-input {
+    background-image: url(/assets/images/layout/background_lite.png) !important;
+}
+
+.side-bar {
+    background-image: url(/assets/images/layout/background_dark.png) !important;
+}
+
 .highlight {
     background-color: rgba(0, 0, 0, 0.05);
     border-radius: $border-radius;
