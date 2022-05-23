@@ -419,6 +419,7 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
 | 12x5mm or 12x4mm | <nobr>4mm hole Neodymium</nobr><br><nobr>Countersunk Ring Magnet</nobr> |   3    | [Click here](#storebox__item_12x5_cs_magnet) |
 {: class="transparant_table"}
 
+
 <div id="storebox__item_12x5_cs_magnet"  class="storebox__item">
 <div onclick="location.href='##';" class="storebox_clickclose"></div>
     <div class="storebox__content">
@@ -439,6 +440,73 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
             <tr>
                 <td><span class="fi fi-de"></span></td>
                 <td><a href="https://www.supermagnete.de/magnete-zum-anschrauben/scheibenmagnet-12mm-hoehe-4mm_CS-S-12-04-N" target="_blank">Supermagnete</a></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+### Bed
+
+| Printer       | Size          | Type                           | Amount |                  Stores                  |
+|:--------------|:--------------|:-------------------------------|:------:|:----------------------------------------:|
+| Ender 5 (Pro) | 275mm         | <nobr>Bed heater</nobr>        |   1    | [Click here](#storebox__item_bed_heater) |
+| Ender 5 Plus  | 377mm         | <nobr>Bed heater</nobr>        |   1    | [Click here](#storebox__item_bed_heater) |
+| Ender 5 (Pro) | 275mm         | <nobr>Aluminum bed</nobr>      |   1    | [Click here](#storebox__item_hydra_bed)  |
+| Ender 5 Plus  | 377mm         | <nobr>Aluminum bed</nobr>      |   1    | [Click here](#storebox__item_hydra_bed)  |
+| X             | Case specific | <nobr>Solid State Relay</nobr> |   1    |    [Click here](#storebox__item_ssr)     |
+{: class="transparant_table"}
+
+<div id="storebox__item_bed_heater"  class="storebox__item">
+<div onclick="location.href='##';" class="storebox_clickclose"></div>
+    <div class="storebox__content">
+    <div class="storebox__titlebar">Bed heater<a href="##" class="storebox_close"></a></div>
+        <table class="store_table" cellspacing="0">
+            <tr>
+                <th>Region</th>
+                <th>URL</th>
+            </tr>
+            <tr>
+                <td><span class="fi fi-us"></span></td>
+                <td><i class="bi bi-check-all"></i> <a href="https://www.fabreeko.com/collections/zero-g/products/fabreeko-edge-to-edge-heaters-for-zero-g" target="_blank">Fabreeko</a></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div id="storebox__item_hydra_bed"  class="storebox__item">
+<div onclick="location.href='##';" class="storebox_clickclose"></div>
+    <div class="storebox__content">
+    <div class="storebox__titlebar">Aluminum bed<a href="##" class="storebox_close"></a></div>
+        <table class="store_table" cellspacing="0">
+            <tr>
+                <th>Region</th>
+                <th>URL</th>
+            </tr>
+            <tr>
+                <td><span class="fi fi-us"></span></td>
+                <td><i class="bi bi-check-all"></i> <a href="https://www.fabreeko.com/collections/zero-g/products/zero-g-mic-6-aluminum-beds-for-hydra" target="_blank">Fabreeko</a></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div id="storebox__item_ssr"  class="storebox__item">
+<div onclick="location.href='##';" class="storebox_clickclose"></div>
+    <div class="storebox__content">
+    <div class="storebox__titlebar">Solid State Relay<a href="##" class="storebox_close"></a></div>
+        <table class="store_table" cellspacing="0">
+            <tr>
+                <th>Region</th>
+                <th>URL</th>
+            </tr>
+            <tr>
+                <td><span class="fi fi-us"></span></td>
+                <td><i class="bi bi-check-all"></i> <a href="https://www.digikey.com/en/products/detail/omron-automation-and-safety/G3NA-210B-UTU-DC5-24/634443?" target="_blank">Digikey</a></td>
+            </tr>
+            <tr>
+                <td><span class="fi fi-nl"></span></td>
+                <td><i class="bi bi-check-all"></i> <a href="https://www.digikey.nl/en/products/detail/omron-automation-and-safety/G3NA-210B-UTU-DC5-24/634443?" target="_blank">Digikey</a></td>
             </tr>
         </table>
     </div>
@@ -491,6 +559,10 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
             <tr>
                 <td><span class="fi fi-cn"></span></td>
                 <td><i class="bi bi-check-all"></i> <a href="https://s.click.aliexpress.com/e/_A8Gh7z" target="_blank">AliExpress - HotXYZ Official Store</a></td>
+            </tr>
+            <tr>
+                <td><span class="fi fi-gb"></span></td>
+                <td><i class="bi bi-check-all"></i> <a href="https://www.printyplease.uk/M3Heatsets" target="_blank">Printyplease</a></td>
             </tr>
         </table>
     </div>
