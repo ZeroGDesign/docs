@@ -505,6 +505,10 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
                 <td><i class="bi bi-check-all"></i> <a href="https://www.digikey.com/en/products/detail/omron-automation-and-safety/G3NA-210B-UTU-DC5-24/634443?" target="_blank">Digikey</a></td>
             </tr>
             <tr>
+                <td><span class="fi fi-us"></span></td>
+                <td><i class="bi bi-check-all"></i> <a href="https://www.fabreeko.com/products/omron-g3nb-210b-1-solid-state-relay-ssr" target="_blank">Fabreeko</a></td>
+            </tr>
+            <tr>
                 <td><span class="fi fi-nl"></span></td>
                 <td><i class="bi bi-check-all"></i> <a href="https://www.digikey.nl/en/products/detail/omron-automation-and-safety/G3NA-210B-UTU-DC5-24/634443?" target="_blank">Digikey</a></td>
             </tr>
@@ -563,6 +567,10 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
             <tr>
                 <td><span class="fi fi-gb"></span></td>
                 <td><i class="bi bi-check-all"></i> <a href="https://www.printyplease.uk/M3Heatsets" target="_blank">Printyplease</a></td>
+            </tr>
+            <tr>
+                <td><span class="fi fi-us"></span></td>
+                <td><i class="bi bi-check-all"></i> <a href="https://www.fabreeko.com/products/threaded-heat-inserts-m3x5x4-100pc-per-bag" target="_blank">Fabreeko</a></td>
             </tr>
         </table>
     </div>
