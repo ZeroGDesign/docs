@@ -109,5 +109,5 @@ Download: [410x410.dxf](../../../assets/dxf/hydra/410x410.dxf)
 
 {: style="text-align: center" }
 <span class="fs-8">
-[Next step soon<i class="bi bi-arrow-return-right"></i>](##){: .btn .btn-red }
+[Next step &rarr;](/manual/build/hydra/right_arm){: .btn .btn-red }
 </span>
