@@ -80,7 +80,7 @@ Printed part required:
 Hardware required:
 
 | :-------------------------: | :------------------------------------------------------------------------------- | |
-| Type:<br>Amount: | Heatset insert<br>4       |     ![heatset insert](../../../assets/images/instructions/m3_heat_insert.png) |
+| Type:<br>Amount: | Heatset insert<br>9       |     ![heatset insert](../../../assets/images/instructions/m3_heat_insert.png) |
 
 
 #### Inserting heat inserts for bottom
