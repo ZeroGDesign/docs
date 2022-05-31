@@ -90,7 +90,12 @@ Stand your Left arm down on the top surface.
 We're starting our work with the bottom. If possible, clamp it between something, This way, it doesn't move...
 
 {: .warn}
-**Don't burn yourself!** We're going to work with a soldering iron, be careful. Heatsets inserts are still hot after melting them into the plastic, don't touch them!
+**Don't burn yourself!** We're going to work with a soldering iron, be careful. Heatsets inserts are still hot after melting them into the plastic, don't touch them! 
+
+If you do not know how to insert heatset inserts into printed parts, please watch the video by [EDGE OF 3D](https://www.youtube.com/c/EDGEOF3D){:target="_blank"}.
+
+{: .note}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/58LOeqQ9lmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 Place the small end of the heatset inserts into the hole. You can start with one heatset so they don't fall out when you insert the other once. Heatup the soldering iron to about 250&#8451;, you do not want to burn the plastic, you want to let the heatset melt into the plastic. These will be used to mount the leadscrew nut to the arm in a later step.
