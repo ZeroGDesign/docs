@@ -11,8 +11,6 @@ permalink: /manual/build/hydra/left_arm
 # 6. Assembling left arm
 {: .no_toc }
 
-Welcome to your first steps at assembling your Mercury One.1!
-
 1. Table of content
 {:toc}
 
