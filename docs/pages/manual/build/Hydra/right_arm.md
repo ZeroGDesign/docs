@@ -326,5 +326,5 @@ The following image shows you how it will lock the kossel ball into place.
 
 {: style="text-align: center" }
 <span class="fs-8">
-[Next step &rarr;](/){: .btn .btn-red }
+[Next step &rarr;](/manual/build/hydra/rear_arm){: .btn .btn-red }
 </span>

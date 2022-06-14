@@ -350,5 +350,5 @@ Instructions for the following hardware will be added later.
 
 {: style="text-align: center" }
 <span class="fs-8">
-[Next step &rarr;](/manual/build/hydra/rear_arm){: .btn .btn-red }
+[Next step &rarr;](/){: .btn .btn-red }
 </span>
