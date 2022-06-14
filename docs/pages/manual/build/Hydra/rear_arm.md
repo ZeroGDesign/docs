@@ -85,7 +85,7 @@ Hardware required:
 
 #### Inserting heat inserts for bottom
 
-Stand your Rear arm down on the top surface.
+Stand your rear arm down on the top surface.
 
 We're starting our work with the bottom. If possible, clamp it between something, This way, it doesn't move...
 
@@ -98,7 +98,7 @@ Place the small end of the heatset inserts into the hole. You can start with one
 
 [![Insert heatset in bottom](../../../assets/images/instructions/hydra/rear_arm/step1_inserts_bottom.png)](#lightbox__item_4){: .lightbox_wrapper}
 
-> ``Not sure if the heatset is in straight? Grab a longer M3 screw, and partially thread it in right after melting it in, this way you can turn it straight.``
+> ``Not sure if the heatset is in straight? Grab a longer M3 screw, and partially thread it in `rig`ht after melting it in, this way you can turn it straight.``
 
 <div onclick="location.href='##';"  id="lightbox__item_4"  class="lightbox__item">
     <div class="lightbox__content">
@@ -126,7 +126,7 @@ Place the small end of the heatset inserts into the holes. And start melting the
 
 #### Inserting heat inserts for top
 
-Stand your Right arm down the bottom surface.
+Stand your Rear arm down the bottom surface.
 
 Place the small end of the heatset inserts into the holes. And start melting them in as shown in the image below. These will be used to attach the **MGN9C rail** in a later step.
 
