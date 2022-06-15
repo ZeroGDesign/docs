@@ -74,11 +74,11 @@ On an extruder, the rotation_distance is the amount of distance the filament tra
 
 <div class="code-example" markdown="1">
 <form>
-    Use a marker to place a mark on the filament around 70mm from the intake of the extruder body. Then use a digital calipers to measure the actual distance of that mark as precisely as one can.<br><br>
+    Use a marker to place a mark on the filament around 120mm from the intake of the extruder body. Then use a digital calipers to measure the actual distance of that mark as precisely as one can.<br><br>
 
-    Measure initial mark distance in mm<br><input type="text" class="textfield_dark" id="initial_mark_distance" Value="70"/><br>
+    Measure initial mark distance in mm<br><input type="text" class="textfield_dark" id="initial_mark_distance" Value="120"/><br>
 <br>
-    Use the digital calipers to measure the new distance between the extruder body and the mark on the filament <b>after you've extruded 50mm of filament.</b><br><br>
+    Use the digital calipers to measure the new distance between the extruder body and the mark on the filament <b>after you've extruded 100mm of filament.</b><br><br>
 
     New distance in mm<br><input type="text" class="textfield_dark" id="subsequent_mark_distance" Value="20"/><br>
 <br>
@@ -99,15 +99,15 @@ On an extruder, the rotation_distance is the amount of distance the filament tra
 The formula that is used to calculate rotation_distance on extruders.
 
 initial_mark_distance = initial mark on filament from the intake of the extruder body
-subsequent_mark_distance = distance of mark on filament after extruding 50mm
+subsequent_mark_distance = distance of mark on filament after extruding 100mm
 
 actual_extrude_distance = <initial_mark_distance> - <subsequent_mark_distance>
 
-actual_extrude_distance = 70mm - 20mm
+actual_extrude_distance = 120mm - 20mm
 
 rotation_distance = <previous_rotation_distance> * <actual_extrude_distance> / <requested_extrude_distance>
 
-rotation_distance = 200 * 20mm / 50mm
+rotation_distance = 200 * 20mm / 100mm
 
 ```
 
@@ -123,7 +123,7 @@ rotation_distance = 200 * 20mm / 50mm
             initial_mark_distance = document.getElementById("initial_mark_distance").value;
             subsequent_mark_distance = document.getElementById("subsequent_mark_distance").value;
             previous_rotation_distance = document.getElementById("previous_rotation_distance").value;
-            document.getElementById("result_rotation_distance").innerHTML = ((previous_rotation_distance*(initial_mark_distance-subsequent_mark_distance))/50).toFixed(3);
+            document.getElementById("result_rotation_distance").innerHTML = ((previous_rotation_distance*(initial_mark_distance-subsequent_mark_distance))/100).toFixed(3);
     }
 </script>
 
