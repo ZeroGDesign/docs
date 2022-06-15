@@ -68,7 +68,7 @@ $callouts: (
 }
 
 .highlight {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.0);
     border-radius: $border-radius;
 }
 
@@ -355,6 +355,10 @@ code {
     content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='white' class='bi bi-x-lg' viewBox='0 0 14 14'%3E%3Cpath d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z'/%3E%3C/svg%3E");
     margin-top: 0px;
     margin-right: 2px;
+}
+
+.btn:active, .btn:focus {
+
 }
 
 .textfield_dark {

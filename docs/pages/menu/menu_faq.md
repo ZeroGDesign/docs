@@ -143,22 +143,7 @@ The calculation of RMS from peak current is this:
 
 In this case you put 0.79 in run_current of your tmc stepper.
 
-### Calculator
-
-<script>
-    function calculate()
-    {
-            num1 = document.getElementById("firstNumber").value;
-            document.getElementById("result").innerHTML = ((num1 * 0.707) * 0.8).toFixed(2);
-    }
-</script>
-
-{: .note }
-> <form>
-Motor peak current<br><input type="text" class="textfield_dark" id="firstNumber" Value="1.4"/><br>
-Max recommended current: 80%<br>
-<input type="button" class="btn" onClick="calculate()" Value="Calculate" /><br>
-Your run_current: <span id = "result">0.79</span></form>
+Find the [calculator here](klipper/calculator#stepper-current).
 
 ---
 
