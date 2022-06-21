@@ -126,9 +126,3 @@ rotation_distance = 200 * 20mm / 100mm
             document.getElementById("result_rotation_distance").innerHTML = ((previous_rotation_distance*(initial_mark_distance-subsequent_mark_distance))/100).toFixed(3);
     }
 </script>
-
-
-{: style="text-align: center" }
-<span class="fs-8">
-[Step One &rarr;](/manual/build/hydra/introduction){: .btn .btn-red }
-</span>

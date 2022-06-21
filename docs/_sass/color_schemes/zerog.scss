@@ -357,10 +357,6 @@ code {
     margin-right: 2px;
 }
 
-.btn:active, .btn:focus {
-
-}
-
 .textfield_dark {
     display: inline-block;
     box-sizing: border-box;
@@ -381,3 +377,6 @@ code {
     border-radius: 4px;
     appearance: none;
 }
+
+.btn:focus { text-decoration: none; outline: none; box-shadow: 0 0 0 1px rgb(227, 66, 52) !important; }
+.btn:focus:hover, .btn.selected:focus { box-shadow: 0 0 0 1px rgb(227, 66, 52) !important; }

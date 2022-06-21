@@ -90,7 +90,74 @@ Hovering an image with your mouse will show a zoom icon <i class="bi bi-zoom-in"
 
 ## Need more help?
 
-Lost? Need help? Not sure? Join our [Discord server <i class="bi bi-discord"></i>](https://discord.com/invite/gzJP2s8){:target="_blank"}, we've got a big community ready to help you out 
+Lost? Need help? Not sure? Join our [Discord server <i class="bi bi-discord"></i>](https://discord.com/invite/gzJP2s8){:target="_blank"}, we've got a big community ready to help you out
+
+## Screenshots
+
+Side view
+{: .fs-3 .fw-300 }
+
+[![Side overview](../../../assets/images/renders/hydra_bird.png)](#lightbox__item_6){: .lightbox_wrapper}
+
+<div onclick="location.href='##';"  id="lightbox__item_6"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="#" class="close"></a>
+        <img src="../../../assets/images/renders/hydra_bird.png" alt="Side overview">
+    </div>
+</div>
+
+Front view
+{: .fs-3 .fw-300 }
+
+[![hydra_front](../../../assets/images/renders/hydra_front.png)](#lightbox__item_7){: .lightbox_wrapper}
+
+<div onclick="location.href='##';"  id="lightbox__item_7"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="#" class="close"></a>
+        <img src="../../../assets/images/renders/hydra_front.png" alt="hydra_front">
+    </div>
+</div>
+
+Back view
+{: .fs-3 .fw-300 }
+
+[![hydra_back](../../../assets/images/renders/hydra_back.png)](#lightbox__item_8){: .lightbox_wrapper}
+
+<div onclick="location.href='##';"  id="lightbox__item_8"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="#" class="close"></a>
+        <img src="../../../assets/images/renders/hydra_back.png" alt="hydra_back">
+    </div>
+</div>
+
+Top view
+{: .fs-3 .fw-300 }
+
+[![hydra_top](../../../assets/images/renders/hydra_top.png)](#lightbox__item_9){: .lightbox_wrapper}
+
+<div onclick="location.href='##';"  id="lightbox__item_9"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="#" class="close"></a>
+        <img src="../../../assets/images/renders/hydra_top.png" alt="hydra_top">
+    </div>
+</div>
+
+Bare Hydra components
+{: .fs-3 .fw-300 }
+
+[![hydra_bare](../../../assets/images/renders/hydra_bare.png)](#lightbox__item_10){: .lightbox_wrapper}
+
+<div onclick="location.href='##';"  id="lightbox__item_10"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="#" class="close"></a>
+        <img src="../../../assets/images/renders/hydra_bare.png" alt="hydra_bare">
+    </div>
+</div>
 
 
 {: style="text-align: center" }
