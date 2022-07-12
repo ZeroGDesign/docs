@@ -385,13 +385,16 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
 </div>
 
 ### Leadscrew
-*Note: Ender 5 (Pro) and Ender 5 Plus have different sizes for parts.*
+*Note: Ender 5 (Pro) and Ender 5 Plus have different sizes for parts. Leadscrews can vary in sizes.*
 {: .fs-3 }
 
-| Printer       | Size  | Type                       | Amount |                    Stores                    |
-|:--------------|:------|:---------------------------|:------:|:--------------------------------------------:|
-| Ender 5 (Pro) | 350mm | <nobr>TR8 Leadscrew</nobr> |   3    | [Click here](#storebox__item_TR8_Leadscrew) |
-| Ender 5 Plus  | 450mm | <nobr>TR8 Leadscrew</nobr> |   3    | [Click here](#storebox__item_TR8_Leadscrew) |
+{: .warn}
+Make sure to look for Leadscrews that include a circular T8 Nut with 4 holes.
+
+| Printer       | Size Range    | Type                       | Amount |                   Stores                    |
+|:--------------|:--------------|:---------------------------|:------:|:-------------------------------------------:|
+| Ender 5 (Pro) | 350mm / 370mm | <nobr>TR8 Leadscrew</nobr> |   3    | [Click here](#storebox__item_TR8_Leadscrew) |
+| Ender 5 Plus  | 450mm / 470mm | <nobr>TR8 Leadscrew</nobr> |   3    | [Click here](#storebox__item_TR8_Leadscrew) |
 {: class="transparant_table"}
 
 <div id="storebox__item_TR8_Leadscrew"  class="storebox__item">

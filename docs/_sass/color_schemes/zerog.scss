@@ -378,5 +378,25 @@ code {
     appearance: none;
 }
 
+.list_dark {
+    display: inline-block;
+    box-sizing: border-box;
+    padding-top: 0.3em;
+    padding-right: 1em;
+    padding-bottom: 0.3em;
+    padding-left: 0.5em;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #E34234;
+    text-decoration: none;
+    vertical-align: baseline;
+    background-color: #303134;
+    border-width: 0;
+    border-radius: 4px;
+    margin: 0.3em 0.3em 0.3em 0em;
+}
+
 .btn:focus { text-decoration: none; outline: none; box-shadow: 0 0 0 1px rgb(227, 66, 52) !important; }
 .btn:focus:hover, .btn.selected:focus { box-shadow: 0 0 0 1px rgb(227, 66, 52) !important; }

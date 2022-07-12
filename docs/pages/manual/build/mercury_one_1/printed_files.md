@@ -137,6 +137,64 @@ For the file "**front_tension_plate_tapped_x2.stl**" you must tap threads into a
     </div>
 </div>
 
+# <i class="bi bi-gear"></i> EVA 2.4 Toolhead Configurator
+
+The configurator has been developed to generate a Zip file. The zip file will contain all the Stl files for your print head. The files you receive from our website are made by us to fit the Mercury 1.1 or by Paweł Kucmus of EVA. You can find more information about EVA on their website [https://2.eva-3d.page/](https://2.eva-3d.page/){:target="_blank"}.
+{: .fs-4 .fw-300 }
+
+
+<script src="../../../scripts/file-saver.js" type="module"></script>
+<script src="../../../scripts/configurator.js"></script>
+<script src="../../../scripts/jszip.min.js" type="module"></script>
+
+<div class="code-example" markdown="1">
+
+<form action="post">
+
+Hotend* 
+<select class="list_dark" name="hotend" id="hotend">
+    <option value="option0">Select</option>
+
+</select><br>
+
+Extruder* 
+<select class="list_dark" name="extruder" id="extruder">
+    <option value="option0">Select</option>
+
+</select><br>
+
+Probe* 
+<select class="list_dark" name="probe" id="probe">
+    <option value="option0">Select</option>
+
+</select><br>
+
+<div class="fs-3 fw-300">Select the backplate based on your prevered cable management.</div>
+
+
+Backplate* 
+<select class="list_dark" name="backplate" id="backplate">
+    <option value="option0">Select</option>
+
+</select><br>
+
+
+<p class="fs-3 fw-300">Double check your selected values before clicking the button below..</p>
+
+<button class="btn" onclick="zipAndDownload(getDocumentList(), '../../../assets/stl/eva2_4/');" type="submit"><i class="bi bi-cloud-arrow-down"></i> Get Files!</button>
+
+</form>
+
+<script>
+    window.addEventListener('load', function(event) {
+        loadDataSet();
+    });
+</script>
+
+</div>
+
+<i class="bi bi-chat-square-text"></i> Special thanks to @KaizenKody#9426 for helping us create this amazing configurator.
+{: .fs-3 .fw-300 }
 
 
 
