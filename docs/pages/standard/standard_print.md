@@ -14,7 +14,7 @@ We've designed our parts to work with the settings displayed below. Make sure to
 If you're not happy with the print quality, join our [Discord](https://discord.com/invite/gzJP2s8){:target="_blank"} and ask for some help.
 
 ### Recommended print settings
-* First layer height 0.24mm
+* First layer height 0.25mm (Yes, you have too... Our parts have been designed for this)
 * Layer height: 0.2mm
 * Extrusion width: 0.4mm, forced
 * Infill pecentage: 40%
