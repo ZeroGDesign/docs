@@ -27,7 +27,7 @@ var _partsList = {
         {id: "none", name: "None", dependencies: []}
     ],
     backplates: [
-        {id: "splitloom", name: "Splitloom", dependencies: ["EVA_M1-1_Backplate_SplitLoom.stl", "RearSplitloomArm_V1-1-0.stl"]},
+        {id: "splitloom", name: "Nylon Split loom", dependencies: ["EVA_M1-1_Backplate_SplitLoom.stl", "RearSplitloomArm_V1-1-0.stl"]},
         {id: "chain", name: "Generic Chain", dependencies: ["EVA_M1-1_Backplate_generic_chain.stl", "EVA_M1-1_generic_chain_holder.stl"]}
     ],
     generic: ["Belt_clamp_x2.stl", "EVA_M1-1_FrontPlate_HD_v0-1.stl", "EVA_M1-1_bottom_mgn12_short_duct.stl", "y_endstop.stl", "D2F-L_X_Limit_Stop_Block.stl"]
