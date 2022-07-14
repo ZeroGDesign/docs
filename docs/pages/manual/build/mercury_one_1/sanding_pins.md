@@ -6,6 +6,7 @@ has_toc: false
 parent: Mercury One.1 EVA
 grand_parent: Manual
 permalink: /manual/build/mercury_eva/sanding_dowel_pins
+img_instr_ls: ../../../assets/images/instructions/assemblyv/left_stepper
 ---
 
 # Sanding the dowel pins
@@ -41,11 +42,11 @@ For the sandpaper we recommend a grit anywhere from 120 to 400 grit.
 
 To sand your dowel pin, insert your pin into an electric drill **chuck**. Pinch the sandpaper between your fingers with the rough side around the pin. Don't pinch too tight as you don't want your fingers going through it the sandpaper. 
 
-<img class="roundcorners" src="../../../assets/images/instructions/assembly/left_stepper/sanding.jpg">
+<img class="roundcorners" src="{{page.img_instr_ls}}/sanding.jpg">
 
 After spinning the drill test fit your Flange bearing to see if it fits, if it doesn't continue this step.
 
-<img class="roundcorners" src="../../../assets/images/instructions/assembly/left_stepper/fit_drill.jpg">
+<img class="roundcorners" src="{{page.img_instr_ls}}/fit_drill.jpg">
 
 {: style="text-align: center" }
 <span class="fs-8">

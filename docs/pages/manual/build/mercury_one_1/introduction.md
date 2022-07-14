@@ -6,6 +6,7 @@ has_toc: false
 parent: Mercury One.1 EVA
 grand_parent: Manual
 permalink: /manual/build/mercury_eva/introduction
+img_tool: ../../../../assets/images/tools
 ---
 
 # 1. Introduction
@@ -30,18 +31,18 @@ Hovering an image with your mouse will show a zoom icon <i class="bi bi-zoom-in"
 ## Tools required
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Tool<br>Description| Soldering iron<br>Used for heat set inserts |     [![soldering iron](../../../../assets/images/tools/soldering_iron.png)](#lightbox__item_1){: .lightbox_wrapper} |
-| Tool<br>Description<br>Sizes| Hex Keys<br>Used to tighten and losen bolts<br>1.5mm, 2mm, 2.5mm, 3mm, 4mm , 5mm |     [![soldering iron](../../../../assets/images/tools/wera_hexkeys.png)](#lightbox__item_2){: .lightbox_wrapper} |
-| Tool <br>Description| Flush cutters<br>Used to cut the belts |     [![Flush cutters](../../../../assets/images/tools/flush_cutters.png)](#lightbox__item_3){: .lightbox_wrapper} |
-| Optional tool<br>Description<br>IMPORTANT| Cordless drill<br>Used to cut the belts<br>Your drill needs a chuck! |     [![soldering iron](../../../../assets/images/tools/drill.png)](#lightbox__item_4){: .lightbox_wrapper} |
-| Tool<br>Description| Sandpaper<br>Used for grind down dowel pins |     [![Sand paper](../../../../assets/images/tools/sandpaper.png)](#lightbox__item_5){: .lightbox_wrapper} |
+| Tool<br>Description| Soldering iron<br>Used for heat set inserts |     [![soldering iron]({{page.img_tool}}/soldering_iron.png)](#lightbox__item_1){: .lightbox_wrapper} |
+| Tool<br>Description<br>Sizes| Hex Keys<br>Used to tighten and losen bolts<br>1.5mm, 2mm, 2.5mm, 3mm, 4mm , 5mm |     [![soldering iron]({{page.img_tool}}/wera_hexkeys.png)](#lightbox__item_2){: .lightbox_wrapper} |
+| Tool <br>Description| Flush cutters<br>Used to cut the belts |     [![Flush cutters]({{page.img_tool}}/flush_cutters.png)](#lightbox__item_3){: .lightbox_wrapper} |
+| Optional tool<br>Description<br>IMPORTANT| Cordless drill<br>Used to cut the belts<br>Your drill needs a chuck! |     [![soldering iron]({{page.img_tool}}/drill.png)](#lightbox__item_4){: .lightbox_wrapper} |
+| Tool<br>Description| Sandpaper<br>Used for grind down dowel pins |     [![Sand paper]({{page.img_tool}}/sandpaper.png)](#lightbox__item_5){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 <div onclick="location.href='##';"  id="lightbox__item_1"  class="lightbox__item">
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
         <a href="##" class="close"></a>
-        <img src="../../../../assets/images/tools/soldering_iron.png" alt="Soldering iron">
+        <img src="{{page.img_tool}}/soldering_iron.png" alt="Soldering iron">
     </div>
 </div>
 
@@ -49,7 +50,7 @@ Hovering an image with your mouse will show a zoom icon <i class="bi bi-zoom-in"
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
         <a href="##" class="close"></a>
-        <img src="../../../../assets/images/tools/wera_hexkeys.png" alt="Hex keys">
+        <img src="{{page.img_tool}}/wera_hexkeys.png" alt="Hex keys">
     </div>
 </div>
 
@@ -57,7 +58,7 @@ Hovering an image with your mouse will show a zoom icon <i class="bi bi-zoom-in"
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
         <a href="##" class="close"></a>
-        <img src="../../../../assets/images/tools/flush_cutters.png" alt="Flush cutter">
+        <img src="{{page.img_tool}}/flush_cutters.png" alt="Flush cutter">
     </div>
 </div>
 
@@ -65,7 +66,7 @@ Hovering an image with your mouse will show a zoom icon <i class="bi bi-zoom-in"
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
         <a href="##" class="close"></a>
-        <img src="../../../../assets/images/tools/drill.png" alt="Corless drill">
+        <img src="{{page.img_tool}}/drill.png" alt="Corless drill">
     </div>
 </div>
 
@@ -73,7 +74,7 @@ Hovering an image with your mouse will show a zoom icon <i class="bi bi-zoom-in"
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
         <a href="##" class="close"></a>
-        <img src="../../../../assets/images/tools/sandpaper.png" alt="Sand paper">
+        <img src="{{page.img_tool}}/sandpaper.png" alt="Sand paper">
     </div>
 </div>
 

@@ -6,6 +6,8 @@ has_toc: false
 parent: Mercury One.1 EVA
 grand_parent: Manual
 permalink: /manual/build/mercury_eva/printed_files
+img_instr: ../../../assets/images/instructions
+js_path: ../../../scripts
 ---
 
 # Mercury One.1 EVA - Printing Files
@@ -37,8 +39,8 @@ Click on the image to enlarge.
 ### Left stepper mount
    
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Download| stepper_mount_bottom_right.stl<br>Top piece for left stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_top_left.stl)|     [![Left stepper top printed](../../../assets/images/instructions/printer_stepper_left_top.png)](#lightbox__item_1){: .lightbox_wrapper} |
-| File name<br>Description<br>Download| stepper_mount_bottom_left.stl<br>Bottom piece for left stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_bottom_left.stl)|     [![Left stepper bottom printed](../../../assets/images/instructions/printed_stepper_left_bottom.png)](#lightbox__item_2){: .lightbox_wrapper} |
+| File name<br>Description<br>Download| stepper_mount_bottom_right.stl<br>Top piece for left stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_top_left.stl)|     [![Left stepper top printed]({{page.img_instr}}/printer_stepper_left_top.png)](#lightbox__item_1){: .lightbox_wrapper} |
+| File name<br>Description<br>Download| stepper_mount_bottom_left.stl<br>Bottom piece for left stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_bottom_left.stl)|     [![Left stepper bottom printed]({{page.img_instr}}/printed_stepper_left_bottom.png)](#lightbox__item_2){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 
@@ -46,7 +48,7 @@ Click on the image to enlarge.
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
         <a href="##" class="close"></a>
-        <img src="../../../assets/images/instructions/printer_stepper_left_top.png" alt="Left stepper top printed">
+        <img src="{{page.img_instr}}/printer_stepper_left_top.png" alt="Left stepper top printed">
     </div>
 </div>
 
@@ -54,15 +56,15 @@ Click on the image to enlarge.
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
         <a href="##" class="close"></a>
-        <img src="../../../assets/images/instructions/printed_stepper_left_bottom.png" alt="Left stepper bottom printed">
+        <img src="{{page.img_instr}}/printed_stepper_left_bottom.png" alt="Left stepper bottom printed">
     </div>
 </div>
 
 ### Right stepper mount
    
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Download| stepper_mount_top_right.stl<br>Top piece for Right stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_top_right.stl)|     [![Left stepper top printed](../../../assets/images/instructions/printer_stepper_right_top.png)](#lightbox__item_3){: .lightbox_wrapper} |
-| File name<br>Description<br>Download| stepper_mount_bottom_right.stl<br>Bottom piece for Right stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_bottom_right.stl)|     [![Left stepper bottom printed](../../../assets/images/instructions/printed_stepper_right_bottom.png)](#lightbox__item_4){: .lightbox_wrapper} |
+| File name<br>Description<br>Download| stepper_mount_top_right.stl<br>Top piece for Right stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_top_right.stl)|     [![Left stepper top printed]({{page.img_instr}}/printer_stepper_right_top.png)](#lightbox__item_3){: .lightbox_wrapper} |
+| File name<br>Description<br>Download| stepper_mount_bottom_right.stl<br>Bottom piece for Right stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_bottom_right.stl)|     [![Left stepper bottom printed]({{page.img_instr}}/printed_stepper_right_bottom.png)](#lightbox__item_4){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 
@@ -70,7 +72,7 @@ Click on the image to enlarge.
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
         <a href="##" class="close"></a>
-        <img src="../../../assets/images/instructions/printer_stepper_right_top.png" alt="Right stepper top printed">
+        <img src="{{page.img_instr}}/printer_stepper_right_top.png" alt="Right stepper top printed">
     </div>
 </div>
 
@@ -78,7 +80,7 @@ Click on the image to enlarge.
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
         <a href="##" class="close"></a>
-        <img src="../../../assets/images/instructions/printed_stepper_right_bottom.png" alt="Right stepper bottom printed">
+        <img src="{{page.img_instr}}/printed_stepper_right_bottom.png" alt="Right stepper bottom printed">
     </div>
 </div>
 
@@ -87,8 +89,8 @@ Click on the image to enlarge.
 *Note: There is a small difference in these, you'll see the opening for the flange stack is offset differently.*
    
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Download| front_tower_left.stl<br>Used to tension belt - left side<br>[Here](../../../assets/stl/m1_1/front_tower_left.stl)|     [![left front tower](../../../assets/images/instructions/front_left_tension_tower.png)](#lightbox__item_5){: .lightbox_wrapper} |
-| File name<br>Description<br>Download| front_tower_right.stl<br>Used to tension belt - right side<br>[Here](../../../assets/stl/m1_1/front_tower_right.stl)|     [![right front tower](../../../assets/images/instructions/front_right_tension_tower.png)](#lightbox__item_6){: .lightbox_wrapper} |
+| File name<br>Description<br>Download| front_tower_left.stl<br>Used to tension belt - left side<br>[Here](../../../assets/stl/m1_1/front_tower_left.stl)|     [![left front tower]({{page.img_instr}}/front_left_tension_tower.png)](#lightbox__item_5){: .lightbox_wrapper} |
+| File name<br>Description<br>Download| front_tower_right.stl<br>Used to tension belt - right side<br>[Here](../../../assets/stl/m1_1/front_tower_right.stl)|     [![right front tower]({{page.img_instr}}/front_right_tension_tower.png)](#lightbox__item_6){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 
@@ -96,7 +98,7 @@ Click on the image to enlarge.
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
         <a href="##" class="close"></a>
-        <img src="../../../assets/images/instructions/front_left_tension_tower.png" alt="Left tension tower">
+        <img src="{{page.img_instr}}/front_left_tension_tower.png" alt="Left tension tower">
     </div>
 </div>
 
@@ -104,7 +106,7 @@ Click on the image to enlarge.
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
         <a href="##" class="close"></a>
-        <img src="../../../assets/images/instructions/front_right_tension_tower.png" alt="Right tension tower">
+        <img src="{{page.img_instr}}/front_right_tension_tower.png" alt="Right tension tower">
     </div>
 </div>
 
@@ -116,8 +118,8 @@ Click on the image to enlarge.
 For the file "**front_tension_plate_tapped_x2.stl**" you must tap threads into an extrusion (found in the docs) before you can use this.<br>The other file "**front_tension_plate_t-nut_x2.stl**" uses two m5 bolts that connect to T-nuts, if you're not comfortable tapping holes use "**front_tension_plate_t-nut_x2.stl**" instead.
    
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Amount<br>Download| front_tension_plate_tapped_x2.stl<br>Pulls on tension tower to tension belt<br>x2<br>[Here](../../../assets/stl/m1_1/front_tension_plate_tapped_x2.stl)|     [![left front tension plate tapped](../../../assets/images/instructions/tension_plate_tapped.png)](#lightbox__item_7){: .lightbox_wrapper} |
-| File name<br>Description<br>Amount<br>Download| front_tension_plate_t-nut_x2<br>Used to tension belt - right side<br>x2<br>[Here](../../../assets/stl/m1_1/front_tension_plate_t-nut_x2.stl)|     [![left front tension plate tapped](../../../assets/images/instructions/tension_plate_t-nut.png)](#lightbox__item_8){: .lightbox_wrapper} |
+| File name<br>Description<br>Amount<br>Download| front_tension_plate_tapped_x2.stl<br>Pulls on tension tower to tension belt<br>x2<br>[Here](../../../assets/stl/m1_1/front_tension_plate_tapped_x2.stl)|     [![left front tension plate tapped]({{page.img_instr}}/tension_plate_tapped.png)](#lightbox__item_7){: .lightbox_wrapper} |
+| File name<br>Description<br>Amount<br>Download| front_tension_plate_t-nut_x2<br>Used to tension belt - right side<br>x2<br>[Here](../../../assets/stl/m1_1/front_tension_plate_t-nut_x2.stl)|     [![left front tension plate tapped]({{page.img_instr}}/tension_plate_t-nut.png)](#lightbox__item_8){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 
@@ -125,7 +127,7 @@ For the file "**front_tension_plate_tapped_x2.stl**" you must tap threads into a
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
         <a href="##" class="close"></a>
-        <img src="../../../assets/images/instructions/tension_plate_tapped.png" alt="Left tension tower">
+        <img src="{{page.img_instr}}/tension_plate_tapped.png" alt="Left tension tower">
     </div>
 </div>
 
@@ -133,7 +135,7 @@ For the file "**front_tension_plate_tapped_x2.stl**" you must tap threads into a
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
         <a href="##" class="close"></a>
-        <img src="../../../assets/images/instructions/tension_plate_t-nut.png" alt="Right tension tower">
+        <img src="{{page.img_instr}}/tension_plate_t-nut.png" alt="Right tension tower">
     </div>
 </div>
 
@@ -143,9 +145,9 @@ The configurator has been developed to generate a Zip file. The zip file will co
 {: .fs-4 .fw-300 }
 
 
-<script src="../../../scripts/file-saver.js" type="module"></script>
-<script src="../../../scripts/configurator.js"></script>
-<script src="../../../scripts/jszip.min.js" type="module"></script>
+<script src="{{page.js_path}}/file-saver.js" type="module"></script>
+<script src="{{page.js_path}}/configurator.js"></script>
+<script src="{{page.js_path}}/jszip.min.js" type="module"></script>
 
 <div class="code-example" markdown="1">
 
