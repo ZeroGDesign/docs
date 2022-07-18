@@ -9,7 +9,7 @@ permalink: /klipper/calculator
 ---
 
 
-# Calculating anything Klipper
+# <i class="bi bi-calculator"></i> Calculating anything Klipper
 {: .no_toc }
 
 These calculators will help you tune your machine.
