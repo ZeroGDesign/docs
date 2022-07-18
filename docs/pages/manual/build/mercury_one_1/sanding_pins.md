@@ -6,7 +6,7 @@ has_toc: false
 parent: Mercury One.1 EVA
 grand_parent: Manual
 permalink: /manual/build/mercury_eva/sanding_dowel_pins
-img_instr_ls: ../../../assets/images/instructions/assemblyv/left_stepper
+img_instr_ls: ../../../assets/images/instructions/assembly/left_stepper
 ---
 
 # Sanding the dowel pins
