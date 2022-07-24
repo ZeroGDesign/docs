@@ -128,7 +128,7 @@ code {
         min-width: inherit;
         max-width: inherit;
         white-space: nowrap;
-        font-weight: bold   ;
+        font-weight: bold;
     }
 }
 
@@ -149,16 +149,17 @@ code {
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: scale(0, 0);
-    transform-origin: center;
-    transition: transform ease-in-out 200ms;
-    cursor: zoom-out;
+    transition: opacity 200ms ease-in-out;
+    backdrop-filter: blur(2px);
+    visibility: hidden;
+    opacity: 0;
     z-index: 9999;
+    cursor: zoom-out;
 }
 
 .lightbox__item:target {
-    transform: scale(1, 1);
-    transform-origin: center;
+    visibility: visible;
+    opacity: 1;
 }
 
 .lightbox__content {
