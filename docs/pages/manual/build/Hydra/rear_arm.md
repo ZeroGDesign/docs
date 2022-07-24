@@ -81,7 +81,7 @@ Hardware required:
 
 | :-------------------------: | :------------------------------------------------------------------------------- | |
 | Type:<br>Amount: | Heatset insert<br>12       |     ![heatset insert](../../../assets/images/instructions/m3_heat_insert.png) |
-
+{: class="hardwaretable"}
 
 #### Inserting heat inserts for bottom
 
@@ -148,7 +148,7 @@ Hardware required:
 | :-------------------------: | :------------------------------------------------------------------------------- | |
 | Type:<br>Amount: | MGN9C 100mm<br>1       |     ![MGN9C](../../../assets/images/instructions/mgn9c_100mm.png) |
 | Type:<br>Amount: | M3X8mm bolt<br>5       |     ![m3x8mm](../../../assets/images/instructions/m3x8.png) |
-
+{: class="hardwaretable"}
 
 Grab the rear arm and align the MGN9C rail into the top as shown in the image below.
 
@@ -213,6 +213,7 @@ Hardware required:
 
 | :-------------------------: | :------------------------------------------------------------------------------- | |
 | Type:<br>Amount: | Heatset insert<br>1       |     ![heatset insert](../../../assets/images/instructions/m3_heat_insert.png) |
+{: class="hardwaretable"}
 
 #### Inserting the heatset insert
 
@@ -236,6 +237,7 @@ Hardware required:
 | Type:<br>Amount: | Heatset insert<br>10                           |     ![heatset insert](../../../assets/images/instructions/m3_heat_insert.png) |
 | Type:<br>Amount: | 10mm Kossel ball<br>1                           |     ![10mm Kossel ball](../../../assets/images/instructions/10mm_kossel_ball.png) |
 | Type:<br>Amount: | 12x5x4 countersunk magnet<br>1     | ![12x5x4 countersunk magnet](../../../assets/images/instructions/12x5x4mm_cs_magnet.png) |
+{: class="hardwaretable"}
 
 We've been working on the rear arm and mini tank. It's time to install the Mini tank onto the carriage. Grab the rear arm and mini tank you've prepared in the steps above.
 
@@ -311,6 +313,7 @@ This system is used to prevent the kossel ball from spinning when installing and
 Hardware required:
 
 | Type:<br>Amount: | m3x10mm<br>1                            |     ![m3x10](../../../assets/images/instructions/m3x10.png) |
+{: class="hardwaretable"}
 
 {: .warn}
 When you've installed everything, you need to make sure the M3x10mm bolts are lose. Locking them into place will stop your Z-system from trimming correctly and might actually damage parts.

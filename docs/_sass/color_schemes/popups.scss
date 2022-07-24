@@ -1,0 +1,103 @@
+.storebox__item {
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 250ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+
+    &:target {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .background_close {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        z-index: -1;
+        cursor: pointer;
+    }
+
+    .close {
+        position: absolute;
+        background: #c42b1c;
+        top: 0em;
+        right: 0em;
+        border-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1.75em;
+        width: 2.8em;
+        border-top-right-radius: 7px;
+
+        &::after {
+            content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='white' class='bi bi-x-lg' viewBox='0 0 14 14'%3E%3Cpath d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z'/%3E%3C/svg%3E");
+            margin: {
+                top: 0px;
+                right: 2px;
+            }
+        }
+    }
+
+    .content {
+        max-height: 90vh;
+        max-width: 90vw;
+        background: #191919fa;
+        border-radius: 9px;
+        filter: drop-shadow(1mm 1mm 3mm #0000005d);
+        border: solid #4b4c4e 6px;
+        border-width: 1px;
+        text-align: center;
+        margin: auto;
+        position: relative;
+
+        .titlebar {
+            height: 1.8em;
+            width: 100%;
+            font-weight: 300;
+            text-align: left;
+            padding-top: 1px;
+            padding-left: 10px;
+            margin-right: 5em;
+            position: relative;
+
+            &::after {
+                color: #bdc1c6;
+                font-weight: 200;
+                z-index: -1;
+            }
+        }
+    }
+
+    table {
+        th,
+        td {
+            border-style: hidden !important;
+            font-weight: 200;
+            background: none;
+        }
+
+        td {
+            border-top: 1px solid #2b2b2b !important;
+            background: none;
+
+            &:nth-child(2) {
+                text-align: left;
+
+                a {
+                    background-image: none !important;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

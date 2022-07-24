@@ -1,9 +1,9 @@
 <div id="m3x6_7991"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">M3x6 bolt</div>
-        <a href="##" class="storebox_close"></a>
-        <table class="store_table" cellspacing="0">
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">M3x6 bolt</div>
+        <a href="##" class="close"></a>
+        <table cellspacing="0">
             <tr>
                 <th>Region</th>
                 <th>URL</th>
@@ -25,10 +25,10 @@
 </div>
 
 <div id="m5x8_7380"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">M5x8 bolt</div>
-        <a href="##" class="storebox_close"></a>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">M5x8 bolt</div>
+        <a href="##" class="close"></a>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -51,10 +51,10 @@
 </div>
 
 <div id="m3x8_912"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">M3x8 bolt</div>
-        <a href="##" class="storebox_close"></a>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">M3x8 bolt</div>
+        <a href="##" class="close"></a>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -77,10 +77,10 @@
 </div>
 
 <div id="m5x10_912"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">M5x10 bolt</div>
-        <a href="##" class="storebox_close"></a>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">M5x10 bolt</div>
+        <a href="##" class="close"></a>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -103,10 +103,10 @@
 </div>
 
 <div id="m3x10_912"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">M3x10 bolt</div>
-        <a href="##" class="storebox_close"></a>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">M3x10 bolt</div>
+        <a href="##" class="close"></a>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -129,10 +129,10 @@
 </div>
 
 <div id="m4x16_912"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">M4x16 bolt</div>
-        <a href="##" class="storebox_close"></a>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">M4x16 bolt</div>
+        <a href="##" class="close"></a>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -155,9 +155,9 @@
 </div>
 
 <div id="m3_rollin_tnut"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">M3 Roll in T-Nuts <a href="##" class="storebox_close"></a></div>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">M3 Roll in T-Nuts <a href="##" class="close"></a></div>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -196,9 +196,9 @@
 </div>
 
 <div id="m5_rollin_tnut"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">M5 Roll in T-Nuts <a href="##" class="storebox_close"></a></div>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">M5 Roll in T-Nuts <a href="##" class="close"></a></div>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -233,9 +233,9 @@
 </div>
 
 <div id="extrusion_2020"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">2020 Extrusion <a href="##" class="storebox_close"></a></div>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">2020 Extrusion <a href="##" class="close"></a></div>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -254,9 +254,9 @@
 </div>
 
 <div id="MGN9C100MM"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">MGN9C 100mm <a href="##" class="storebox_close"></a></div>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">MGN9C 100mm <a href="##" class="close"></a></div>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -275,9 +275,9 @@
 </div>
 
 <div id="MGN12400MM"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">MGN12C / MGN12H 400mm <a href="##" class="storebox_close"></a></div>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">MGN12C / MGN12H 400mm <a href="##" class="close"></a></div>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -300,9 +300,9 @@
 </div>
 
 <div id="MGN12500MM"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">MGN12C / MGN12H 500mm <a href="##" class="storebox_close"></a></div>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">MGN12C / MGN12H 500mm <a href="##" class="close"></a></div>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -321,9 +321,9 @@
 </div>
 
 <div id="TR8_Leadscrew"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">TR8 Leadscrew<a href="##" class="storebox_close"></a></div>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">TR8 Leadscrew<a href="##" class="close"></a></div>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -338,9 +338,9 @@
 </div>
 
 <div id="12x5_cs_magnet"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">Countersunk Ring Magnet<a href="##" class="storebox_close"></a></div>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">Countersunk Ring Magnet<a href="##" class="close"></a></div>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -363,9 +363,9 @@
 </div>
 
 <div id="bed_heater"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">Bed heater<a href="##" class="storebox_close"></a></div>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">Bed heater<a href="##" class="close"></a></div>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -380,9 +380,9 @@
 </div>
 
 <div id="hydra_bed"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">Aluminum bed<a href="##" class="storebox_close"></a></div>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">Aluminum bed<a href="##" class="close"></a></div>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -397,9 +397,9 @@
 </div>
 
 <div id="ssr"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">Solid State Relay<a href="##" class="storebox_close"></a></div>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">Solid State Relay<a href="##" class="close"></a></div>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -422,9 +422,9 @@
 </div>
 
 <div id="2020_corner_bracket"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">2020 corner brackets<a href="##" class="storebox_close"></a></div>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">2020 corner brackets<a href="##" class="close"></a></div>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -443,9 +443,9 @@
 </div>
 
 <div id="heatset_insert"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">Heatset insert<a href="##" class="storebox_close"></a></div>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">Heatset insert<a href="##" class="close"></a></div>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -468,9 +468,9 @@
 </div>
 
 <div id="plain_m3_washer"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">Normal grade A M3 Stainless Steel <a href="##" class="storebox_close"></a></div>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">Normal grade A M3 Stainless Steel <a href="##" class="close"></a></div>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -493,9 +493,9 @@
 </div>
 
 <div id="8mm_spacers"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">8MM spacer<a href="##" class="storebox_close"></a></div>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">8MM spacer<a href="##" class="close"></a></div>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -514,9 +514,9 @@
 </div>
 
 <div id="m4_kossel_balls"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">10mm M4 Kossel ball <a href="##" class="storebox_close"></a></div>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">10mm M4 Kossel ball <a href="##" class="close"></a></div>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -539,9 +539,9 @@
 </div>
 
 <div id="10x11_drag_chain"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">Drag chain <a href="##" class="storebox_close"></a></div>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">Drag chain <a href="##" class="close"></a></div>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -556,9 +556,9 @@
 </div>
 
 <div id="nema17_zaxis"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">Nema17 Stepper motor <a href="##" class="storebox_close"></a></div>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">Nema17 Stepper motor <a href="##" class="close"></a></div>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
@@ -577,9 +577,9 @@
 </div>
 
 <div id="stepper_coupler"  class="storebox__item">
-<div onclick="location.href='##';" class="storebox_clickclose"></div>
-    <div class="storebox__content">
-    <div class="storebox__titlebar">Z-Axis shaft coupling <a href="##" class="storebox_close"></a></div>
+<div onclick="location.href='##';" class="background_close"></div>
+    <div class="content">
+    <div class="titlebar">Z-Axis shaft coupling <a href="##" class="close"></a></div>
         <table class="store_table" cellspacing="0">
             <tr>
                 <th>Region</th>
