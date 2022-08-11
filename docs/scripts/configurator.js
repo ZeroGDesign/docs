@@ -31,7 +31,7 @@ var _partsList = {
         { id: "tapped", name: "Tapped", dependencies: ["front_tension_plate_tapped_1.stl", "front_tension_plate_tapped_2.stl"] }
     ],
     tidlers: [
-        { id: "genericidler", name: "Generic Tooth idlers", dependencies: ["tIdlerSpacer_short_1.stl", "tIdlerSpacer_short_2.stl", "tIdlerSpacer_tall_2.stl", "tIdlerSpacer_tall_1.stl"] },
+        { id: "standardidler", name: "Standard Tooth idlers", dependencies: ["tIdlerSpacer_short_1.stl", "tIdlerSpacer_short_2.stl", "tIdlerSpacer_tall_2.stl", "tIdlerSpacer_tall_1.stl"] },
         { id: "mellow", name: "Mellow Tooth Idlers", dependencies: ["MellowSpacer_short_1.stl", "MellowSpacer_short_2.stl", "MellowSpacer_tall_1.stl", "MellowSpacer_tall_2.stl"] }
     ],
     zadapters: [

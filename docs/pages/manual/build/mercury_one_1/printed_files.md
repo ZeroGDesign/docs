@@ -235,8 +235,8 @@ Based on the toothed idler you've bought, you either print the generic spacers o
 For the file "**front_tension_plate_tapped_x2.stl**" you must tap threads into an extrusion (found in the docs) before you can use this.<br>The other file "**front_tension_plate_t-nut_x2.stl**" uses two m5 bolts that connect to T-nuts, if you're not comfortable tapping holes use "**front_tension_plate_t-nut_x2.stl**" instead.
    
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Amount<br>Download| front_tension_plate_tapped_x2.stl<br>Pulls on tension tower to tension belt<br>x2<br>[Here](../../../assets/stl/m1_1/front_tension_plate_tapped_1)|     [![left front tension plate tapped]({{page.img_instr}}/tension_plate_tapped.png)](#lightbox__item_7){: .lightbox_wrapper} |
-| File name<br>Description<br>Amount<br>Download| front_tension_plate_t-nut_x2<br>Used to tension belt - right side<br>x2<br>[Here](../../../assets/stl/m1_1/front_tension_plate_t-nut_1.stl)|     [![left front tension plate tapped]({{page.img_instr}}/tension_plate_t-nut.png)](#lightbox__item_8){: .lightbox_wrapper} |
+| File name<br>Description<br>Amount<br>Download| front_tension_plate_tapped_2.stl<br>Pulls on tension tower to tension belt<br>x2<br>[Here](../../../assets/stl/m1_1/front_tension_plate_tapped_2.stl)|     [![left front tension plate tapped]({{page.img_instr}}/tension_plate_tapped.png)](#lightbox__item_7){: .lightbox_wrapper} |
+| File name<br>Description<br>Amount<br>Download| front_tension_plate_t-nut_2.stl<br>Used to tension belt - right side<br>x2<br>[Here](../../../assets/stl/m1_1/front_tension_plate_t-nut_2.stl)|     [![left front tension plate tapped]({{page.img_instr}}/tension_plate_t-nut.png)](#lightbox__item_8){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 

@@ -11,6 +11,8 @@ search_enabled: true
 aux_links:
   "GitHub":
     - "//github.com/ZeroGDesign/Mercury"
+  "Ko-Fi":
+    - "https://ko-fi.com/zerog"
 aux_links_new_tab: true
 
 defaults:
