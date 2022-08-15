@@ -23,4 +23,4 @@ An awesome user from the [Voron](https://vorondesign.com){:target="_blank"} comm
 
 Click [here](https://www.youtube.com/watch?v=XZgt3Ijno78&list=PL7zrGeKp_8CTrnUhxSyeRiCQqPpAbienf&index=4){:target="_blank"} for the playlist
 
-[Recommended print settings click here](/docs/standard/print/settings){: .btn .btn-red }
+[Recommended print settings click here](/standard/print/settings){: .btn .btn-red }
