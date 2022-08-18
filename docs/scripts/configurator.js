@@ -5,7 +5,7 @@ var _partsList = {
     hotends: [
         { id: "sliceworks_mosquito", name: "Mosquito", dependencies: ["mosquito_face.stl", "mosquito_support.stl", "EVA2_4_Trihorn_high-wide.stl"] },
         { id: "sliceworks_copperhead", name: "Copperhead", dependencies: ["copperhead_face.stl", "copperhead_support_a.stl", "copperhead_support_b.stl", "EVA2_4_Trihorn_high-wide.stl"] },
-        { id: "rapido", name: "Rapido HF", dependencies: ["face_rapido.stl"] },
+        { id: "rapido", name: "Rapido HF", dependencies: ["face_rapido.stl", "EVA2_4_Trihorn_high-narrow.stl"] },
         { id: "dragon_red_lizard", name: "Dragon HF / Red Lizard", dependencies: ["dragon_face.stl", "v6_support.stl", "EVA2_4_Trihorn_high-narrow.stl"] },
         { id: "dragonfly_bmo", name: "DragonFly BMO", dependencies: ["bmo_face.stl", "bmo_support.stl", "EVA2_4_Trihorn_high-narrow.stl"] },
         { id: "e3d_v6", name: "E3D V6", dependencies: ["v6_face.stl", "v6_face_clamp.stl", "v6_support.stl", "EVA2_4_Trihorn_high-narrow.stl"] }
