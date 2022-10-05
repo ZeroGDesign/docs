@@ -15,6 +15,18 @@ permalink: /manual/build/hydra/bill_of_material
 
 The tables contain a column named `Stores` Click the [red text](#) underneath to reveal a pop-up with a list of stores. Stores that contain a checkmark <i class="bi bi-check-all"></i> have been verified and tested by either an Engineer or a trusted community member.
 
+
+## Kits
+
+We **do not** own the kits. We're **not responsible** for these kits. **Make sure to check the included hardware**. These kits might not contain all the hardware needed.
+
+### All kits
+
+| Type                   |            Stores            |
+|:-----------------------|:----------------------------:|
+| <nobr>Hydra kit</nobr> | [Click here](#hydra_kits) |
+{: class="transparant_table"}
+
 ## Self sourcing
 
 ### Bolts
