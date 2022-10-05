@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 3. Empty Frame
-nav_order: 2
+title: 4. Empty Frame
+nav_order: 40
 has_toc: true
 parent: Mercury One.1 EVA
 grand_parent: Manual

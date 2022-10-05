@@ -37,9 +37,9 @@ These files are in **beta**! You may be throwing parts away. We’re constantly 
 ### Bed supporting arms
    
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Version<br>Download | left_arm.stl<br>Front left support arm for print bed<br>1.001<br>[Here](../../../assets/stl/hydra/left_arm.stl)|     [![Left front arm](../../../assets/images/instructions/hydra/left_front_arm.png)](#lightbox__item_1){: .lightbox_wrapper} 
-| File name<br>Description<br>Version<br>Download | right_arm.stl<br>Front right support arm for print bed<br>1.001<br>[Here](../../../assets/stl/hydra/right_arm.stl)|     [![right front arm](../../../assets/images/instructions/hydra/right_front_arm.png)](#lightbox__item_2){: .lightbox_wrapper} 
-| File name<br>Description<br>Version<br>Download | rear_arm.stl<br>Rear support arm for print bed<br>1.001<br>[Here](../../../assets/stl/hydra/rear_arm.stl)|     [![rear arm](../../../assets/images/instructions/hydra/rear_arm.png)](#lightbox__item_3){: .lightbox_wrapper} |
+| File name<br>Description<br>Version<br>Download | a_left_arm.stl<br>Front left support arm for print bed<br>1.001<br>[Here](../../../assets/stl/hydra/a_left_arm.stl)|     [![Left front arm](../../../assets/images/instructions/hydra/left_front_arm.png)](#lightbox__item_1){: .lightbox_wrapper} 
+| File name<br>Description<br>Version<br>Download | a_right_arm.stl<br>Front right support arm for print bed<br>1.001<br>[Here](../../../assets/stl/hydra/a_right_arm.stl)|     [![right front arm](../../../assets/images/instructions/hydra/right_front_arm.png)](#lightbox__item_2){: .lightbox_wrapper} 
+| File name<br>Description<br>Version<br>Download | a_rear_arm.stl<br>Rear support arm for print bed<br>1.001<br>[Here](../../../assets/stl/hydra/a_rear_arm.stl)|     [![rear arm](../../../assets/images/instructions/hydra/rear_arm.png)](#lightbox__item_3){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 <div onclick="location.href='##';"  id="lightbox__item_1"  class="lightbox__item">
@@ -108,9 +108,9 @@ These files are in **beta**! You may be throwing parts away. We’re constantly 
 Download the mini tank files for the 12x3mm, 12x4mm, or 12x5mm magnet. **You don’t need all types.**
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Magnet<br><br>Amount<br>Version<br>Download | MGN9C_12x3Mag.stl<br>Connects the bed to the rail carriage<br>12x3mm - 4 ID Neodymium<br>Countersunk Ring Magnet<br>3<br>1.001<br>[Here](../../../assets/stl/hydra/MGN9C_12x3Mag.stl)| [![Smoll tank](../../../assets/images/instructions/hydra/mini_tank.png)](#lightbox__item_4){: .lightbox_wrapper} |
-| File name<br>Description<br>Magnet<br><br>Amount<br>Version<br>Download | MGN9C_12x4Mag.stl<br>Connects the bed to the rail carriage<br>12x4mm - 4 ID Neodymium<br>Countersunk Ring Magnet<br>3<br>1.001<br>[Here](../../../assets/stl/hydra/MGN9C_12x4Mag.stl)| [![Smoll tank](../../../assets/images/instructions/hydra/mini_tank.png)](#lightbox__item_4){: .lightbox_wrapper} |
-| File name<br>Description<br>Magnet<br><br>Amount<br>Version<br>Download | MGN9C_12x5Mag.stl<br>Connects the bed to the rail carriage<br>12x5mm - 4 ID Neodymium<br>Countersunk Ring Magnet<br>3<br>1.001<br>[Here](../../../assets/stl/hydra/MGN9C_12x5Mag.stl)| [![Smoll tank](../../../assets/images/instructions/hydra/mini_tank.png)](#lightbox__item_4){: .lightbox_wrapper} |
+| File name<br>Description<br>Magnet<br><br>Amount<br>Version<br>Download | a_MGN9C_12x3Mag.stl<br>Connects the bed to the rail carriage<br>12x3mm - 4 ID Neodymium<br>Countersunk Ring Magnet<br>3<br>1.001<br>[Here](../../../assets/stl/hydra/a_MGN9C_12x3Mag.stl)| [![Smoll tank](../../../assets/images/instructions/hydra/mini_tank.png)](#lightbox__item_4){: .lightbox_wrapper} |
+| File name<br>Description<br>Magnet<br><br>Amount<br>Version<br>Download | a_MGN9C_12x4Mag.stl<br>Connects the bed to the rail carriage<br>12x4mm - 4 ID Neodymium<br>Countersunk Ring Magnet<br>3<br>1.001<br>[Here](../../../assets/stl/hydra/a_MGN9C_12x4Mag.stl)| [![Smoll tank](../../../assets/images/instructions/hydra/mini_tank.png)](#lightbox__item_4){: .lightbox_wrapper} |
+| File name<br>Description<br>Magnet<br><br>Amount<br>Version<br>Download | a_MGN9C_12x5Mag.stl<br>Connects the bed to the rail carriage<br>12x5mm - 4 ID Neodymium<br>Countersunk Ring Magnet<br>3<br>1.001<br>[Here](../../../assets/stl/hydra/a_MGN9C_12x5Mag.stl)| [![Smoll tank](../../../assets/images/instructions/hydra/mini_tank.png)](#lightbox__item_4){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 <div onclick="location.href='##';"  id="lightbox__item_4"  class="lightbox__item">

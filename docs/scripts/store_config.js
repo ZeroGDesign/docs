@@ -1,122 +1,171 @@
 //This file will aid in building the configurator.
 // Written by #KaizenKody#9426
 
-var _hardwareList = {
-    bolt :[{
-        partname: "m3x6", image: "urltoimage",
-        type: [{din: "7991", iso: "10642"}],
-        store: [{region: "CN", name: "AliExpress - Nindejin",   url: "https://s.click.aliexpress.com/e/_AEXIMh",                    verified: true},
-                {region: "US", name: "Boltdepot",               url: "https://www.boltdepot.com/Product-Details.aspx?product=7212", verified: true},
-                {region: "US", name: "Boltsplus",               url: "https://boltsplus.ca/productInfo.php?prodID=4103-0001",       verified: true},
-            ],
 
-        partname: "m5x8", image: "urltoimage",
-        type: [{din: "7380", iso: "7380"}],
-        store: [{region: "CN", name: "AliExpress - Nindejin",   url: "https://s.click.aliexpress.com/e/_A19eD7",                    verified: true},
-                {region: "US", name: "Boltdepot",               url: "https://www.boltdepot.com/Product-Details.aspx?product=6631", verified: true},
-                {region: "US", name: "Boltsplus",               url: "https://boltsplus.ca/productInfo.php?prodID=4104-0049",       verified: true},
-            ],
-    }],
-}
+// var _hardwareList = {
+//     bolt: [
+//         // M3 BOLTS 
+//         {
+//             partname: "m3x6", image: "urltoimage", identifier: "m3x6_7991",
+//             type: { din: "7991", iso: "10642", description: "FHCS" },
+//             source: [{ region: "CN", name: "AliExpress - Nindejin", url: "https://s.click.aliexpress.com/e/_AEXIMh", verified: true },
+//             { region: "US", name: "Boltdepot", url: "https://www.boltdepot.com/Product-Details.aspx?product=7212", verified: true },
+//             { region: "CA", name: "Boltsplus", url: "https://boltsplus.ca/productInfo.php?prodID=4103-0001", verified: true },
+//             ]
+//         },
+//         {
+//             partname: "m3x8", image: "urltoimage", identifier: "m3x8_912",
+//             type: { din: "912", iso: "4762 ", description: "SHCS" },
+//             source: [{ region: "CN", name: "AliExpress - Nindejin", url: "https://s.click.aliexpress.com/e/_9yeIIO", verified: true },
+//             { region: "US", name: "Boltdepot", url: "https://www.boltdepot.com/Product-Details.aspx?product=6379", verified: true },
+//             { region: "CA", name: "Boltsplus", url: "https://boltsplus.ca/productInfo.php?prodID=4101-0037", verified: true },
+//             ]
+//         },
+//         {
+//             partname: "m3x10", image: "urltoimage", identifier: "m3x10_912",
+//             type: { din: "912", iso: "4762 ", description: "SHCS" },
+//             source: [{ region: "CN", name: "AliExpress - Nindejin", url: "https://s.click.aliexpress.com/e/_9yeIIO", verified: true },
+//             { region: "US", name: "Boltdepot", url: "https://www.boltdepot.com/Product-Details.aspx?product=6380", verified: true },
+//             { region: "CA", name: "Boltsplus", url: "https://boltsplus.ca/productInfo.php?prodID=4101-0040", verified: true },
+//             ]
+//         },
+//         // END M3 BOLTS
 
+//         // M4 BOLTS
+//         {
+//             partname: "m4x16", image: "urltoimage", identifier: "m4x16_912",
+//             type: { din: "912", iso: "4762 ", description: "SHCS" },
+//             source: [{ region: "CN", name: "AliExpress - Nindejin", url: "https://s.click.aliexpress.com/e/_9yeIIO", verified: true },
+//             { region: "US", name: "Boltdepot", url: "https://www.boltdepot.com/Product-Details.aspx?product=6396", verified: true },
+//             { region: "CA", name: "Boltsplus", url: "https://boltsplus.ca/productInfo.php?prodID=4101-0088", verified: true },
+//             ]
+//         },
 
-var getDocumentList = () => {
-    //stop the page from changing.
-    event.preventDefault();
-    //Get selections
-    var hotendSelected = document.getElementById('hotend');
-    var extruderSelected = document.getElementById('extruder');
-    var probeSelected = document.getElementById('probe');
-    var backplateSelected = document.getElementById('backplate');
+//         // END M4 BOLTS
 
-    //Aggregate the files
-    var fileList = [];
+//         // M5 BOLTS 
+//         {
+//             partname: "m5x8", image: "urltoimage", identifier: "m5x8_7380",
+//             type: { din: "7380", iso: "7380", description: "BHCS" },
+//             source: [{ region: "CN", name: "AliExpress - Nindejin", url: "https://s.click.aliexpress.com/e/_A19eD7", verified: true },
+//             { region: "US", name: "Boltdepot", url: "https://www.boltdepot.com/Product-Details.aspx?product=6631", verified: true },
+//             { region: "CA", name: "Boltsplus", url: "https://boltsplus.ca/productInfo.php?prodID=4104-0049", verified: true },
+//             ]
+//         },
+//         {
+//             partname: "m5x10", image: "urltoimage", identifier: "m5x10_912",
+//             type: { din: "912", iso: "4762 ", description: "SHCS" },
+//             source: [{ region: "CN", name: "AliExpress - Nindejin", url: "https://s.click.aliexpress.com/e/_9yeIIO", verified: true },
+//             { region: "US", name: "Boltdepot", url: "https://www.boltdepot.com/Product-Details.aspx?product=6407", verified: true },
+//             { region: "CA", name: "Boltsplus", url: "https://boltsplus.ca/productInfo.php?prodID=4101-0127", verified: true },
+//             ]
+//         },
+//         // END M5 BOLTS
 
-    //Add generic files
-    fileList = fileList.concat(_partsList.generic)
+//     ],
+//     nuts: [
+//         // T-NUTS BOLTS 
+//         {
+//             partname: "M3 T-nut", image: "urltoimage", identifier: "m3_rollin_tnut",
+//             type: { description: "M3 Roll in T-Nuts" },
+//             source: [{ region: "CN", name: "Aliexpress - Link CNC", url: "https://s.click.aliexpress.com/e/_9JpX52", verified: true },
+//             { region: "DE", name: "Dold Mechatronik", url: "https://www.dold-mechatronik.de/Nutenstein-137x7mm-einschwenkbar-Nut-8-M8-l22mm-Federkugel-Edelstahl-14301-14305", verified: false },
+//             { region: "GB", name: "Printyplease", url: "https://www.printyplease.uk/M3TNUT", verified: false },
+//             { region: "US", name: "Deepfriedhero", url: "https://deepfriedhero.in/products/roll-in-spring-nuts?variant=39612700393641", verified: false },
+//             { region: "US", name: "KB-3D", url: "https://kb-3d.com/store/extrusion-framing/365-t-nut-drop-in-roll-in-40-series-8mm-slot-width-m3-threads.html", verified: false },
+//             { region: "CA", name: "Sparta3D", url: "https://sparta3d.ca/products/3d-sidekick-roll-in-t-nuts-tnuts-tnuts-t-nuts?_pos=3&_sid=916827c77&_ss=r", verified: false },
+//             { region: "CA", name: "Spool3D", url: "https://spool3d.ca/m3-roll-in-spring-t-nut-2020", verified: false },
+//             ]
+//         },
+//         {
+//             partname: "M5 T-nut", image: "urltoimage", identifier: "m5_rollin_tnut",
+//             type: { description: "M5 Roll in T-Nuts" },
+//             source: [{ region: "CN", name: "Aliexpress - Link CNC", url: "https://s.click.aliexpress.com/e/_9JpX52", verified: true },
+//             { region: "DE", name: "Dold Mechatronik", url: "https://www.dold-mechatronik.de/Nutenstein-137x7mm-einschwenkbar-Nut-8-M8-l22mm-Federkugel-Edelstahl-14301-14305", verified: false },
+//             { region: "US", name: "KB-3D", url: "https://kb-3d.com/store/extrusion-framing/253-t-nut-roll-in-30-series-8mm-slot-width-m5-threads.html", verified: false },
+//             { region: "CA", name: "Sparta3D", url: "https://sparta3d.ca/products/3d-sidekick-roll-in-t-nuts-tnuts-tnuts-t-nuts?variant=42096937337088", verified: false },
+//             { region: "CA", name: "Spool3D", url: "https://spool3d.ca/m5-roll-in-spring-t-nut-2020", verified: false },
+//             ]
+//         },
+//     ],
+//     extrusions: [
+//         // T-NUTS BOLTS 
+//         {
+//             partname: "2020", image: "urltoimage", identifier: "extrusion_2020",
+//             type: { description: "Extrusion" },
+//             source: [{ region: "NL", name: "Aluxprofiel", url: "https://www.aluxprofiel.nl/aluminium-constructieprofiel-2020-zwart/a3957?c=3470", verified: true },
+//             { region: "US", name: "Misumi", url: "https://us.misumi-ec.com/vona2/detail/110302683830/?Inch=0", verified: true },
+//             ]
+//         },
+//     ]
+// }
 
-    //add hotends
-    fileList = fileList.concat(_partsList.hotends.map( item => {
-        if (item.id == hotendSelected.value)
-            return item.dependencies;
-    }))
-
-    //add extruder
-    fileList = fileList.concat(_partsList.extruders.map( item => {
-        if (item.id == extruderSelected.value)
-            return item.dependencies;
-    }))
-
-    //add probes
-    fileList = fileList.concat(_partsList.probes.map( item => {
-    if (item.id == probeSelected.value)
-        return item.dependencies;
-    }))
-
-    //add backplate
-    fileList = fileList.concat(_partsList.backplates.map( item => {
-        if (item.id == backplateSelected.value)
-            return item.dependencies;
-        }))
-
-    //cleanup cause im lazy.....and this is a PoC
-    fileList = fileList.flat().filter(item => item != undefined)
-
-    console.log(fileList)
-    return fileList;
-    // zipAndDownload(getDocumentList(), "/assets/stl/downloads");
-}
-
-var loadDataSet = () => {
-                //Load the configurator
-            // document.getElementById('hotend').innerHTML = "";
-            var hotendSelect = document.getElementById('hotend');
-            var extruderSelect = document.getElementById('extruder');
-            var probeSelect = document.getElementById('probe');
-            var backplateSelect = document.getElementById('backplate');
-
-            //Set the options for both
-
-            hotendSelect.innerHTML = _partsList.hotends.reduce((prev, element, acc) => {
-                return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
-            }, "");
-
-            extruderSelect.innerHTML = _partsList.extruders.reduce((prev, element, acc) => {
-                return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
-            }, "");
-
-            probeSelect.innerHTML = _partsList.probes.reduce((prev, element, acc) => {
-                return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
-            }, "");
-
-            backplateSelect.innerHTML = _partsList.backplates.reduce((prev, element, acc) => {
-                return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
-            }, "");
-}
-
-const exportZip = (blobs, docArray) => {
-    //use the jszip module to do the heavy lifting.
-    const zip = new JSZip();
-    blobs.forEach((blob, i) => {
-        zip.file(docArray[i], blob);
-    });
-    //zoom zoom
-    zip.generateAsync({ type: 'blob' }).then(zipFile => {
-        const fileName = `EVA-Toolhead-${new Date().getTime()}.zip`;
-        //use the fileSave module to handle security issues
-        return saveAs(zipFile, fileName);
-    });
-}
-
-const download2Blob = urls => {
-    //download all the files, then get the blob response.
-    return Promise.all(
-        urls.map(url => { return fetch(url).then(resp => resp.blob()) }))
+String.prototype.toProperCase = function () {
+    return this.replace(/\w\S*/g, function (txt) { return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase(); });
 };
 
-const zipAndDownload = (docArray, base_uri = '') => {
-    //parent function to call from frontend
-    //base URI to be updated to change the file location
-    urls = docArray.map(item => `${base_uri}/${item}`);
-    return download2Blob(urls, 5).then(blobs => exportZip(blobs, docArray));
+fetch_Data().then(result => {
+    document.getElementById("generatedDiv").innerHTML = source_generator(JSON.parse(result).document);
+})
+
+function source_generator(database) {
+    var source_generator = '';
+
+    for (const key in database) {
+        if (key == "_id")
+            continue;
+
+        if (Object.hasOwnProperty.call(database, key)) {
+            const element = database[key];
+            source_generator = source_generator += element.reduce((prev, item) => {
+                return `${prev} ${source_html(item)}`;
+            }, "")
+
+        }
+    }
+
+    return source_generator;
+}
+
+
+function source_html(item) {
+    const sourceRows = item.source.reduce((prev, source) => {
+        return `${prev}
+        <tr>
+        <td> <span class="fi fi-${source.region.toLowerCase()}"> </span> </td>
+        <td> ${source.verified ? '<i class="bi bi-check-all"></i>' : ''}
+        <a href="${source.url}" target="_blank"> ${source.name} </a></td>
+        </tr>
+        `
+    }, '')
+
+    const noteRow =
+        `
+        ${item.type.note ? `
+        <tr>
+        <td>Note</td>
+        <td>${item.type.note}</td>
+        </tr>
+        ` : ''} `;
+
+    return `
+        <div id="${item.identifier}" class="storebox__item">
+            <div onclick="location.href='##';" class="background_close"></div>
+            <div class="content">
+                <div class="titlebar"> ${item.partname.toProperCase()} - ${item.type.description} </div>
+                <a href=##" class="close"></a>
+                <div class="table-wrapper">
+                    <table class="“store_table” cellspacing="0">
+                        <tr>
+                            <th>Region</th>
+                            <th>URL</th>
+                        </tr>
+
+                        ${noteRow}
+                        ${sourceRows}
+                    </table>
+                </div>
+            </div>
+        </div>
+    `
 }

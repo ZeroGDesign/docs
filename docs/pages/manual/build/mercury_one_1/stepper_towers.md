@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 5. Stepper towers
-nav_order: 4
+title: 6. Stepper towers
+nav_order: 60
 has_toc: true
 parent: Mercury One.1 EVA
 grand_parent: Manual
@@ -176,13 +176,127 @@ There should be some play, this because it makes it easier to align.
 
 [![Left stepper top printed](../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_top_print_after.png)](#lightbox__item_10){: .lightbox_wrapper}
 
-<div onclick="location.href='#lowering-the-top-stepper-mount';"  id="lightbox__item_10"  class="lightbox__item">
+<div onclick="location.href='##';"  id="lightbox__item_10"  class="lightbox__item">
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
-        <a href="#lowering-the-top-stepper-mount" class="close"></a>
+        <a href="##" class="close"></a>
         <img src="../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_top_print_after.png" alt="Left stepper top printed">
     </div>
 </div>
+
+### Adding pulley to stepper shaft
+
+| :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
+| Type:<br>Amount: | Nema 17 Stepper Motor<br>1                            | ![Nema 17](../../../assets/images/instructions/nema17.png) |
+| Type:<br>Amount: | 20Tooth Pulley<br>1          |     ![20T Pulley](../../../assets/images/instructions/20t_pulley.png) |
+{: class="hardwaretable"}
+
+[![Left stepper lower pulley](../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_pulley.png)](#lightbox__item_11){: .lightbox_wrapper}
+
+<div onclick="location.href='##';"  id="lightbox__item_11"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_pulley.png" alt="Left stepper lower">
+    </div>
+</div>
+
+Partly unfasten the grub screw, lower the pulley into the shaft make sure the grub screw aligns with the flat side on the shaft.
+
+[![Left stepper lower distance](../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_pulley_distance.png)](#lightbox__item_12){: .lightbox_wrapper}
+
+<div onclick="location.href='##';"  id="lightbox__item_12"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_pulley_distance.png" alt="Left stepper lower">
+    </div>
+</div>
+
+>>> ``The blue selection is used as an indicator for the distance between the pulley and the stepper.``
+
+Measure the bottom of the pulley to the top of the stepper. The distance should be **9.2mm**. After you've ensured the distance is correct, tighten the grub screws. You could use a little bit of purple Loctite.
+
+### Inserting the stepper screws
+
+| :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
+| Type:<br>Amount: | M3X20mm<br>3                           |     ![M3X20mm](../../../assets/images/instructions/m3x20.png) |
+{: class="hardwaretable"}
+
+Insert **1** m3X20mm screw into one of the holes. This allows you to align the stepper and clamp the two halves together. Make sure it pokes through the top.
+
+[![Left stepper lower distance](../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_one_stepper.png)](#lightbox__item_13){: .lightbox_wrapper}
+
+<div onclick="location.href='##';"  id="lightbox__item_13"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="../../../assets/images/instructions/assembly/left_stepper/left_stepper_bottom_one_stepper.png" alt="Left stepper lower">
+    </div>
+</div>
+
+The image below shows the bolt poking through the top.
+
+[![Left stepper lower distance](../../../assets/images/instructions/assembly/left_stepper/left_stepper_one_screw_sit.png)](#lightbox__item_14){: .lightbox_wrapper}
+
+<div onclick="location.href='##';"  id="lightbox__item_14"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="../../../assets/images/instructions/assembly/left_stepper/left_stepper_one_screw_sit.png" alt="Left stepper lower">
+    </div>
+</div>
+
+Lower the stepper onto the screw, and tighten it slightly. You should be able to rotate the stepper with little force.
+
+[![Left stepper lower distance](../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_stepper_one_screw.png)](#lightbox__item_15){: .lightbox_wrapper}
+
+<div onclick="location.href='##';"  id="lightbox__item_15"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_stepper_one_screw.png" alt="Left stepper lower">
+    </div>
+</div>
+
+Check if the stepper cable connector faces the blue box shown below. If not, redo the above steps with it facing the correct direction.
+
+[![Left stepper lower distance](../../../assets/images/instructions/assembly/left_stepper/left_stepper_right_angle.png)](#lightbox__item_16){: .lightbox_wrapper}
+
+<div onclick="location.href='##';"  id="lightbox__item_16"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="../../../assets/images/instructions/assembly/left_stepper/left_stepper_right_angle.png" alt="Left stepper lower">
+    </div>
+</div>
+
+Insert the final two screws and tighten them, *don't forget to tighten* the screw you inserted earlier.
+
+[![Left stepper lower distance](../../../assets/images/instructions/assembly/left_stepper/left_stepper_last_screws.png)](#lightbox__item_17){: .lightbox_wrapper}
+
+<div onclick="location.href='##';"  id="lightbox__item_17"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="../../../assets/images/instructions/assembly/left_stepper/left_stepper_last_screws.png" alt="Left stepper lower">
+    </div>
+</div>
+
+All three screws, highlighted in orange (as shown below) should be tight. 
+
+[![Left stepper lower distance](../../../assets/images/instructions/assembly/left_stepper/left_stepper_screw_check.png)](#lightbox__item_18){: .lightbox_wrapper}
+
+<div onclick="location.href='##';"  id="lightbox__item_18"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="../../../assets/images/instructions/assembly/left_stepper/left_stepper_screw_check.png" alt="Left stepper lower">
+    </div>
+</div>
+
+Congratz! You have finished the left stepper tower.
+
 
 # Definitions
 

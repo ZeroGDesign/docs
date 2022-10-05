@@ -99,5 +99,5 @@ Lost? Need help? Not sure? Join our [Discord server <i class="bi bi-discord"></i
 
 {: style="text-align: center" }
 <span class="fs-8">
-[Next step <i class="bi bi-arrow-return-right"></i>](/manual/build/mercury_eva/printed_files){: .btn .btn-red }
+[Next step <i class="bi bi-arrow-return-right"></i>](/manual/build/mercury_eva/bill_of_material){: .btn .btn-red }
 </span>

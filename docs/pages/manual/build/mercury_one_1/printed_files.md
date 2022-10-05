@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 2. Printed Files
-nav_order: 1
+title: 3. Printed Files
+nav_order: 30
 has_toc: false
 parent: Mercury One.1 EVA
 grand_parent: Manual
@@ -103,8 +103,8 @@ Based on the toothed idler you've bought, you either print the generic spacers o
 #### Flange stack spacer
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Amount<br>Download| FlangeSpacer_short_1.stl<br>Printed spacer for flange stack<br>x2<br>[Here](../../../assets/stl/m1_1/FlangeSpacer_short_1.stl)|     [![Left stepper top printed]({{page.img_instr}}/flange_short.png)](#lightbox__item_fs){: .lightbox_wrapper} |
-| File name<br>Description<br>Amount<br>Download| FlangeSpacer_tall_1.stl<br>Printed spacer for flange stack<br>x2<br>[Here](../../../assets/stl/m1_1/FlangeSpacer_tall_1.stl)|     [![Left stepper bottom printed]({{page.img_instr}}/flange_tall.png)](#lightbox__item_ft){: .lightbox_wrapper} |
+| File name<br>Description<br>Amount<br>Download| a_FlangeSpacer_short_1.stl<br>Printed spacer for flange stack<br>x2<br>[Here](../../../assets/stl/m1_1/a_FlangeSpacer_short_1.stl)|     [![Left stepper top printed]({{page.img_instr}}/flange_short.png)](#lightbox__item_fs){: .lightbox_wrapper} |
+| File name<br>Description<br>Amount<br>Download| a_FlangeSpacer_tall_1.stl<br>Printed spacer for flange stack<br>x2<br>[Here](../../../assets/stl/m1_1/a_FlangeSpacer_tall_1.stl)|     [![Left stepper bottom printed]({{page.img_instr}}/flange_tall.png)](#lightbox__item_ft){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 <div onclick="location.href='##';"  id="lightbox__item_fs"  class="lightbox__item">
@@ -126,15 +126,15 @@ Based on the toothed idler you've bought, you either print the generic spacers o
 #### Mellow toothed idler
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Amount<br>Download| MellowSpacer_short_1.stl<br>Printed spacer for Mellow idler<br>x2<br>[Here](../../../assets/stl/m1_1/MellowSpacer_short_1.stl)|     [![Left stepper top printed]({{page.img_instr}}/20t_short.png)](#lightbox__item_fs){: .lightbox_wrapper} |
-| File name<br>Description<br>Amount<br>Download| MellowSpacer_tall_1.stl<br>Printed spacer for Mellow idler<br>x2<br>[Here](../../../assets/stl/m1_1/MellowSpacer_tall_1.stl)|     [![Left stepper bottom printed]({{page.img_instr}}/20t_tall.png)](#lightbox__item_ft){: .lightbox_wrapper} |
+| File name<br>Description<br>Amount<br>Download| a_MellowSpacer_short_1.stl<br>Printed spacer for Mellow idler<br>x2<br>[Here](../../../assets/stl/m1_1/a_MellowSpacer_short_1.stl)|     [![Left stepper top printed]({{page.img_instr}}/20t_short.png)](#lightbox__item_fs){: .lightbox_wrapper} |
+| File name<br>Description<br>Amount<br>Download| a_MellowSpacer_tall_1.stl<br>Printed spacer for Mellow idler<br>x2<br>[Here](../../../assets/stl/m1_1/a_MellowSpacer_tall_1.stl)|     [![Left stepper bottom printed]({{page.img_instr}}/20t_tall.png)](#lightbox__item_ft){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 #### Generic toothed idler
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Amount<br>Download| tIdlerSpacer_short_1.stl<br>Printed spacer for generic idler<br>x2<br>[Here](../../../assets/stl/m1_1/tIdlerSpacer_short_1.stl)|     [![Left stepper top printed]({{page.img_instr}}/20t_short.png)](#lightbox__item_fs){: .lightbox_wrapper} |
-| File name<br>Description<br>Amount<br>Download| tIdlerSpacer_tall_1.stl<br>Printed spacer for generic idler<br>x2<br>[Here](../../../assets/stl/m1_1/tIdlerSpacer_tall_1.stl)|     [![Left stepper bottom printed]({{page.img_instr}}/20t_tall.png)](#lightbox__item_ft){: .lightbox_wrapper} |
+| File name<br>Description<br>Amount<br>Download| a_tIdlerSpacer_short_1.stl<br>Printed spacer for generic idler<br>x2<br>[Here](../../../assets/stl/m1_1/a_tIdlerSpacer_short_1.stl)|     [![Left stepper top printed]({{page.img_instr}}/20t_short.png)](#lightbox__item_fs){: .lightbox_wrapper} |
+| File name<br>Description<br>Amount<br>Download| a_tIdlerSpacer_tall_1.stl<br>Printed spacer for generic idler<br>x2<br>[Here](../../../assets/stl/m1_1/a_tIdlerSpacer_tall_1.stl)|     [![Left stepper bottom printed]({{page.img_instr}}/20t_tall.png)](#lightbox__item_ft){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 <div onclick="location.href='##';"  id="lightbox__item_2ts"  class="lightbox__item">
@@ -156,8 +156,8 @@ Based on the toothed idler you've bought, you either print the generic spacers o
 ### Left stepper mount
    
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Download| stepper_mount_bottom_right.stl<br>Top piece for left stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_top_left.stl)|     [![Left stepper top printed]({{page.img_instr}}/printer_stepper_left_top.png)](#lightbox__item_1){: .lightbox_wrapper} |
-| File name<br>Description<br>Download| stepper_mount_bottom_left.stl<br>Bottom piece for left stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_bottom_left.stl)|     [![Left stepper bottom printed]({{page.img_instr}}/printed_stepper_left_bottom.png)](#lightbox__item_2){: .lightbox_wrapper} |
+| File name<br>Description<br>Download| a_stepper_mount_bottom_right.stl<br>Top piece for left stepper tower<br>[Here](../../../assets/stl/m1_1/a_stepper_mount_top_left.stl)|     [![Left stepper top printed]({{page.img_instr}}/printer_stepper_left_top.png)](#lightbox__item_1){: .lightbox_wrapper} |
+| File name<br>Description<br>Download| a_stepper_mount_bottom_left.stl<br>Bottom piece for left stepper tower<br>[Here](../../../assets/stl/m1_1/a_stepper_mount_bottom_left.stl)|     [![Left stepper bottom printed]({{page.img_instr}}/printed_stepper_left_bottom.png)](#lightbox__item_2){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 <div onclick="location.href='##';"  id="lightbox__item_1"  class="lightbox__item">
@@ -180,8 +180,8 @@ Based on the toothed idler you've bought, you either print the generic spacers o
 ### Right stepper mount
    
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Download| stepper_mount_top_right.stl<br>Top piece for Right stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_top_right.stl)|     [![Left stepper top printed]({{page.img_instr}}/printer_stepper_right_top.png)](#lightbox__item_3){: .lightbox_wrapper} |
-| File name<br>Description<br>Download| stepper_mount_bottom_right.stl<br>Bottom piece for Right stepper tower<br>[Here](../../../assets/stl/m1_1/stepper_mount_bottom_right.stl)|     [![Left stepper bottom printed]({{page.img_instr}}/printed_stepper_right_bottom.png)](#lightbox__item_4){: .lightbox_wrapper} |
+| File name<br>Description<br>Download| a_stepper_mount_top_right.stl<br>Top piece for Right stepper tower<br>[Here](../../../assets/stl/m1_1/a_stepper_mount_top_right.stl)|     [![Left stepper top printed]({{page.img_instr}}/printer_stepper_right_top.png)](#lightbox__item_3){: .lightbox_wrapper} |
+| File name<br>Description<br>Download| a_stepper_mount_bottom_right.stl<br>Bottom piece for Right stepper tower<br>[Here](../../../assets/stl/m1_1/a_stepper_mount_bottom_right.stl)|     [![Left stepper bottom printed]({{page.img_instr}}/printed_stepper_right_bottom.png)](#lightbox__item_4){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 
@@ -206,8 +206,8 @@ Based on the toothed idler you've bought, you either print the generic spacers o
 *Note: There is a small difference in these, you'll see the opening for the flange stack is offset differently.*
    
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Download| front_tower_left.stl<br>Used to tension belt - left side<br>[Here](../../../assets/stl/m1_1/front_tower_left.stl)|     [![left front tower]({{page.img_instr}}/front_left_tension_tower.png)](#lightbox__item_5){: .lightbox_wrapper} |
-| File name<br>Description<br>Download| front_tower_right.stl<br>Used to tension belt - right side<br>[Here](../../../assets/stl/m1_1/front_tower_right.stl)|     [![right front tower]({{page.img_instr}}/front_right_tension_tower.png)](#lightbox__item_6){: .lightbox_wrapper} |
+| File name<br>Description<br>Download| a_front_tower_left.stl<br>Used to tension belt - left side<br>[Here](../../../assets/stl/m1_1/a_front_tower_left.stl)|     [![left front tower]({{page.img_instr}}/front_left_tension_tower.png)](#lightbox__item_5){: .lightbox_wrapper} |
+| File name<br>Description<br>Download| a_front_tower_right.stl<br>Used to tension belt - right side<br>[Here](../../../assets/stl/m1_1/a_front_tower_right.stl)|     [![right front tower]({{page.img_instr}}/front_right_tension_tower.png)](#lightbox__item_6){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 4. Sanding dowel pins
-nav_order: 3
+title: 5. Sanding dowel pins
+nav_order: 50
 has_toc: false
 parent: Mercury One.1 EVA
 grand_parent: Manual

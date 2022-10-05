@@ -24,11 +24,11 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
 | Size  | Type                              | Amount |          Stores          |
 |:------|:----------------------------------|:------:|:------------------------:|
 | M3X6  | <nobr>ISO 10642 / DIN 7991</nobr> |   6    | [Click here](#m3x6_7991) |
-| M5X8  | <nobr>ISO 7380 / DIN 7380</nobr>  |   4    | [Click here](#m5x8_7380) |
 | M3X8  | <nobr>ISO 4762 / DIN 912</nobr>   |   85   | [Click here](#m3x8_912)  |
-| M5X10 | <nobr>ISO 4762 / DIN 912</nobr>   |   10   | [Click here](#m5x10_912) |
 | M3X10 | <nobr>ISO 4762 / DIN 912</nobr>   |   3    | [Click here](#m3x10_912) |
 | M4X16 | <nobr>ISO 4762 / DIN 912</nobr>   |   3    | [Click here](#m4x16_912) |
+| M5X8  | <nobr>ISO 7380 / DIN 7380</nobr>  |   4    | [Click here](#m5x8_7380) |
+| M5X10 | <nobr>ISO 4762 / DIN 912</nobr>   |   10   | [Click here](#m5x10_912) |
 {: class="transparant_table"}
 
 ### T-Nuts
@@ -53,11 +53,11 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
 *Note: Ender 5 (Pro) and Ender 5 Plus have different sizes for parts.*
 {: .fs-3 }
 
-| Printer       | Size  | Type                                 | Amount |          Stores           |
-|:--------------|:------|:-------------------------------------|:------:|:-------------------------:|
-| X             | 100mm | <nobr>MGN9C</nobr>                   |   3    | [Click here](#MGN9C100MM) |
-| Ender 5 (Pro) | 400mm | <nobr>MGN12C <b>OR</b> MGN12H</nobr> |   3    | [Click here](#MGN12400MM) |
-| Ender 5 Plus  | 500mm | <nobr>MGN12C <b>OR</b> MGN12H</nobr> |   3    | [Click here](#MGN12500MM) |
+| Printer       | Size  | Type                                 | Amount |           Stores           |
+|:--------------|:------|:-------------------------------------|:------:|:--------------------------:|
+| X             | 100mm | <nobr>MGN9C</nobr>                   |   3    | [Click here](#MGN9C_100mm) |
+| Ender 5 (Pro) | 400mm | <nobr>MGN12C <b>OR</b> MGN12H</nobr> |   3    | [Click here](#MGN12_400mm) |
+| Ender 5 Plus  | 500mm | <nobr>MGN12C <b>OR</b> MGN12H</nobr> |   3    | [Click here](#MGN12_500mm) |
 {: class="transparant_table"}
 
 
@@ -85,9 +85,9 @@ Make sure to look for Leadscrews that include a circular T8 Nut with 4 holes.
 
 | Printer       | Size          | Type                           | Amount |          Stores           |
 |:--------------|:--------------|:-------------------------------|:------:|:-------------------------:|
-| Ender 5 (Pro) | 275mm         | <nobr>Bed heater</nobr>        |   1    | [Click here](#bed_heater) |
+| Ender 5 (Pro) | 255/275mm     | <nobr>Bed heater</nobr>        |   1    | [Click here](#bed_heater) |
 | Ender 5 Plus  | 377mm         | <nobr>Bed heater</nobr>        |   1    | [Click here](#bed_heater) |
-| Ender 5 (Pro) | 275mm         | <nobr>Aluminum bed</nobr>      |   1    | [Click here](#hydra_bed)  |
+| Ender 5 (Pro) | 255/275mm     | <nobr>Aluminum bed</nobr>      |   1    | [Click here](#hydra_bed)  |
 | Ender 5 Plus  | 377mm         | <nobr>Aluminum bed</nobr>      |   1    | [Click here](#hydra_bed)  |
 | X             | Case specific | <nobr>Solid State Relay</nobr> |   1    |    [Click here](#ssr)     |
 {: class="transparant_table"}
@@ -101,7 +101,7 @@ Make sure to look for Leadscrews that include a circular T8 Nut with 4 holes.
 | M3 Washer                     | <nobr>Normal grade A M3 </nobr><br><nobr>Stainless Steel </nobr> |   12   |   [Click here](#plain_m3_washer)   |
 | M4 X 8 X L8                   | Spacer                                                           |   3    |     [Click here](#8mm_spacers)     |
 | 10mm M4                       | Kossel ball                                                      |   3    |   [Click here](#m4_kossel_balls)   |
-| 10x11mm - 1 Meter             | Drag chain                                                       |   1    |  [Click here](#10x11_drag_chain)   |
+| 10x11mm - 1 Meter             | R18 Drag chain                                                   |   1    |  [Click here](#10x11_drag_chain)   |
 | Nema17                        | Stepper motor                                                    |   3    |    [Click here](#nema17_zaxis)     |
 | 5mm-8mm                       | Shaft Coupling                                                   |   3    |   [Click here](#stepper_coupler)   |
 {: class="transparant_table"}
