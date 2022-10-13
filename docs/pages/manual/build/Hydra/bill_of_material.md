@@ -22,8 +22,8 @@ We **do not** own the kits. We're **not responsible** for these kits. **Make sur
 
 ### All kits
 
-| Type                   |            Stores            |
-|:-----------------------|:----------------------------:|
+| Type                   |          Stores           |
+|:-----------------------|:-------------------------:|
 | <nobr>Hydra kit</nobr> | [Click here](#hydra_kits) |
 {: class="transparant_table"}
 
@@ -116,6 +116,7 @@ Make sure to look for Leadscrews that include a circular T8 Nut with 4 holes.
 | 10x11mm - 1 Meter             | R18 Drag chain                                                   |   1    |  [Click here](#10x11_drag_chain)   |
 | Nema17                        | Stepper motor                                                    |   3    |    [Click here](#nema17_zaxis)     |
 | 5mm-8mm                       | Shaft Coupling                                                   |   3    |   [Click here](#stepper_coupler)   |
+| OPTIONAL                      | Oldham Coupling                                                  |   3    |   [Click here](#oldham_coupler)    |
 {: class="transparant_table"}
 
 {: style="text-align: center" }
