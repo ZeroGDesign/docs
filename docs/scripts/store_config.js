@@ -124,6 +124,7 @@ function source_generator(database) {
         }
     }
 
+    document.getElementById("pageLoading").remove();
     return source_generator;
 }
 

@@ -257,6 +257,84 @@ a.floatingtop {
     }
 }
 
+.loading_page {
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: {
+        bottom: 50vh;
+    }
+    justify-content: center;
+    backdrop-filter: blur(2px);
+    font-weight: 350;
+    font-size: 2.5vh;
+    z-index: 9999;
+    white-space: nowrap;
+
+    &::after {
+        content: 'Please wait while the database is loading...';
+        text-shadow: 2px 2px 5px #000000;
+    }
+
+    .loader {
+        width: 35vw;
+        min-width: 200px;
+        max-width: 300px;
+        margin: {
+            top: 3em;
+            right: auto;
+            bottom: auto;
+            left: auto;
+        }
+        border-radius: 9px;
+        border: 3px solid transparent;
+        filter: drop-shadow(1mm 1mm 3mm #0000005d);
+        position: fixed;
+        padding: 1px;
+        background: #191919fa;
+
+        .loaderBar {
+            position: absolute;
+            border-radius: 4px;
+            top: 0;
+            right: 100%;
+            bottom: 0;
+            left: 0;
+            background: $zero-g-red-color;
+            width: 0;
+            animation: loadingBar 2s linear infinite alternate;
+
+            @keyframes loadingBar {
+                0% {
+                    left: 0%;
+                    right: 100%;
+                    width: 0%;
+                }
+                10% {
+                    left: 0%;
+                    right: 75%;
+                    width: 25%;
+                }
+                90% {
+                    right: 0%;
+                    left: 75%;
+                    width: 25%;
+                }
+                100% {
+                    left: 100%;
+                    right: 0%;
+                    width: 0%;
+                }
+            }
+        }
+    }
+}
+
 .textfield_dark {
     display: inline-block;
     box-sizing: border-box;
