@@ -61,9 +61,8 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
 
 | Printer       | Size  | Type                                 | Amount |                          Stores                          |
 |:--------------|:------|:-------------------------------------|:------:|:--------------------------------------------------------:|
-| X             | 100mm | <nobr>MGN9C</nobr>                   |   3    | [Click here](#MGN9C100MM) &emsp; <input type="checkbox"> |
-| Ender 5 (Pro) | 400mm | <nobr>MGN12C <b>OR</b> MGN12H</nobr> |   3    | [Click here](#MGN12400MM) &emsp; <input type="checkbox"> |
-| Ender 5 Plus  | 500mm | <nobr>MGN12C <b>OR</b> MGN12H</nobr> |   3    | [Click here](#MGN12500MM) &emsp; <input type="checkbox"> |
+| Ender 5 (Pro) | 300mm | <nobr>MGN12H</nobr> |   3    | [Click here](#MGN12mm) &emsp; <input type="checkbox"> |
+| Ender 5 Plus  | 450mm | <nobr>MGN12H</nobr> |   3    | [Click here](#MGN12mm) &emsp; <input type="checkbox"> |
 {: class="transparant_table"}
 
 ### Electronics
