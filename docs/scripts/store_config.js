@@ -151,7 +151,7 @@ function source_html(item) {
 
     return `
         <div id="${item.identifier}" class="storebox__item">
-            <div onclick="location.href='##';" class="background_close"></div>
+            <div onclick="location.href='##'; "class="background_close"></div>
             <div class="content">
                 <div class="titlebar"> ${item.partname.toProperCase()} - ${item.type.description} </div>
                 <a href=##" class="close"></a>
