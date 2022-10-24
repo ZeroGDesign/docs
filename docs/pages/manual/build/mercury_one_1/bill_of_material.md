@@ -88,7 +88,7 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
 
 | Size                          | Type                                                             | Amount |                                   Stores                                   |
 |:------------------------------|:-----------------------------------------------------------------|:------:|:--------------------------------------------------------------------------:|
-| <nobr>M5X30mm</nobr>          | Precision dowel pin                                              |   20   | [Click here](#m5_30_Precision_dowel_pin)    &emsp; <input type="checkbox"> |
+| <nobr>M5X30mm</nobr>          | Precision dowel pin                                              |   10   | [Click here](#m5_30_Precision_dowel_pin)    &emsp; <input type="checkbox"> |
 | <nobr>5*13*4 Mm</nobr>        | F695-2RS                                                         |   20   |  [Click here](#f695_2rs_flangebearing)    &emsp; <input type="checkbox">   |
 | 6mm                           | 2GT 20T Idler                                                    |   2    |      [Click here](#2gt_teeth_idler)    &emsp; <input type="checkbox">      |
 | 6mm                           | 2GT 20T Pulley                                                   |   2    |     [Click here](#2gt_teeth_pulley)    &emsp; <input type="checkbox">      |
