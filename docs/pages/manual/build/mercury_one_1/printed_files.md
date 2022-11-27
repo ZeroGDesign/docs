@@ -57,10 +57,10 @@ Temperarly BOM list for new X joints
 {: .fs-3 .fw-300}
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Version<br>Download| XJoint_right_bottom.stl<br>Bottom piece right x joint<br>1.1.3<br>[Here](../../../assets/stl/m1_1/XJoint_right_bottom.stl)|     [![Left stepper top printed]({{page.img_instr}}/right_bottom_xjoint.png)](#lightbox__item_lxb){: .lightbox_wrapper} |
-| File name<br>Description<br>Version<br>Download| XJoint_left_bottom.stl<br>Bottom piece left x joint<br>1.1.3<br>[Here](../../../assets/stl/m1_1/XJoint_left_bottom.stl)|     [![Left stepper bottom printed]({{page.img_instr}}/left_bottom_xjoint.png)](#lightbox__item_rxb){: .lightbox_wrapper} |
-| File name<br>Description<br>Version<br>Download| XJoint_right_top.stl<br>Top piece right x joint<br>1.1.3<br>[Here](../../../assets/stl/m1_1/XJoint_right_top.stl)|     [![Left stepper top printed]({{page.img_instr}}/right_top_xjoint.png)](#lightbox__item_lxt){: .lightbox_wrapper} |
-| File name<br>Description<br>Version<br>Download| XJoint_left_top.stl<br>Top piece left x joint<br>1.1.3<br>[Here](../../../assets/stl/m1_1/XJoint_left_top.stl)|     [![Left stepper bottom printed]({{page.img_instr}}/left_top_xjoint.png)](#lightbox__item_rxt){: .lightbox_wrapper} |
+| File name<br>Description<br>Version<br>Download| XJoint_right_bottom.stl<br>Bottom piece right x joint<br>1.1.4<br>[Here](../../../assets/stl/m1_1/XJoint_right_bottom.stl)|     [![Left stepper top printed]({{page.img_instr}}/right_bottom_xjoint.png)](#lightbox__item_lxb){: .lightbox_wrapper} |
+| File name<br>Description<br>Version<br>Download| XJoint_left_bottom.stl<br>Bottom piece left x joint<br>1.1.4<br>[Here](../../../assets/stl/m1_1/XJoint_left_bottom.stl)|     [![Left stepper bottom printed]({{page.img_instr}}/left_bottom_xjoint.png)](#lightbox__item_rxb){: .lightbox_wrapper} |
+| File name<br>Description<br>Version<br>Download| XJoint_right_top.stl<br>Top piece right x joint<br>1.1.4<br>[Here](../../../assets/stl/m1_1/XJoint_right_top.stl)|     [![Left stepper top printed]({{page.img_instr}}/right_top_xjoint.png)](#lightbox__item_lxt){: .lightbox_wrapper} |
+| File name<br>Description<br>Version<br>Download| XJoint_left_top.stl<br>Top piece left x joint<br>1.1.4<br>[Here](../../../assets/stl/m1_1/XJoint_left_top.stl)|     [![Left stepper bottom printed]({{page.img_instr}}/left_top_xjoint.png)](#lightbox__item_rxt){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 <div onclick="location.href='##';"  id="lightbox__item_rxb"  class="lightbox__item">
