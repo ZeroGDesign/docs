@@ -105,16 +105,13 @@ String.prototype.toProperCase = function () {
 };
 
 fetch_Data().then(result => {
-    document.getElementById("generatedDiv").innerHTML = source_generator(JSON.parse(result).document);
+    document.getElementById("generatedDiv").innerHTML = source_generator(result);
 })
 
 function source_generator(database) {
     var source_generator = '';
 
     for (const key in database) {
-        if (key == "_id")
-            continue;
-
         if (Object.hasOwnProperty.call(database, key)) {
             const element = database[key];
             source_generator = source_generator += element.reduce((prev, item) => {
@@ -139,6 +136,8 @@ function source_html(item) {
         </tr>
         `
     }, '')
+
+    console.log("created something");
 
     const noteRow =
         `
