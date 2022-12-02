@@ -137,8 +137,6 @@ function source_html(item) {
         `
     }, '')
 
-    console.log("created something");
-
     const noteRow =
         `
         ${item.type.note ? `

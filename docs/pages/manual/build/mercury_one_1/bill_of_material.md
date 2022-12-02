@@ -15,6 +15,8 @@ permalink: /manual/build/mercury_eva/bill_of_material
 
 The tables contain a column named `Stores` Click the [red text](#) underneath to reveal a pop-up with a list of stores. Stores that contain a checkmark <i class="bi bi-check-all"></i> have been verified and tested by either an Engineer or a trusted community member.
 
+The Bill of Materials for Mercury One.1 is not fully complete yet.
+
 ## Self sourcing
 
 ### Bolts
@@ -93,6 +95,7 @@ The tables contain a column named `Stores` Click the [red text](#) underneath to
 | 6mm                           | 2GT 20T Idler                                                    |   2    |      [Click here](#2gt_teeth_idler)    &emsp; <input type="checkbox">      |
 | 6mm                           | 2GT 20T Pulley                                                   |   2    |     [Click here](#2gt_teeth_pulley)    &emsp; <input type="checkbox">      |
 | Check note in store           | GATES-LL-2GT                                                     |   2    |      [Click here](#gates_belts_6mm)    &emsp; <input type="checkbox">      |
+{: class="transparant_table"}
 
 #### Other
 
