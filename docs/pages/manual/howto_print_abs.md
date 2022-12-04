@@ -18,9 +18,6 @@ It's recommended to print your ABS or ASA parts inside of an enclosure, this wil
 {: .note}
 We find that parts printed in ABS+ are **weaker in layer adhesion** compared to non ABS+ filaments. Although easier to print, they're **easier to break**.
 
-### The difference between ABS, ABS+ and ASA
-
-
 ### My print broke, oh no!
 Great! Lets use this moment to check your layer adheasion. We mostly use our Steppers mounts or X Joints to check the adheasion.
 
