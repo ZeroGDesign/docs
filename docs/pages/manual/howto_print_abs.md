@@ -11,16 +11,54 @@ permalink: /manual/print/abs
 ## Printing parts
 
 ### What material should I use?
-ZeroG printers are designed to be printed using ABS(+), ASA or [TitanX](https://www.formfutura.com/shop/product/titanx-2846){:target="_blank"}. This means we've included tollerances for material shrinkage in our models.
-It's recommended to print your ABS(+), ASA or [TitanX](https://www.formfutura.com/shop/product/titanx-2846){:target="_blank"} parts inside of an enclosure, this will greatly increase layer strenght.
+ZeroG printers are designed to be printed using ABS or ASA. This means we've included tollerances for material shrinkage in our models.
 
-#### The difference between ABS, ABS+, ASA and TitanX
+It's recommended to print your ABS or ASA parts inside of an enclosure, this will greatly increase layer strenght. Do not use ABS+.
+
+{: .note}
+We find that parts printed in ABS+ are **weaker in layer adhesion** compared to non ABS+ filaments. Although easier to print, they're **easier to break**.
+
+### The difference between ABS, ABS+ and ASA
+
+
+### My print broke, oh no!
+Great! Lets use this moment to check your layer adheasion. We mostly use our Steppers mounts or X Joints to check the adheasion.
+
+Below you'll find a picture of a collection of breaks, on how it **should** look.
+
+Hover the image and click to enlarge <i class="bi bi-zoom-in"></i>
+{: .fs-3 .fw-300 }
+
+[![Examples layer breaks](../../assets/images/examples/break_samples.png)](#examples){: .lightbox_wrapper}
+
+<div onclick="location.href='##';"  id="examples"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="../../assets/images/examples/break_samples.png" alt="Examples layer breaks">
+    </div>
+</div>
+
+#### XJoint break - Example 1
+Example 1 shows a break going across multiple layers. A break on multiple layers indicates good layer adheasion.
+
+#### Stepper mount break - Example 2
+Example 2 shows white stress marks on the break but nothing on multiple layers. White stress mark on plastic indicates force was needed to seperate the layers.
+
+#### Stepper mount break - Example 3
+Example 3 shows one flaw, the part has been printed with a .6 nozzle showing a gap between the outer perimeter and the inner perimeters. It's still a strong part, the break goes across multiple layers.
+
+### Filament brands that we recommend
+
+* Polymaker
+* Bambulab
+* Keene Village Plastics
+
+#### Filament colors we do NOT recommend
+White - You can, but we don't recommend it. The pigment shows a ton of flaws and causes weak layer adheasion.
+
+<!-- #### The difference between ABS, ABS+, ASA and TitanX
 A quote from [https://all3dp.com/](https://all3dp.com/2/abs-plus-filament-what-is-it/){:target="_blank"} 
-> "ABS+, or ABS Plus, aims to reduce the sensitivity to shrinkage and warping of ABS, while preserving most of its performance advantages."
-
-#### How to print ABS
-An awesome user from the [Voron](https://vorondesign.com){:target="_blank"} community (and YouTube) that goes by the name of [NERO 3D](https://www.youtube.com/channel/UCmV40QWkVeRs_nAvEOE_P-g){:target="_blank"} has created a Tips and Tricks playlist on how to print abs. I strongly advise you to checkout his video series before you attempt to print ABS(+).
-
-Click [here](https://www.youtube.com/watch?v=XZgt3Ijno78&list=PL7zrGeKp_8CTrnUhxSyeRiCQqPpAbienf&index=4){:target="_blank"} for the playlist
+> "ABS+, or ABS Plus, aims to reduce the sensitivity to shrinkage and warping of ABS, while preserving most of its performance advantages." -->
 
 [Recommended print settings click here](/standard/print/settings){: .btn .btn-red }
