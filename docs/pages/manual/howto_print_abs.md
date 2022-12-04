@@ -42,7 +42,7 @@ Example 1 shows a break going across multiple layers. A break on multiple layers
 #### Stepper mount break - Example 2
 Example 2 shows white stress marks on the break but nothing on multiple layers. White stress mark on plastic indicates force was needed to seperate the layers.
 
-#### Stepper mount break - Example 3
+#### XJoint break - Example 3
 Example 3 shows one flaw, the part has been printed with a .6 nozzle showing a gap between the outer perimeter and the inner perimeters. It's still a strong part, the break goes across multiple layers.
 
 ### Filament brands that we recommend
