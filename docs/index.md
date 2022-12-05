@@ -16,7 +16,7 @@ Currently we're working on instructions for two of our projects. Our projects ar
 
 *The documentation is still a work in progress so keep in mind it's not complete.*
 
-[Mercury One.1](/manual/build/mercury_eva/){: .btn .btn-red } [Hydra](/manual/build/hydra/){: .btn }
+[Mercury One.1](/manual/build/mercury_eva){: .btn .btn-red } [Hydra](/manual/build/hydra){: .btn }
 
 ### Discord
 
