@@ -111,7 +111,7 @@ The image below shows the correct placement of the dowel pins.
     </div>
 </div>
 
->>> ``On the bottom of the printed part you will find small M3 holes below the dowel pins. If your dowel pins are stuck you can use those to press them out using a small hex key.``
+&emsp; `On the bottom of the printed part you will find small M3 holes below the dowel pins. If your dowel pins are stuck you can use those to press them out using a small hex key.`
 
 ### Adding the flange stacks
 

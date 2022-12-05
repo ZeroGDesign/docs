@@ -61,8 +61,8 @@ The Bill of Materials for Mercury One.1 is not fully complete yet.
 *Note: Ender 5 (Pro) and Ender 5 Plus have different sizes for parts.*
 {: .fs-3 }
 
-| Printer       | Size  | Type                                 | Amount |                          Stores                          |
-|:--------------|:------|:-------------------------------------|:------:|:--------------------------------------------------------:|
+| Printer       | Size  | Type                | Amount |                        Stores                         |
+|:--------------|:------|:--------------------|:------:|:-----------------------------------------------------:|
 | Ender 5 (Pro) | 300mm | <nobr>MGN12H</nobr> |   3    | [Click here](#MGN12mm) &emsp; <input type="checkbox"> |
 | Ender 5 Plus  | 450mm | <nobr>MGN12H</nobr> |   3    | [Click here](#MGN12mm) &emsp; <input type="checkbox"> |
 {: class="transparant_table"}
@@ -78,8 +78,8 @@ The Bill of Materials for Mercury One.1 is not fully complete yet.
 | <nobr>Hotend - Rapido HF</nobr>   |   1    |    [Click here](#rapido_hotend) &emsp; <input type="checkbox">     |
 {: class="transparant_table"}
 
-| Size | Type                              | Amount |                               Stores                               |
-|:----:|:----------------------------------|:------:|:------------------------------------------------------------------:|
+| Size       | Type                          | Amount |                           Stores                           |
+|:-----------|:------------------------------|:------:|:----------------------------------------------------------:|
 | 40x40x10mm | <nobr>Brushless DC fan</nobr> |   1    | [Click here](#Gdstime_4010) &emsp; <input type="checkbox"> |
 {: class="transparant_table"}
 
@@ -88,24 +88,24 @@ The Bill of Materials for Mercury One.1 is not fully complete yet.
 
 #### Motion system
 
-| Size                          | Type                                                             | Amount |                                   Stores                                   |
-|:------------------------------|:-----------------------------------------------------------------|:------:|:--------------------------------------------------------------------------:|
-| <nobr>M5X30mm</nobr>          | Precision dowel pin                                              |   10   | [Click here](#m5_30_Precision_dowel_pin)    &emsp; <input type="checkbox"> |
-| <nobr>5*13*4 Mm</nobr>        | F695-2RS                                                         |   20   |  [Click here](#f695_2rs_flangebearing)    &emsp; <input type="checkbox">   |
-| 6mm                           | 2GT 20T Idler                                                    |   2    |      [Click here](#2gt_teeth_idler)    &emsp; <input type="checkbox">      |
-| 6mm                           | 2GT 20T Pulley                                                   |   2    |     [Click here](#2gt_teeth_pulley)    &emsp; <input type="checkbox">      |
-| Check note in store           | GATES-LL-2GT                                                     |   2    |      [Click here](#gates_belts_6mm)    &emsp; <input type="checkbox">      |
+| Size                   | Type                | Amount |                                   Stores                                   |
+|:-----------------------|:--------------------|:------:|:--------------------------------------------------------------------------:|
+| <nobr>M5X30mm</nobr>   | Precision dowel pin |   10   | [Click here](#m5_30_Precision_dowel_pin)    &emsp; <input type="checkbox"> |
+| <nobr>5*13*4 Mm</nobr> | F695-2RS            |   20   |  [Click here](#f695_2rs_flangebearing)    &emsp; <input type="checkbox">   |
+| 6mm                    | 2GT 20T Idler       |   2    |      [Click here](#2gt_teeth_idler)    &emsp; <input type="checkbox">      |
+| 6mm                    | 2GT 20T Pulley      |   2    |     [Click here](#2gt_teeth_pulley)    &emsp; <input type="checkbox">      |
+| Check note in store    | GATES-LL-2GT        |   2    |      [Click here](#gates_belts_6mm)    &emsp; <input type="checkbox">      |
 {: class="transparant_table"}
 
 #### Other
 
-| Size                          | Type                                                             | Amount |                                   Stores                                   |
-|:------------------------------|:-----------------------------------------------------------------|:------:|:--------------------------------------------------------------------------:|
-| <nobr>M3 X D5.0 X L4.0</nobr> | Heatset insert                                                   |   30   |      [Click here](#heatset_insert)    &emsp; <input type="checkbox">       |
-| <nobr>M3</nobr>               | Hex Nut                                                          |   10   |        [Click here](#m3_hex_nut)    &emsp; <input type="checkbox">         |
-| M3 Washer                     | <nobr>Normal grade A M3 </nobr><br><nobr>Stainless Steel </nobr> |   10   |      [Click here](#plain_m3_washer)   &emsp; <input type="checkbox">       |
-| M5 Washer/Shim                | <nobr>Normal grade A M5 </nobr><br><nobr>Stainless Steel </nobr> |   30   |      [Click here](#plain_m5_washer)   &emsp; <input type="checkbox">       |
-| Nema17                        | Stepper motor                                                    |   2    |       [Click here](#nema17_zaxis)     &emsp; <input type="checkbox">       |
+| Size                          | Type                                                             | Amount |                             Stores                              |
+|:------------------------------|:-----------------------------------------------------------------|:------:|:---------------------------------------------------------------:|
+| <nobr>M3 X D5.0 X L4.0</nobr> | Heatset insert                                                   |   30   | [Click here](#heatset_insert)    &emsp; <input type="checkbox"> |
+| <nobr>M3</nobr>               | Hex Nut                                                          |   10   |   [Click here](#m3_hex_nut)    &emsp; <input type="checkbox">   |
+| M3 Washer                     | <nobr>Normal grade A M3 </nobr><br><nobr>Stainless Steel </nobr> |   10   | [Click here](#plain_m3_washer)   &emsp; <input type="checkbox"> |
+| M5 Washer/Shim                | <nobr>Normal grade A M5 </nobr><br><nobr>Stainless Steel </nobr> |   30   | [Click here](#plain_m5_washer)   &emsp; <input type="checkbox"> |
+| Nema17                        | Stepper motor                                                    |   2    | [Click here](#nema17_zaxis)     &emsp; <input type="checkbox">  |
 {: class="transparant_table"}
 
 {: style="text-align: center" }

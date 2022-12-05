@@ -78,7 +78,7 @@ Hovering an image with your mouse will show a zoom icon <i class="bi bi-zoom-in"
     </div>
 </div>
 
-## Do's and don'ts
+## Do's and dont's
 
 1. **Read and execute the instructions.**
 2. **Got questions?**
