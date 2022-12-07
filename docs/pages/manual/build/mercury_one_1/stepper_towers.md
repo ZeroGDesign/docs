@@ -214,9 +214,12 @@ Partly unfasten the grub screw, lower the pulley into the shaft make sure the gr
     </div>
 </div>
 
->>> ``The blue selection is used as an indicator for the distance between the pulley and the stepper.``
+``The blue selection is used as an indicator for the distance between the pulley and the stepper.``
 
 Measure the bottom of the pulley to the top of the stepper. The distance should be **9.2mm**. After you've ensured the distance is correct, tighten the grub screws. You could use a little bit of purple Loctite.
+
+{: .warn}
+The right stepper tower is slightly different from the left, pulley needs to be flipped compared to the one on the left stepper tower. The distance of the toothed pulley to the stepper *(same as the image with blue highlight but with pulley flipped)* should be **5.8mm**.
 
 ### Inserting the stepper screws
 
