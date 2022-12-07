@@ -172,7 +172,7 @@ Take the top left motor mount *printed piece* and lower it into the bottom left 
     </div>
 </div>
 
-The image below shows the top lowered on the bottom mount, top top will have an edge/guide where the bottom part will fit in.
+The image below shows the top lowered on the bottom mount, top will have an edge/guide where the bottom part will fit in.
 There should be some play, this because it makes it easier to align.
 
 [![Left stepper top printed](../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_top_print_after.png)](#lightbox__item_10){: .lightbox_wrapper}
