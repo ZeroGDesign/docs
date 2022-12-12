@@ -937,20 +937,8 @@
             "source": [
                 {
                     "region": "CN",
-                    "name": "AliExpress - Kee Pang",
-                    "url": "https://s.click.aliexpress.com/e/_9IX7uJ",
-                    "verified": false
-                },
-                {
-                    "region": "CN",
-                    "name": "AliExpress - Mellow Store",
-                    "url": "https://s.click.aliexpress.com/e/_AmmWtd",
-                    "verified": true
-                },
-                {
-                    "region": "US",
-                    "name": "Robotdigg",
-                    "url": "https://www.robotdigg.com/product/747/Steel-ball-with-M4-screw-hole",
+                    "name": "AliExpress - Veekaft FA Store",
+                    "url": "https://s.click.aliexpress.com/e/_DB2Dier",
                     "verified": true
                 }
             ]
