@@ -22,6 +22,7 @@ var _partsList = {
     ],
     probes: [
         { id: "bl_touch", name: "BLTouch", dependencies: ["bl_touch_mount.stl", "bl_touch_mount_alt.stl"] },
+        { id: "cr_touch", name: "CRTouch", dependencies: ["cr_touch_mount.stl"] },
         //{id: "euclid", name: "Euclid", dependencies: ["soon.stl"]},
         { id: "inductive", name: "Inductive", dependencies: ["LJ8_probe_mount.stl", "LJ12_probe_mount.stl", "LJ18_probe_mount.stl"] },
         { id: "none", name: "None", dependencies: [] }
