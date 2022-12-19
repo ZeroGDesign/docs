@@ -42,19 +42,7 @@ Click [here](/manual/print/abs){:target="_blank"} to see the how to print abs.
 
 ## Printed files
 
-### New xy joints
-
-Temperarly BOM list for new X joints
-{: .label .label-red }
-
-- 6x M3x30 Bolts<br>
-- 6x M3 Washers<br>
-- 6x M3 Heatsets<br>
-- 8x M3x8 Bolts<br>
-- 4x M5x12 Bolts<br>
-- 4x M5 Washers<br>
-- 4x M5 Roll in Tnuts
-{: .fs-3 .fw-300}
+### X & Y joints
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
 | File name<br>Description<br>Version<br>Download| XJoint_right_bottom.stl<br>Bottom piece right x joint<br>1.1.4<br>[Here](../../../assets/stl/m1_1/XJoint_right_bottom.stl)|     [![Left stepper top printed]({{page.img_instr}}/right_bottom_xjoint.png)](#lightbox__item_lxb){: .lightbox_wrapper} |
