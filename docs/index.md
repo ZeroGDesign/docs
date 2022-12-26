@@ -10,7 +10,7 @@ The Zero G documentation will give you a start building your project, learning a
 {: .fs-6 .fw-300 }
 
 ## Getting started
-On this website you'll find all sorts of information, [ABS Printing Tips](/manual/print/abs), [Print Settings](/standard/print/settings), [Design Guidelines](/standard/cad/guidelines), [Mainsail Theme](/klipper/mainsail/theme), [Manuals](/manual/build/) and more!
+On this website you'll find all sorts of information, [ABS Printing Tips](/manual/print/abs), [Print Settings](/standard/print/settings), [Design Guidelines](/standard/cad/guidelines), [Mainsail Theme](/klipper/mainsail/theme), [Manuals](/manual/build) and more!
 
 Currently we're working on instructions for two of our projects. Our projects are **Mercury One.1** and **Hydra**.
 
