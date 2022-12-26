@@ -91,9 +91,39 @@
             ]
         },
         {
+            "partname": "m3x12",
+            "image": "urltoimage",
+            "identifier": "m3x12_912",
+            "type": {
+                "din": "912",
+                "iso": "4762 ",
+                "description": "SHCS"
+            },
+            "source": [
+                {
+                    "region": "CN",
+                    "name": "AliExpress - Nindejin",
+                    "url": "https://s.click.aliexpress.com/e/_9yeIIO",
+                    "verified": true
+                },
+                {
+                    "region": "US",
+                    "name": "Boltdepot",
+                    "url": "https://www.boltdepot.com/Product-Details.aspx?product=6381",
+                    "verified": true
+                },
+                {
+                    "region": "CA",
+                    "name": "Boltsplus",
+                    "url": "https://boltsplus.ca/productInfo.php?prodID=4101-0043",
+                    "verified": true
+                }
+            ]
+        },
+        {
             "partname": "m3x16",
             "image": "urltoimage",
-            "identifier": "m3x16_7991",
+            "identifier": "m3x16_912",
             "type": {
                 "din": "7991",
                 "iso": "10642",
@@ -117,10 +147,10 @@
         {
             "partname": "m3x20",
             "image": "urltoimage",
-            "identifier": "m3x20_7991",
+            "identifier": "m3x20_912",
             "type": {
-                "din": "7991",
-                "iso": "10642",
+                "din": "912",
+                "iso": "4762",
                 "description": "SHCS"
             },
             "source": [
@@ -139,12 +169,36 @@
             ]
         },
         {
+            "partname": "m3x25",
+            "image": "urltoimage",
+            "identifier": "m3x25_912",
+            "type": {
+                "din": "912",
+                "iso": "4762",
+                "description": "SHCS"
+            },
+            "source": [
+                {
+                    "region": "CN",
+                    "name": "AliExpress - Nindejin",
+                    "url": "https://s.click.aliexpress.com/e/_9yeIIO",
+                    "verified": true
+                },
+                {
+                    "region": "US",
+                    "name": "Boltdepot",
+                    "url": "https://www.boltdepot.com/Product-Details.aspx?product=6384",
+                    "verified": true
+                }
+            ]
+        },
+        {
             "partname": "m3x30",
             "image": "urltoimage",
-            "identifier": "m3x30_7991",
+            "identifier": "m3x30_912",
             "type": {
-                "din": "7991",
-                "iso": "10642",
+                "din": "912",
+                "iso": "4762",
                 "description": "SHCS"
             },
             "source": [
@@ -165,10 +219,10 @@
         {
             "partname": "m3x35",
             "image": "urltoimage",
-            "identifier": "m3x35_7991",
+            "identifier": "m3x35_912",
             "type": {
-                "din": "7991",
-                "iso": "10642",
+                "din": "912",
+                "iso": "4762",
                 "description": "SHCS"
             },
             "source": [
