@@ -15,7 +15,7 @@ permalink: /manual/build/mercury_eva/bill_of_material
 
 The tables contain a column named `Stores` Click the [red text](#) underneath to reveal a pop-up with a list of stores. Stores that contain a checkmark <i class="bi bi-check-all"></i> have been verified and tested by either an Engineer or a trusted community member.
 
-The Bill of Materials for Mercury One.1 is not fully complete yet.
+The Bill of Materials for the Mercury One.1 is not yet complete, but it does include the hardware for the EVA Toolhead. For further information, please refer to the Changelog [here](/changelog/mercury#th-december-2022).
 
 ## Self sourcing
 
@@ -28,12 +28,14 @@ The Bill of Materials for Mercury One.1 is not fully complete yet.
 
 | Size  | Type                            | Amount |                           Stores                            |
 |:------|:--------------------------------|:------:|:-----------------------------------------------------------:|
-| M3X8  | <nobr>ISO 4762 / DIN 912</nobr> |   47   |   [Click here](#m3x8_912)  &emsp; <input type="checkbox">   |
-| M3X16 | <nobr>ISO 4762 / DIN 912</nobr> |   4    |  [Click here](#m3x16_7991) &emsp; <input type="checkbox">   |
-| M3X20 | <nobr>ISO 4762 / DIN 912</nobr> |   9    |  [Click here](#m3x20_7991) &emsp; <input type="checkbox">   |
-| M3X30 | <nobr>ISO 4762 / DIN 912</nobr> |   8    |  [Click here](#m3x30_7991) &emsp; <input type="checkbox">   |
-| M3X35 | <nobr>ISO 4762 / DIN 912</nobr> |   6    |  [Click here](#m3x35_7991) &emsp; <input type="checkbox">   |
-| M5X8  | <nobr>ISO 4762 / DIN 912</nobr> |   6    | [Click here](#m5x8_912_SHCS) &emsp; <input type="checkbox"> |
+| M3X8  | <nobr>ISO 4762 / DIN 912</nobr> |   65   |   [Click here](#m3x8_912)  &emsp; <input type="checkbox">   |
+| M3X12 | <nobr>ISO 4762 / DIN 912</nobr> |   8    |  [Click here](#m3x12_912) &emsp; <input type="checkbox">   |
+| M3X16 | <nobr>ISO 4762 / DIN 912</nobr> |   8    |  [Click here](#m3x16_912) &emsp; <input type="checkbox">   |
+| M3X20 | <nobr>ISO 4762 / DIN 912</nobr> |   14    |  [Click here](#m3x20_912) &emsp; <input type="checkbox">   |
+| M3X25 | <nobr>ISO 4762 / DIN 912</nobr> |   5    |  [Click here](#m3x25_912) &emsp; <input type="checkbox">   
+| M3X30 | <nobr>ISO 4762 / DIN 912</nobr> |   8    |  [Click here](#m3x30_912) &emsp; <input type="checkbox">   |
+| M3X35 | <nobr>ISO 4762 / DIN 912</nobr> |   12    |  [Click here](#m3x35_912) &emsp; <input type="checkbox">   |
+| M5X8  | <nobr>ISO 4762 / DIN 912</nobr> |   6    | [Click here](#m5x8_912) &emsp; <input type="checkbox"> |
 | M5X12 | <nobr>ISO 4762 / DIN 912</nobr> |   6    |   [Click here](#m5x12_912) &emsp; <input type="checkbox">   |
 | M5X20 | <nobr>ISO 4762 / DIN 912</nobr> |   4    |   [Click here](#m5x20_912) &emsp; <input type="checkbox">   |
 | M5X50 | <nobr>ISO 4762 / DIN 912</nobr> |   6    |   [Click here](#m5x50_912) &emsp; <input type="checkbox">   |
@@ -101,7 +103,7 @@ The Bill of Materials for Mercury One.1 is not fully complete yet.
 
 | Size                          | Type                                                             | Amount |                             Stores                              |
 |:------------------------------|:-----------------------------------------------------------------|:------:|:---------------------------------------------------------------:|
-| <nobr>M3 X D5.0 X L4.0</nobr> | Heatset insert                                                   |   30   | [Click here](#heatset_insert)    &emsp; <input type="checkbox"> |
+| <nobr>M3 X D5.0 X L4.0</nobr> | Heatset insert                                                   |   50   | [Click here](#heatset_insert)    &emsp; <input type="checkbox"> |
 | <nobr>M3</nobr>               | Hex Nut                                                          |   10   |   [Click here](#m3_hex_nut)    &emsp; <input type="checkbox">   |
 | M3 Washer                     | <nobr>Normal grade A M3 </nobr><br><nobr>Stainless Steel </nobr> |   10   | [Click here](#plain_m3_washer)   &emsp; <input type="checkbox"> |
 | M5 Washer/Shim                | <nobr>Normal grade A M5 </nobr><br><nobr>Stainless Steel </nobr> |   30   | [Click here](#plain_m5_washer)   &emsp; <input type="checkbox"> |
