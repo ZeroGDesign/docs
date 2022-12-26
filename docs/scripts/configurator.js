@@ -11,14 +11,14 @@ var _partsList = {
         { id: "e3d_v6", name: "E3D V6", dependencies: ["v6_face.stl", "v6_face_clamp.stl", "v6_support.stl", "EVA2_4_Trihorn_high-narrow.stl"] }
     ],
     extruders: [
-        { id: "sherpa_mini", name: "Sherpa Mini", dependencies: ["Extruder_X_Limit_Top_Sherpa_Mini_MGN12.stl"] },
-        { id: "lgx_lite", name: "LGX Lite", dependencies: ["Extruder_X_Limit_Top_LGX_Lite_MGN12.stl"] },
-        { id: "lgx", name: "LGX", dependencies: ["Extruder_X_Limit_Top_LGX_MGN12_a.stl", "Extruder_X_Limit_Top_LGX_MGN12__b.stl"] },
-        { id: "orbiter_1_5", name: "Orbitor 1.5", dependencies: ["Extruder_X_Limit_Top_Orbiter_1_5_MGN12.stl"] },
-        { id: "orbiter_2", name: "Orbitor 2.0", dependencies: ["Extruder_X_Limit_Top_Orbiter_2_0_MGN12.stl"] },
-        { id: "bmg", name: "BMG", dependencies: ["Extruder_X_Limit_Top_BMG_MGN12.stl"] },
-        { id: "titan", name: "Titan", dependencies: ["Extruder_X_Limit_Top_Titan_MGN12.stl"] },
-        { id: "bowden", name: "bowden", dependencies: ["Extruder_X_Limit_Top_MGN12.stl"] }
+        { id: "sherpa_mini", name: "Sherpa Mini", dependencies: ["Sherpa_Mini_TOP.stl"] },
+        { id: "lgx_lite", name: "LGX Lite", dependencies: ["LGX_Lite_TOP.stl"] },
+        { id: "lgx", name: "LGX", dependencies: ["LGX_TOP_a.stl", "LGX_TOP__b.stl"] },
+        { id: "orbiter_1_5", name: "Orbitor 1.5", dependencies: ["Orbiter_1_5_TOP.stl"] },
+        { id: "orbiter_2", name: "Orbitor 2.0", dependencies: ["Orbiter_2_0_TOP.stl"] },
+        { id: "bmg", name: "BMG", dependencies: ["BMG_TOP.stl"] },
+        { id: "titan", name: "Titan", dependencies: ["Titan_TOP.stl"] },
+        { id: "bowden", name: "bowden", dependencies: ["TOP.stl"] }
     ],
     probes: [
         { id: "bl_touch", name: "BLTouch", dependencies: ["bl_touch_mount.stl", "bl_touch_mount_alt.stl"] },
@@ -40,7 +40,7 @@ var _partsList = {
         { id: "5plus", name: "Ender 5 Plus", dependencies: ["e5_only_bed_raiser_1.stl", "e5_only_bed_raiser_2.stl", "e5_only_bed_raiser_3.stl", "e5_only_bed_raiser_4.stl"] },
         { id: "none", name: "None", dependencies: [] }
     ],
-    eva_generic: ["Belt_clamp_1.stl", "Belt_clamp_2.stl", "y_endstop.stl", "a_D2F-L_X_Limit_Stop_Block.stl",
+    eva_generic: ["Belt_clamp_1.stl", "Belt_clamp_2.stl", "y_endstop.stl", "a_X_Limit_Stop_Block.stl",
         "RearSplitloomArm_V1-1-0.stl", "RearCableArm_V1-1.stl", "a_EVA_Backplate_Merc_Support_V1-1.stl", "a_EVA_FrontPlate_HD_V-1-1.stl", "EVA2-4_Bottom_V1-1.stl"],
     mercury_generic: ["a_stepper_mount_bottom_left.stl", "a_stepper_mount_bottom_right.stl", "a_stepper_mount_top_left.stl", "a_stepper_mount_top_right.stl",
         "a_front_tower_right.stl", "a_front_tower_left.stl", "a_FlangeSpacer_tall_1.stl", "a_FlangeSpacer_tall_2.stl", "a_FlangeSpacer_short_1.stl", "a_FlangeSpacer_short_2.stl",
