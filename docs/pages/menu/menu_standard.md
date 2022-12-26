@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Standards
-nav_order: 6
+nav_order: 50
 has_toc: true
 has_children: true
 permalink: /standards

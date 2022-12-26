@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Printers
-nav_order: 2
+title: Projects
+nav_order: 20
 has_toc: false
-permalink: /printers
+permalink: /projects
 ---
 
 # Printers
