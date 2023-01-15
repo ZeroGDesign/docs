@@ -51,7 +51,7 @@ Example 3 shows one flaw, the part has been printed with a .6 nozzle showing a g
 
 ### Filament brands that we recommend
 
-* Polymaker
+* [Polymaker](https://us.polymaker.com?aff=282){:target="_blank"}
 * Bambulab
 * Keene Village Plastics
 
