@@ -18,6 +18,18 @@ This page contains a changelog of the updates and modifications made to the docu
 1. Table of content
 {:toc}
 
+<div class="code-example" markdown="1">
+#### 14th Januari 2023
+{: .no_toc }
+
+1. The issue with the store popup displaying incorrectly for M5x8 bolts has been resolved.
+2. Fixed a typo on the [ABS Printing Tips](manual/print/abs) page.
+3. We transferred the STL file for the rear split loom from the EVA 2.4 Toolhead Configurator to the Mercury One.1 Configurator.
+4. We combined all the spacers into one file. Now you only need to print one set of each spacer you need.
+
+
+{: .fs-1 .fw-300 }
+</div>
 
 <div class="code-example" markdown="1">
 #### 26th December 2022

@@ -83,64 +83,6 @@ Click [here](/manual/print/abs){:target="_blank"} to see the how to print abs.
     </div>
 </div>
 
-### XY Joints spacers
-
-{: .important }
-Based on the toothed idler you've bought, you either print the generic spacers or the Mellow spacers.
-
-#### Flange stack spacer
-
-| :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Amount<br>Download| a_FlangeSpacer_short_1.stl<br>Printed spacer for flange stack<br>x2<br>[Here](../../../assets/stl/m1_1/a_FlangeSpacer_short_1.stl)|     [![Left stepper top printed]({{page.img_instr}}/flange_short.png)](#lightbox__item_fs){: .lightbox_wrapper} |
-| File name<br>Description<br>Amount<br>Download| a_FlangeSpacer_tall_1.stl<br>Printed spacer for flange stack<br>x2<br>[Here](../../../assets/stl/m1_1/a_FlangeSpacer_tall_1.stl)|     [![Left stepper bottom printed]({{page.img_instr}}/flange_tall.png)](#lightbox__item_ft){: .lightbox_wrapper} |
-{: class="hardwaretable"}
-
-<div onclick="location.href='##';"  id="lightbox__item_fs"  class="lightbox__item">
-    <div class="lightbox__content">
-    <div class="lightbox__titlebar"></div>
-        <a href="##" class="close"></a>
-        <img src="{{page.img_instr}}/flange_short.png" alt="Short printed spacer for flange stack">
-    </div>
-</div>
-
-<div onclick="location.href='##';"  id="lightbox__item_ft"  class="lightbox__item">
-    <div class="lightbox__content">
-    <div class="lightbox__titlebar"></div>
-        <a href="##" class="close"></a>
-        <img src="{{page.img_instr}}/flange_tall.png" alt="Tall Printed spacer for flange stack">
-    </div>
-</div>
-
-#### Mellow toothed idler
-
-| :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Amount<br>Download| a_MellowSpacer_short_1.stl<br>Printed spacer for Mellow idler<br>x2<br>[Here](../../../assets/stl/m1_1/a_MellowSpacer_short_1.stl)|     [![Left stepper top printed]({{page.img_instr}}/20t_short.png)](#lightbox__item_fs){: .lightbox_wrapper} |
-| File name<br>Description<br>Amount<br>Download| a_MellowSpacer_tall_1.stl<br>Printed spacer for Mellow idler<br>x2<br>[Here](../../../assets/stl/m1_1/a_MellowSpacer_tall_1.stl)|     [![Left stepper bottom printed]({{page.img_instr}}/20t_tall.png)](#lightbox__item_ft){: .lightbox_wrapper} |
-{: class="hardwaretable"}
-
-#### Generic toothed idler
-
-| :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Amount<br>Download| a_tIdlerSpacer_short_1.stl<br>Printed spacer for generic idler<br>x2<br>[Here](../../../assets/stl/m1_1/a_tIdlerSpacer_short_1.stl)|     [![Left stepper top printed]({{page.img_instr}}/20t_short.png)](#lightbox__item_fs){: .lightbox_wrapper} |
-| File name<br>Description<br>Amount<br>Download| a_tIdlerSpacer_tall_1.stl<br>Printed spacer for generic idler<br>x2<br>[Here](../../../assets/stl/m1_1/a_tIdlerSpacer_tall_1.stl)|     [![Left stepper bottom printed]({{page.img_instr}}/20t_tall.png)](#lightbox__item_ft){: .lightbox_wrapper} |
-{: class="hardwaretable"}
-
-<div onclick="location.href='##';"  id="lightbox__item_2ts"  class="lightbox__item">
-    <div class="lightbox__content">
-    <div class="lightbox__titlebar"></div>
-        <a href="##" class="close"></a>
-        <img src="{{page.img_instr}}/20t_short.png" alt="Short printed spacer for toothed idler">
-    </div>
-</div>
-
-<div onclick="location.href='##';"  id="lightbox__item_2tt"  class="lightbox__item">
-    <div class="lightbox__content">
-    <div class="lightbox__titlebar"></div>
-        <a href="##" class="close"></a>
-        <img src="{{page.img_instr}}/20t_tall.png" alt="Tall Printed spacer for toothed idler">
-    </div>
-</div>
-
 ### Left stepper mount
    
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |

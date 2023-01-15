@@ -32,19 +32,18 @@ var _partsList = {
         { id: "tapped", name: "Tapped", dependencies: ["front_tension_plate_tapped_1.stl", "front_tension_plate_tapped_2.stl"] }
     ],
     tidlers: [
-        { id: "standardidler", name: "Standard Tooth idlers", dependencies: ["a_tIdlerSpacer_short_1.stl", "a_tIdlerSpacer_short_2.stl", "a_tIdlerSpacer_tall_2.stl", "a_tIdlerSpacer_tall_1.stl"] },
-        { id: "mellow", name: "Mellow Tooth Idlers", dependencies: ["a_MellowSpacer_short_1.stl", "a_MellowSpacer_short_2.stl", "a_MellowSpacer_tall_1.stl", "a_MellowSpacer_tall_2.stl"] }
+        { id: "standardidler", name: "Standard Tooth idlers", dependencies: ["a_tIdlerSpacer_short_pair.stl"] },
+        { id: "mellow", name: "Mellow Tooth Idlers", dependencies: ["a_MellowSpacer_short_pair.stl"] }
     ],
     zadapters: [
         { id: "5pro", name: "Ender 5/Pro", dependencies: ["Z_DropBracket_5Pro_1.stl", "Z_DropBracket_5Pro_2.stl"] },
         { id: "5plus", name: "Ender 5 Plus", dependencies: ["e5_only_bed_raiser_1.stl", "e5_only_bed_raiser_2.stl", "e5_only_bed_raiser_3.stl", "e5_only_bed_raiser_4.stl"] },
         { id: "none", name: "None", dependencies: [] }
     ],
-    eva_generic: ["Belt_clamp_1.stl", "Belt_clamp_2.stl", "y_endstop.stl", "a_X_Limit_Stop_Block.stl",
-        "RearSplitloomArm_V1-1-0.stl", "RearCableArm_V1-1.stl", "a_EVA_Backplate_Merc_Support_V1-1.stl", "a_EVA_FrontPlate_HD_V-1-1.stl", "EVA2-4_Bottom_V1-1.stl"],
+    eva_generic: ["Belt_clamp_1.stl", "Belt_clamp_2.stl", "y_endstop.stl", "a_X_Limit_Stop_Block.stl", "RearCableArm_V1-1.stl", "a_EVA_Backplate_Merc_Support_V1-1.stl", "a_EVA_FrontPlate_HD_V-1-1.stl", "EVA2-4_Bottom_V1-1.stl"],
     mercury_generic: ["a_stepper_mount_bottom_left.stl", "a_stepper_mount_bottom_right.stl", "a_stepper_mount_top_left.stl", "a_stepper_mount_top_right.stl",
-        "a_front_tower_right.stl", "a_front_tower_left.stl", "a_FlangeSpacer_tall_1.stl", "a_FlangeSpacer_tall_2.stl", "a_FlangeSpacer_short_1.stl", "a_FlangeSpacer_short_2.stl",
-        "XJoint_left_bottom.stl", "XJoint_left_top.stl", "XJoint_right_bottom.stl", "XJoint_right_top.stl"
+        "a_front_tower_right.stl", "a_front_tower_left.stl", "a_FlangeSpacer_short_pair.stl",
+        "XJoint_left_bottom.stl", "XJoint_left_top.stl", "XJoint_right_bottom.stl", "XJoint_right_top.stl", "RearSplitloomArm_V1-1-0.stl"
     ]
 }
 

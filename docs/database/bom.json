@@ -775,6 +775,12 @@
                     "name": "Fabreeko",
                     "url": "https://www.fabreeko.com/collections/zero-g/products/fabreeko-edge-to-edge-heaters-for-zero-g",
                     "verified": true
+                },
+                {
+                    "region": "CN",
+                    "name": "Fysetc<br>(Heater, 255x255x8mm bed, surface, magnet)",
+                    "url": "https://s.click.aliexpress.com/e/_DnKgYY3",
+                    "verified": true
                 }
             ]
         },
@@ -796,6 +802,12 @@
                     "region": "EU",
                     "name": "Kris3D",
                     "url": "https://www.kris3d.de/products/zerog-hydra",
+                    "verified": true
+                },
+                {
+                    "region": "CN",
+                    "name": "Fysetc<br>(Heater, 255x255x8mm bed, surface, magnet)",
+                    "url": "https://s.click.aliexpress.com/e/_DnKgYY3",
                     "verified": true
                 }
             ]
