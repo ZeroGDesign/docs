@@ -19,6 +19,9 @@ It's recommended to print your ABS or ASA parts inside of an enclosure, this wil
 We find that parts printed in ABS+ are **weaker in layer adhesion** compared to non ABS+ filaments. Although easier to print, they're **easier to break**.
 <br>We're aware that not every blend of ABS+ is equal, however it's what we found with the ABS+ we tested.
 
+### I am looking for a calibration print
+Check it out now! You can find it [here](https://www.printables.com/model/369447-zerog-abs-callibration-print). This test print will assist you in determining the proper fitment of dowel pins, heatsets, and bolts, as well as testing the bridging and overhangs. The printable page's description will provide you with the necessary settings to use.
+
 ### My print broke, oh no!
 Great! Lets use this moment to check your layer adheasion. We mostly use our Steppers mounts or X Joints to check the adheasion.
 
