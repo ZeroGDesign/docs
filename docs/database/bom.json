@@ -443,12 +443,6 @@
                     "verified": true
                 },
                 {
-                    "region": "DE",
-                    "name": "Dold Mechatronik",
-                    "url": "https://www.dold-mechatronik.de/Nutenstein-137x7mm-einschwenkbar-Nut-8-M8-l22mm-Federkugel-Edelstahl-14301-14305",
-                    "verified": false
-                },
-                {
                     "region": "GB",
                     "name": "Printyplease",
                     "url": "https://www.printyplease.uk/M3TNUT",
@@ -493,12 +487,6 @@
                     "name": "Aliexpress - Link CNC",
                     "url": "https://s.click.aliexpress.com/e/_9JpX52",
                     "verified": true
-                },
-                {
-                    "region": "DE",
-                    "name": "Dold Mechatronik",
-                    "url": "https://www.dold-mechatronik.de/Nutenstein-137x7mm-einschwenkbar-Nut-8-M8-l22mm-Federkugel-Edelstahl-14301-14305",
-                    "verified": false
                 },
                 {
                     "region": "US",
@@ -578,8 +566,8 @@
             "source": [
                 {
                     "region": "CN",
-                    "name": "AliExpress - Usongshine",
-                    "url": "https://s.click.aliexpress.com/e/_9GDsxB",
+                    "name": "AliExpress - YOUMETONG Factory Store",
+                    "url": "https://aliexpress.com/item/1005001431325586.html",
                     "verified": true
                 },
                 {
