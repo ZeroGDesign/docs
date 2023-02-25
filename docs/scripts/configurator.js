@@ -48,139 +48,135 @@ var _partsList = {
 }
 
 var getDocumentList = (option) => {
-    //stop the page from changing.
+    // stop the page from changing
     event.preventDefault();
-    //Get selections
+  
+    // get selections
     var hotendSelected = document.getElementById('hotend');
     var extruderSelected = document.getElementById('extruder');
     var probeSelected = document.getElementById('probe');
     var tidlerSelected = document.getElementById('tidler');
     var tensionplateSelected = document.getElementById('tensionplate');
     var zadapterSelected = document.getElementById('zadapter');
-
-    //Aggregate the files
+  
+    // aggregate the files
     var fileList = [];
-
+  
     if (option == 'Mercury') {
-        fileList = fileList.concat(_partsList.mercury_generic)
-
-        //add tension plates
-        fileList = fileList.concat(_partsList.tidlers.map(item => {
-            if (item.id == tidlerSelected.value)
-                return item.dependencies;
-        }))
-
-        //add tension plates
-        fileList = fileList.concat(_partsList.tensionplates.map(item => {
-            if (item.id == tensionplateSelected.value)
-                return item.dependencies;
-        }))
-
-        //add Z Adapters
-        fileList = fileList.concat(_partsList.zadapters.map(item => {
-            if (item.id == zadapterSelected.value)
-                return item.dependencies;
-        }))
-
+      fileList = fileList.concat(_partsList.mercury_generic);
+  
+      // add tension plates
+      fileList = fileList.concat(_partsList.tidlers.map(item => {
+        if (item.id == tidlerSelected.value)
+          return item.dependencies;
+      }));
+  
+      // add tension plates
+      fileList = fileList.concat(_partsList.tensionplates.map(item => {
+        if (item.id == tensionplateSelected.value)
+          return item.dependencies;
+      }));
+  
+      // add Z Adapters
+      fileList = fileList.concat(_partsList.zadapters.map(item => {
+        if (item.id == zadapterSelected.value)
+          return item.dependencies;
+      }));
+    } else {
+      // add generic files
+      fileList = fileList.concat(_partsList.eva_generic);
+  
+      // add hotends
+      fileList = fileList.concat(_partsList.hotends.map(item => {
+        if (item.id == hotendSelected.value)
+          return item.dependencies;
+      }));
+  
+      // add extruder
+      fileList = fileList.concat(_partsList.extruders.map(item => {
+        if (item.id == extruderSelected.value)
+          return item.dependencies;
+      }));
+  
+      // add probes
+      fileList = fileList.concat(_partsList.probes.map(item => {
+        if (item.id == probeSelected.value)
+          return item.dependencies;
+      }));
     }
-    else {
-        //Add generic files
-        fileList = fileList.concat(_partsList.eva_generic)
-
-        //add hotends
-        fileList = fileList.concat(_partsList.hotends.map(item => {
-            if (item.id == hotendSelected.value)
-                return item.dependencies;
-        }))
-
-        //add extruder
-        fileList = fileList.concat(_partsList.extruders.map(item => {
-            if (item.id == extruderSelected.value)
-                return item.dependencies;
-        }))
-
-        //add probes
-        fileList = fileList.concat(_partsList.probes.map(item => {
-            if (item.id == probeSelected.value)
-                return item.dependencies;
-        }))
-    }
-
-
-    //cleanup cause im lazy.....and this is a PoC
-    fileList = fileList.flat().filter(item => item != undefined)
-
-    console.log(fileList)
+  
+    // cleanup because I'm lazy... and this is a PoC
+    fileList = fileList.flat().filter(item => item != undefined);
+  
+    console.log(fileList);
     return fileList;
     // zipAndDownload(getDocumentList(), "/assets/stl/downloads");
-}
+  }  
 
-var loadDataSet = () => {
-    //Load the configurator
-    // document.getElementById('hotend').innerHTML = "";
-    var hotendSelect = document.getElementById('hotend');
-    var extruderSelect = document.getElementById('extruder');
-    var probeSelect = document.getElementById('probe');
-    var tensionplateSelect = document.getElementById('tensionplate');
-    var toothidlerSelect = document.getElementById('tidler');
-    var zadapterSelect = document.getElementById('zadapter');
-
-    //Set the options for both
-
-    hotendSelect.innerHTML = _partsList.hotends.reduce((prev, element, acc) => {
-        return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
-    }, "");
-
-    extruderSelect.innerHTML = _partsList.extruders.reduce((prev, element, acc) => {
-        return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
-    }, "");
-
-    probeSelect.innerHTML = _partsList.probes.reduce((prev, element, acc) => {
-        return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
-    }, "");
-
-    // Mercury one.1
-
-    toothidlerSelect.innerHTML = _partsList.tidlers.reduce((prev, element, acc) => {
-        return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
-    }, "");
-
-    toothidlerSelect.innerHTML = _partsList.tidlers.reduce((prev, element, acc) => {
-        return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
-    }, "");
-
-    tensionplateSelect.innerHTML = _partsList.tensionplates.reduce((prev, element, acc) => {
-        return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
-    }, "");
-
-    zadapterSelect.innerHTML = _partsList.zadapters.reduce((prev, element, acc) => {
-        return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
-    }, "");
-}
+const loadDataSet = () => {
+    const hotendSelect = document.getElementById('hotend');
+    const extruderSelect = document.getElementById('extruder');
+    const probeSelect = document.getElementById('probe');
+    const tensionplateSelect = document.getElementById('tensionplate');
+    const toothidlerSelect = document.getElementById('tidler');
+    const zadapterSelect = document.getElementById('zadapter');
+  
+    hotendSelect.innerHTML = _partsList.hotends.reduce((prev, element) => {
+      return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
+    }, '');
+  
+    extruderSelect.innerHTML = _partsList.extruders.reduce((prev, element) => {
+      return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
+    }, '');
+  
+    probeSelect.innerHTML = _partsList.probes.reduce((prev, element) => {
+      return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
+    }, '');
+  
+    toothidlerSelect.innerHTML = _partsList.tidlers.reduce((prev, element) => {
+      return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
+    }, '');
+  
+    tensionplateSelect.innerHTML = _partsList.tensionplates.reduce((prev, element) => {
+      return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
+    }, '');
+  
+    zadapterSelect.innerHTML = _partsList.zadapters.reduce((prev, element) => {
+      return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
+    }, '');
+};
 
 const exportZip = (blobs, docArray, option) => {
-    //use the jszip module to do the heavy lifting.
+    // use the jszip module to do the heavy lifting
     const zip = new JSZip();
     blobs.forEach((blob, i) => {
-        zip.file(docArray[i], blob);
+      zip.file(docArray[i], blob);
     });
-    //zoom zoom
+  
+    // zoom zoom
     zip.generateAsync({ type: 'blob' }).then(zipFile => {
-        const fileName = (option == 'Mercury' ? `Mercury1_1-${new Date().getTime()}.zip` : `EVA-Toolhead-${new Date().getTime()}.zip`);
-        //use the fileSave module to handle security issues
-        return saveAs(zipFile, fileName);
+      const fileName = option === 'Mercury'
+        ? `Mercury1_1-${new Date().getTime()}.zip`
+        : `EVA-Toolhead-${new Date().getTime()}.zip`;
+  
+      // use the fileSave module to handle security issues
+      return saveAs(zipFile, fileName);
     });
-}
+  };
 
 const download2Blob = urls => {
-    //download all the files, then get the blob response.
+    // download all the files, then get the blob response
     return Promise.all(
-        urls.map(url => { return fetch(url).then(resp => resp.blob()) }))
+        urls.map(url => {
+        return fetch(url).then(resp => resp.blob());
+        })
+    );
 };
 
 const zipAndDownload = (docArray, base_uri = '', option) => {
-    //parent function to call from frontend
-    //base URI to be updated to change the file location
-    urls = docArray.map(item => `${base_uri}/${item}`);
-    return download2Blob(urls, 5).then(blobs => exportZip(blobs, docArray, option));
-}
+    // Parent function to call from frontend
+    // Base URI to be updated to change the file location
+    const urls = docArray.map(item => `${base_uri}/${item}`);
+    return download2Blob(urls, 5)
+      .then(blobs => exportZip(blobs, docArray, option));
+  };  
