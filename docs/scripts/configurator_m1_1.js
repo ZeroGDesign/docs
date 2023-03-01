@@ -14,8 +14,8 @@ var _partsList = {
         { id: "sherpa_mini", name: "Sherpa Mini", dependencies: ["Sherpa_Mini_TOP.stl"] },
         { id: "lgx_lite", name: "LGX Lite", dependencies: ["LGX_Lite_TOP.stl"] },
         { id: "lgx", name: "LGX", dependencies: ["LGX_TOP_a.stl", "LGX_TOP__b.stl"] },
-        { id: "orbiter_1_5", name: "Orbitor 1.5", dependencies: ["Orbiter_1_5_TOP.stl"] },
-        { id: "orbiter_2", name: "Orbitor 2.0", dependencies: ["Orbiter_2_0_TOP.stl"] },
+        { id: "orbiter_1_5", name: "Orbiter 1.5", dependencies: ["Orbiter_1_5_TOP.stl"] },
+        { id: "orbiter_2", name: "Orbiter 2.0", dependencies: ["Orbiter_2_0_TOP.stl"] },
         { id: "bmg", name: "BMG", dependencies: ["BMG_TOP.stl"] },
         { id: "titan", name: "Titan", dependencies: ["Titan_TOP.stl"] },
         { id: "bowden", name: "bowden", dependencies: ["TOP.stl"] }
