@@ -8,7 +8,7 @@
             Under this license, users are free to use our work as long as they provide appropriate credit, do not use it for commercial purposes, and share any derivative works under the same license. By using this license, we aim to promote collaboration and innovation within our community while safeguarding our content.
         </p>
         <p style="max-width: 39em; overflow-wrap: break-word;">
-            For more information on the "Attribution-NonCommercial-ShareAlike 4.0 International" license and how it works, please click [here](https://creativecommons.org/licenses/by-nc-sa/4.0/){:target="_blank"} to read more.
+            For more information on the "Attribution-NonCommercial-ShareAlike 4.0 International" license and how it works, please click <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">here</a> to read more.
         </p>
         <p style="max-width: 39em; overflow-wrap: break-word;">
             Thank you for choosing our platform, and we look forward to see your builds.
