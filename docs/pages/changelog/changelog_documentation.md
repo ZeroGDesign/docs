@@ -19,6 +19,17 @@ This page contains a changelog of the updates and modifications made to the docu
 {:toc}
 
 <div class="code-example" markdown="1">
+#### 1st March 2023
+{: .no_toc }
+
+1. Cleaned up the Mercury One.1 Printed files page.
+2. Added a license popup to the printed files page to clear up what license we use.
+3. Renamed the configurator JS files to prepare for the Hydra configurator
+4. Fixed the naming on Orbitor to Orbiter - Thanks JakobPetersson
+
+</div>
+
+<div class="code-example" markdown="1">
 #### 14th Januari 2023
 {: .no_toc }
 
