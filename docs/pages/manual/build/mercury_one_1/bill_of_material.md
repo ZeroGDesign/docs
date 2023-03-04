@@ -107,7 +107,6 @@ The Bill of Materials for the Mercury One.1 is not yet complete, but it does inc
 | <nobr>M3</nobr>               | Hex Nut                                                          |   10   |   [Click here](#m3_hex_nut)    &emsp; <input type="checkbox">   |
 | M3 Washer                     | <nobr>Normal grade A M3 </nobr><br><nobr>Stainless Steel </nobr> |   10   | [Click here](#plain_m3_washer)   &emsp; <input type="checkbox"> |
 | M5 Washer/Shim                | <nobr>Normal grade A M5 </nobr><br><nobr>Stainless Steel </nobr> |   30   | [Click here](#plain_m5_washer)   &emsp; <input type="checkbox"> |
-| Nema17                        | Stepper motor                                                    |   2    | [Click here](#nema17_zaxis)     &emsp; <input type="checkbox">  |
 {: class="transparant_table"}
 
 {: style="text-align: center" }
