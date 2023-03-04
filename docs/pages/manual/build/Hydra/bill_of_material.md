@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2. Bill of material
-nav_order: 2
+nav_order: 20
 has_toc: false
 parent: Hydra
 grand_parent: Manual

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 8. Rear arm
-nav_order: 8
+nav_order: 80
 has_toc: true
 parent: Hydra
 grand_parent: Manual

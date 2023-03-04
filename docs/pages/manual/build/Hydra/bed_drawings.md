@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 4. Heated bed drawing
-nav_order: 4
+nav_order: 40
 has_toc: false
 parent: Hydra
 grand_parent: Manual

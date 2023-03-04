@@ -1,128 +1,105 @@
 ---
 layout: default
 title: 3. Printed Files
-nav_order: 3
+nav_order: 30
 has_toc: false
 parent: Hydra
 grand_parent: Manual
 permalink: /manual/build/hydra/printed_files
+img_instr: ../../../assets/images/instructions
+js_path: ../../../scripts
 ---
-
-# 3. Printing files
+# Mercury One.1 EVA - Printing Files
 {: .no_toc }
 
-This page contains information that redirects you to other pages in a **blank** tab. 
+There are two methods of getting the files. One of them is to use the [configurators](#-mercury-one1-configurator) at the bottom of the page. We have two [configurators](#-mercury-one1-configurator) on this page: one is for your tool head ([Eva 2.4](#-eva-24-toolhead-configurator)), the other for the [Mercury 1.1](#-mercury-one1-configurator) motion system.
+
+If you want to download everything manually, scroll down. You'll be able to download each file separately.
 
 1. Table of content
 {:toc}
 
-## Print settings
-
-Click [here](/standard/print/settings){:target="_blank"} to see the recommended print settings.
-
-{: .note }
-All of our parts have been designed to be printed with these settings. If you deviate from this, it could **negatively affect** your **print quality** and **strength**.
-
-## How to print ABS
-
-Click [here](/manual/print/abs){:target="_blank"} to see the how to print abs.
+Click the <i class="bi bi-zoom-in"></i> image to enlarge.
 
 ## Downloading STL Files
 
-{: .warn}
-These files are in **beta**! You may be throwing parts away. We’re constantly improving our models. Likely, these files are not final.
+To get the files you need, you have two options: you can either download them all at once using the [configurator tool below](#-hydra-configurator), or you can download them individually from our Github page by clicking [here](../../../assets/stl/hydra/). Enjoy!
 
-*<i class="bi bi-zoom-in"></i> Hover an image and click to enlarge*
+## Print settings
 
-### Bed supporting arms
-   
-| :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Version<br>Download | a_left_arm.stl<br>Front left support arm for print bed<br>1.001<br>[Here](../../../assets/stl/hydra/a_left_arm.stl)|     [![Left front arm](../../../assets/images/instructions/hydra/left_front_arm.png)](#lightbox__item_1){: .lightbox_wrapper} 
-| File name<br>Description<br>Version<br>Download | a_right_arm.stl<br>Front right support arm for print bed<br>1.001<br>[Here](../../../assets/stl/hydra/a_right_arm.stl)|     [![right front arm](../../../assets/images/instructions/hydra/right_front_arm.png)](#lightbox__item_2){: .lightbox_wrapper} 
-| File name<br>Description<br>Version<br>Download | a_rear_arm.stl<br>Rear support arm for print bed<br>1.001<br>[Here](../../../assets/stl/hydra/a_rear_arm.stl)|     [![rear arm](../../../assets/images/instructions/hydra/rear_arm.png)](#lightbox__item_3){: .lightbox_wrapper} |
-{: class="hardwaretable"}
-
-<div onclick="location.href='##';"  id="lightbox__item_1"  class="lightbox__item">
-    <div class="lightbox__content">
-    <div class="lightbox__titlebar"></div>
-        <a href="##" class="close"></a>
-        <img src="../../../assets/images/instructions/hydra/left_front_arm.png" alt="Left front arm">
-    </div>
-</div>
-
-<div onclick="location.href='##';"  id="lightbox__item_2"  class="lightbox__item">
-    <div class="lightbox__content">
-    <div class="lightbox__titlebar"></div>
-        <a href="##" class="close"></a>
-        <img src="../../../assets/images/instructions/hydra/right_front_arm.png" alt="right front arm">
-    </div>
-</div>
-
-<div onclick="location.href='##';"  id="lightbox__item_3"  class="lightbox__item">
-    <div class="lightbox__content">
-    <div class="lightbox__titlebar"></div>
-        <a href="##" class="close"></a>
-        <img src="../../../assets/images/instructions/hydra/rear_arm.png" alt="Read arm">
-    </div>
-</div>
-
-### Stepper motor mounts
-
-| :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Version<br>Download | left_motor_mount.stl<br>Supports the left z-axis stepper<br>1.001<br>[Here](../../../assets/stl/hydra/left_motor_mount.stl)|     [![Left stepper mount](../../../assets/images/instructions/hydra/left_motor_mount.png)](#lightbox__item_5){: .lightbox_wrapper} 
-| File name<br>Description<br>Version<br>Download | right_motor_mount.stl<br>Supports the right z-axis stepper<br>1.001<br>[Here](../../../assets/stl/hydra/right_motor_mount.stl)|     [![right stepper mount](../../../assets/images/instructions/hydra/right_motor_mount.png)](#lightbox__item_6){: .lightbox_wrapper} 
-| File name<br>Description<br>Version<br>Download | rear_motor_mount.stl<br>Supports the rear z-axis stepper<br>1.001<br>[Here](../../../assets/stl/hydra/rear_motor_mount.stl)|     [![rear stepper mount](../../../assets/images/instructions/hydra/rear_motor_mount.png)](#lightbox__item_7){: .lightbox_wrapper} |
-{: class="hardwaretable"}
-
-
-<div onclick="location.href='##';"  id="lightbox__item_5"  class="lightbox__item">
-    <div class="lightbox__content">
-    <div class="lightbox__titlebar"></div>
-        <a href="##" class="close"></a>
-        <img src="../../../assets/images/instructions/hydra/left_motor_mount.png" alt="Left motor mount">
-    </div>
-</div>
-
-<div onclick="location.href='##';"  id="lightbox__item_6"  class="lightbox__item">
-    <div class="lightbox__content">
-    <div class="lightbox__titlebar"></div>
-        <a href="##" class="close"></a>
-        <img src="../../../assets/images/instructions/hydra/right_motor_mount.png" alt="right motor mount">
-    </div>
-</div>
-
-<div onclick="location.href='##';"  id="lightbox__item_7"  class="lightbox__item">
-    <div class="lightbox__content">
-    <div class="lightbox__titlebar"></div>
-        <a href="##" class="close"></a>
-        <img src="../../../assets/images/instructions/hydra/rear_motor_mount.png" alt="rear motor arm">
-    </div>
-</div>
-
-
-### Mini tank!
-
-*Note: Depending on the magnets you can source, you may need to print one or the other. The description below will tell you which file you need based on your magnet selection.*
+Click [here](/standard/print/settings){:target="_blank"} to see the recommended print settings. 
 
 {: .note }
-Download the mini tank files for the 12x3mm, 12x4mm, or 12x5mm magnet. **You don’t need all types.**
+All of our parts have been designed to be printed with these settings. When you deviate from these settings, this will **negatively** affect your **print quality**, **strength** and cause you to **lose printed features**.
 
-| :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Magnet<br><br>Amount<br>Version<br>Download | a_MGN9C_12x3Mag.stl<br>Connects the bed to the rail carriage<br>12x3mm - 4 ID Neodymium<br>Countersunk Ring Magnet<br>3<br>1.001<br>[Here](../../../assets/stl/hydra/a_MGN9C_12x3Mag.stl)| [![Smoll tank](../../../assets/images/instructions/hydra/mini_tank.png)](#lightbox__item_4){: .lightbox_wrapper} |
-| File name<br>Description<br>Magnet<br><br>Amount<br>Version<br>Download | a_MGN9C_12x4Mag.stl<br>Connects the bed to the rail carriage<br>12x4mm - 4 ID Neodymium<br>Countersunk Ring Magnet<br>3<br>1.001<br>[Here](../../../assets/stl/hydra/a_MGN9C_12x4Mag.stl)| [![Smoll tank](../../../assets/images/instructions/hydra/mini_tank.png)](#lightbox__item_4){: .lightbox_wrapper} |
-| File name<br>Description<br>Magnet<br><br>Amount<br>Version<br>Download | a_MGN9C_12x5Mag.stl<br>Connects the bed to the rail carriage<br>12x5mm - 4 ID Neodymium<br>Countersunk Ring Magnet<br>3<br>1.001<br>[Here](../../../assets/stl/hydra/a_MGN9C_12x5Mag.stl)| [![Smoll tank](../../../assets/images/instructions/hydra/mini_tank.png)](#lightbox__item_4){: .lightbox_wrapper} |
-{: class="hardwaretable"}
+<!-- Configurator Hydra -->
 
-<div onclick="location.href='##';"  id="lightbox__item_4"  class="lightbox__item">
-    <div class="lightbox__content">
-    <div class="lightbox__titlebar"></div>
-        <a href="##" class="close"></a>
-        <img src="../../../assets/images/instructions/hydra/mini_tank.png" alt="Smoll tank">
-    </div>
+# <i class="bi bi-gear"></i> Hydra Configurator
+
+Our configurator tool creates a handy Zip file for you, which includes all the Stl files needed for your ZeroG Hydra setup. Rest assured that the files are created by us and are licensed under [CC BY-NC-SA 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Enjoy!
+{: .fs-4 .fw-300 }
+
+
+<script src="{{page.js_path}}/file-saver.js" type="module"></script>
+<script src="{{page.js_path}}/configurator_hydra.js"></script>
+<script src="{{page.js_path}}/jszip.min.js" type="module"></script>
+
+{: .important}
+Attention space travelers! When you click the "Get Files!" button, the download may take a while depending on your internet speed. Unfortunately, we haven't yet programmed a download progress bar, but rest assured that the files are on their way to your intergalactic inbox!
+
+<div class="code-example" markdown="1">
+
+<form action="post">
+
+Magnet Size* 
+<select class="list_dark" name="magnet" id="magnet">
+    <option value="option0">Select</option>
+
+</select><br>
+
+Minitank Size* 
+<select class="list_dark" name="carriage" id="carriage">
+    <option value="option0">Select</option>
+
+</select><br>
+
+Ziptie Mounts* 
+<select class="list_dark" name="ziptie" id="ziptie">
+    <option value="option0">Select</option>
+
+</select><br>
+<p class="fs-2 fw-300">Ziptie mounts are optional for cable management, allowing for easy attachment of wires to the back of the extrusion.</p>
+
+Wago Mount* 
+<select class="list_dark" name="wago" id="wago">
+    <option value="option0">Select</option>
+
+</select><br>
+
+<p class="fs-3 fw-300">Double check your selected values before clicking the button below..</p>
+
+
+<button class="btn" onclick="zipAndDownload(getDocumentList('Hydra'), '../../../assets/stl/hydra/', 'Hydra');" type="submit"><i class="bi bi-cloud-arrow-down"></i> Get Files!</button>
+
+</form>
+
+<script>
+    window.addEventListener('load', function(event) {
+        loadDataSet();
+    });
+</script>
+
 </div>
 
+<i class="bi bi-chat-square-text"></i> Special thanks to @KaizenKody#9426 for helping us create this amazing configurator.
+{: .fs-3 .fw-300 }
+
+
+<!-- End configurator EVA 2.4 -->
 
 {: style="text-align: center" }
 <span class="fs-8">
 [Next step &rarr;](/manual/build/hydra/heated_bed_drawing){: .btn .btn-red }
 </span>
+
+{% include license_agreement.md %}

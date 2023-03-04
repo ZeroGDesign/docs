@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 6. Left arm
-nav_order: 6
+nav_order: 60
 has_toc: true
 parent: Hydra
 grand_parent: Manual
