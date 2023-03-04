@@ -19,6 +19,17 @@ This page contains a changelog of the updates and modifications made to the docu
 {:toc}
 
 <div class="code-example" markdown="1">
+#### 4th March 2023
+{: .no_toc }
+
+1. Removed extra nema17 from the bom (oops) - Thanks Burger.
+2. Programmed Hydra configurator.
+3. Uploaded all new hydra files.
+4. Added Hydra changelog page.
+
+</div>
+
+<div class="code-example" markdown="1">
 #### 1st March 2023
 {: .no_toc }
 
