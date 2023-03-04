@@ -24,7 +24,6 @@ Click the <i class="bi bi-zoom-in"></i> image to enlarge.
 
 ## Downloading STL Files
 
-{: .important}
 These files are **experimental**! You may be throwing parts away, we're constantly improving our models it's likely these files are not final.
 
 ## Print settings
@@ -45,6 +44,10 @@ Click [here](/manual/print/abs){:target="_blank"} to see the how to print abs.
 
 The configurator has been developed to generate a Zip file. The zip file will contain all the Stl files for your Mercury One.1. The files you receive from our website are made by us.
 {: .fs-4 .fw-300 }
+
+{: .important}
+Attention space travelers! When you click the "Get Files!" button, the download may take a while depending on your internet speed. Unfortunately, we haven't yet programmed a download progress bar, but rest assured that the files are on their way to your intergalactic inbox!
+
 
 <div class="code-example" markdown="1">
 
