@@ -40,7 +40,7 @@ We **do not** own the kits. We're **not responsible** for these kits. **Make sur
 | M3X10 | <nobr>ISO 4762 / DIN 912</nobr>   |   3    | [Click here](#m3x10_912) &emsp; <input type="checkbox"> |
 | M4X16 | <nobr>ISO 4762 / DIN 912</nobr>   |   3    | [Click here](#m4x16_912) &emsp; <input type="checkbox"> |
 | M5X8  | <nobr>ISO 7380 / DIN 7380</nobr>  |   4    | [Click here](#m5x8_7380) &emsp; <input type="checkbox"> |
-| M5X10 | <nobr>ISO 4762 / DIN 912</nobr>   |   10   | [Click here](#m5x10_912) &emsp; <input type="checkbox"> |
+| M5X10 | <nobr>ISO 4762 / DIN 912</nobr>   |   18   | [Click here](#m5x10_912) &emsp; <input type="checkbox"> |
 {: class="transparant_table"}
 
 ### T-Nuts
@@ -48,7 +48,7 @@ We **do not** own the kits. We're **not responsible** for these kits. **Make sur
 | Size | Type                               | Amount |                            Stores                            |
 |:-----|:-----------------------------------|:------:|:------------------------------------------------------------:|
 | M3   | <nobr>Roll in spring loaded</nobr> |   24   | [Click here](#m3_rollin_tnut) &emsp; <input type="checkbox"> |
-| M5   | <nobr>Roll in spring loaded</nobr> |   14   | [Click here](#m5_rollin_tnut) &emsp; <input type="checkbox"> |
+| M5   | <nobr>Roll in spring loaded</nobr> |   22   | [Click here](#m5_rollin_tnut) &emsp; <input type="checkbox"> |
 {: class="transparant_table"}
 
 ### Extrusions
@@ -109,7 +109,7 @@ Make sure to look for Leadscrews that include a circular T8 Nut with 4 holes.
 | Size                          | Type                                                             | Amount |                              Stores                               |
 |:------------------------------|:-----------------------------------------------------------------|:------:|:-----------------------------------------------------------------:|
 | 2020                          | <nobr>2020 Corner bracket</nobr>                                 |   2    | [Click here](#2020_corner_bracket) &emsp; <input type="checkbox"> |
-| <nobr>M3 X D5.0 X L4.0</nobr> | Heatset insert                                                   |   36   |  [Click here](#heatset_insert)    &emsp; <input type="checkbox">  |
+| <nobr>M3 X D5.0 X L4.0</nobr> | Heatset insert                                                   |   39   |  [Click here](#heatset_insert)    &emsp; <input type="checkbox">  |
 | M3 Washer                     | <nobr>Normal grade A M3 </nobr><br><nobr>Stainless Steel </nobr> |   12   |  [Click here](#plain_m3_washer)   &emsp; <input type="checkbox">  |
 | M4 X 8 X L8                   | Spacer                                                           |   3    |   [Click here](#8mm_spacers)     &emsp; <input type="checkbox">   |
 | 10mm M4                       | Kossel ball                                                      |   3    |  [Click here](#m4_kossel_balls)   &emsp; <input type="checkbox">  |
