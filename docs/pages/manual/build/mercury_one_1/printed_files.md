@@ -10,44 +10,27 @@ img_instr: ../../../assets/images/instructions
 js_path: ../../../scripts
 ---
 
-# Mercury One.1 EVA - Printing Files
+# Mercury One.1 - Printing Files
 {: .no_toc }
 
-There are two methods of getting the files. One of them is to use the [configurators](#-mercury-one1-configurator) at the bottom of the page. We have two [configurators](#-mercury-one1-configurator) on this page: one is for your tool head ([Eva 2.4](#-eva-24-toolhead-configurator)), the other for the [Mercury 1.1](#-mercury-one1-configurator) motion system.
+If you are looking to download the files, there are two methods available to you. The first option is to use one of two configurators: the [Mercury One.1 Configurator](#mercury-one1-configurator) or the [Eva 2.4 Configurator](#eva-24-toolhead-configurator). Alternatively, you can manually download the files you need by clicking on a link for either [Mercury One.1](https://github.com/ZeroGDesign/docs/tree/gh-pages/docs/assets/stl/m1_1){:target="_blank"} or [Eva 2.4](https://github.com/ZeroGDesign/docs/tree/gh-pages/docs/assets/stl/eva2_4){:target="_blank"}. Depending on your preferences and needs, one of these two methods may be more suitable for you.
 
-If you want to download everything manually, scroll down. You'll be able to download each file separately.
-
-1. Table of content
+* Table of content
 {:toc}
-
-Click the <i class="bi bi-zoom-in"></i> image to enlarge.
-
-## Downloading STL Files
-
-These files are **experimental**! You may be throwing parts away, we're constantly improving our models it's likely these files are not final.
 
 ## Print settings
 
-Click [here](/standard/print/settings){:target="_blank"} to see the recommended print settings. 
+For the recommended settings when printing our parts, please click [here](/standard/print/settings){:target="_blank"}. Deviating from these settings may result in lower quality prints, loss of features, and improper alignment.
 
-*Yes, you have too use the settings…*
+# Downloading STL Files
 
-{: .note }
-All of our parts have been designed to be printed with these settings. When you deviate from these settings, this will **negatively** affect your **print quality**, **strength** and cause you to **lose printed features**.
-
-### How to print ABS
-
-Click [here](/manual/print/abs){:target="_blank"} to see the how to print abs.
+These files are **experimental**! You may be throwing parts away, we're constantly improving our models it's likely these files are not final.
 
 <!-- Configurator Mercury One.1 -->
-# <i class="bi bi-gear"></i> Mercury One.1 Configurator
+## Mercury One.1 Configurator
 
 The configurator has been developed to generate a Zip file. The zip file will contain all the Stl files for your Mercury One.1. The files you receive from our website are made by us.
 {: .fs-4 .fw-300 }
-
-{: .important}
-Attention space travelers! When you click the "Get Files!" button, the download may take a while depending on your internet speed. Unfortunately, we haven't yet programmed a download progress bar, but rest assured that the files are on their way to your intergalactic inbox!
-
 
 <div class="code-example" markdown="1">
 
@@ -77,6 +60,8 @@ Tension plate*
 
 <button class="btn" onclick="zipAndDownload(getDocumentList('Mercury'), '../../../assets/stl/m1_1/' ,'Mercury');" type="submit"><i class="bi bi-cloud-arrow-down"></i> Get Files!</button>
 
+<div class="status_text" id="progressMerc"></div>
+
 </form>
 </div>
 
@@ -84,7 +69,7 @@ Tension plate*
 
 <!-- Configurators EVA 2.4 -->
 
-# <i class="bi bi-gear"></i> EVA 2.4 Toolhead Configurator
+## EVA 2.4 Toolhead Configurator
 
 The configurator has been developed to generate a Zip file. The zip file will contain all the Stl files for your print head. The files you receive from our website are made by us to fit the Mercury 1.1 or by Paweł Kucmus of EVA. You can find more information about EVA on their website [https://2.eva-3d.page/](https://2.eva-3d.page/){:target="_blank"}.
 {: .fs-4 .fw-300 }
@@ -120,6 +105,8 @@ Probe*
 
 <button class="btn" onclick="zipAndDownload(getDocumentList('Eva'), '../../../assets/stl/eva2_4/', 'Eva');" type="submit"><i class="bi bi-cloud-arrow-down"></i> Get Files!</button>
 
+<div class="status_text" id="progressEVA"></div>
+
 </form>
 
 <script>
@@ -131,7 +118,7 @@ Probe*
 </div>
 
 <i class="bi bi-chat-square-text"></i> Special thanks to @KaizenKody#9426 for helping us create this amazing configurator.
-{: .fs-3 .fw-300 }
+{: .fs-1 .fw-300 }
 
 
 <!-- End configurator EVA 2.4 -->
