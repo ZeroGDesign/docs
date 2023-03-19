@@ -18,11 +18,11 @@ var _partsList = {
     ],
     wago: [
       { id: "none", name: "None", dependencies: [] },
-      { id: "tripple_wago_221412", name: "Wago mount 221-412", dependencies: ["Wago_221_Tripple.stl"] }
+      { id: "triple_wago_221412", name: "Wago mount 221-412", dependencies: ["Wago_221_Triple.stl"] }
       
   ],
     hydra_generic: ["ChainEnd.stl", "Hydra_Left_Arm.stl", "Hydra_Left_stepper_mount.stl", "Hydra_Rear_Arm.stl", "Hydra_Rear_stepper_mount.stl",
-    "Hydra_Right_Arm.stl", "Hydra_Right_stepper_mount.stl", "Wago_221_Tripple.stl"
+    "Hydra_Right_Arm.stl", "Hydra_Right_stepper_mount.stl", "Wago_221_Triple.stl"
     ]
 }
 
@@ -113,7 +113,8 @@ const exportZip = (blobs, docArray) => {
     // zoom zoom
     zip.generateAsync({ type: 'blob' }).then(zipFile => {
       const fileName = `Hydra-${new Date().getTime()}.zip`;
-  
+      
+      document.getElementById('progressStats').innerHTML = `<h5>The file is large and may take a while to download depending on your internet speed. If you encounter issues, try using a different browser.</h5>`;
       // use the fileSave module to handle security issues
       return saveAs(zipFile, fileName);
     });
