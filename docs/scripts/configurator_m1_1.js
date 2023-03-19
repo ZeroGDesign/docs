@@ -159,9 +159,6 @@ const exportZip = (blobs, docArray, option) => {
         ? `Mercury1_1-${new Date().getTime()}.zip`
         : `EVA-Toolhead-${new Date().getTime()}.zip`;
   
-      const elementToChange = option === 'Mercury' ? 'progressMerc' : 'progressEVA';
-      
-      document.getElementById(elementToChange).innerHTML = `<h5>The file is large and may take a while to download depending on your internet speed. If you encounter issues, try using a different browser.</h5>`;
       // use the fileSave module to handle security issues
       return saveAs(zipFile, fileName);
     });
@@ -177,6 +174,9 @@ const download2Blob = urls => {
 };
 
 const zipAndDownload = (docArray, base_uri = '', option) => {
+    const elementToChange = option === 'Mercury' ? 'progressMerc' : 'progressEVA';
+    document.getElementById(elementToChange).innerHTML = `<h5>The file is large and may take a while to download depending on your internet speed. If you encounter issues, try using a different browser.</h5>`;
+
     // Parent function to call from frontend
     // Base URI to be updated to change the file location
     const urls = docArray.map(item => `${base_uri}/${item}`);

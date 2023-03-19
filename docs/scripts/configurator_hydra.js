@@ -114,7 +114,6 @@ const exportZip = (blobs, docArray) => {
     zip.generateAsync({ type: 'blob' }).then(zipFile => {
       const fileName = `Hydra-${new Date().getTime()}.zip`;
       
-      document.getElementById('progressStats').innerHTML = `<h5>The file is large and may take a while to download depending on your internet speed. If you encounter issues, try using a different browser.</h5>`;
       // use the fileSave module to handle security issues
       return saveAs(zipFile, fileName);
     });
@@ -130,6 +129,7 @@ const download2Blob = urls => {
 };
 
 const zipAndDownload = (docArray, base_uri = '') => {
+    document.getElementById('progressStats').innerHTML = `<h5>The file is large and may take a while to download depending on your internet speed. If you encounter issues, try using a different browser.</h5>`;
     // Parent function to call from frontend
     // Base URI to be updated to change the file location
     const urls = docArray.map(item => `${base_uri}/${item}`);
