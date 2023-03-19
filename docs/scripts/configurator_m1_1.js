@@ -159,6 +159,9 @@ const exportZip = (blobs, docArray, option) => {
         ? `Mercury1_1-${new Date().getTime()}.zip`
         : `EVA-Toolhead-${new Date().getTime()}.zip`;
   
+      const elementToChange = option === 'Mercury' ? 'progressMerc' : 'progressEVA';
+      
+      document.getElementById(elementToChange).innerHTML = `<h5>The file is large and may take a while to download depending on your internet speed. If you encounter issues, try using a different browser.</h5>`;
       // use the fileSave module to handle security issues
       return saveAs(zipFile, fileName);
     });
