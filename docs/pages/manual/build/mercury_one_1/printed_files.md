@@ -3,7 +3,7 @@ layout: default
 title: 3. Printed Files
 nav_order: 30
 has_toc: false
-parent: Mercury One.1 EVA
+parent: Mercury One.1
 grand_parent: Manual
 permalink: /manual/build/mercury_eva/printed_files
 img_instr: ../../../assets/images/instructions

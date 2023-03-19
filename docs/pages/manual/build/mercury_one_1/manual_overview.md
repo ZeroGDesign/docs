@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mercury One.1 EVA
+title: Mercury One.1
 nav_order: 0
 has_children: true
 has_toc: true

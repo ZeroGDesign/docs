@@ -3,7 +3,7 @@ layout: default
 title: 2. Bill of material
 nav_order: 20
 has_toc: false
-parent: Mercury One.1 EVA
+parent: Mercury One.1
 grand_parent: Manual
 permalink: /manual/build/mercury_eva/bill_of_material
 ---

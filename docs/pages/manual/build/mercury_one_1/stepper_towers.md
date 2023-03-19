@@ -3,7 +3,7 @@ layout: default
 title: 6. Stepper towers
 nav_order: 60
 has_toc: true
-parent: Mercury One.1 EVA
+parent: Mercury One.1
 grand_parent: Manual
 permalink: /manual/build/mercury_eva/stepper_towers
 ---

@@ -3,7 +3,7 @@ layout: default
 title: 1. Introduction
 nav_order: 0
 has_toc: false
-parent: Mercury One.1 EVA
+parent: Mercury One.1
 grand_parent: Manual
 permalink: /manual/build/mercury_eva/introduction
 img_tool: ../../../../assets/images/tools

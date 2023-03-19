@@ -3,12 +3,12 @@ layout: default
 title: 4. Empty Frame
 nav_order: 40
 has_toc: true
-parent: Mercury One.1 EVA
+parent: Mercury One.1
 grand_parent: Manual
 permalink: /manual/build/mercury_eva/empty_frame
 ---
 
-# Mercury One.1 EVA - Empty Frame
+# Mercury One.1 - Empty Frame
 {: .no_toc }
 
 The first step of assembling your Mercury One.1 is all about disassembling.

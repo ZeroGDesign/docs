@@ -3,7 +3,7 @@ layout: default
 title: 5. Sanding dowel pins
 nav_order: 50
 has_toc: false
-parent: Mercury One.1 EVA
+parent: Mercury One.1
 grand_parent: Manual
 permalink: /manual/build/mercury_eva/sanding_dowel_pins
 img_instr_ls: ../../../assets/images/instructions/assembly/left_stepper
