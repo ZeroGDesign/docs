@@ -19,6 +19,24 @@ This page contains a changelog of the updates and modifications made to the docu
 {:toc}
 
 <div class="code-example" markdown="1">
+#### 19th March 2023
+{: .no_toc }
+
+1. Hydra page.
+   1. Improved the printed files page.
+   2. Corrected a title typo.
+   3. Redesigned the page for a cleaner look.
+   4. Added an information message after clicking the "get files" button to indicate that the download button was clicked.
+   5. Released step files and included URLs for step files.
+2. Mercury One.1 page.
+   1. Improved the printed files page.
+   2. Changed the title.
+   3. Redesigned the page for a cleaner look.
+   4. Added an information message after clicking the "get files" button to indicate that the download button was clicked.
+
+</div>
+
+<div class="code-example" markdown="1">
 #### 4th March 2023
 {: .no_toc }
 
