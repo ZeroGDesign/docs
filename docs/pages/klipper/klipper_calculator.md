@@ -48,7 +48,7 @@ Most stepper motors will not obtain a significant benefit to reducing current du
 {: .no_toc }
 </div>
 
-```json
+```xml
 The formula we use for calculating run_current:
 
 Motor_Peak_Current * 0.707
@@ -95,7 +95,7 @@ On an extruder, the rotation_distance is the amount of distance the filament tra
 {: .no_toc }
 </div>
 
-```json
+```xml
 The formula that is used to calculate rotation_distance on extruders.
 
 initial_mark_distance = initial mark on filament from the intake of the extruder body
