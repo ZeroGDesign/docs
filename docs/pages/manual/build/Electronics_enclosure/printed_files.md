@@ -114,4 +114,4 @@ Select Raspberry Mount*
 [Next step &rarr;](#){: .btn .btn-red }
 </span>
 
-<!-- {% include license_agreement.md %} -->
+{% include license_agreement.md %}
