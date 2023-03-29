@@ -6,70 +6,112 @@ has_toc: true
 parent: Electronics Enclosure
 grand_parent: Manual
 permalink: /manual/build/electronics_enclosure/printed_files
+js_path: ../../../scripts
 ---
 
-# 3. Printing files
+# Electronics Enclosure - Printed Files
 {: .no_toc }
 
-This page contains information that redirects you to other pages in a **blank** tab. 
+There are two ways to get the files: one is to use the [configurator](#electronics-enclosure-configurator), and the other is to download everything manually by clicking [here](https://github.com/ZeroGDesign/docs/tree/gh-pages/docs/assets/stl/electronics_enclosure){:target="_blank"}.
 
-1. Table of content
+* Table of content
 {:toc}
 
 ## Print settings
 
-Click [here](/standard/print/settings){:target="_blank"} to see the recommended print settings.
+For the recommended settings when printing our parts, please click [here](/standard/print/settings){:target="_blank"}. Deviating from these settings may result in lower quality prints, loss of features, and improper alignment.
 
-{: .no_toc }
-All of our parts have been designed to be printed with these settings. If you deviate from this, it could **negatively affect** your **print quality** and **strength**.
+# Downloading STL Files
 
-## How to print ABS
+To get the files you need, you have two options: you can either download them all at once using the [configurator tool below](#electronics-enclosure-configurator), or you can download them individually from our Github page by clicking [here](https://github.com/ZeroGDesign/docs/tree/gh-pages/docs/assets/stl/electronics_enclosure){:target="_blank"}. Enjoy!
 
-Click [here](/manual/print/abs){:target="_blank"} to see the how to print abs.
+<!-- Configurator Hydra -->
 
-## Downloading STL Files
+## Electronics Enclosure Configurator
 
-{: .important}
-All the files will contain a version number engraved into the part. We’re constantly improving our models. This way, it is easier to check if you have the latest files.
+Our configurator tool creates a handy Zip file for you, which includes all the Stl files needed for your ZeroG Electronics Enclosure setup. Rest assured that the files are created by us and are licensed under [CC BY-NC-SA 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Enjoy!
+{: .fs-4 .fw-300 }
 
-*<i class="bi bi-zoom-in"></i> Hover an image and click to enlarge*
 
-### Corner pieces
+<script src="{{page.js_path}}/file-saver.js" type="module"></script>
+<script src="{{page.js_path}}/configurator_electronics.js"></script>
+<script src="{{page.js_path}}/jszip.min.js" type="module"></script>
+<div class="code-example" markdown="1">
 
-| :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Version<br>Download | left_corner.stl<br>Extends stock feet<br>1.00<br>[Here](../../../assets/stl/hydra/left_arm.stl)|     [![Left front arm](../../../assets/images/instructions/hydra/electronics_enclosure/left_corner.png)](#lightbox__item_1){: .lightbox_wrapper} 
-| File name<br>Description<br>Version<br>Printer<br>Download | right_corner.stl<br>Extends stock feet + power button<br>1.00<br>Ender 5 (pro) ONLY!<br>[Here](../../../assets/stl/hydra/right_arm.stl)|     [![right front arm](../../../assets/images/instructions/hydra/electronics_enclosure/right_corner_switch.png)](#lightbox__item_2){: .lightbox_wrapper} |
-{: class="hardwaretable"}
+<form action="post">
 
-<div onclick="location.href='##';"  id="lightbox__item_1"  class="lightbox__item">
-    <div class="lightbox__content">
-    <div class="lightbox__titlebar"></div>
-        <a href="##" class="close"></a>
-        <img src="../../../assets/images/instructions/hydra/electronics_enclosure/left_corner.png" alt="Left front arm">
-    </div>
+Select Printer* 
+<select class="list_dark" name="printerSize" id="printerSize">
+    <option value="option0">Select</option>
+
+</select><br>
+<div class="fs-3 fw-300">If you select a printer, it will automatically include the skirt files.</div>
+
+Select Feet Type* 
+<select class="list_dark" name="feet" id="feet">
+    <option value="option0">Select</option>
+
+</select><br>
+<div class="fs-3 fw-300">Don't forget to select the 'feet' option if you plan on printing the skirt.</div>
+
+Select IEC Inlet* 
+<select class="list_dark" name="iec" id="iec">
+    <option value="option0">Select</option>
+</select><br>
+<div class="fs-3 fw-300">*Switched, is the inlet that has a powerswitch build in.</div>
+
+Select PSU* 
+<select class="list_dark" name="psu" id="psu">
+    <option value="option0">Select</option>
+
+</select><br>
+
+Select Secondary PSU* 
+<select class="list_dark" name="second_psu" id="second_psu">
+    <option value="option0">Select</option>
+
+</select><br>
+<div class="fs-3 fw-300">Mostly used for the Raspberry.</div>
+
+Select Motherboard* 
+<select class="list_dark" name="motherboard" id="motherboard">
+    <option value="option0">Select</option>
+
+</select><br>
+<div class="fs-3 fw-300">We recommend the Spider 2.3 or Octopus.</div>
+
+Select Raspberry Mount* 
+<select class="list_dark" name="raspberry_mount" id="raspberry_mount">
+    <option value="option0">Select</option>
+
+</select><br>
+
+<p class="fs-3 fw-300">Double check your selected values before clicking the button below..</p>
+
+
+<button class="btn" onclick="zipAndDownload(getDocumentList('electronics_enclosure'), '../../../assets/stl/electronics_enclosure/', 'electronics_enclosure');" type="submit"><i class="bi bi-cloud-arrow-down"></i> Get Files!</button>
+
+<div class="status_text" id="progressStats"></div>
+
+</form>
+
+<script>
+    window.addEventListener('load', function(event) {
+        loadDataSet();
+    });
+</script>
+
 </div>
 
-<div onclick="location.href='##';"  id="lightbox__item_2"  class="lightbox__item">
-    <div class="lightbox__content">
-    <div class="lightbox__titlebar"></div>
-        <a href="##" class="close"></a>
-        <img src="../../../assets/images/instructions/hydra/electronics_enclosure/right_corner_switch.png" alt="right front arm">
-    </div>
-</div>
+<i class="bi bi-chat-square-text"></i> Special thanks to @KaizenKody#9426 for helping us create this amazing configurator.
+{: .fs-1 .fw-300 }
 
-{: .warn}
-Print the correct files. [Ender 5 (pro)](/manual/build/electronics_enclosure/printed_files#ender-5-pro) and 5 Plus have **different files**.
 
-### Ender 5 (pro)
-
-| :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| File name<br>Description<br>Version<br>Download | left_motor_mount.stl<br>Supports the left z-axis stepper<br>1.001<br>[Here](../../../assets/stl/hydra/left_motor_mount.stl)|     [![Left stepper mount](../../../assets/images/instructions/hydra/left_motor_mount.png)](#lightbox__item_5){: .lightbox_wrapper} 
-| File name<br>Description<br>Version<br>Download | right_motor_mount.stl<br>Supports the right z-axis stepper<br>1.001<br>[Here](../../../assets/stl/hydra/right_motor_mount.stl)|     [![right stepper mount](../../../assets/images/instructions/hydra/right_motor_mount.png)](#lightbox__item_6){: .lightbox_wrapper} 
-| File name<br>Description<br>Version<br>Download | rear_motor_mount.stl<br>Supports the rear z-axis stepper<br>1.001<br>[Here](../../../assets/stl/hydra/rear_motor_mount.stl)|     [![rear stepper mount](../../../assets/images/instructions/hydra/rear_motor_mount.png)](#lightbox__item_7){: .lightbox_wrapper} |
-{: class="hardwaretable"}
-
+<!-- End configurator EVA 2.4 -->
 
 {: style="text-align: center" }
 <span class="fs-8">
-[Next step &rarr;](/manual/build/hydra/heated_bed_drawing){: .btn .btn-red }
+[Next step &rarr;](#){: .btn .btn-red }
 </span>
+
+<!-- {% include license_agreement.md %} -->

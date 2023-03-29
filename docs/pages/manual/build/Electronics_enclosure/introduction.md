@@ -17,7 +17,7 @@ Building the Electronics enclosure
 
 <dl>
   <dt>Difficulty</dt>
-  <dd><font COLOR="#008001">Basic</font></dd>
+  <dd><font COLOR="#FF3001">Advance</font></dd>
   <dt>Language</dt>
   <dd>English</dd>
 </dl>

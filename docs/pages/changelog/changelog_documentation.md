@@ -19,6 +19,15 @@ This page contains a changelog of the updates and modifications made to the docu
 {:toc}
 
 <div class="code-example" markdown="1">
+#### 29th March 2023
+{: .no_toc }
+
+1. Electronics Enclosure
+   1. Coded the [Configurator](../manual/build/electronics_enclosure/printed_files), this should contain everything you need. Missing something? Let us know :).
+   2. Added all the files to the docs / Github.
+</div>
+
+<div class="code-example" markdown="1">
 #### 19th March 2023
 {: .no_toc }
 
