@@ -188,9 +188,7 @@ const exportZip = (blobs, docArray, option) => {
   
     // zoom zoom
     zip.generateAsync({ type: 'blob' }).then(zipFile => {
-      const fileName = option === 'Mercury'
-        ? `Mercury1_1-${new Date().getTime()}.zip`
-        : `EVA-Toolhead-${new Date().getTime()}.zip`;
+      const fileName = `electronics-enclosure-${new Date().getTime()}.zip`;
   
       // use the fileSave module to handle security issues
       return saveAs(zipFile, fileName);
