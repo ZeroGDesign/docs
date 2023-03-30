@@ -19,6 +19,14 @@ This page contains a changelog of the updates and modifications made to the docu
 {:toc}
 
 <div class="code-example" markdown="1">
+#### 31th March 2023
+{: .no_toc }
+
+1. Electronics Enclosure
+   1. The center pieces for the skirt are now included in the configurator - Thanks to axi0m89 for telling us they were missing.
+</div>
+
+<div class="code-example" markdown="1">
 #### 29th March 2023
 {: .no_toc }
 
