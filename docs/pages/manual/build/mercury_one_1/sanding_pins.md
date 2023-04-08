@@ -50,5 +50,5 @@ After spinning the drill test fit your Flange bearing to see if it fits, if it d
 
 {: style="text-align: center" }
 <span class="fs-8">
-[Next step &rarr;](/manual/build/mercury_eva/stepper_towers){: .btn .btn-red }
+[Next step &rarr;](/manual/build/mercury_eva/left_stepper_tower){: .btn .btn-red }
 </span>
