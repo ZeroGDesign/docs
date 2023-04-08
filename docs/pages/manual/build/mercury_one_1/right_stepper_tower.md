@@ -1,28 +1,26 @@
 ---
 layout: default
-title: 6. Left Stepper Tower
-nav_order: 60
+title: 7. Right Stepper Tower
+nav_order: 70
 has_toc: true
 parent: Mercury One.1
 grand_parent: Manual
-permalink: /manual/build/mercury_eva/left_stepper_tower
-img_path: ../../../assets/images/instructions/m1_1/left_stepper_tower/
+permalink: /manual/build/mercury_eva/right_stepper_tower
+img_path: ../../../assets/images/instructions/m1_1/right_stepper_tower/
 ---
 
 # Mercury One.1 Full Assembly
 {: .no_toc }
 
-Welcome to your first steps at assembling your Mercury One.1!
+We're now going to be working on the Right stepper mount.
 
 1. Table of content
 {:toc}
 
-# Stepper mount - Left
+# Stepper mount - Right
 
-If you're looking for a video instead of text and images, check this out: [https://www.youtube.com/watch?v=ZXIdPokTuO8](https://www.youtube.com/watch?v=ZXIdPokTuO8){:target="_blank"}
-
-## Left stepper mount
-[![Left Stepper mount]({{page.img_path}}step_1.png)](#lightbox__overview_bottom){: style="cursor: zoom-in; background-image: none;"}
+## Right stepper mount
+[![Right Stepper mount]({{page.img_path}}step_1.png)](#lightbox__overview_bottom){: style="cursor: zoom-in; background-image: none;"}
 
 <div onclick="location.href='##';"  id="lightbox__overview_bottom"  class="lightbox__item">
     <div class="lightbox__content">
@@ -48,8 +46,8 @@ If you're looking for a video instead of text and images, check this out: [https
 ### Printed parts
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Type:<br>Amount: | Left stepper top<br>1        |     [![Left stepper top printed]({{page.img_path}}overview_top.png)](#lightbox__overview_top){: .lightbox_wrapper} |
-| Type:<br>Amount: | Left stepper bottom<br>1     |     [![Left stepper bottom printed]({{page.img_path}}step_1.png)](#lightbox__overview_bottom){: .lightbox_wrapper} |
+| Type:<br>Amount: | Right stepper top<br>1        |     [![Right stepper top printed]({{page.img_path}}overview_top.png)](#lightbox__overview_top){: .lightbox_wrapper} |
+| Type:<br>Amount: | Right stepper bottom<br>1     |     [![Right stepper bottom printed]({{page.img_path}}step_1.png)](#lightbox__overview_bottom){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 <div onclick="location.href='##';"  id="lightbox__overview_top"  class="lightbox__item">
@@ -62,7 +60,7 @@ If you're looking for a video instead of text and images, check this out: [https
 
 We have very specific settings you should print the parts with, they've been designed around these settings. Read more about them.
 
-## Left stepper mount assembly
+## Right stepper mount assembly
 
 ### Inserting the T-nuts
 
@@ -72,11 +70,11 @@ You can slightly rotate the M5 T-nuts while pressing them into the frame. They w
 
 The placement of the T-nuts is not important, as long as the threaded holes are facing the right directions as shown on the image below.
 
-![Left stepper t-nut highlighted](../../../assets/images/instructions/assembly/left_stepper/left_stepper_tnut_highlight.png)
+![Right stepper t-nut highlighted](../../../assets/images/instructions/assembly/left_stepper/left_stepper_tnut_highlight.png)
 
 The image below shows the correct placement of the T-nuts.
 
-![Left stepper t-nut after insert](../../../assets/images/instructions/assembly/left_stepper/left_stepper_tnut_after.png)
+![Right stepper t-nut after insert](../../../assets/images/instructions/assembly/left_stepper/left_stepper_tnut_after.png)
 
 ### Inserting dowel pins
 
@@ -89,7 +87,7 @@ Take the bottom left stepper mount *printed part* and insert two 5x30 dowel pins
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
         <a href="##" class="close"></a>
-        <img src="{{page.img_path}}step_2.png" alt="Left stepper bottom pins">
+        <img src="{{page.img_path}}step_2.png" alt="Right stepper bottom pins">
     </div>
 </div>
 
@@ -162,7 +160,7 @@ The image below shows the correct placement of the Flange stacks.
 Take the top left motor mount *printed piece* and lower it into the bottom left motor mount.
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Type: | Left stepper top        |     [![Left stepper top printed]({{page.img_path}}overview_top.png)](#lightbox__overview_top){: .lightbox_wrapper} |
+| Type: | Right stepper top        |     [![Right stepper top printed]({{page.img_path}}overview_top.png)](#lightbox__overview_top){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 [![step8]({{page.img_path}}step_8.png)](#lightbox__step_8){: .lightbox_wrapper}
@@ -307,7 +305,7 @@ All three screws, as shown below should be tight.
     </div>
 </div>
 
-Congratz! You have finished the left stepper tower.
+Congratz! You have finished the right stepper tower.
 
 
 # Definitions
@@ -343,5 +341,5 @@ It contains the following:
 
 {: style="text-align: center" }
 <span class="fs-8">
-[next step &rarr;](/manual/build/mercury_eva/right_stepper_tower){: .btn .btn-red }
+[Next step &rarr;](/){: .btn .btn-red }
 </span>
