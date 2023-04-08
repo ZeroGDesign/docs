@@ -62,20 +62,6 @@ We have very specific settings you should print the parts with, they've been des
 
 ## Right stepper mount assembly
 
-### Inserting the T-nuts
-
-Insert the two M5 T-Nuts into the frame. If you happen to have the T-Nuts without the springs you can skip this step and attach them to the M5x50mm bolts later.
-
-You can slightly rotate the M5 T-nuts while pressing them into the frame. They will snap into place.
-
-The placement of the T-nuts is not important, as long as the threaded holes are facing the right directions as shown on the image below.
-
-![Right stepper t-nut highlighted](../../../assets/images/instructions/assembly/left_stepper/left_stepper_tnut_highlight.png)
-
-The image below shows the correct placement of the T-nuts.
-
-![Right stepper t-nut after insert](../../../assets/images/instructions/assembly/left_stepper/left_stepper_tnut_after.png)
-
 ### Inserting dowel pins
 
 Take the bottom left stepper mount *printed part* and insert two 5x30 dowel pins as shown in the image below.
