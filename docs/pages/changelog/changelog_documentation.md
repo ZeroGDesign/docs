@@ -19,6 +19,17 @@ This page contains a changelog of the updates and modifications made to the docu
 {:toc}
 
 <div class="code-example" markdown="1">
+#### 8th March 2023
+{: .no_toc }
+
+1. Updated Electronics Enclosure configurator
+   1. A Small error in the file extension has been fixed, now panels will export correctly for the Ender 5(pro).
+2. Release Mercury One 1.5
+   1. Updated [configurator](../manual/build/mercury_eva/printed_files).
+   2. Updated [Left Stepper tower page](../manual/build/mercury_eva/left_stepper_tower), more instrucitons will come.
+</div>
+
+<div class="code-example" markdown="1">
 #### 31th March 2023
 {: .no_toc }
 
