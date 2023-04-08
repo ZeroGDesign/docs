@@ -21,7 +21,7 @@ This page contains a list of updates that have been made to Mercury One.1. It is
 {:toc}
 
 <div class="code-example" markdown="1">
-#### 8Th March 2023
+#### 8Th April 2023
 {: .no_toc }
 
 This update brings improvements to many of the motion components, resolving some of the previous grinding problems.
@@ -37,7 +37,7 @@ This update brings improvements to many of the motion components, resolving some
       1.  **M5 Shim -> Bearing -> M5 Shim -> Bearing -> M5 Shim**.
    2. [Here](#lightbox_new_flange_stack) is a screenshot of the new flange stack.
 5. **A new tool** has been introduced to help you align the flange stack with the front idlers.
-      1. We've listened to your feedback and have created a simple and effective solution. Check out the video to see it in action!
+      1. We've listened to your feedback and have created a simple and effective solution. [Check out the video](https://www.youtube.com/watch?v=abdkMgndM9Y) to see it in action!
 
 
 

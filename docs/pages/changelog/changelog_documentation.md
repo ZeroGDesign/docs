@@ -19,7 +19,7 @@ This page contains a changelog of the updates and modifications made to the docu
 {:toc}
 
 <div class="code-example" markdown="1">
-#### 8th March 2023
+#### 8th April 2023
 {: .no_toc }
 
 1. Updated Electronics Enclosure configurator
