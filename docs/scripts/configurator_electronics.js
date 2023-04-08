@@ -34,8 +34,8 @@ var _partsList = {
         { id: "spider", name: "Fysetc Spider", dependencies: ["DIN-Spider-M3_heatset_1.stl", "DIN-Spider-M3_heatset_2.stl"] },
         { id: "octoopus", name: "BTT Octopus", dependencies: ["DIN-Octopus-M3_heatset_1.stl", "DIN-Octopus-M3_heatset_2.stl"] },
         { id: "manta8p", name: "BTT Manta M8P", dependencies: ["DIN-M8PLT-M3_heatset.stl", "DIN-M8PRT-M3_heatset.stl"] },
-        { id: "skr", name: "BTT SKR Mini", dependencies: ["SKR_Mini_and_Creality.stl", "DIN-Generic-M2_5_threaded.stl", "DIN-Generic-M2_5_threaded_2.stl"] },
-        { id: "creality", name: "Creality", dependencies: ["SKR_Mini_and_Creality.stl", "DIN-Generic-M2_5_threaded.stl", "DIN-Generic-M2_5_threaded_2.stl"] },
+        { id: "skr", name: "BTT SKR Mini", dependencies: ["SKR_Mini_and_Creality.stl", "DIN-Generic-M2_5_threaded_1.stl", "DIN-Generic-M2_5_threaded_2.stl"] },
+        { id: "creality", name: "Creality", dependencies: ["SKR_Mini_and_Creality.stl", "DIN-Generic-M2_5_threaded_1.stl", "DIN-Generic-M2_5_threaded_2.stl"] },
     ],
     raspberry: [
         { id: "none", name: "None", dependencies: [] },
