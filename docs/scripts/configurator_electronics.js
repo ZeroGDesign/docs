@@ -9,7 +9,7 @@ var _partsList = {
         , "skirt/5plus/5Plus_Hydra_TopPanel.dxf", "skirt/5plus/SK_5Plus_BottomPanel.dxf", "2020_Cable_Tie_x3.stl", "Clip_Base_x4.stl", "Clip_Top_x4.stl", "DIN-DropBracket_x4.stl" ] },
         { id: "5pro", skirtsize: "310", name: "Ender 5 (pro)", dependencies: ["skirt/5pro/Electronics_Bay.pdf", "skirt/SK_Center_Logo_x4.stl"
         , "skirt/SK_CenterLogo_Inlay_x4.stl", "skirt/5pro/SK-310-Right_x4.stl", "skirt/5pro/SK-310-Left_x3.stl"
-        , "skirt/5pro/5Pro_BottomPanel.pdf", "skirt/5pro/5Pro_Hydra_TopPanel.pdf", "2020_Cable_Tie_x3.stl", "Clip_Base_x4.stl", "Clip_Top_x4.stl", "DIN-DropBracket_x4.stl"] }
+        , "skirt/5pro/5Pro_BottomPanel.dxf", "skirt/5pro/5Pro_Hydra_TopPanel.dxf", "2020_Cable_Tie_x3.stl", "Clip_Base_x4.stl", "Clip_Top_x4.stl", "DIN-DropBracket_x4.stl"] }
     ],
     feet: [
         { id: "none", name: "None", dependencies: [] },
