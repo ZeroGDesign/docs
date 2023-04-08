@@ -20,6 +20,53 @@ This page contains a list of updates that have been made to Mercury One.1. It is
 1. Table of content
 {:toc}
 
+<div class="code-example" markdown="1">
+#### 8Th March 2023
+{: .no_toc }
+
+This update brings improvements to many of the motion components, resolving some of the previous grinding problems.
+1. Version numbers, an example [here](#lightbox_new_versionnumbers).
+   1. Version numbers have been added to all the key motion files (**version 1.1.5**).
+   2. Indicators '**L**' and '**R**' have been added to differentiate between the left and right components for easier instalation.
+2. Front towers.
+   1. Narrowed the v-slot guide to prevent it from sitting too high, improving the stability and precision of the motion.
+3. Cable management ziptie holes have been added to the motor mounts
+   1. Check out the image [here](#lightbox_cable_routing_stepper1_1_5).
+4. **New flange stack!**
+   1. To resolve the belt grinding issue, we have implemented a **new flange stack**.
+      1.  **M5 Shim -> Bearing -> M5 Shim -> Bearing -> M5 Shim**.
+   2. [Here](#lightbox_new_flange_stack) is a screenshot of the new flange stack.
+5. **A new tool** has been introduced to help you align the flange stack with the front idlers.
+      1. We've listened to your feedback and have created a simple and effective solution. Check out the video to see it in action!
+
+
+
+<div onclick="location.href='##';"  id="lightbox_new_versionnumbers"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="{{page.img_instr}}/version_numbers.png" alt="shows the version numbers">
+    </div>
+</div>
+
+<div onclick="location.href='##';"  id="lightbox_cable_routing_stepper1_1_5"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="{{page.img_instr}}/cable_management_m1_1_5_steppers.png" alt="Cable routing">
+    </div>
+</div>
+
+<div onclick="location.href='##';"  id="lightbox_new_flange_stack"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="{{page.img_instr}}/new_flange_stack.png" alt="New flange stack">
+    </div>
+</div>
+
+</div>
+
 
 <div class="code-example" markdown="1">
 #### 26th December 2022
