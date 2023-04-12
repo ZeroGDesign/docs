@@ -327,5 +327,5 @@ It contains the following:
 
 {: style="text-align: center" }
 <span class="fs-8">
-[Next step &rarr;](/){: .btn .btn-red }
+[Next step &rarr;](/manual/build/mercury_eva/left_front_tower){: .btn .btn-red }
 </span>
