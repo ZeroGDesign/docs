@@ -19,6 +19,16 @@ This page contains a changelog of the updates and modifications made to the docu
 {:toc}
 
 <div class="code-example" markdown="1">
+#### 12th April 2023
+{: .no_toc }
+
+1. Left Front Tower instructions
+   1. Added instructions for Left Front Tower
+   2. Uploaded images to GitHub.
+</div>
+
+
+<div class="code-example" markdown="1">
 #### 8th April 2023
 {: .no_toc }
 
