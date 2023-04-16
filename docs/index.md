@@ -9,6 +9,10 @@ nav_order: 1
 The Zero G documentation will give you a start building your project, learning all about 3D printing and more!
 {: .fs-6 .fw-300 }
 
+## Steve is live, check out out
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9HFd6w-yA68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Getting started
 On this website you'll find all sorts of information, [ABS Printing Tips](/manual/print/abs), [Print Settings](/standard/print/settings), [Design Guidelines](/standard/cad/guidelines), [Mainsail Theme](/klipper/mainsail/theme), [Manuals](/manual/build) and more!
 
