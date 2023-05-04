@@ -19,6 +19,19 @@ This page contains a changelog of the updates and modifications made to the docu
 {:toc}
 
 <div class="code-example" markdown="1">
+#### 5th May 2023
+{: .no_toc }
+
+1. Update index page to add info about STEP files.
+2. Changes to "printed files" page.
+   1. Changed the naming from *printed files* to *files*.
+   2. Added A STEP file section.
+3. **Release of the Mercury One.1 (1.1.5) STEP Files. You can find them [here](../manual/build/mercury_eva/printed_files#step-files).**
+4. Changed the *Amount* to *READ NOTES* on the Mercury One.1 BOM at the text "GATES-LL-2GT".
+</div>
+
+
+<div class="code-example" markdown="1">
 #### 12th April 2023
 {: .no_toc }
 
@@ -26,7 +39,6 @@ This page contains a changelog of the updates and modifications made to the docu
    1. Added instructions for Left Front Tower
    2. Uploaded images to GitHub.
 </div>
-
 
 <div class="code-example" markdown="1">
 #### 8th April 2023
