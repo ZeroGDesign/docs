@@ -26,12 +26,12 @@ The Bill of Materials for the Mercury One.1 is not yet complete, but it does inc
 *Note: The amount of bolts includes spares.*
 {: .fs-3 }
 
-| Size  | Type                            | Amount |                           Stores                            |
-|:------|:--------------------------------|:------:|:-----------------------------------------------------------:|
-| M3X8  | <nobr>ISO 4762 / DIN 912</nobr> |   65   |   [Click here](#m3x8_912)  &emsp; <input type="checkbox">   |
-| M3X12 | <nobr>ISO 4762 / DIN 912</nobr> |   8    |  [Click here](#m3x12_912) &emsp; <input type="checkbox">   |
-| M3X16 | <nobr>ISO 4762 / DIN 912</nobr> |   8    |  [Click here](#m3x16_912) &emsp; <input type="checkbox">   |
-| M3X20 | <nobr>ISO 4762 / DIN 912</nobr> |   14    |  [Click here](#m3x20_912) &emsp; <input type="checkbox">   |
+| Size  | Type                            | Amount |                         Stores                          |
+|:------|:--------------------------------|:------:|:-------------------------------------------------------:|
+| M3X8  | <nobr>ISO 4762 / DIN 912</nobr> |   65   | [Click here](#m3x8_912)  &emsp; <input type="checkbox"> |
+| M3X12 | <nobr>ISO 4762 / DIN 912</nobr> |   8    | [Click here](#m3x12_912) &emsp; <input type="checkbox"> |
+| M3X16 | <nobr>ISO 4762 / DIN 912</nobr> |   8    | [Click here](#m3x16_912) &emsp; <input type="checkbox"> |
+| M3X20 | <nobr>ISO 4762 / DIN 912</nobr> |   14   | [Click here](#m3x20_912) &emsp; <input type="checkbox"> |
 | M3X25 | <nobr>ISO 4762 / DIN 912</nobr> |   5    |  [Click here](#m3x25_912) &emsp; <input type="checkbox">   
 | M3X30 | <nobr>ISO 4762 / DIN 912</nobr> |   8    |  [Click here](#m3x30_912) &emsp; <input type="checkbox">   |
 | M3X35 | <nobr>ISO 4762 / DIN 912</nobr> |   12    |  [Click here](#m3x35_912) &emsp; <input type="checkbox">   |
@@ -90,13 +90,13 @@ The Bill of Materials for the Mercury One.1 is not yet complete, but it does inc
 
 #### Motion system
 
-| Size                   | Type                | Amount |                                   Stores                                   |
-|:-----------------------|:--------------------|:------:|:--------------------------------------------------------------------------:|
-| <nobr>M5X30mm</nobr>   | Precision dowel pin |   10   | [Click here](#m5_30_Precision_dowel_pin)    &emsp; <input type="checkbox"> |
-| <nobr>5*13*4 Mm</nobr> | F695-2RS            |   20   |  [Click here](#f695_2rs_flangebearing)    &emsp; <input type="checkbox">   |
-| 6mm                    | 2GT 20T Idler       |   2    |      [Click here](#2gt_teeth_idler)    &emsp; <input type="checkbox">      |
-| 6mm                    | 2GT 20T Pulley      |   2    |     [Click here](#2gt_teeth_pulley)    &emsp; <input type="checkbox">      |
-| Check note in store    | GATES-LL-2GT        |   2    |      [Click here](#gates_belts_6mm)    &emsp; <input type="checkbox">      |
+| Size                   | Type                |   Amount    |                                   Stores                                   |
+|:-----------------------|:--------------------|:-----------:|:--------------------------------------------------------------------------:|
+| <nobr>M5X30mm</nobr>   | Precision dowel pin |     10      | [Click here](#m5_30_Precision_dowel_pin)    &emsp; <input type="checkbox"> |
+| <nobr>5*13*4 Mm</nobr> | F695-2RS            |     20      |  [Click here](#f695_2rs_flangebearing)    &emsp; <input type="checkbox">   |
+| 6mm                    | 2GT 20T Idler       |      2      |      [Click here](#2gt_teeth_idler)    &emsp; <input type="checkbox">      |
+| 6mm                    | 2GT 20T Pulley      |      2      |     [Click here](#2gt_teeth_pulley)    &emsp; <input type="checkbox">      |
+| Check note in store    | GATES-LL-2GT        | READ NOTE → |      [Click here](#gates_belts_6mm)    &emsp; <input type="checkbox">      |
 {: class="transparant_table"}
 
 #### Other
