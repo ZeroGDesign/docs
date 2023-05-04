@@ -22,6 +22,12 @@ Currently we're working on instructions for two of our projects. Our projects ar
 
 We're a big [<i class="bi bi-discord"></i> Discord](https://discord.io/zerog) advocate! We love using it and building a community. Missing something in the documentation, need assistance, share your adventure, or enjoy a nice community? Join our [<i class="bi bi-discord"></i> Discord](https://discord.io/zerog) today!
 
+## Step files!
+
+The step files for Hydra and Mercury One.1 are now available.
+
+Find them in the menu: Manual → [Mercury One.1](/manual/build/mercury_eva/printed_files) **OR** [Hydra](/manual/build/hydra/printed_files) → 3. Files. There is a section called "Step files".
+
 ### License
 
 We're not using a GPL3 license like most other open source projects. 
