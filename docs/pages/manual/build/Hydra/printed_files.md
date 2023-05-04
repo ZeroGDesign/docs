@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 3. Printed Files
+title: 3. Files
 nav_order: 30
 has_toc: false
 parent: Hydra
@@ -9,7 +9,7 @@ permalink: /manual/build/hydra/printed_files
 img_instr: ../../../assets/images/instructions
 js_path: ../../../scripts
 ---
-# Hydra - Printed Files
+# Hydra - Files
 {: .no_toc }
 
 There are two ways to get the files: one is to use the [configurator](#-hydra-configurator), and the other is to download everything manually by clicking [here](https://github.com/ZeroGDesign/docs/tree/gh-pages/docs/assets/stl/hydra){:target="_blank"}.
@@ -20,6 +20,15 @@ There are two ways to get the files: one is to use the [configurator](#-hydra-co
 ## Print settings
 
 For the recommended settings when printing our parts, please click [here](/standard/print/settings){:target="_blank"}. Deviating from these settings may result in lower quality prints, loss of features, and improper alignment.
+
+## Step Files
+
+You can now download the step files for our Mercury One.1! Select the appropriate size for your 3D printer:
+
+* <a href="../../../assets/stl/hydra/Hydra_5pro.stp" download >Ender 5 (pro) Size - <b>Hydra_5pro.stp</b></a>
+* <a href="../../../assets/stl/hydra/Hydra_5Plus.stp" download >Ender 5 Plus Size - <b>Hydra_5Plus.stp</b></a>
+
+Simply click on the desired link and start creating your masterpiece with ease.
 
 # Downloading STL Files
 
@@ -87,11 +96,6 @@ Wago Mount*
 
 
 <!-- End configurator EVA 2.4 -->
-
-## Step Files
-
-If you need some Hydra step files, we've got you covered. For the plus size, just hit the text [here](../../../assets/stl/hydra/Hydra_5Plus.stp ). And if you're after the normal 5(pro) size, click on [this](../../../assets/stl/hydra/Hydra_5pro.stp) link instead.
-
 
 {: style="text-align: center" }
 <span class="fs-8">

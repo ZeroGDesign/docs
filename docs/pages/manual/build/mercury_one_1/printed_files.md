@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 3. Printed Files
+title: 3. Files
 nav_order: 30
 has_toc: false
 parent: Mercury One.1
@@ -10,7 +10,7 @@ img_instr: ../../../assets/images/instructions
 js_path: ../../../scripts
 ---
 
-# Mercury One.1 - Printing Files
+# Mercury One.1 - Files
 {: .no_toc }
 
 If you are looking to download the files, there are two methods available to you. The first option is to use one of two configurators: the [Mercury One.1 Configurator](#mercury-one1-configurator) or the [Eva 2.4 Configurator](#eva-24-toolhead-configurator). Alternatively, you can manually download the files you need by clicking on a link for either [Mercury One.1](https://github.com/ZeroGDesign/docs/tree/gh-pages/docs/assets/stl/m1_1){:target="_blank"} or [Eva 2.4](https://github.com/ZeroGDesign/docs/tree/gh-pages/docs/assets/stl/eva2_4){:target="_blank"}. Depending on your preferences and needs, one of these two methods may be more suitable for you.
@@ -22,9 +22,14 @@ If you are looking to download the files, there are two methods available to you
 
 For the recommended settings when printing our parts, please click [here](/standard/print/settings){:target="_blank"}. Deviating from these settings may result in lower quality prints, loss of features, and improper alignment.
 
-# Downloading STL Files
+## Step Files
 
-These files are **experimental**! You may be throwing parts away, we're constantly improving our models it's likely these files are not final.
+You can now download the step files for our Mercury One.1! Select the appropriate size for your 3D printer:
+
+* <a href="../../../assets/stl/m1_1/mercury_235_assembly.step" download >Ender 5 (pro) Size - <b>mercury_235_assembly.step</b></a>
+* <a href="../../../assets/stl/m1_1/mercury_370_assembly.step" download >Ender 5 Plus Size - <b>mercury_370_assembly.step</b></a>
+
+Simply click on the desired link and start creating your masterpiece with ease.
 
 <!-- Configurator Mercury One.1 -->
 ## Mercury One.1 Configurator
