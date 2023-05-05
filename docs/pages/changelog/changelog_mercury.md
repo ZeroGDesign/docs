@@ -21,6 +21,16 @@ This page contains a list of updates that have been made to Mercury One.1. It is
 {:toc}
 
 <div class="code-example" markdown="1">
+#### 5Th May 2023
+{: .no_toc }
+
+1. Modified the Configurator on the Mercury One.1 Files page.
+   1. Toothed idlers are now named 8.5mm/ 9mm/ 10mm.
+   2. A small PDF has been added to explain which to choose.
+
+</div>
+
+<div class="code-example" markdown="1">
 #### 8Th April 2023
 {: .no_toc }
 
