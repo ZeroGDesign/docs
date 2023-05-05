@@ -50,8 +50,8 @@ Z-Adapters*
 Toothed idler*
 <select class="list_dark" name="tidler" id="tidler">
     <option value="option0">Select</option>
-
 </select><br>
+<div class="fs-3 fw-300">If unsure which to choose, download the PDF file by clicking <a href="../../../assets/images/instructions/m1_1/spacer_instruction.pdf" download >here</a>, and it will guide you through the process.</div>
 
 Tension plate* 
 <select class="list_dark" name="tensionplate" id="tensionplate">
