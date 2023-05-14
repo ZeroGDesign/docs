@@ -241,6 +241,30 @@
             ]
         },
         {
+            "partname": "m4x20",
+            "image": "urltoimage",
+            "identifier": "m4x20_912",
+            "type": {
+                "din": "912",
+                "iso": "4762",
+                "description": "SHCS"
+            },
+            "source": [
+                {
+                    "region": "CN",
+                    "name": "AliExpress - Nindejin",
+                    "url": "https://s.click.aliexpress.com/e/_9yeIIO",
+                    "verified": true
+                },
+                {
+                    "region": "US",
+                    "name": "Boltdepot",
+                    "url": "https://www.boltdepot.com/Product-Details.aspx?product=6398",
+                    "verified": true
+                }
+            ]
+        },
+        {
             "partname": "m4x16",
             "image": "urltoimage",
             "identifier": "m4x16_912",

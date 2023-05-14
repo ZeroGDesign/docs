@@ -35,6 +35,7 @@ The Bill of Materials for the Mercury One.1 is not yet complete, but it does inc
 | M3X25 | <nobr>ISO 4762 / DIN 912</nobr> |   5    |  [Click here](#m3x25_912) &emsp; <input type="checkbox">   
 | M3X30 | <nobr>ISO 4762 / DIN 912</nobr> |   8    |  [Click here](#m3x30_912) &emsp; <input type="checkbox">   |
 | M3X35 | <nobr>ISO 4762 / DIN 912</nobr> |   12    |  [Click here](#m3x35_912) &emsp; <input type="checkbox">   |
+| M4X20 | <nobr>ISO 4762 / DIN 912</nobr> |   8 (PLUS ONLY)   |  [Click here](#m4x20_912) &emsp; <input type="checkbox">   |
 | M5X8  | <nobr>ISO 4762 / DIN 912</nobr> |   6    | [Click here](#m5x8_912_SHCS) &emsp; <input type="checkbox"> |
 | M5X12 | <nobr>ISO 4762 / DIN 912</nobr> |   6    |   [Click here](#m5x12_912) &emsp; <input type="checkbox">   |
 | M5X20 | <nobr>ISO 4762 / DIN 912</nobr> |   4    |   [Click here](#m5x20_912) &emsp; <input type="checkbox">   |

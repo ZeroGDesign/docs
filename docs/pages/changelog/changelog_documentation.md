@@ -19,6 +19,15 @@ This page contains a changelog of the updates and modifications made to the docu
 {:toc}
 
 <div class="code-example" markdown="1">
+#### 14th May 2023
+{: .no_toc }
+
+1. Added missing M4x20mm bolts to M1.1 BOM.
+   1. This is for the Ender 5 Plus bed only.
+</div>
+
+
+<div class="code-example" markdown="1">
 #### 5th May 2023
 {: .no_toc }
 
