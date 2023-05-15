@@ -784,7 +784,7 @@
             "source": [
                 {
                     "region": "US",
-                    "name": "Fabreeko",
+                    "name": "Fabreeko<br>(275/377mm heater)",
                     "url": "https://www.fabreeko.com/collections/zero-g/products/fabreeko-edge-to-edge-heaters-for-zero-g",
                     "verified": true
                 },
@@ -792,6 +792,12 @@
                     "region": "CN",
                     "name": "Fysetc<br>(Heater, 255x255x8mm bed, surface, magnet)",
                     "url": "https://s.click.aliexpress.com/e/_DnKgYY3",
+                    "verified": true
+                },
+                {
+                    "region": "CN",
+                    "name": "Fysetc<br>(Heater, 377x370x8mm bed, surface, magnet)",
+                    "url": "https://s.click.aliexpress.com/e/_Deflc7X",
                     "verified": true
                 }
             ]
@@ -806,13 +812,13 @@
             "source": [
                 {
                     "region": "US",
-                    "name": "Fabreeko",
-                    "url": "https://www.fabreeko.com/collections/zero-g/products/fabreeko-edge-to-edge-heaters-for-zero-g",
+                    "name": "Fabreeko<br>(275x275x8mm/ 377x370x8mm bed)",
+                    "url": "https://www.fabreeko.com/products/zero-g-atp5-aluminum-beds-for-ender-5-pro-plus-hydra-conversion",
                     "verified": true
                 },
                 {
                     "region": "EU",
-                    "name": "Kris3D",
+                    "name": "Kris3D<br>(254x254x8mm/ 377x370x8mm bed)",
                     "url": "https://www.kris3d.de/products/zerog-hydra",
                     "verified": true
                 },
@@ -820,6 +826,12 @@
                     "region": "CN",
                     "name": "Fysetc<br>(Heater, 255x255x8mm bed, surface, magnet)",
                     "url": "https://s.click.aliexpress.com/e/_DnKgYY3",
+                    "verified": true
+                },
+                {
+                    "region": "CN",
+                    "name": "Fysetc<br>(Heater, 377x370x8mm bed, surface, magnet)",
+                    "url": "https://s.click.aliexpress.com/e/_Deflc7X",
                     "verified": true
                 }
             ]
@@ -1211,6 +1223,12 @@
                     "region": "CN",
                     "name": "Fysetc<br>(Heater, 255x255x8mm bed, surface, magnet)",
                     "url": "https://s.click.aliexpress.com/e/_DnKgYY3",
+                    "verified": true
+                },
+                {
+                    "region": "CN",
+                    "name": "Fysetc<br>(Heater, 377x370x8mm bed, surface, magnet)",
+                    "url": "https://s.click.aliexpress.com/e/_Deflc7X",
                     "verified": true
                 }
             ]
