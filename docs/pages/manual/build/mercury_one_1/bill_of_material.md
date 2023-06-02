@@ -58,6 +58,7 @@ The Bill of Materials for the Mercury One.1 is not yet complete, but it does inc
 |:--------------|:------|:----------------------------|:------:|:------------------------------------------------------------:|
 | Ender 5 (Pro) | 370mm | <nobr>2020 Extrusion</nobr> |   1    | [Click here](#extrusion_2020) &emsp; <input type="checkbox"> |
 | Ender 5 Plus  | 500mm | <nobr>2020 Extrusion</nobr> |   1    | [Click here](#extrusion_2020) &emsp; <input type="checkbox"> |
+| LIGHTWEIGHT GANTRY | 370mm | <nobr>READ NOTE →</nobr> |  1   | [Click here](#merc_light) &emsp; <input type="checkbox"> |
 {: class="transparant_table"}
 
 ### Linear rails

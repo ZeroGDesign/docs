@@ -579,6 +579,25 @@
             ]
         }
     ],
+    "lightweight_extrusion": [
+        {
+            "partname": "2020",
+            "image": "urltoimage",
+            "identifier": "merc_light",
+            "type": {
+                "description": "Lightweight Extrusion",
+                "note": "Compatible with (5/pro) - 370mm, only works with the rail on top.<br>You need a <b>330mm MGN12H rail!</b>"
+            },
+            "source": [
+                {
+                    "region": "CN",
+                    "name": "AliExpress - FYSETC Official Store",
+                    "url": "https://s.click.aliexpress.com/e/_DCvjHnP",
+                    "verified": true
+                }
+            ]
+        }
+    ],
     "rails": [
         {
             "partname": "MGN9C 100mm",
