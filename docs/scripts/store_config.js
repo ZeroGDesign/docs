@@ -151,7 +151,7 @@ function source_html(item) {
             <div onclick="location.href='##'; "class="background_close"></div>
             <div class="content">
                 <div class="titlebar"> ${item.partname.toProperCase()} - ${item.type.description} </div>
-                <a href=##" class="close"></a>
+                <a href="##" class="close"></a>
                 <div class="table-wrapper">
                     <table class="“store_table” cellspacing="0">
                         <tr>
