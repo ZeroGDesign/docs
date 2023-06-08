@@ -38,12 +38,12 @@ var _partsList = {
     ],
     zadapters: [
         { id: "5pro", name: "Ender 5/Pro", dependencies: ["Z_DropBracket_5Pro_1.stl", "Z_DropBracket_5Pro_2.stl"] },
-        { id: "5plus", name: "Ender 5 Plus", dependencies: ["e5_only_bed_raiser_1.stl", "e5_only_bed_raiser_2.stl", "e5_only_bed_raiser_3.stl", "e5_only_bed_raiser_4.stl"] },
+        { id: "5plus", name: "Ender 5 Plus", dependencies: ["plus_only_bed_raiser_1.stl", "plus_only_bed_raiser_2.stl", "plus_only_bed_raiser_3.stl", "plus_only_bed_raiser_4.stl"] },
         { id: "none", name: "None", dependencies: [] }
     ],
-    eva_generic: ["Belt_clamp_1.stl", "Belt_clamp_2.stl", "y_endstop.stl", "a_X_Limit_Stop_Block.stl", "RearCableArm_V1-1.stl", "a_EVA_Backplate_Merc_Support_V1-1.stl", "a_EVA_FrontPlate_HD_V-1-1.stl", "EVA2-4_Bottom_V1-1.stl"],
+    eva_generic: ["Belt_clamp_1.stl", "Belt_clamp_2.stl", "a_X_Limit_Stop_Block.stl", "RearCableArm_V1-1.stl", "a_EVA_Backplate_Merc_Support_V1-1.stl", "a_EVA_FrontPlate_HD_V-1-1.stl", "EVA2-4_Bottom_V1-1.stl"],
     mercury_generic: ["a_stepper_mount_bottom_left.stl", "a_stepper_mount_bottom_right.stl", "a_stepper_mount_top_left.stl", "a_stepper_mount_top_right.stl",
-        "a_front_tower_right.stl", "a_front_tower_left.stl", "a_FlangeSpacer_pair.stl", "front_tower_tool_brass.stl",
+        "a_front_tower_right.stl", "a_front_tower_left.stl", "a_FlangeSpacer_pair.stl", "front_tower_tool_brass.stl", "y_endstop.stl",
         "XJoint_left_bottom.stl", "XJoint_left_top.stl", "XJoint_right_bottom.stl", "XJoint_right_top.stl", "RearSplitloomArm_V1-1-0.stl", "left_pulley_alignment_tool.stl", "right_pulley_alignment_tool.stl", "front_tower_tool.stl"
     ]
 }
