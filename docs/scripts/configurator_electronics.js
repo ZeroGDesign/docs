@@ -5,7 +5,7 @@ var _partsList = {
   printers: [
     { id: "none", name: "None", dependencies: [] },
     {
-      id: "5plus", skirtsize: "438", name: "Ender 5 Plus", dependencies: ["skirt/5plus/Electronics_Bay.pdf", "skirt/SK_Center_Logo_x4.stl"
+      id: "5plus", skirtsize: "438", name: "Ender 5 Plus", dependencies: ["skirt/5plus/Electronics_Bay.pdf", "skirt/SK_Center_Logo_x4.stl", "Mosfet-M3_heatset.stl"
         , "skirt/SK_CenterLogo_Inlay_x4.stl", "skirt/5plus/SK-438-Left.stl", "skirt/5plus/SK-438-Right_x2.stl", "skirt/5plus/SK-455-Left_x2.stl", "skirt/5plus/SK-455-Right_x2.stl"
         , "skirt/5plus/5Plus_Hydra_TopPanel.dxf", "skirt/5plus/SK_5Plus_BottomPanel.dxf", "2020_Cable_Tie_x3.stl", "Clip_Base_x4.stl", "Clip_Top_x4.stl", "DIN-DropBracket_x4.stl"]
     },
