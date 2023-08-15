@@ -37,7 +37,7 @@ So your first step is removing the X and Y motion system.
 
 {: .warn }
 We're not going into depth on how to remove the X and Y motion system.
-If you're having trouble or you would like some help please don't hesitate and ask for help in our [Discord server](https://discord.com/invite/gzJP2s8){:target="_blank"}.
+If you're having trouble or you would like some help please don't hesitate and ask for help in our [Discord server](https://discord.gg/zerog){:target="_blank"}.
 
 {: style="text-align: center" }
 <span class="fs-8">

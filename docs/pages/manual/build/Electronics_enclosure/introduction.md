@@ -53,7 +53,7 @@ Hovering an image with your mouse will show a zoom icon <i class="bi bi-zoom-in"
 
 1. **Read and execute the instructions.**
 2. **Got questions?**
-   1. Join our [Discord server <i class="bi bi-discord"></i>](https://discord.com/invite/gzJP2s8){:target="_blank"}.
+   1. Join our [Discord server <i class="bi bi-discord"></i>](https://discord.gg/zerog){:target="_blank"}.
 3. **Don't just look at images.**
    1. An image doesn't explain the full story.
    2. There is text that will explain every step, read it carefully.
@@ -65,7 +65,7 @@ Hovering an image with your mouse will show a zoom icon <i class="bi bi-zoom-in"
 
 ## Need more help?
 
-Lost? Need help? Not sure? Join our [Discord server <i class="bi bi-discord"></i>](https://discord.com/invite/gzJP2s8){:target="_blank"}, we've got a big community ready to help you out 
+Lost? Need help? Not sure? Join our [Discord server <i class="bi bi-discord"></i>](https://discord.gg/zerog){:target="_blank"}, we've got a big community ready to help you out 
 
 
 {: style="text-align: center" }
