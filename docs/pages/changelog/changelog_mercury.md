@@ -24,7 +24,7 @@ This page contains a list of updates that have been made to Mercury One.1. It is
 #### 15Th August 2023
 {: .no_toc }
 
-Download the new files in our [Configurator](../../manual/build/mercury_eva/printed_files#eva-24-toolhead-configurator) or on [Github](https://github.com/ZeroGDesign/docs/tree/gh-pages/docs/assets/stl/eva2_4){:target="_blank"}.
+Download the new files in our [Configurator](../../manual/build/mercury_eva/printed_files#eva-24-toolhead-configurator) or on [Github](https://github.com/ZeroGDesign/docs/tree/gh-pages/docs/assets/stl/m1_1){:target="_blank"}.
 1. Stepper towers.
    1. [Rectangular pilars](#lightbox_new_steppertower_pilar) pilars for the dowel pins.
    2. [Different angle Chamfer](#lightbox_new_steppertower_fillet) on the bottom, increases printability.
