@@ -20,7 +20,7 @@ Currently we're working on instructions for two of our projects. Our projects ar
 
 ### Discord
 
-We're a big [<i class="bi bi-discord"></i> Discord](https://discord.io/zerog) advocate! We love using it and building a community. Missing something in the documentation, need assistance, share your adventure, or enjoy a nice community? Join our [<i class="bi bi-discord"></i> Discord](https://discord.io/zerog) today!
+We're a big [<i class="bi bi-discord"></i> Discord](https://discord.gg/zerog) advocate! We love using it and building a community. Missing something in the documentation, need assistance, share your adventure, or enjoy a nice community? Join our [<i class="bi bi-discord"></i> Discord](https://discord.gg/zerog) today!
 
 ## Step files!
 
