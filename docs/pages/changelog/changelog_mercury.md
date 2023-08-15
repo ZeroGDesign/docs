@@ -21,6 +21,73 @@ This page contains a list of updates that have been made to Mercury One.1. It is
 {:toc}
 
 <div class="code-example" markdown="1">
+#### 15Th August 2023
+{: .no_toc }
+
+Download the new files in our [Configurator](../../manual/build/mercury_eva/printed_files#eva-24-toolhead-configurator) or on [Github](https://github.com/ZeroGDesign/docs/tree/gh-pages/docs/assets/stl/eva2_4){:target="_blank"}.
+1. Stepper towers.
+   1. [Rectangular pilars](#lightbox_new_steppertower_pilar) pilars for the dowel pins.
+   2. [Different angle Chamfer](#lightbox_new_steppertower_fillet) on the bottom, increases printability.
+   3. Changed hole size for [dowel pins from 5.3mm->5.2mm](#lightbox_new_steppertower_holesize).
+   4. [Seam relieve features](#lightbox_new_steppertower_seamrelieve), make sure to check the [print standards](../../standard/print/settings#importing-zerog-files) for this!.
+2. Belt Grinding.
+   1. We've identified an issue in our earlier models where the dowel pin might be angled, leading to belt misalignment [here](#lightbox_old_angled_pin).
+      1. Upon thorough research, this was linked to material shrinkage and differences in mass.
+      2. We also identified that the seam's placement close to the hole reduced resistance around the dowel pin area to those same forces.
+3. QOL - Front towers.
+   1. Reduced the ZeroG logo depth to 0.25 for printability.
+4. QOL - Front tension plate (T-Nut)
+   1. Moved the m5 holes on the plate down 1.8mmm.
+
+
+**It's important to note** that this update doesn’t completely resolve the belt grinding issues. Many of the persistent concerns can be traced back to the toothed idler on the stepper being misaligned. Additionally, the Creality frame's quality control might not be the most optimal, contributing to the problem.
+
+
+
+
+<div onclick="location.href='##';"  id="lightbox_new_steppertower_pilar"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="{{page.img_instr}}/stepper_tower_newpilar.png" alt="shows the version numbers">
+    </div>
+</div>
+
+<div onclick="location.href='##';"  id="lightbox_new_steppertower_fillet"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="{{page.img_instr}}/stepper_towers_newfillet.png" alt="Cable routing">
+    </div>
+</div>
+
+<div onclick="location.href='##';"  id="lightbox_new_steppertower_holesize"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="{{page.img_instr}}/stepper_tower_new_holesize.png" alt="New flange stack">
+    </div>
+</div>
+
+<div onclick="location.href='##';"  id="lightbox_new_steppertower_seamrelieve"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="{{page.img_instr}}/stepper_tower_new_seamrelieve.png" alt="New flange stack">
+    </div>
+</div>
+
+<div onclick="location.href='##';"  id="lightbox_old_angled_pin"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="{{page.img_instr}}/oldtower_angledpin.png" alt="New flange stack">
+    </div>
+</div>
+
+</div>
+
+<div class="code-example" markdown="1">
 #### 5Th May 2023
 {: .no_toc }
 
