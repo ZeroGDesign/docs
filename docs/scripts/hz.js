@@ -1,7 +1,7 @@
 const LOWER_BOUND = 50;
 const UPPER_BOUND = 150;
 const FREQUENCY_READINGS = 4;
-const UPDATE_INTERVAL = 1;
+const UPDATE_INTERVAL = 20;
 const HOLD_DURATION = 250; // in milliseconds
 
 let frequencyBuffer = [];
