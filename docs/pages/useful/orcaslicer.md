@@ -52,18 +52,3 @@ current_flowrate *(100 + modifier)/100
 current_flowrate is the value found under Filament Settings > Basic Information > Flow Ratio.
 Modifier the value displayed on the print.
 ```
-
-### Highly experimental, don't use. 
-{: .no_toc }
-
-<script src="../../../scripts/hz.js"></script>
-
-
-
-
-
-<h1>Belt Tension Detector</h1>
-{: .no_toc }
-
-<button class="textfield_dark" id="startButton" onclick="initiateListening()">Start Calibration</button>
-<p>Status: <span id="frequencyStats">N/A</span></p>
