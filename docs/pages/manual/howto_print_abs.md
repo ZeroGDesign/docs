@@ -1,11 +1,11 @@
 ---
-layout: default
 title: ABS Printing Tips
+layout: default
 nav_order: 8
 has_children: false
 has_toc: false
 parent: Manual
-permalink: /manual/print/abs
+permalink: "/manual/print/abs"
 ---
 
 ## Printing parts

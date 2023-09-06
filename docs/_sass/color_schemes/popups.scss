@@ -158,3 +158,91 @@
         }
     }
 }
+
+.gcodebox__item {
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 200ms ease-in-out;
+    backdrop-filter: blur(2px);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 9999;
+
+    &:target {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .background_close {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        z-index: -1;
+        cursor: pointer;
+    }
+
+    .content {
+        max-height: 90vh;
+        max-width: 47em;
+        min-width: 30em;
+        background: #191919fa;
+        border-radius: 9px;
+        filter: drop-shadow(1mm 1mm 3mm #0000005d);
+        border: solid #4b4c4e 6px;
+        border-width: 1px;
+        text-align: left;
+        margin: auto;
+        position: relative;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-bottom: 7px;
+        font-weight: 200;
+        tab-size: 2;
+        overflow-y: auto; /* Add a vertical scrollbar */
+        
+        .titlebar {
+            height: 1.8em;
+            width: 100%;
+            font-weight: 200;
+            text-align: center;
+            padding-top: 1px;
+            padding-left: 10px;
+            margin-bottom: 10px;
+            position: relative;
+
+            &::after {
+                content: "GCode";
+                color: white;
+                font-weight: 200;
+                font-size: 1.8em;
+                z-index: -1;
+            }
+        }
+
+        .infobar {
+            height: 1.8em;
+            width: 100%;
+            font-weight: 200;
+            text-align: center;
+            user-select: none;
+            padding-top: 1px;
+            padding-left: 10px;
+            margin-bottom: 10px;
+            position: relative;
+
+            &::after {
+                color: white;
+                font-weight: 200;
+                font-size: 1.4em;
+                z-index: -1;
+            }
+        }
+    }
+}

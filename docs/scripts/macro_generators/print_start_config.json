@@ -1,0 +1,46 @@
+{
+    "macro": "[gcode_macro START_PRINT]\ngcode:\n\t{% set BED_TEMP=params.BED_TEMP|default([CHANGE_BED_TEMP])|float %}\n\t{% set EXTRUDER_TEMP=params.EXTRUDER_TEMP|default([CHANGE_EXTRUDER_TEMP])|float %}\n\t[ENABLE_PART_FAN]\n\t# Home the printer\n\tG90\n\tM83\n\tG28\n\t\n\t# Preheat the bed\n\tM140 S{BED_TEMP}\n\tM190 S{BED_TEMP}\n\tM104 S[CHANGE_EXTRUDER_TEMP][CHANGE_HEATSOAK][enable_bed_mesh_calibrate1][enable_leveling_option][enable_bed_mesh_calibrate2]\n\t\n\t# Heat the extruder to the desired temperature\n\tM104 S{EXTRUDER_TEMP}\n\tM109 S{EXTRUDER_TEMP}\n\t\n\t# Prime line sequence\n\tG1 Z5 F3000 ; lift\n\tG1 X20 Y5 F1500 ; move to prime position\n\tG1 Z0.15 F3000 ; get ready to prime\n\tG92 E0 ; reset extrusion distance\n\tG1 X[CHANGE_PRIME_MOVELENGHT] E30 F600 ; prime nozzle with adjusted extrusion / E__ based on how much you like\n\t\n\t# String removal circle after priming\n\tG1 Z0.2 F3000 ; adjust to 0.2mm above the bed\n\tG1 Y+15 F10000 ; move the toolhead in the Y direction by 15 units\n\t\n\t# Execute the circle 3 times\n\tG2 I-5 J0 F10000 ; circle with 5mm radius\n\tG2 I-5 J0 F10000\n\tG2 I-5 J0 F10000",
+    "probes": {
+        "yes": "\n\t\n\t# Z probing sequence",
+        "no": ""
+    },
+    "levelingOptions": {
+        "None": "",
+        "Z tilt adjust": "\n\tG28\n\tZ_TILT_ADJUST\n\tG28 Z",
+        "Quad Gantry Level": "\n\tG28\n\tQUAD_GANTRY_LEVEL\n\tG28 Z"
+    },
+    "bedMeshCalibrate": {
+        "yes": "\n\tBED_MESH_CALIBRATE\n\tBED_MESH_PROFILE LOAD=default",
+        "no": ""
+    },
+    "heatsoak": {
+        "default": "",
+        "custom": "\n\t\n\t# Heatsoak\n\tG4 P[VALUE]"
+    },
+    "enablePartFan": {
+        "yes": "\n\t# Enables part cooling fan to stop duct from melting when waiting for bed temp\n\tM106 S153\n\t",
+        "no": ""
+    },
+    "slicerReplacements": {
+        "Orcaslicer": {
+            "nozzle": "[nozzle_temperature_initial_layer]",
+            "bed": "[bed_temperature_initial_layer_single]"
+        },
+        "Prusaslicer": {
+            "nozzle": "[first_layer_temperature]",
+            "bed": "[first_layer_bed_temperature]"
+        },
+        "Simplify 3D": {
+            "nozzle": "[extruder0_temperature]",
+            "bed": "[bed0_temperature]"
+        },
+        "Superslicer": {
+            "nozzle": "[first_layer_temperature]",
+            "bed": "[first_layer_bed_temperature]"
+        },
+        "Cura": {
+            "nozzle": "{material_print_temperature}",
+            "bed": "{material_bed_temperature}"
+        }
+    }
+}
