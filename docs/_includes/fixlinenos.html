@@ -1,0 +1,4 @@
+{% if _code contains '<pre class="lineno">' %}
+    {% assign _code = _code | replace: "<pre><code", "<code" %}
+    {% assign _code = _code | replace: "</code></pre>", "</code>" %}
+{% endif %}

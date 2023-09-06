@@ -24,7 +24,7 @@ group :jekyll_plugins do
 end
 
 gem "jekyll-include-cache"
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+# Windows does not include zoneinfo files, so bundle spell_checkerthe tzinfo-data gem
 # and associated library.
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo", "~> 1.2"
