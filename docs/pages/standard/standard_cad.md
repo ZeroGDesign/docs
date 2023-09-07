@@ -19,7 +19,7 @@ This page includes the clearances you need when printing with ABS, they have bee
 | -----------: | :---: | :---: | :---------- | :---- |
 |       DIN918 | Loose | 3.3mm | 6mm         | N/A   |
 |       DIN918 | Tight | 3.2mm | 5.8mm       | N/A   |
-| DIN934 (nut) | Loos  | 5.8mm | N/A         | 2.6mm |
+| DIN934 (nut) | Loose | 5.8mm | N/A         | 2.6mm |
 | DIN934 (nut) | Tight | 5.7mm | N/A         | 2.6mm |
 
 ### M5 hardware
