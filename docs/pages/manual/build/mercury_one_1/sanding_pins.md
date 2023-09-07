@@ -17,11 +17,11 @@ img_instr_ls: ../../../assets/images/instructions/assembly/left_stepper
 
 ### Why do I have to sand my dowel pins?
 
-If they do fit nicely you do not need to sand them down.=
+If they do fit nicely you do not need to sand them down.
 
 #### Prior to assembly
 
-Test fit your dowel pin in the F695-2RS 5\*13\*4 Mm bearing, if they're tight **DO NOT** continue. You want to sand them down a little. 
+Test fit your dowel pin in the F695-2RS 5\*13\*4 mm bearing, if they're tight **DO NOT** continue. You want to sand them down a little. 
 
 
 #### Forcing your dowel pins

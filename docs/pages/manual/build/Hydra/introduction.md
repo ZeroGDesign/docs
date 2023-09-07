@@ -31,7 +31,7 @@ Hovering an image with your mouse will show a zoom icon <i class="bi bi-zoom-in"
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
 | Tool<br>Description| Soldering iron<br>Used for heat set inserts |     [![soldering iron](../../../../assets/images/tools/soldering_iron.png)](#lightbox__item_1){: .lightbox_wrapper} |
-| Tool<br>Description<br>Sizes| Hex Keys<br>Used to tighten and losen bolts<br>2mm, 2.5mm, 3mm, 4mm|     [![soldering iron](../../../../assets/images/tools/wera_hexkeys.png)](#lightbox__item_2){: .lightbox_wrapper} |
+| Tool<br>Description<br>Sizes| Hex Keys<br>Used to tighten and loosen bolts<br>2mm, 2.5mm, 3mm, 4mm|     [![soldering iron](../../../../assets/images/tools/wera_hexkeys.png)](#lightbox__item_2){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 <div onclick="location.href='##';"  id="lightbox__item_1"  class="lightbox__item">

@@ -13,7 +13,7 @@ permalink: "/manual/print/abs"
 ### What material should I use?
 ZeroG printers are designed to be printed using ABS or ASA. This means we've included tolerances for material shrinkage in our models.
 
-It's recommended to print your ABS or ASA parts inside of an enclosure, this will greatly increase layer strenght.
+It's recommended to print your ABS or ASA parts inside of an enclosure, this will greatly increase layer strength.
 
 {: .note}
 We find that parts printed in ABS+ are **weaker in layer adhesion** compared to non ABS+ filaments. Although easier to print, they're **easier to break**.
