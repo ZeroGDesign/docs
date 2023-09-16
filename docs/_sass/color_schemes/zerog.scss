@@ -26,27 +26,33 @@ $search-background-color: $light-grey-color;
 $table-background-color: $light-grey-color;
 $feedback-color: darken($sidebar-color, 3%);
 
+/* System Fonts as used by GitHub */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 $callouts: (
     important: (
         $white-color,
         rgba(255, 255, 255, 0.05),
-        "megaphone",
+        "megaphone"
     ),
     warn: (
         $zero-g-red-color,
         rgba($zero-g-red-color, 0.04),
-        "triangle",
+        "triangle"
     ),
     danger: (
         $red-300,
         rgba($red-000, 0.2),
-        "danger",
+        "danger"
     ),
     note: (
         $white-color,
         rgba(255, 255, 255, 0.05),
-        "blockquote-right",
-    ),
+        "blockquote-right"
+    )
 );
 
 @each $class, $props in $callouts {
@@ -54,7 +60,9 @@ $callouts: (
         background: nth($props, 2);
         border-left: $border-radius solid nth($props, 1);
         border-radius: $border-radius;
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+        box-shadow:
+            0 1px 2px rgba(0, 0, 0, 0.12),
+            0 3px 10px rgba(0, 0, 0, 0.08);
         padding: 1.25rem;
         position: relative;
         padding-left: 3.75rem;
@@ -80,10 +88,9 @@ $callouts: (
     font-weight: 300 !important;
 }
 
-
 .main-content-wrap a {
     text-decoration: none !important;
-  }
+}
 
 .html,
 body,
@@ -282,7 +289,7 @@ a.floatingtop {
     white-space: nowrap;
 
     &::after {
-        content: 'Please wait while the database is loading...';
+        content: "Please wait while the database is loading...";
         text-shadow: 2px 2px 5px #000000;
     }
 
@@ -397,19 +404,17 @@ a.floatingtop {
     }
 }
 
-
 .progress-bar {
     width: 100%;
     height: 20px;
     background-color: #ddd;
-  }
-  
-  #progressBar {
+}
+
+#progressBar {
     height: 100%;
     width: 0%;
-    background-color: #4CAF50;
+    background-color: #4caf50;
     text-align: center;
     line-height: 20px;
     color: white;
-  }
-  
+}
