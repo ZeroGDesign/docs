@@ -18,6 +18,12 @@ aux_links_new_tab: true
 ga_tracking: G-6NEWMMGBTW
 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
 
+
+nav_external_links:
+  - title: Join Our Discord
+    url: https://discord.gg/zerog
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+
 defaults:
   -
     scope:
