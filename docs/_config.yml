@@ -23,10 +23,3 @@ nav_external_links:
   - title: Join Our Discord
     url: https://discord.gg/zerog
     hide_icon: false # set to true to hide the external link icon - defaults to false
-
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      image: assets/images/rtfm.pngy
