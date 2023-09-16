@@ -9,6 +9,7 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.8.5)
       public_suffix (>= 2.0.2, < 6.0)
+    base64 (0.1.1)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -24,8 +25,9 @@ GEM
     ethon (0.16.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
-    execjs (2.8.1)
-    faraday (2.7.10)
+    execjs (2.9.1)
+    faraday (2.7.11)
+      base64
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
@@ -215,7 +217,7 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minitest (5.19.0)
+    minitest (5.20.0)
     nokogiri (1.15.4-x64-mingw-ucrt)
       racc (~> 1.4)
     octokit (4.25.1)
