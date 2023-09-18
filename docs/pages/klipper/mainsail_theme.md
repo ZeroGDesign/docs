@@ -53,7 +53,7 @@ Your console should appear similar to this.
 
 Paste the following code into your console.
 
-```s
+```bash
     cd ~/
     git clone https://github.com/ZeroGDesign/zerog-mainsail-theme.git
     bash ~/zerog-mainsail-theme/install.sh
