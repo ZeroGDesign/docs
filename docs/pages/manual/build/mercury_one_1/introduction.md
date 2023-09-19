@@ -12,14 +12,12 @@ img_tool: ../../../../assets/images/tools
 # 1. Introduction
 {: .no_toc }
 
-
-
 Building the Mercury One.1
 {: .fs-6 .fw-300 }
 
 <dl>
   <dt>Difficulty</dt>
-  <dd><font COLOR="#d6c01a">Moderate</font></dd>
+  <dd><span style="color:#d6c01a">Moderate</span></dd>
   <dt>Language</dt>
   <dd>English</dd>
 </dl>
@@ -96,8 +94,5 @@ Hovering an image with your mouse will show a zoom icon <i class="bi bi-zoom-in"
 
 Lost? Need help? Not sure? Join our [Discord server <i class="bi bi-discord"></i>](https://discord.gg/zerog){:target="_blank"}, we've got a big community ready to help you out 
 
-
-{: style="text-align: center" }
-<span class="fs-8">
-[Next step <i class="bi bi-arrow-return-right"></i>](/manual/build/mercury_eva/bill_of_material){: .btn .btn-red }
-</span>
+{: style="text-align: center" .fs-8}
+[Next step &rarr;](/manual/build/mercury_eva/bill_of_material){: .btn .btn-red }

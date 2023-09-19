@@ -67,4 +67,4 @@ Hovering an image with your mouse will show a zoom icon <i class="bi bi-zoom-in"
 Lost? Need help? Not sure? Join our [Discord server <i class="bi bi-discord"></i>](https://discord.gg/zerog){:target="_blank"}, we've got a big community ready to help you out!
 
 {: style="text-align: center" .fs-8}
-[Next step <i class="bi bi-arrow-return-right"></i>](#){: .btn .btn-red }
+[Next step &rarr;](#){: .btn .btn-red }

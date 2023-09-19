@@ -14,12 +14,13 @@ img_path: ../../../assets/images/instructions/m1_1/right_stepper_tower/
 
 We're now going to be working on the Right stepper mount.
 
-1. Table of content
+1. Table of contents
 {:toc}
 
-# Stepper mount - Right
+## Stepper mount - Right
 
-## Right stepper mount
+### Right stepper mount
+
 [![Right Stepper mount]({{page.img_path}}step_1.png)](#lightbox__overview_bottom){: style="cursor: zoom-in; background-image: none;"}
 
 <div onclick="location.href='##';"  id="lightbox__overview_bottom"  class="lightbox__item">
@@ -30,8 +31,7 @@ We're now going to be working on the Right stepper mount.
     </div>
 </div>
 
-
-### hardware
+#### hardware
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
 | Type:<br/>Amount: | 5x30 Precision Dowel pin<br/>2          |     ![5MM 30mm dowel](../../../assets/images/instructions/5x30_dowel_pin.png) |
@@ -43,7 +43,7 @@ We're now going to be working on the Right stepper mount.
 | Type:<br/>Amount: | Nema 17 Stepper Motor<br/>1                            | ![Nema 17](../../../assets/images/instructions/nema17.png) |
 {: class="hardwaretable"}
 
-### Printed parts
+#### Printed parts
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
 | Type:<br/>Amount: | Right stepper top<br/>1        |     [![Right stepper top printed]({{page.img_path}}overview_top.png)](#lightbox__overview_top){: .lightbox_wrapper} |
@@ -68,7 +68,6 @@ Take the bottom left stepper mount *printed part* and insert two 5x30 dowel pins
 
 [![step2]({{page.img_path}}step_2.png)](#lightbox__step2){: .lightbox_wrapper}
 
-
 <div onclick="location.href='##';"  id="lightbox__step2"  class="lightbox__item">
     <div class="lightbox__content">
     <div class="lightbox__titlebar"></div>
@@ -90,7 +89,6 @@ The image below shows the correct placement of the dowel pins.
 </div>
 
 On the bottom of the printed part you will find small M3 holes below the dowel pins. If your dowel pins are stuck you can use those to press them out using a small hex key.
-
 
 ### Adding the flange stacks
 
@@ -139,7 +137,6 @@ The image below shows the correct placement of the Flange stacks.
         <img src="{{page.img_path}}step_7.png" alt="">
     </div>
 </div>
-
 
 ### Lowering the top stepper mount
 
@@ -195,8 +192,6 @@ Using undersized shims could cause the flanges to have excessive movement in an 
         <img src="{{page.img_path}}step_10.png" alt="">
     </div>
 </div>
-
-
 
 <!-- ### Adding pulley to stepper shaft
 
@@ -278,8 +273,7 @@ When tightening the first screw, make sure not to fully tighten it down as the r
     </div>
 </div>
 
-
-All three screws, as shown below should be tight. 
+All three screws, as shown below should be tight.
 
 [![step15]({{page.img_path}}step_15.png)](#lightbox__step_15){: .lightbox_wrapper}
 
@@ -293,39 +287,31 @@ All three screws, as shown below should be tight.
 
 Congratz! You have finished the right stepper tower.
 
+## Definitions
 
-# Definitions
-
-## Flange stack
+### Flange stack
 
 The following image represents a so called "Flange stack".
 It contains the following:
-
 
 | :-------------------------: | :------------------------------------------------------------------------------- | |
 | Type:<br/>Amount: | 5x10x1 Shim ring<br/>3       |     ![5MM 30mm dowel](../../../assets/images/instructions/m5_10_1_shim.png) |
 | Type:<br/>Amount: | F695-2RS 5\*13\*4 Mm<br/>2       |     ![5MM 30mm dowel](../../../assets/images/instructions/f695_flange_bearing.png) |
 {: class="hardwaretable"}
 
-
 ![Single Flange stack]({{page.img_path}}single_stack.png)
 
-## Double Flange stack
+### Double Flange stack
 
 The following image represents a so called "Double Flange stack".
 It contains the following:
-
 
 | :-------------------------: | :------------------------------------------------------------------------------- | |
 | Type:<br/>Amount: | 5x10x1 Shim ring<br/>5       |     ![5MM 30mm dowel](../../../assets/images/instructions/m5_10_1_shim.png) |
 | Type:<br/>Amount: | F695-2RS 5\*13\*4 Mm<br/>4       |     ![5MM 30mm dowel](../../../assets/images/instructions/f695_flange_bearing.png) |
 {: class="hardwaretable"}
 
-
 ![Double Flange stack]({{page.img_path}}double_stack.png)
 
-
-{: style="text-align: center" }
-<span class="fs-8">
+{: style="text-align: center" .fs-8}
 [Next step &rarr;](/manual/build/mercury_eva/left_front_tower){: .btn .btn-red }
-</span>
