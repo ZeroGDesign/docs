@@ -17,8 +17,7 @@ ZeroG printers are designed to be printed using ABS or ASA. This means we've inc
 It's recommended to print your ABS or ASA parts inside of an enclosure, this will greatly increase layer strenght.
 
 {: .note}
-We find that parts printed in ABS+ are **weaker in layer adhesion** compared to non ABS+ filaments. Although easier to print, they're **easier to break**.
-
+We find that parts printed in ABS+ are **weaker in layer adhesion** compared to non ABS+ filaments. Although easier to print, they're **easier to break**.<br/>
 We're aware that not every blend of ABS+ is equal, however it's what we found with the ABS+ we tested.
 
 ### I am looking for a calibration print
