@@ -28,11 +28,11 @@ The value you use as input should be the **RMS** value. **Not** the peak value t
 #### run_current
 {: .no_toc }
 <form>
-    Motor peak current<br><input type="text" class="textfield_dark" id="peak_current" Value="1.4"/><br>
+    Motor peak current<br/><input type="text" class="textfield_dark" id="peak_current" Value="1.4"/><br/>
 
-    Max recommended current: 80%<br>
+    Max recommended current: 80%<br/>
 
-    <input type="button" class="btn" onClick="calculate_runcurrent()" Value="Calculate" /><br>
+    <input type="button" class="btn" onClick="calculate_runcurrent()" Value="Calculate" /><br/>
 
     Your run_current: <b><span id = "result_runcurrent">0.79</span></b>
     
@@ -74,19 +74,19 @@ On an extruder, the rotation_distance is the amount of distance the filament tra
 
 <div class="code-example" markdown="1">
 <form>
-    Use a marker to place a mark on the filament around 120mm from the intake of the extruder body. Then use a digital calipers to measure the actual distance of that mark as precisely as one can.<br><br>
+    Use a marker to place a mark on the filament around 120mm from the intake of the extruder body. Then use a digital calipers to measure the actual distance of that mark as precisely as one can.<br/><br/>
 
-    Measure initial mark distance in mm<br><input type="text" class="textfield_dark" id="initial_mark_distance" Value="120"/><br>
-<br>
-    Use the digital calipers to measure the new distance between the extruder body and the mark on the filament <b>after you've extruded 100mm of filament.</b><br><br>
+    Measure initial mark distance in mm<br/><input type="text" class="textfield_dark" id="initial_mark_distance" Value="120"/><br/>
+<br/>
+    Use the digital calipers to measure the new distance between the extruder body and the mark on the filament <b>after you've extruded 100mm of filament.</b><br/><br/>
 
-    New distance in mm<br><input type="text" class="textfield_dark" id="subsequent_mark_distance" Value="20"/><br>
-<br>
+    New distance in mm<br/><input type="text" class="textfield_dark" id="subsequent_mark_distance" Value="20"/><br/>
+<br/>
 
-    We're, now going to calculate your new rotation_distance, please provide your previous rotation_distance below.<br><br>
+    We're, now going to calculate your new rotation_distance, please provide your previous rotation_distance below.<br/><br/>
 
-    Previous rotation distance<br><input type="text" class="textfield_dark" id="previous_rotation_distance" Value="0"/><br><br>
-    <input type="button" class="btn" onClick="calculate_rotation_distance()" Value="Calculate" /><br>
+    Previous rotation distance<br/><input type="text" class="textfield_dark" id="previous_rotation_distance" Value="0"/><br/><br/>
+    <input type="button" class="btn" onClick="calculate_rotation_distance()" Value="Calculate" /><br/>
 
     New rotation_distance: <span id = "result_rotation_distance">0.000</span>
     

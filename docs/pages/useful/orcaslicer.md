@@ -29,12 +29,12 @@ For more details, click [here](https://github.com/SoftFever/OrcaSlicer/wiki/Cali
 #### Calculating flow ratio using OrcaSlicer
 {: .no_toc }
 <form>
-    Current flowrate<br><input type="text" class="textfield_dark" id="flowRatio" Value="1.00"/><br>
-    Callibration print number<br><input type="text" class="textfield_dark" id="flowRatioModifier" Value="+ or - and number"/><br>
+    Current flowrate<br/><input type="text" class="textfield_dark" id="flowRatio" Value="1.00"/><br/>
+    Callibration print number<br/><input type="text" class="textfield_dark" id="flowRatioModifier" Value="+ or - and number"/><br/>
     <div class="fs-3 fw-300">Ensure you enter the number shown on the print, <b>including the "+" or "-" sign. For example "+1" or "-1"</b>.</div>
     <div class="status_text_modifier" id="hasValueModifier"></div>
 
-    <input type="button" class="btn" onClick="calculate_flowRatio()" Value="Calculate" /><br>
+    <input type="button" class="btn" onClick="calculate_flowRatio()" Value="Calculate" /><br/>
 
     Your new Flow Ratio: <b><span id="result_flowRatio">1.00</span></b>
     

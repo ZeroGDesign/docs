@@ -13,8 +13,7 @@ permalink: /manual/build/hydra/bill_of_material
 # 2. Bill of material
 {: .no_toc }
 
-The tables contain a column named `Stores` Click the [red text](#) underneath to reveal a pop-up with a list of stores. Stores that contain a checkmark <i class="bi bi-check-all"></i> have been verified and tested by either an Engineer or a trusted community member.
-
+The tables contain a column named `Stores`. Click the [red text](#) underneath to reveal a pop-up with a list of stores. Stores that contain a checkmark <i class="bi bi-check-all"></i> have been verified and tested by either an Engineer or a trusted community member.
 
 ## Kits
 
@@ -52,6 +51,7 @@ We **do not** own the kits. We're **not responsible** for these kits. **Make sur
 {: class="transparant_table"}
 
 ### Extrusions
+
 *Note: Ender 5 (Pro) and Ender 5 Plus have different sizes for parts.*
 {: .fs-3 }
 
@@ -62,6 +62,7 @@ We **do not** own the kits. We're **not responsible** for these kits. **Make sur
 {: class="transparant_table"}
 
 ### Linear rails
+
 *Note: Ender 5 (Pro) and Ender 5 Plus have different sizes for parts.*
 {: .fs-3 }
 
@@ -72,8 +73,8 @@ We **do not** own the kits. We're **not responsible** for these kits. **Make sur
 | Ender 5 Plus  | 500mm | <nobr>MGN12C <b>OR</b> MGN12H</nobr> |   3    | [Click here](#MGN12_500mm) &emsp; <input type="checkbox"> |
 {: class="transparant_table"}
 
-
 ### Leadscrew
+
 *Note: Ender 5 (Pro) and Ender 5 Plus have different sizes for parts. Leadscrews can vary in sizes.*
 {: .fs-3 }
 
@@ -88,9 +89,9 @@ Make sure to look for Leadscrews that include a circular T8 Nut with 4 holes.
 
 ### Magnet
 
-| Size             | Type                                                                    | Amount |                            Stores                            |
-|:-----------------|:------------------------------------------------------------------------|:------:|:------------------------------------------------------------:|
-| 12x5mm or 12x4mm | <nobr>4mm hole Neodymium</nobr><br><nobr>Countersunk Ring Magnet</nobr> |   3    | [Click here](#12x5_cs_magnet) &emsp; <input type="checkbox"> |
+| Size             | Type                                                        | Amount |                            Stores                            |
+|:-----------------|:------------------------------------------------------------|:------:|:------------------------------------------------------------:|
+| 12x5mm or 12x4mm | <nobr>4mm hole Neodymium<br/>Countersunk Ring Magnet</nobr> |   3    | [Click here](#12x5_cs_magnet) &emsp; <input type="checkbox"> |
 {: class="transparant_table"}
 
 ### Bed
@@ -106,20 +107,18 @@ Make sure to look for Leadscrews that include a circular T8 Nut with 4 holes.
 
 ### Misc
 
-| Size                          | Type                                                             | Amount |                              Stores                               |
-|:------------------------------|:-----------------------------------------------------------------|:------:|:-----------------------------------------------------------------:|
-| 2020                          | <nobr>2020 Corner bracket</nobr>                                 |   2    | [Click here](#2020_corner_bracket) &emsp; <input type="checkbox"> |
-| <nobr>M3 X D5.0 X L4.0</nobr> | Heatset insert                                                   |   39   |  [Click here](#heatset_insert)    &emsp; <input type="checkbox">  |
-| M3 Washer                     | <nobr>Normal grade A M3 </nobr><br><nobr>Stainless Steel </nobr> |   12   |  [Click here](#plain_m3_washer)   &emsp; <input type="checkbox">  |
-| M4 X 8 X L8                   | Spacer                                                           |   3    |   [Click here](#8mm_spacers)     &emsp; <input type="checkbox">   |
-| 10mm M4                       | Kossel ball                                                      |   3    |  [Click here](#m4_kossel_balls)   &emsp; <input type="checkbox">  |
-| 10x11mm - 1 Meter             | R18 Drag chain                                                   |   1    | [Click here](#10x11_drag_chain)   &emsp; <input type="checkbox">  |
-| Nema17                        | Stepper motor                                                    |   3    |  [Click here](#nema17_zaxis)     &emsp; <input type="checkbox">   |
-| 5mm-8mm                       | Shaft Coupling                                                   |   3    |  [Click here](#stepper_coupler)   &emsp; <input type="checkbox">  |
-| OPTIONAL                      | Oldham Coupling                                                  |   3    |  [Click here](#oldham_coupler)    &emsp; <input type="checkbox">  |
+| Size                          | Type                                                 | Amount |                              Stores                               |
+|:------------------------------|:-----------------------------------------------------|:------:|:-----------------------------------------------------------------:|
+| 2020                          | <nobr>2020 Corner bracket</nobr>                     |   2    | [Click here](#2020_corner_bracket) &emsp; <input type="checkbox"> |
+| <nobr>M3 X D5.0 X L4.0</nobr> | Heatset insert                                       |   39   |  [Click here](#heatset_insert)    &emsp; <input type="checkbox">  |
+| M3 Washer                     | <nobr>Normal grade A M3 <br/>Stainless Steel </nobr> |   12   |  [Click here](#plain_m3_washer)   &emsp; <input type="checkbox">  |
+| M4 X 8 X L8                   | Spacer                                               |   3    |   [Click here](#8mm_spacers)     &emsp; <input type="checkbox">   |
+| 10mm M4                       | Kossel ball                                          |   3    |  [Click here](#m4_kossel_balls)   &emsp; <input type="checkbox">  |
+| 10x11mm - 1 Meter             | R18 Drag chain                                       |   1    | [Click here](#10x11_drag_chain)   &emsp; <input type="checkbox">  |
+| Nema17                        | Stepper motor                                        |   3    |  [Click here](#nema17_zaxis)     &emsp; <input type="checkbox">   |
+| 5mm-8mm                       | Shaft Coupling                                       |   3    |  [Click here](#stepper_coupler)   &emsp; <input type="checkbox">  |
+| OPTIONAL                      | Oldham Coupling                                      |   3    |  [Click here](#oldham_coupler)    &emsp; <input type="checkbox">  |
 {: class="transparant_table"}
 
-{: style="text-align: center" }
-<span class="fs-8">
+{: style="text-align: center" .fs-8 }
 [Next step <i class="bi bi-arrow-return-right"></i>](/manual/build/hydra/printed_files){: .btn .btn-red }
-</span>

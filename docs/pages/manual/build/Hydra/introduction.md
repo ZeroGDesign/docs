@@ -11,14 +11,12 @@ permalink: /manual/build/hydra/introduction
 # 1. Introduction
 {: .no_toc }
 
-
-
 Building the Hydra
 {: .fs-6 .fw-300 }
 
 <dl>
   <dt>Difficulty</dt>
-  <dd><font COLOR="#d6c01a">Moderate to experienced</font></dd>
+  <dd><span style="color:#d6c01a">Moderate to experienced</span></dd>
   <dt>Language</dt>
   <dd>English</dd>
 </dl>
@@ -30,8 +28,8 @@ Hovering an image with your mouse will show a zoom icon <i class="bi bi-zoom-in"
 ## Tools required
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Tool<br>Description| Soldering iron<br>Used for heat set inserts |     [![soldering iron](../../../../assets/images/tools/soldering_iron.png)](#lightbox__item_1){: .lightbox_wrapper} |
-| Tool<br>Description<br>Sizes| Hex Keys<br>Used to tighten and losen bolts<br>2mm, 2.5mm, 3mm, 4mm|     [![soldering iron](../../../../assets/images/tools/wera_hexkeys.png)](#lightbox__item_2){: .lightbox_wrapper} |
+| Tool<br/>Description| Soldering iron<br/>Used for heat set inserts |     [![soldering iron](../../../../assets/images/tools/soldering_iron.png)](#lightbox__item_1){: .lightbox_wrapper} |
+| Tool<br/>Description<br/>Sizes| Hex Keys<br/>Used to tighten and losen bolts<br/>2mm, 2.5mm, 3mm, 4mm|     [![soldering iron](../../../../assets/images/tools/wera_hexkeys.png)](#lightbox__item_2){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 <div onclick="location.href='##';"  id="lightbox__item_1"  class="lightbox__item">
@@ -159,8 +157,5 @@ Bare Hydra components
     </div>
 </div>
 
-
-{: style="text-align: center" }
-<span class="fs-8">
+{: style="text-align: center" .fs-8 }
 [Next step <i class="bi bi-arrow-return-right"></i>](/manual/build/hydra/bill_of_material){: .btn .btn-red }
-</span>

@@ -1,4 +1,4 @@
-.vscode/settings.json
+# Executable files
 docs/assets/images/instructions/trim_dragged_image_new.exe
 docs/assets/images/instructions/hydra/left_arm/trim_dragged_image_new.exe
 docs/assets/images/instructions/hydra/right_arm/horizontal_flip_images.exe
@@ -7,5 +7,22 @@ docs/assets/images/examples/trim_dragged_image_new.exe
 docs/assets/images/instructions/m1_1/left_stepper_tower/trim_dragged_image_new.exe
 docs/assets/images/instructions/m1_1/right_stepper_tower/trim_dragged_image_new.exe
 docs/assets/images/instructions/m1_1/left_front_tower/trim_dragged_image_new.exe
-docs/Gemfile.lock
+
+# Jekyll build output
+_site/
+.sass-cache
+.jekyll-metadata
+
+# Bundler / Ruby / Jekyll
+.bundle/config
+vendor/bundle/
+
+# User VSCode files
+.vscode/
+
+# Repo specific
+CNAME
 .gitignore
+
+# MacOS metadata file
+**/.DS_Store 

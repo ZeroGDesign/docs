@@ -96,10 +96,10 @@ Level the bed*
 <hr>
 
 <h4>Before you generate!</h4>
-Make sure the options that you've selected are correct and fit your machine. If you do not know, join our <a href="https://discord.gg/zerog" target="_blank"><i class="bi bi-discord"></i> Discord</a>. and ask for help.<br><br>
+Make sure the options that you've selected are correct and fit your machine. If you do not know, join our <a href="https://discord.gg/zerog" target="_blank"><i class="bi bi-discord"></i> Discord</a>. and ask for help.<br/><br/>
 
 <button class="btn" type="button" onclick="generateMacro(); parent.location='#gcode_box_arcs'">Generate</button>
-<br>
+<br/>
 </form>
 </div>
 
@@ -111,7 +111,7 @@ Make sure the options that you've selected are correct and fit your machine. If 
         <div class="infobar">Did you enable Klipper ARCs?</div>
             <div class="language-lua highlighter-rouge">
                 <div class="highlight">
-                    <pre class="highlight"># Enable arcs support<br>[gcode_arcs]<br>resolution: 0.1</pre>
+                    <pre class="highlight"># Enable arcs support<br/>[gcode_arcs]<br/>resolution: 0.1</pre>
                 </div>
             </div>
         <div class="infobar"><button class="btn" onClick="parent.location='#gcode_box'" type="button">Yes <i class="bi bi-check-lg"></i></button> <button class="btn" onClick="parent.location='#gcode_box_arcs_sh'" type="button">No <i class="bi bi-x-lg"></i></button></div>

@@ -11,13 +11,12 @@ permalink: /manual/build/electronics_enclosure/introduction
 # 1. Introduction
 {: .no_toc }
 
-
 Building the Electronics enclosure
 {: .fs-6 .fw-300 }
 
 <dl>
   <dt>Difficulty</dt>
-  <dd><font COLOR="#FF3001">Advance</font></dd>
+  <dd><span style="color:#FF3001">Advanced</span></dd>
   <dt>Language</dt>
   <dd>English</dd>
 </dl>
@@ -29,8 +28,8 @@ Hovering an image with your mouse will show a zoom icon <i class="bi bi-zoom-in"
 ## Tools required
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Tool<br>Description| Soldering iron<br>Used for heat set inserts |     [![soldering iron](../../../../assets/images/tools/soldering_iron.png)](#lightbox__item_1){: .lightbox_wrapper} |
-| Tool<br>Description<br>Sizes| Hex Keys<br>Used to tighten and losen bolts<br>2mm, 2.5mm, 3mm|     [![soldering iron](../../../../assets/images/tools/wera_hexkeys.png)](#lightbox__item_2){: .lightbox_wrapper} |
+| Tool<br/>Description| Soldering iron<br/>Used for heat set inserts |     [![soldering iron](../../../../assets/images/tools/soldering_iron.png)](#lightbox__item_1){: .lightbox_wrapper} |
+| Tool<br/>Description<br/>Sizes| Hex Keys<br/>Used to tighten and losen bolts<br/>2mm, 2.5mm, 3mm|     [![soldering iron](../../../../assets/images/tools/wera_hexkeys.png)](#lightbox__item_2){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 <div onclick="location.href='##';"  id="lightbox__item_1"  class="lightbox__item">
@@ -65,10 +64,7 @@ Hovering an image with your mouse will show a zoom icon <i class="bi bi-zoom-in"
 
 ## Need more help?
 
-Lost? Need help? Not sure? Join our [Discord server <i class="bi bi-discord"></i>](https://discord.gg/zerog){:target="_blank"}, we've got a big community ready to help you out 
+Lost? Need help? Not sure? Join our [Discord server <i class="bi bi-discord"></i>](https://discord.gg/zerog){:target="_blank"}, we've got a big community ready to help you out!
 
-
-{: style="text-align: center" }
-<span class="fs-8">
+{: style="text-align: center" .fs-8}
 [Next step <i class="bi bi-arrow-return-right"></i>](#){: .btn .btn-red }
-</span>

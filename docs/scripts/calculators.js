@@ -9,7 +9,7 @@ function calculate_flowRatio()
     let statusDiv = document.getElementById("hasValueModifier");
 
     if (!regex.test(flowRatioModifierValue)) {
-        statusDiv.innerHTML = "<h5>Please enter a valid Callibration print number starting with '+' or '-' followed by a number.</h5><br>";
+        statusDiv.innerHTML = "<h5>Please enter a valid Callibration print number starting with '+' or '-' followed by a number.</h5><br/>";
         return;
     } else {
         statusDiv.innerHTML = "";  // Clear any error message if input is valid
