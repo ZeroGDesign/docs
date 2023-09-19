@@ -107,7 +107,5 @@ Download: [410x410.dxf](../../../assets/dxf/hydra/410x410.dxf)
     </div>
 </div>
 
-{: style="text-align: center" }
-<span class="fs-8">
+{: style="text-align: center" .fs-8}
 [Next step &rarr;](/manual/build/hydra/left_arm){: .btn .btn-red }
-</span>

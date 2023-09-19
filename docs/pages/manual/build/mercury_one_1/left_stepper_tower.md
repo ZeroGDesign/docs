@@ -36,20 +36,20 @@ If you're looking for a video instead of text and images, check this out: [https
 ### hardware
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Type:<br>Amount: | 5x30 Precision Dowel pin<br>2          |     ![5MM 30mm dowel](../../../assets/images/instructions/5x30_dowel_pin.png) |
-| Type:<br>Amount: | M3X20mm<br>3                           |     ![M3X20mm](../../../assets/images/instructions/m3x20.png) |
-| Type:<br>Amount: | M5X50mm<br>2                           |     ![M5X50mm](../../../assets/images/instructions/m5x50.png) |
-| Type:<br>Amount: | [Flange stack](#flange-stack)<br>3     | ![Flange stack](../../../assets/images/instructions/flange_stack.png) |
-| Type:<br>Amount: | 20Tooth Pulley<br>1          |     ![20T Pulley](../../../assets/images/instructions/20t_pulley.png) |
-| Type:<br>Amount:<br>Note: | M5 T-Nut<br>2<br>Read more    | ![Flange stack](../../../assets/images/instructions/m5_rollin_tnut.png) |
-| Type:<br>Amount: | Nema 17 Stepper Motor<br>1                            | ![Nema 17](../../../assets/images/instructions/nema17.png) |
+| Type:<br/>Amount: | 5x30 Precision Dowel pin<br/>2          |     ![5MM 30mm dowel](../../../assets/images/instructions/5x30_dowel_pin.png) |
+| Type:<br/>Amount: | M3X20mm<br/>3                           |     ![M3X20mm](../../../assets/images/instructions/m3x20.png) |
+| Type:<br/>Amount: | M5X50mm<br/>2                           |     ![M5X50mm](../../../assets/images/instructions/m5x50.png) |
+| Type:<br/>Amount: | [Flange stack](#flange-stack)<br/>3     | ![Flange stack](../../../assets/images/instructions/flange_stack.png) |
+| Type:<br/>Amount: | 20Tooth Pulley<br/>1          |     ![20T Pulley](../../../assets/images/instructions/20t_pulley.png) |
+| Type:<br/>Amount:<br/>Note: | M5 T-Nut<br/>2<br/>Read more    | ![Flange stack](../../../assets/images/instructions/m5_rollin_tnut.png) |
+| Type:<br/>Amount: | Nema 17 Stepper Motor<br/>1                            | ![Nema 17](../../../assets/images/instructions/nema17.png) |
 {: class="hardwaretable"}
 
 ### Printed parts
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Type:<br>Amount: | Left stepper top<br>1        |     [![Left stepper top printed]({{page.img_path}}overview_top.png)](#lightbox__overview_top){: .lightbox_wrapper} |
-| Type:<br>Amount: | Left stepper bottom<br>1     |     [![Left stepper bottom printed]({{page.img_path}}step_1.png)](#lightbox__overview_bottom){: .lightbox_wrapper} |
+| Type:<br/>Amount: | Left stepper top<br/>1        |     [![Left stepper top printed]({{page.img_path}}overview_top.png)](#lightbox__overview_top){: .lightbox_wrapper} |
+| Type:<br/>Amount: | Left stepper bottom<br/>1     |     [![Left stepper bottom printed]({{page.img_path}}step_1.png)](#lightbox__overview_bottom){: .lightbox_wrapper} |
 {: class="hardwaretable"}
 
 <div onclick="location.href='##';"  id="lightbox__overview_top"  class="lightbox__item">
@@ -203,8 +203,8 @@ Using undersized shims could cause the flanges to have excessive movement in an 
 <!-- ### Adding pulley to stepper shaft
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Type:<br>Amount: | Nema 17 Stepper Motor<br>1                            | ![Nema 17](../../../assets/images/instructions/nema17.png) |
-| Type:<br>Amount: | 20Tooth Pulley<br>1          |     ![20T Pulley](../../../assets/images/instructions/20t_pulley.png) |
+| Type:<br/>Amount: | Nema 17 Stepper Motor<br/>1                            | ![Nema 17](../../../assets/images/instructions/nema17.png) |
+| Type:<br/>Amount: | 20Tooth Pulley<br/>1          |     ![20T Pulley](../../../assets/images/instructions/20t_pulley.png) |
 {: class="hardwaretable"}
 
 [![Left stepper lower pulley](../../../assets/images/instructions/assembly/left_stepper/left_stepper_lower_pulley.png)](#lightbox__item_11){: .lightbox_wrapper}
@@ -239,7 +239,7 @@ The right stepper tower is slightly different from the left, pulley needs to be 
 ### Inserting the stepper screws
 
 | :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Type:<br>Amount: | M3X20mm<br>3                           |     ![M3X20mm](../../../assets/images/instructions/m3x20.png) |
+| Type:<br/>Amount: | M3X20mm<br/>3                           |     ![M3X20mm](../../../assets/images/instructions/m3x20.png) |
 {: class="hardwaretable"}
 
 It is important to align the cable connector on the stepper motor with the angle on the printed part. This not only ensures proper alignment but also helps guide the wire to the ziptie mount for a later step in the build.
@@ -305,8 +305,8 @@ It contains the following:
 
 
 | :-------------------------: | :------------------------------------------------------------------------------- | |
-| Type:<br>Amount: | 5x10x1 Shim ring<br>3       |     ![5MM 30mm dowel](../../../assets/images/instructions/m5_10_1_shim.png) |
-| Type:<br>Amount: | F695-2RS 5\*13\*4 Mm<br>2       |     ![5MM 30mm dowel](../../../assets/images/instructions/f695_flange_bearing.png) |
+| Type:<br/>Amount: | 5x10x1 Shim ring<br/>3       |     ![5MM 30mm dowel](../../../assets/images/instructions/m5_10_1_shim.png) |
+| Type:<br/>Amount: | F695-2RS 5\*13\*4 Mm<br/>2       |     ![5MM 30mm dowel](../../../assets/images/instructions/f695_flange_bearing.png) |
 {: class="hardwaretable"}
 
 
@@ -319,8 +319,8 @@ It contains the following:
 
 
 | :-------------------------: | :------------------------------------------------------------------------------- | |
-| Type:<br>Amount: | 5x10x1 Shim ring<br>5       |     ![5MM 30mm dowel](../../../assets/images/instructions/m5_10_1_shim.png) |
-| Type:<br>Amount: | F695-2RS 5\*13\*4 Mm<br>4       |     ![5MM 30mm dowel](../../../assets/images/instructions/f695_flange_bearing.png) |
+| Type:<br/>Amount: | 5x10x1 Shim ring<br/>5       |     ![5MM 30mm dowel](../../../assets/images/instructions/m5_10_1_shim.png) |
+| Type:<br/>Amount: | F695-2RS 5\*13\*4 Mm<br/>4       |     ![5MM 30mm dowel](../../../assets/images/instructions/f695_flange_bearing.png) |
 {: class="hardwaretable"}
 
 

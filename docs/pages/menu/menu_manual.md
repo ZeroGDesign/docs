@@ -9,7 +9,6 @@ permalink: /manual/build
 
 # How to Build
 
-
 SOON™
 {: .label .label-red }
 

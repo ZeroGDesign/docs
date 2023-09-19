@@ -15,7 +15,5 @@ permalink: /manual/build/hydra
 1. Table of content
 {:toc}
 
-{: style="text-align: center" }
-<span class="fs-8">
+{: style="text-align: center" .fs-8 }
 [Step One &rarr;](/manual/build/hydra/introduction){: .btn .btn-red }
-</span>
