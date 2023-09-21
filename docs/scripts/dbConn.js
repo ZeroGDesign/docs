@@ -6,7 +6,7 @@
 //         .catch(error => console.log('error', error));
 // }
 
-const databasePath = window.location.origin + '/database/bom.yaml';
+const databasePath = window.location.origin + '/database/bom.yml';
 
 async function fetch_Data() {
     try {
