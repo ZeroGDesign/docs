@@ -15,7 +15,7 @@ js_path: ../../../scripts
 
 If you are looking to download the files, there are two methods available to you. The first option is to use one of two configurators: the [Mercury One.1 Configurator](#mercury-one1-configurator) or the [Eva 2.4 Configurator](#eva-24-toolhead-configurator). Alternatively, you can manually download the files you need by clicking on a link for either [Mercury One.1](https://github.com/ZeroGDesign/docs/tree/gh-pages/docs/assets/stl/m1_1){:target="_blank"} or [Eva 2.4](https://github.com/ZeroGDesign/docs/tree/gh-pages/docs/assets/stl/eva2_4){:target="_blank"}. Depending on your preferences and needs, one of these two methods may be more suitable for you.
 
-* Table of content
+1. Table of contents
 {:toc}
 
 ## Print settings
@@ -79,7 +79,6 @@ Tension plate*
 The configurator has been developed to generate a Zip file. The zip file will contain all the Stl files for your print head. The files you receive from our website are made by us to fit the Mercury 1.1 or by Paweł Kucmus of EVA. You can find more information about EVA on their website [https://2.eva-3d.page/](https://2.eva-3d.page/){:target="_blank"}.
 {: .fs-4 .fw-300 }
 
-
 <script src="{{page.js_path}}/file-saver.js" type="module"></script>
 <script src="{{page.js_path}}/configurator_m1_1.js"></script>
 <script src="{{page.js_path}}/jszip.min.js" type="module"></script>
@@ -125,12 +124,9 @@ Probe*
 <i class="bi bi-chat-square-text"></i> Special thanks to @KaizenKody#9426 for helping us create this amazing configurator.
 {: .fs-1 .fw-300 }
 
-
 <!-- End configurator EVA 2.4 -->
 
-{: style="text-align: center" }
-<span class="fs-8">
+{: style="text-align: center" .fs-8}
 [Next step &rarr;](/manual/build/mercury_eva/empty_frame){: .btn .btn-red }
-</span>
 
 {% include license_agreement.md %}

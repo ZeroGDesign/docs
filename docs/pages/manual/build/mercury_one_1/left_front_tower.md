@@ -14,10 +14,10 @@ img_path: ../../../assets/images/instructions/m1_1/left_front_tower/
 
 We're now going to be working on the left_front_tower.
 
-1. Table of content
+1. Table of contents
 {:toc}
 
-# Left front tower
+## Left front tower
 
 [![left front tower]({{page.img_path}}step_18.png)](#lightbox__overview_bottom){: style="cursor: zoom-in; background-image: none;"}
 
@@ -31,22 +31,21 @@ We're now going to be working on the left_front_tower.
 
 If you're looking for a video instead of text and images, check this out: [https://www.youtube.com/watch?v=abdkMgndM9Y](https://www.youtube.com/watch?v=abdkMgndM9Y){:target="_blank"}
 
-
 ### hardware
 
-| :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Type:<br/>Amount: | 5x30 Precision Dowel pin<br/>1          |     ![5MM 30mm dowel](../../../assets/images/instructions/5x30_dowel_pin.png) |
-| Type:<br/>Amount: | M5X20mm<br/>1                           |     placeholder |
-| Type:<br/>Amount: | F695 Bearing<br/>2     | ![F695](../../../assets/images/instructions/f695_flange_bearing.png) |
-| Type:<br/>Amount: | M5 Shims<br/>3          |     ![M5 Shim](../../../assets/images/instructions/m5_10_1_shim.png) |
-| Type:<br/>Amount: | M3 Heatset<br/>1                            | ![m3 Heatset](../../../assets/images/instructions/m3_heat_insert.png) |
+| :---------------: | :----------------------------- | ------------------------------------------------------------------------: |
+| Type:<br/>Amount: | 5x30 Precision Dowel pin<br/>1 | ![5MM 30mm dowel](../../../assets/images/instructions/5x30_dowel_pin.png) |
+| Type:<br/>Amount: | M5X20mm<br/>1                  |     placeholder                                                           |
+| Type:<br/>Amount: | F695 Bearing<br/>2             | ![F695](../../../assets/images/instructions/f695_flange_bearing.png)      |
+| Type:<br/>Amount: | M5 Shims<br/>3                 | ![M5 Shim](../../../assets/images/instructions/m5_10_1_shim.png)          |
+| Type:<br/>Amount: | M3 Heatset<br/>1               | ![m3 Heatset](../../../assets/images/instructions/m3_heat_insert.png)     |
 {: class="hardwaretable"}
 
 ### Printed parts
 
-| :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Type:<br/>Amount: | Left front tower<br/>1     |     [![Left front tower printed]({{page.img_path}}step_1.png)](#lightbox__step1){: .lightbox_wrapper} |
-| Type:<br/>Amount: | Front tower tool<br/>1     |     [![Front tower tool printed]({{page.img_path}}step_6.png)](#lightbox__step6){: .lightbox_wrapper} |
+| :---------------: | :--------------------  | -------------------------------------------------------------------------------: |
+| Type:<br/>Amount: | Left front tower<br/>1 | [![Left front tower printed]({{page.img_path}}step_1.png)](#lightbox__step1){: .lightbox_wrapper}   |
+| Type:<br/>Amount: | Front tower tool<br/>1 | [![Front tower tool printed]({{page.img_path}}step_6.png)](#lightbox__step6){: .lightbox_wrapper}   |
 {: class="hardwaretable"}
 
 <div onclick="location.href='##';"  id="lightbox__step1"  class="lightbox__item">
@@ -56,7 +55,6 @@ If you're looking for a video instead of text and images, check this out: [https
         <img src="{{page.img_path}}step_1.png" alt="Overview top">
     </div>
 </div>
-
 
 <div onclick="location.href='##';"  id="lightbox__step6"  class="lightbox__item">
     <div class="lightbox__content">
@@ -78,7 +76,6 @@ The front of the tower has one hole that is used for a heatset. This heatset hel
 To insert the heatset, use a soldering iron and make sure to insert it **flat** so that the front tension plates do not need to be angled during assembly. This helps to address any potential misalignment of screw holes.
 
 [![step2]({{page.img_path}}step_2.png)](#lightbox__step2){: .lightbox_wrapper}
-
 
 <div onclick="location.href='##';"  id="lightbox__step2"  class="lightbox__item">
     <div class="lightbox__content">
@@ -120,10 +117,10 @@ Below are two versions provided, one for regular 5mm shims and another for brass
 
 We will be using the following hardware for this section:
 
-| :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Type:<br/>Amount: | Front Tower Tool<br/>1     |     [![Left front tower printed]({{page.img_path}}step_6.png)](#lightbox__step6){: .lightbox_wrapper} |
-| Type:<br/>Amount: | M5 Shims<br/>3          |     ![M5 Shim](../../../assets/images/instructions/m5_10_1_shim.png) |
-| Type:<br/>Amount: | F695 Bearing<br/>2     | ![F695](../../../assets/images/instructions/f695_flange_bearing.png) |
+| :-------------------------: | :-------------------------- | ----------------------------------------------------------------------------------:|
+| Type:<br/>Amount: | Front Tower Tool<br/>1 | [![Left front tower printed]({{page.img_path}}step_6.png)](#lightbox__step6){: .lightbox_wrapper} |
+| Type:<br/>Amount: | M5 Shims<br/>3         | ![M5 Shim](../../../assets/images/instructions/m5_10_1_shim.png)                                  |
+| Type:<br/>Amount: | F695 Bearing<br/>2     | ![F695](../../../assets/images/instructions/f695_flange_bearing.png)                              |
 {: class="hardwaretable"}
 
 <div id="lightbox__step_6" class="lightbox__item" onclick="location.href='##';">
@@ -133,7 +130,6 @@ We will be using the following hardware for this section:
         <img src="{{page.img_path}}step_6.png" alt="">
     </div>
 </div>
-
 
 Let's begin by obtaining the Front Tower Tool, which is the printed component displayed above. Ensure that it is positioned in the same manner as shown in the image.
 
@@ -217,10 +213,10 @@ Next, we will **drop the other two shims** on the sides. These shims may fall ou
 
 ### Lowering the front tower
 
-| :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Type:<br/>Amount: | 5x30 Precision Dowel pin<br/>1          |     ![5MM 30mm dowel](../../../assets/images/instructions/5x30_dowel_pin.png) |
-| Type:<br/>Amount: | Left front tower<br/>1          | [![step3]({{page.img_path}}step_3.png)](#lightbox__step3){: .lightbox_wrapper} |
-| Type:<br/>Amount: | Complete flange tool<br/>1          | [![step3]({{page.img_path}}step_12.png)](#lightbox__step_12){: .lightbox_wrapper} |
+| :-------------------------: | :--------------------| -------------------------------------------------------------------------------: |
+| Type:<br/>Amount: | 5x30 Precision Dowel pin<br/>1 |![5MM 30mm dowel](../../../assets/images/instructions/5x30_dowel_pin.png)         |
+| Type:<br/>Amount: | Left front tower<br/>1         | [![step3]({{page.img_path}}step_3.png)](#lightbox__step3){: .lightbox_wrapper}   |
+| Type:<br/>Amount: | Complete flange tool<br/>1     | [![step3]({{page.img_path}}step_12.png)](#lightbox__step_12){: .lightbox_wrapper}|
 {: class="hardwaretable"}
 
 To continue, lay down the complete flange tool from the previous step. Then, **grab the left front tower and lower it over the complete flange tool**. This will help to prevent the shims from falling out of the side.
@@ -271,7 +267,6 @@ You can now **remove the flange tool**, the flange stack stays on the dowel pin.
 
 One of the final steps, this is probably the easiest... Take the **M5X20mm screw and drop it into the single hole that's left on top**.
 
-
 [![step16]({{page.img_path}}step_16.png)](#lightbox__step_16){: .lightbox_wrapper}
 
 <div id="lightbox__step_16" class="lightbox__item" onclick="location.href='##';">
@@ -306,9 +301,5 @@ Congratz, your part should look like this:
     </div>
 </div>
 
-
-
-{: style="text-align: center" }
-<span class="fs-8">
+{: style="text-align: center" .fs-8}
 [Next step &rarr;](/){: .btn .btn-red }
-</span>

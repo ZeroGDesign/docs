@@ -12,10 +12,8 @@ permalink: /manual/build/mercury_eva
 # Mercury One.1 table of content
 {: .no_toc }
 
-1. Table of content
+1. Table of contents
 {:toc}
 
-{: style="text-align: center" }
-<span class="fs-8">
+{: style="text-align: center" .fs-8}
 [Step One &rarr;](/manual/build/mercury_eva/printed_files){: .btn .btn-red }
-</span>
