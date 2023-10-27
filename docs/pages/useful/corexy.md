@@ -32,7 +32,7 @@ This tool requiers you to be at a point in your build where you printer is homin
 <div class="code-example" markdown="1">
 
 #### Important
-Fully paste your [stepper_x] and [stepper_y] data in the field below. **DO NOT** include any other sections!
+Fully paste your [stepper_x] and [stepper_y] data in the field below. **DO NOT** include any other sections!<br/>Keep in mind that this tool will remove any comments you made in the config (for now).
 
 <textarea id="inputData" class="list_dark" rows="19" cols="50" placeholder="FULL [STEPPER_X] AND [STEPPER_Y] CONFIG!"></textarea>
 

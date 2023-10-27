@@ -80,7 +80,8 @@ function applyLogic() {
     var ySelection = document.getElementById("stepperB").value;
 
     if (xSelection === "right" && ySelection === "rear") {
-        // Do nothing, output data as is
+        document.getElementById("nowWhatText").innerHTML = '<span style="color:lightgreen"><center>Your config seems good!<br/>Issues? Contact us on Discord.</center></span>';
+        return;
     } else if (xSelection === "rear" && ySelection === "right") {
         data.stepper_y.dir_pin = toggleExclamation(data.stepper_y.dir_pin);
     } else if (xSelection === "front" && ySelection === "left") {
@@ -88,19 +89,18 @@ function applyLogic() {
     } else if (xSelection === "left" && ySelection === "front") {
         data.stepper_x.dir_pin = toggleExclamation(data.stepper_x.dir_pin);
         data.stepper_y.dir_pin = toggleExclamation(data.stepper_y.dir_pin);
-    } else if (xSelection === "right" && ySelection === "front") {
-        swapStepperData(data);
-        data.stepper_y.dir_pin = toggleExclamation(data.stepper_y.dir_pin);
-    } else if (xSelection === "rear" && ySelection === "left") {
-        swapStepperData(data);
-        data.stepper_x.dir_pin = toggleExclamation(data.stepper_x.dir_pin);
-        data.stepper_y.dir_pin = toggleExclamation(data.stepper_y.dir_pin);
-    } else if (xSelection === "front" && ySelection === "right") {
-        swapStepperData(data);
-    } else if (xSelection === "left" && ySelection === "rear") {
-        swapStepperData(data);
-        data.stepper_x.dir_pin = toggleExclamation(data.stepper_x.dir_pin);
-    }
+    } else if (
+        (xSelection === "right" && ySelection === "front") ||
+        (xSelection === "rear" && ySelection === "left") ||
+        (xSelection === "front" && ySelection === "right") ||
+        (xSelection === "left" && ySelection === "rear")
+    ) {
+        document.getElementById("nowWhatText").innerHTML = '<span style="color:yellow"><center>Your steppers are swapped.<br/>You need to swap the A & B connectors, otherwise known as X & Y.</center></span>';
+        return;
+    } else {
+        document.getElementById("nowWhatText").innerHTML = '<span style="color:yellow"><center>The homing direciton issues might be related to something else.<br/>Ask help on the Discord server.</center></span>';
+        return;
+    }    
 
     // Update the "nowWhatText" section with the modified data
     updateNowWhatText(data);
@@ -113,16 +113,6 @@ function toggleExclamation(value) {
     } else {
         return '!' + value;
     }
-}
-
-// Helper function to swap data between stepper_x and stepper_y
-function swapStepperData(data) {
-    var keysToSwap = ['step_pin', 'dir_pin', 'enable_pin'];
-    keysToSwap.forEach(key => {
-        var temp = data.stepper_x[key];
-        data.stepper_x[key] = data.stepper_y[key];
-        data.stepper_y[key] = temp;
-    });
 }
 
 function onSaveButtonClick() {
