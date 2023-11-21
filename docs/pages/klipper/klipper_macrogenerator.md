@@ -4,8 +4,8 @@ title: Klipper Macro Generator
 nav_order: 1
 has_children: false
 has_toc: true
-parent: Klipper
-permalink: /klipper/macro_generator
+parent: Universal
+permalink: /universal/klipper_macro_generator
 nav_fold: true
 ---
 

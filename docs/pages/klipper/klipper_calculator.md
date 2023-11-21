@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Klipper calculator
-nav_order: 1
+nav_order: 30
 has_children: false
 has_toc: true
-parent: Klipper
-permalink: /klipper/calculator
+parent: Universal
+permalink: /universal/klippercalculator
 ---
 
 
@@ -25,6 +25,10 @@ The value you use as input should be the **RMS** value. **Not** the peak value t
 {: .fs-4 .fw-300 }
 
 <div class="code-example" markdown="1">
+#### Please note 
+{: .no_toc }
+The stepper current calculator is made for Nema17 steppers!
+
 #### run_current
 {: .no_toc }
 <form>
