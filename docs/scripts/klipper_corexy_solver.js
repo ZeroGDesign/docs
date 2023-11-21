@@ -7,7 +7,7 @@ function storeData() {
     // Validation: Check if all necessary stepper configurations are present
     if (!data || !['[stepper_x]', '[stepper_y]', 'step_pin', 'dir_pin', 'enable_pin'].every(prop => data.includes(prop))) {
         // console.log('Validation failed');
-        document.getElementById('nowWhatText').innerHTML = '<span style="color:white;text-align:center;">Either input your stepper config or ensure it is correct!</span>';
+        document.getElementById('nowWhatText').innerHTML = createResponse('white', '<h2>Houston, we have a problem</h2>Either input your stepper config or ensure it is correct.<br/>Example: <a href="https://i.imgur.com/rOBl0q3.gif" target="_blank">Show example</a>');                                                                                            
         return;
     }
 
@@ -59,10 +59,10 @@ function applyLogic() {
         case 'rear-left':
         case 'front-right':
         case 'left-rear':
-            nowWhatText.innerHTML = createResponse('yellow', 'Your steppers are swapped.<br/>You need to swap the A & B connectors, otherwise known as X & Y.');
+            nowWhatText.innerHTML = createResponse('white', '<h2>Your steppers are swapped.</h2>You need to swap the A & B connectors, otherwise known as X & Y.<h2>SWAP DONE?</h2><h3>Redo the homing on X/Y as they\'re likely still wrong.</h3>');
             return;
         case 'right-rear':
-            nowWhatText.innerHTML = createResponse('lightgreen', 'Your config seems good!<br/>Issues? Contact us on Discord.');
+            nowWhatText.innerHTML = createResponse('lightgreen', 'Your config seems good!<br/>Issues? Contact us on Discord.'); 
             return;
         case 'rear-right':
             data.stepper_y.dir_pin = toggleExclamation(data.stepper_y.dir_pin);

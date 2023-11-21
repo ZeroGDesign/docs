@@ -1,11 +1,11 @@
 ---
 layout: default
 title: OrcaSlicer
-nav_order: 1
+nav_order: 20
 has_children: false
 has_toc: true
-parent: Useful
-permalink: /useful/orcaslicer
+parent: Universal
+permalink: /universal/orcaslicer
 ---
 
 <script src="../../../scripts/calculators.js"></script>
