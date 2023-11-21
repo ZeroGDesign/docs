@@ -191,7 +191,7 @@
     .content {
         max-height: 90vh;
         max-width: 47em;
-        min-width: 30em;
+        min-width: 20em;
         background: #191919fa;
         border-radius: 9px;
         filter: drop-shadow(1mm 1mm 3mm #0000005d);
@@ -200,8 +200,8 @@
         text-align: left;
         margin: auto;
         position: relative;
-        padding-left: 7px;
-        padding-right: 7px;
+        padding-left: 12px;
+        padding-right: 12px;
         padding-bottom: 7px;
         font-weight: 200;
         tab-size: 2;
@@ -232,7 +232,7 @@
             font-weight: 200;
             text-align: center;
             user-select: none;
-            padding-top: 1px;
+            padding-top: 5px;
             padding-left: 10px;
             margin-bottom: 10px;
             position: relative;
