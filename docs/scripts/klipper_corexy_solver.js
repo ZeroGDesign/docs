@@ -59,7 +59,7 @@ function applyLogic() {
         case 'rear-left':
         case 'front-right':
         case 'left-rear':
-            nowWhatText.innerHTML = createResponse('white', '<h2>Your steppers are swapped.</h2>You need to swap the A & B connectors, otherwise known as X & Y.<h2>SWAP DONE?</h2><h3>Redo the homing on X/Y as they\'re likely still wrong.</h3>');
+            nowWhatText.innerHTML = createResponse('white', '<h2>Your steppers are swapped.</h2><h3><i class="bi bi-exclamation-triangle-fill"></i> Turn off the machine <i class="bi bi-exclamation-triangle-fill"></i></h3>You need to swap the A & B connectors, otherwise known as X & Y.<h2>SWAP DONE?</h2><h3>Redo the homing on X/Y as they\'re likely still wrong.</h3>');
             return;
         case 'right-rear':
             nowWhatText.innerHTML = createResponse('lightgreen', 'Your config seems good!<br/>Issues? Contact us on Discord.'); 
