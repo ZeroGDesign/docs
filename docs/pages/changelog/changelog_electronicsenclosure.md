@@ -9,7 +9,7 @@ permalink: /changelog/electronics_enclosure
 ---
 
 
-# Hydra changelog
+# Electronics Enclosure Changelog
 {: .no_toc }
 
 This page contains a list of updates that have been made to the Electronics Enclosure. It is a record of changes and improvements that have been made over time.
