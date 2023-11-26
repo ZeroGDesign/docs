@@ -26,8 +26,8 @@ function generateGCode() {
     const pressure_advance_max = parseFloat(document.getElementById('pressureAdvanceMax').value);
     const offset_x = parseFloat(document.getElementById('offsetX').value);
     const offset_y = parseFloat(document.getElementById('offsetY').value);
-
     const startGCode = document.getElementById('startGCode').value;
+    const endGCode = document.getElementById('endGCode').value;
 
     let curr_x = offset_x;
     let curr_y = offset_y;
@@ -40,12 +40,11 @@ function generateGCode() {
     function appendGCode(command) {
         gcodeString += command + '\n';
     }
-
-    // Append start G-code
-    gcodeString += startGCode + '\n';
+    appendGCode(startGCode);
 
     // Initial move
     appendGCode(`G1 X${curr_x.toFixed(3)} Y${curr_y.toFixed(3)} Z${curr_z.toFixed(3)} F${(travel_speed * 60).toFixed(0)}`);
+
 
     // Line movements
     line(-object_width / 2, 0, 0);
@@ -90,6 +89,8 @@ function generateGCode() {
         up();
     }
 
+    appendGCode(endGCode);
+
     // Save the generated G-code as a file
     const blob = new Blob([gcodeString], { type: 'text/plain' });
     const a = document.createElement('a');
@@ -97,31 +98,4 @@ function generateGCode() {
     a.download = 'generated_gcode.gcode';
     document.body.appendChild(a);
     a.click();
-    document.body.removeChild(a);
-
-    // Function to handle 'up' movement
-    function up() {
-        curr_z += layer_height;
-        appendGCode(`G1 Z${curr_z.toFixed(3)}`);
-    }
-
-    // Function to handle line movement
-    function line(x, y, speed) {
-        const length = Math.sqrt(x ** 2 + y ** 2);
-        curr_x += x;
-        curr_y += y;
-
-        if (speed > 0) {
-            appendGCode(`G1 X${curr_x.toFixed(3)} Y${curr_y.toFixed(3)} E${extrusion_for_length(length, extrusion_width, layer_height, filament_diameter).toFixed(4)} F${(speed * 60).toFixed(0)}`);
-        } else {
-            appendGCode(`G1 X${curr_x.toFixed(3)} Y${curr_y.toFixed(3)} F${(travel_speed * 60).toFixed(0)}`);
-        }
-    }
-
-    // Function to handle 'goto' movement
-    function goto(x, y) {
-        curr_x = x + offset_x;
-        curr_y = y + offset_y;
-        appendGCode(`G1 X${curr_x.toFixed(3)} Y${curr_y.toFixed(3)}`);
-    }
 }
