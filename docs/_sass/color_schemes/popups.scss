@@ -226,6 +226,25 @@
             }
         }
 
+        .titlebar_calculator {
+            height: 1.8em;
+            width: 100%;
+            font-weight: 200;
+            text-align: center;
+            padding-top: 1px;
+            padding-left: 10px;
+            margin-bottom: 10px;
+            position: relative;
+
+            &::after {
+                content: "Pressure Advancted Calculator";
+                color: white;
+                font-weight: 200;
+                font-size: 1.4em;
+                z-index: -1;
+            }
+        }
+
         .infobar {
             height: 1.8em;
             width: 100%;

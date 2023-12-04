@@ -432,3 +432,115 @@ a.floatingtop {
     line-height: 20px;
     color: white;
 }
+
+// Textbox Styles
+.textbox_new {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #4a4a4a;
+    border-radius: 8px;
+    background-color: #363636;
+    color: #fff;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    margin-top: 5px; // Adjust the margin as needed
+    margin-bottom: 10px; // Adjust the margin as needed
+  
+    &::placeholder {
+      color: #b0b0b0;
+    }
+  
+    &:focus {
+      outline: none;
+      border-color: #5a5a5a;
+    }
+  }
+
+// Button Styles
+.button_new {
+    width: 100%; /* Set width to 100% */
+    padding: 10px 20px;
+    background-color: #363636; /* Dark mode background color for the button */
+    color: #fff; /* Dark mode text color for the button */
+    border: 1px solid #4a4a4a; /* Dark mode border color for the button */
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 10px; // Adjust the margin as needed
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  
+    &:hover {
+      background-color: #5a5a5a; /* Dark mode background color on hover */
+      color: #fff; /* Hover text color for the button */
+      border-color: #5a5a5a; /* Dark mode border color on hover */
+    }
+  
+    &:focus {
+      outline: none;
+      background-color: #5a5a5a; /* Dark mode background color on focus */
+      color: #fff; /* Focus text color for the button */
+      border-color: #5a5a5a; /* Dark mode border color on focus */
+    }
+  }
+
+// Select Styles
+.list_new {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #4a4a4a; /* Dark mode border color for the select */
+    border-radius: 8px;
+    background-color: #363636; /* Dark mode background color for the select */
+    color: #fff; /* Dark mode text color for the select */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    margin-top: 5px; // Adjust the margin as needed
+    margin-bottom: 10px; // Adjust the margin as needed
+  
+    &:hover {
+      background-color: #5a5a5a; /* Dark mode background color on select hover */
+    }
+  
+    &:focus {
+      outline: none;
+      border-color: #5a5a5a; /* Dark mode border color on select focus */
+    }
+  }
+  
+  // Collapse Box Styles
+.collapse-box {
+    border: 1px solid #4a4a4a; /* Dark mode border color for the collapse box */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  
+    summary {
+      background-color: #363636; /* Dark mode background color for the summary */
+      color: #fff; /* Dark mode text color for the summary */
+      padding: 10px;
+      cursor: pointer;
+      outline: none;
+      user-select: none;
+      transition: background-color 0.3s ease, color 0.3s ease;
+  
+      &:hover {
+        background-color: #5a5a5a; /* Dark mode background color on summary hover */
+      }
+  
+      &:focus {
+        border: 2px solid #5a5a5a; /* Dark mode border color on summary focus */
+      }
+    }
+  
+    &[open] {
+      summary {
+        background-color: #5a5a5a; /* Dark mode background color when the box is open */
+      }
+    }
+  
+    .collapse-content {
+        padding: 15px; /* Adjust the padding as needed */
+        background-color: #363636; /* Dark mode background color for the content */
+        color: #fff; /* Dark mode text color for the content */
+    }
+  }
+  
