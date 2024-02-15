@@ -44,14 +44,15 @@ var _partsList = {
     eva_generic: ["Belt_clamp_1.stl", "Belt_clamp_2.stl", "a_X_Limit_Stop_Block.stl", "RearCableArm_V1-1.stl", "a_EVA_Backplate_Merc_Support_V1-1.stl", "a_EVA_FrontPlate_HD_V-1-1.stl", "EVA2-4_Bottom_V1-1.stl"],
     mercury_generic: ["a_stepper_mount_bottom_left.stl", "a_stepper_mount_bottom_right.stl", "a_stepper_mount_top_left.stl", "a_stepper_mount_top_right.stl",
         "a_front_tower_right.stl", "a_front_tower_left.stl", "a_FlangeSpacer_pair.stl", "front_tower_tool_brass.stl", "y_endstop.stl",
-        "XJoint_left_bottom.stl", "XJoint_left_top.stl", "XJoint_right_bottom.stl", "XJoint_right_top.stl", "RearSplitloomArm_V1-1-0.stl", "left_pulley_alignment_tool.stl", "right_pulley_alignment_tool.stl", "front_tower_tool.stl"
+        "XJoint_left_bottom.stl", "XJoint_left_top.stl", "XJoint_right_bottom.stl", "XJoint_right_top.stl", "RearSplitloomArm_V1-1-0.stl", "left_pulley_alignment_tool.stl", "right_pulley_alignment_tool.stl", "front_tower_tool.stl",
+        "rail_alignment_tool.stl"
     ]
 }
 
 var getDocumentList = (option) => {
     // stop the page from changing
     event.preventDefault();
-  
+
     // get selections
     var hotendSelected = document.getElementById('hotend');
     var extruderSelected = document.getElementById('extruder');
@@ -59,25 +60,25 @@ var getDocumentList = (option) => {
     var tidlerSelected = document.getElementById('tidler');
     var tensionplateSelected = document.getElementById('tensionplate');
     var zadapterSelected = document.getElementById('zadapter');
-  
+
     // aggregate the files
     var fileList = [];
-  
+
     if (option == 'Mercury') {
       fileList = fileList.concat(_partsList.mercury_generic);
-  
+
       // add tension plates
       fileList = fileList.concat(_partsList.tidlers.map(item => {
         if (item.id == tidlerSelected.value)
           return item.dependencies;
       }));
-  
+
       // add tension plates
       fileList = fileList.concat(_partsList.tensionplates.map(item => {
         if (item.id == tensionplateSelected.value)
           return item.dependencies;
       }));
-  
+
       // add Z Adapters
       fileList = fileList.concat(_partsList.zadapters.map(item => {
         if (item.id == zadapterSelected.value)
@@ -86,33 +87,33 @@ var getDocumentList = (option) => {
     } else {
       // add generic files
       fileList = fileList.concat(_partsList.eva_generic);
-  
+
       // add hotends
       fileList = fileList.concat(_partsList.hotends.map(item => {
         if (item.id == hotendSelected.value)
           return item.dependencies;
       }));
-  
+
       // add extruder
       fileList = fileList.concat(_partsList.extruders.map(item => {
         if (item.id == extruderSelected.value)
           return item.dependencies;
       }));
-  
+
       // add probes
       fileList = fileList.concat(_partsList.probes.map(item => {
         if (item.id == probeSelected.value)
           return item.dependencies;
       }));
     }
-  
+
     // cleanup because I'm lazy... and this is a PoC
     fileList = fileList.flat().filter(item => item != undefined);
-  
+
     console.log(fileList);
     return fileList;
     // zipAndDownload(getDocumentList(), "/assets/stl/downloads");
-  }  
+  }
 
 const loadDataSet = () => {
     const hotendSelect = document.getElementById('hotend');
@@ -121,27 +122,27 @@ const loadDataSet = () => {
     const tensionplateSelect = document.getElementById('tensionplate');
     const toothidlerSelect = document.getElementById('tidler');
     const zadapterSelect = document.getElementById('zadapter');
-  
+
     hotendSelect.innerHTML = _partsList.hotends.reduce((prev, element) => {
       return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
     }, '');
-  
+
     extruderSelect.innerHTML = _partsList.extruders.reduce((prev, element) => {
       return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
     }, '');
-  
+
     probeSelect.innerHTML = _partsList.probes.reduce((prev, element) => {
       return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
     }, '');
-  
+
     toothidlerSelect.innerHTML = _partsList.tidlers.reduce((prev, element) => {
       return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
     }, '');
-  
+
     tensionplateSelect.innerHTML = _partsList.tensionplates.reduce((prev, element) => {
       return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
     }, '');
-  
+
     zadapterSelect.innerHTML = _partsList.zadapters.reduce((prev, element) => {
       return `${prev}<option value="${element.id}">${element.name}</option>\r\n`;
     }, '');
@@ -153,13 +154,13 @@ const exportZip = (blobs, docArray, option) => {
     blobs.forEach((blob, i) => {
       zip.file(docArray[i], blob);
     });
-  
+
     // zoom zoom
     zip.generateAsync({ type: 'blob' }).then(zipFile => {
       const fileName = option === 'Mercury'
         ? `Mercury1_1-${new Date().getTime()}.zip`
         : `EVA-Toolhead-${new Date().getTime()}.zip`;
-  
+
       // use the fileSave module to handle security issues
       return saveAs(zipFile, fileName);
     });
@@ -183,4 +184,4 @@ const zipAndDownload = (docArray, base_uri = '', option) => {
     const urls = docArray.map(item => `${base_uri}/${item}`);
     return download2Blob(urls, 5)
       .then(blobs => exportZip(blobs, docArray, option));
-  };  
+  };
