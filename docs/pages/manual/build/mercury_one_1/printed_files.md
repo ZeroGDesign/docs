@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 3. Files
+title: Files
 nav_order: 30
 has_toc: false
 parent: Mercury One.1
@@ -53,7 +53,7 @@ Toothed idler*
 </select><br/>
 <div class="fs-3 fw-300">If unsure which to choose, download the PDF file by clicking <a href="../../../assets/images/instructions/m1_1/spacer_instruction.pdf" download >here</a>, and it will guide you through the process.</div>
 
-Tension plate* 
+Tension plate*
 <select class="list_dark" name="tensionplate" id="tensionplate">
     <option value="option0">Select</option>
 
@@ -87,19 +87,19 @@ The configurator has been developed to generate a Zip file. The zip file will co
 
 <form action="post">
 
-Hotend* 
+Hotend*
 <select class="list_dark" name="hotend" id="hotend">
     <option value="option0">Select</option>
 
 </select><br/>
 
-Extruder* 
+Extruder*
 <select class="list_dark" name="extruder" id="extruder">
     <option value="option0">Select</option>
 
 </select><br/>
 
-Probe* 
+Probe*
 <select class="list_dark" name="probe" id="probe">
     <option value="option0">Select</option>
 
