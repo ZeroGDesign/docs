@@ -21,6 +21,33 @@ This page contains a list of updates that have been made to Mercury One.1. It is
 {:toc}
 
 <div class="code-example" markdown="1">
+#### 18Th February 2024
+{: .no_toc }
+
+
+Release of the Mercury One.1 Build instructions!
+1. The first version of the Build Instructions
+   1. Find them [here](../../manual/build/mercury_eva/build_instruction).
+2. X Joints Version 1.1.6!
+   1. Spacer changes
+      1. Removed the thin printed spacer on the flange stack (it was not visible as it was positioned below the printed surface of the Xjoint).
+      2. Example [here](#lightbox_flange_stack_newfeb).
+   2. Shaved off a minor 0.2 mm Z offset where the top and bottom X joints meet the 2020 extrusion.
+3. Fixed rotation of Orbiter 2 top plate STL, exported at a 3 degree angle.
+4. Included the Lightweight Fysetc extrusion Endstop block by default in the configurator.
+
+<div onclick="location.href='##';"  id="lightbox_flange_stack_newfeb"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="{{page.img_instr}}/xjoint_1_1_6.png" alt="shows change in printed spacer">
+    </div>
+</div>
+
+</div>
+
+
+<div class="code-example" markdown="1">
 #### 15Th August 2023
 {: .no_toc }
 
