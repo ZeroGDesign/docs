@@ -461,7 +461,7 @@ rails:
     identifier: MGN12mm
     type:
       description: Linear Rail
-      note: Ender 5/Pro 300mm (330mm max)<br/>Ender 5 Plus 450mm
+      note: Ender 5/Pro 330mm (300mm works)<br/>Ender 5 Plus 450mm
     source:
       - region: CN
         name: AliExpress - Usongshine

@@ -69,7 +69,7 @@ The Bill of Materials for the Mercury One.1 is not yet complete, but it does inc
 
 | Printer       | Size  | Type                | Amount |                        Stores                         |
 |:--------------|:------|:--------------------|:------:|:-----------------------------------------------------:|
-| Ender 5 (Pro) | 300mm | <nobr>MGN12H</nobr> |   3    | [Click here](#MGN12mm) &emsp; <input type="checkbox"> |
+| Ender 5 (Pro) | 330mm | <nobr>MGN12H</nobr> |   3    | [Click here](#MGN12mm) &emsp; <input type="checkbox"> |
 | Ender 5 Plus  | 450mm | <nobr>MGN12H</nobr> |   3    | [Click here](#MGN12mm) &emsp; <input type="checkbox"> |
 {: class="transparant_table"}
 
