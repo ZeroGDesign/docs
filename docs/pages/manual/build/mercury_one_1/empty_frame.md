@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 4. Empty Frame
+title: Empty Frame
 nav_order: 40
 has_toc: true
 parent: Mercury One.1
@@ -39,4 +39,4 @@ We're not going into depth on how to remove the X and Y motion system.
 If you're having trouble or you would like some help please don't hesitate and ask for help in our [Discord server](https://discord.gg/zerog){:target="_blank"}.
 
 {: style="text-align: center" .fs-8}
-[Next step &rarr;](/manual/build/mercury_eva/sanding_dowel_pins){: .btn .btn-red }
+[Next step &rarr;](/manual/build/mercury_eva/build_instruction){: .btn .btn-red }
