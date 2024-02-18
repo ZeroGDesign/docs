@@ -45,7 +45,7 @@ var _partsList = {
     mercury_generic: ["a_stepper_mount_bottom_left.stl", "a_stepper_mount_bottom_right.stl", "a_stepper_mount_top_left.stl", "a_stepper_mount_top_right.stl",
         "a_front_tower_right.stl", "a_front_tower_left.stl", "a_FlangeSpacer_pair.stl", "front_tower_tool_brass.stl", "y_endstop.stl",
         "XJoint_left_bottom.stl", "XJoint_left_top.stl", "XJoint_right_bottom.stl", "XJoint_right_top.stl", "RearSplitloomArm_V1-1-0.stl", "left_pulley_alignment_tool.stl", "right_pulley_alignment_tool.stl", "front_tower_tool.stl",
-        "rail_alignment_tool.stl"
+        "rail_alignment_tool.stl", "customExtrusion/what_are_these_files_for.txt", "customExtrusion/x_endstop_block.stl", "customExtrusion/x_endstop_block_PLUS.stl"
     ]
 }
 
