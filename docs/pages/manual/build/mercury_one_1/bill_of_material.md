@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2. Bill of material
+title: Bill of material
 nav_order: 20
 has_toc: false
 parent: Mercury One.1
@@ -10,7 +10,7 @@ permalink: /manual/build/mercury_eva/bill_of_material
 
 {% include store_popout.md %}
 
-# 2. Bill of material
+# Bill of material
 {: .no_toc }
 
 The tables contain a column named `Stores` Click the [red text](#) underneath to reveal a pop-up with a list of stores. Stores that contain a checkmark <i class="bi bi-check-all"></i> have been verified and tested by either an Engineer or a trusted community member.
