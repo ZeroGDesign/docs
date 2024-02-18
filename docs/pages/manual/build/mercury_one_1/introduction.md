@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 1. Introduction
+title: Need to know
 nav_order: 0
 has_toc: false
 parent: Mercury One.1
@@ -9,15 +9,17 @@ permalink: /manual/build/mercury_eva/introduction
 img_tool: ../../../../assets/images/tools
 ---
 
-# 1. Introduction
+# **Need to know**
 {: .no_toc }
 
 Building the Mercury One.1
 {: .fs-6 .fw-300 }
 
 <dl>
-  <dt>Difficulty</dt>
-  <dd><span style="color:#d6c01a">Moderate</span></dd>
+  <dt>Build Difficulty</dt>
+  <dd><span style="color:#a1c01a">Moderate</span></dd>
+  <dt>Config/Electronics Difficulty</dt>
+  <dd><span style="color:#d6c01a">intermediate (for beginners)</span></dd>
   <dt>Language</dt>
   <dd>English</dd>
 </dl>
@@ -25,16 +27,6 @@ Building the Mercury One.1
 ## Higher resolution image
 
 Hovering an image with your mouse will show a zoom icon <i class="bi bi-zoom-in"></i> after opening the image you can either click 'CLOSE' or anywhere on the screen to close the pop-up.
-
-## Tools required
-
-| :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Tool<br/>Description| Soldering iron<br/>Used for heat set inserts |     [![soldering iron]({{page.img_tool}}/soldering_iron.png)](#lightbox__item_1){: .lightbox_wrapper} |
-| Tool<br/>Description<br/>Sizes| Hex Keys<br/>Used to tighten and losen bolts<br/>1.5mm, 2mm, 2.5mm, 3mm, 4mm , 5mm |     [![soldering iron]({{page.img_tool}}/wera_hexkeys.png)](#lightbox__item_2){: .lightbox_wrapper} |
-| Tool <br/>Description| Flush cutters<br/>Used to cut the belts |     [![Flush cutters]({{page.img_tool}}/flush_cutters.png)](#lightbox__item_3){: .lightbox_wrapper} |
-| Optional tool<br/>Description<br/>IMPORTANT| Cordless drill<br/>Used sand material away<br/>Your drill needs a chuck! |     [![soldering iron]({{page.img_tool}}/drill.png)](#lightbox__item_4){: .lightbox_wrapper} |
-| Tool<br/>Description| Sandpaper<br/>Used for grind down dowel pins |     [![Sand paper]({{page.img_tool}}/sandpaper.png)](#lightbox__item_5){: .lightbox_wrapper} |
-{: class="hardwaretable"}
 
 <div onclick="location.href='##';"  id="lightbox__item_1"  class="lightbox__item">
     <div class="lightbox__content">
@@ -84,9 +76,7 @@ Hovering an image with your mouse will show a zoom icon <i class="bi bi-zoom-in"
 3. **Don't just look at images.**
    1. An image doesn't explain the full story.
    2. There is text that will explain every step, read it carefully.
-4. **Don't skip instructions.**
-   1. Unless we tell you to.
-5. **Don't use force, you shouldn't have too.**
+4. **Don't use force, you shouldn't have too.**
    1. Make sure to not use a unreasonable amount of force.
    2. Plastic does break and flange bearings crack, would be a waste wouldn't it?
 
