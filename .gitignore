@@ -25,4 +25,4 @@ CNAME
 .gitignore
 
 # MacOS metadata file
-**/.DS_Store 
+**/.DS_Store
