@@ -17,7 +17,6 @@ var _partsList = {
   ],
   feet: [
     { id: "none", name: "None", dependencies: [] },
-    { id: "standard", name: "Standard Feet", dependencies: ["skirt/SK_FT_Stock_PowerSW.stl", "skirt/SK_FT_Stock_x3.stl"] },
     { id: "wide", name: "38mm Feet", dependencies: ["skirt/SK_FT_38mm_x3.stl", "skirt/SK_FT_38mm_PowerSW.stl"] }
   ],
   iec: [
@@ -216,4 +215,4 @@ const zipAndDownload = (docArray, base_uri = '', option) => {
   const urls = docArray.map(item => `${base_uri}/${item}`);
   return download2Blob(urls, 5)
     .then(blobs => exportZip(blobs, docArray, option));
-};  
+};

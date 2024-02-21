@@ -30,6 +30,8 @@ Quality of life + printability!
 2. 5 Pro / Plus bottom panel.
    1. Both bottom panels now support a cutout for the printed feet, making it easier to install after installation.
    2. These files can be found in the configurator or documentation GitHub.
+3. Remove support stock ender feet.
+   1. We've decided to remove the support of the stock feet, these are too thin and week to support the printer properly.
 
 <div onclick="location.href='##';"  id="lightbox_vshape_feet"  class="lightbox__item">
     <div class="lightbox__content">
