@@ -3,12 +3,12 @@
 
 var _partsList = {
     hotends: [
-        { id: "sliceworks_mosquito", name: "Mosquito", dependencies: ["mosquito_face.stl", "mosquito_support.stl", "EVA2_4_Trihorn_high-wide.stl"] },
-        { id: "sliceworks_copperhead", name: "Copperhead", dependencies: ["copperhead_face.stl", "copperhead_support_a.stl", "copperhead_support_b.stl", "EVA2_4_Trihorn_high-wide.stl"] },
-        { id: "rapido", name: "Rapido HF", dependencies: ["face_rapido.stl", "EVA2_4_Trihorn_high-narrow.stl"] },
-        { id: "dragon_red_lizard", name: "Dragon HF / Red Lizard", dependencies: ["dragon_face.stl", "v6_support.stl", "EVA2_4_Trihorn_high-narrow.stl"] },
-        { id: "dragonfly_bmo", name: "DragonFly BMO", dependencies: ["bmo_face.stl", "bmo_support.stl", "EVA2_4_Trihorn_high-narrow.stl"] },
-        { id: "e3d_v6", name: "E3D V6", dependencies: ["v6_face.stl", "v6_face_clamp.stl", "v6_support.stl", "EVA2_4_Trihorn_high-narrow.stl"] }
+        { id: "sliceworks_mosquito", name: "Mosquito", dependencies: ["mosquito_face.stl", "mosquito_support.stl", "EVA2_4_Trihorn_2-6-wide.stl", "optional_ducts/EVA2_4_Trihorn_3-4-wide.stl", "optional_ducts/EVA2_4_Trihorn_4-3-wide.stl"] },
+        { id: "sliceworks_copperhead", name: "Copperhead", dependencies: ["copperhead_face.stl", "copperhead_support_a.stl", "copperhead_support_b.stl", "EVA2_4_Trihorn_2-6-wide.stl", "optional_ducts/EVA2_4_Trihorn_3-4-wide.stl", "optional_ducts/EVA2_4_Trihorn_4-3-wide.stl"] },
+        { id: "rapido", name: "Rapido HF", dependencies: ["face_rapido.stl", "EVA2_4_Trihorn_2-6-narrow.stl", "optional_ducts/EVA2_4_Trihorn_3-4-narrow.stl", "optional_ducts/EVA2_4_Trihorn_4-3-narrow.stl"] },
+        { id: "dragon_red_lizard", name: "Dragon HF / Red Lizard", dependencies: ["dragon_face.stl", "v6_support.stl", "EVA2_4_Trihorn_2-6-narrow.stl", "optional_ducts/EVA2_4_Trihorn_3-4-narrow.stl", "optional_ducts/EVA2_4_Trihorn_4-3-narrow.stl"] },
+        { id: "dragonfly_bmo", name: "DragonFly BMO", dependencies: ["bmo_face.stl", "bmo_support.stl", "EVA2_4_Trihorn_2-6-narrow.stl", "optional_ducts/EVA2_4_Trihorn_3-4-narrow.stl", "optional_ducts/EVA2_4_Trihorn_4-3-narrow.stl"] },
+        { id: "e3d_v6", name: "E3D V6", dependencies: ["v6_face.stl", "v6_face_clamp.stl", "v6_support.stl", "EVA2_4_Trihorn_2-6-narrow.stl", "optional_ducts/EVA2_4_Trihorn_3-4-narrow.stl", "optional_ducts/EVA2_4_Trihorn_4-3-narrow.stl"] }
     ],
     extruders: [
         { id: "sherpa_mini", name: "Sherpa Mini", dependencies: ["Sherpa_Mini_TOP.stl"] },
@@ -41,7 +41,7 @@ var _partsList = {
         { id: "5plus", name: "Ender 5 Plus", dependencies: ["plus_only_bed_raiser_1.stl", "plus_only_bed_raiser_2.stl", "plus_only_bed_raiser_3.stl", "plus_only_bed_raiser_4.stl"] },
         { id: "none", name: "None", dependencies: [] }
     ],
-    eva_generic: ["Belt_clamp_1.stl", "Belt_clamp_2.stl", "a_X_Limit_Stop_Block.stl", "RearCableArm_V1-1.stl", "a_EVA_Backplate_Merc_Support_V1-1.stl", "a_EVA_FrontPlate_HD_V-1-1.stl", "EVA2-4_Bottom_V1-1.stl"],
+    eva_generic: ["Belt_clamp_1.stl", "Belt_clamp_2.stl", "a_X_Limit_Stop_Block.stl", "RearCableArm_V1-1.stl", "a_EVA_Backplate_Merc_Support_V1-1.stl", "a_EVA_FrontPlate_HD_V-1-1.stl", "optional_ducts/info.pdf"],
     mercury_generic: ["a_stepper_mount_bottom_left.stl", "a_stepper_mount_bottom_right.stl", "a_stepper_mount_top_left.stl", "a_stepper_mount_top_right.stl",
         "a_front_tower_right.stl", "a_front_tower_left.stl", "a_FlangeSpacer_pair.stl", "front_tower_tool_brass.stl", "y_endstop.stl",
         "XJoint_left_bottom.stl", "XJoint_left_top.stl", "XJoint_right_bottom.stl", "XJoint_right_top.stl", "RearSplitloomArm_V1-1-0.stl", "left_pulley_alignment_tool.stl", "right_pulley_alignment_tool.stl", "front_tower_tool.stl",
