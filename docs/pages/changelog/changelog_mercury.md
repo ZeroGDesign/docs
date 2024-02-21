@@ -21,6 +21,26 @@ This page contains a list of updates that have been made to Mercury One.1. It is
 {:toc}
 
 <div class="code-example" markdown="1">
+#### 19Th February 2024
+{: .no_toc }
+
+
+Stronger fan ducts!
+1. Intergrating the fan ducts into to the bottom plate
+   1. We've merged two parts together to create one rigid part example [here](#lightbox_new_merged_parts).
+   2. Find them in the [configurator](../../manual/build/mercury_eva/printed_files#eva-24-toolhead-configurator).
+
+<div onclick="location.href='##';"  id="lightbox_new_merged_parts"  class="lightbox__item">
+    <div class="lightbox__content">
+    <div class="lightbox__titlebar"></div>
+        <a href="##" class="close"></a>
+        <img src="{{page.img_instr}}/example_duct_merged.png" alt="shows change in printed spacer">
+    </div>
+</div>
+
+</div>
+
+<div class="code-example" markdown="1">
 #### 18Th February 2024
 {: .no_toc }
 
