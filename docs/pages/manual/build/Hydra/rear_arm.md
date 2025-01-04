@@ -340,13 +340,18 @@ The following image shows you how it will lock the kossel ball into place.
     </div>
 </div>
 
-#### M3x6 Flats
+### Installing the Threadded Rod Nut
 
-Instructions for the following hardware will be added later.
+Hardware required:
 
-| :-------------------------: | :--------------------       | -------------------------------------------------------------------------------: |
-| Type:<br/>Amount: | m3x6mm<br/>3                            |     ![m3x8](../../../assets/images/instructions/m3x6_flat.png) | 
+| Type:<br/>Amount: | Threaded rod nut<br/>1                            |     ![threaded rod nut](../../../assets/images/instructions/threaded_rod_nut.png) |
+| Type:<br/>Amount: | m3x8mm<br/>4                            |     ![m3x10](../../../assets/images/instructions/m3x8.png) |
 {: class="hardwaretable"}
+
+Remove the nut from one of your Z-Axis threaded rods and slide the smaller diameter portion into the hole on the bottom of the assembly.
+
+Thread each of the four M3x8mm screws through the nut and into the heatset inserts in the bottom of the assembly.
+
 
 {: style="text-align: center" .fs-8 }
 [Next step &rarr;](/){: .btn .btn-red }
