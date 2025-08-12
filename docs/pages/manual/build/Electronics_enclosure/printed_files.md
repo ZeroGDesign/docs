@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 2. Printed Files
-nav_order: 2
+title: 3. Printed Files
+nav_order: 3
 has_toc: true
 parent: Electronics Enclosure
 grand_parent: Manual
